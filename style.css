@@ -1,4 +1,7 @@
 *{margin:0;padding:0}*,*:before,*:after{box-sizing:inherit}html{min-height:100%;box-sizing:border-box;-webkit-tap-highlight-color:transparent;font-size:62.5%}body{font-family: 'Lora', serif;font-weight:400;-webkit-font-smoothing:antialiased}article,aside,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}header a{padding:5px 1px}h1,h2,h3,h4,h5,h6{font-weight:400;color:#163541}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}img{max-width:100%;font-style:italic;vertical-align:middle;border:0}svg:not(:root){overflow:hidden}svg{pointer-events:none;max-height:100%}.center{text-align:center}
+.illustration img {width: 100%; display: block; margin-left: auto; margin-right: auto; padding-top: 5px;}
+.icons {text-align: center;}
+img[class^=icon] {display: inline-block;vertical-align: middle;margin:0 .5em;}
 a{color:#0067FB;text-decoration:none;}
 a::after{color:#999999;text-decoration:none;}
 a:hover{color:#666666;}
