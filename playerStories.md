@@ -28,6 +28,6 @@ The 2022 schedule (January - April) is coming soon.
 
 ## Discord 
 
-We invite you to our Discord channel for the series. 
+We invite you to our [Discord channel](https://discord.gg/uteDYTSTZt) for the series. 
 
-“Player Stories” is organized by the Praxis Studio for Comparative Media Studies at the University of Victoria on W̱SÁNEĆ and lək̓ʷəŋən territories.
+“Player Stories” is organized by the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) at the University of Victoria on W̱SÁNEĆ and lək̓ʷəŋən territories.
