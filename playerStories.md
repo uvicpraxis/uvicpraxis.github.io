@@ -26,7 +26,7 @@ Julie M. Funk (she/they) is a PhD Candidate in English and CSPT at the Universit
 
 The 2022 schedule (January - April) is coming soon. 
 
-## Discord 
+## Player Stories on Discord 
 
 We invite you to our [Discord channel](https://discord.gg/uteDYTSTZt) for the series. 
 
