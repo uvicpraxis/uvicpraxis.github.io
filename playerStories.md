@@ -8,7 +8,7 @@ If the event is public + online, then below we provide a zoom URL after the even
 
 Asia Tyson (English), “Let's Listen: Surveying Sound in Video Games" 
 
-Asia Tyson is a fourth-year undergraduate student in the English Department and a research assistant in the Praxis Studio for Comparative Media Studies. 
+Asia Tyson is a fourth-year undergraduate student in English and a research assistant in the Praxis Studio for Comparative Media Studies. 
 
 ## 2021: Thursday, November 25th at 12pm
 
