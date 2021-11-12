@@ -4,19 +4,19 @@ Among the most fascinating aspects of games are the stories players tell with th
 
 If the event is public + online, then below we provide a zoom URL after the event's title. Thank you! 
 
-## Tuesday, November 16th at 11:45am 
+## 2021: Tuesday, November 16th at 11:45am 
 
 Asia Tyson (English), “Let's Listen: Surveying Sound in Video Games" 
 
 Asia Tyson is a fourth-year undergraduate student in the English Department and a research assistant in the Praxis Studio for Comparative Media Studies. 
 
-## Thursday, November 25th at 12pm
+## 2021: Thursday, November 25th at 12pm
 
 Abby Fry (Writing; Greek and Roman Studies), “Getting in the Game” ([join via zoom](https://uvic.zoom.us/j/83533735642))
 
 Abby Fry (she/her) is, depending on how you look at it, a first-, second-, or third-year student at UVic. After a year of daydreaming her way through biopsychology, she quickly realized that the scientific environment wasn't right for her and directed her interests toward her passions: writing, art, music, and video games. 
 
-## Thursday, December 9th at 10am
+## 2021: Thursday, December 9th at 10am
 
 Julie Funk (English; CSPT), “Coded Bodies: Player-Narrative Intertextuality in *With Those We Love Alive*" ([join via zoom](https://uvic.zoom.us/j/82191502217))
 
