@@ -18,7 +18,7 @@ Abby Fry (she/her) is, depending on how you look at it, a first-, second-, or th
 
 ## 2021: Thursday, December 9th at 10am
 
-Julie Funk (English; CSPT), “Coded Bodies: Player-Narrative Intertextuality in *With Those We Love Alive*" ([join via zoom](https://uvic.zoom.us/j/82191502217))
+Julie Funk (English; CSPT), “Coded Bodies: Player-Narrative Intertextuality in [*With Those We Love Alive*](https://collection.eliterature.org/3/work.html?work=with-those-we-love-alive)" ([join via zoom](https://uvic.zoom.us/j/82191502217))
 
 Julie M. Funk (she/they) is a PhD Candidate in English and CSPT at the University of Victoria. Their research explores how hormones as communicative agents and "chemical messengers" become encoded and decoded across various narratives of bodies and their ecologies.
 
