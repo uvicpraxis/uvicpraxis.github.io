@@ -1,9 +1,9 @@
 This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025. It is subject to change. 
 
 # Gameplay Footage Collection 
-This document contains the metadata fields and vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored for discovery in [Echo360](https://support.echo360.com/hc/en-us). We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first two hours or so of gameplay. 
+This document contains the metadata fields and vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored in [Echo360](https://support.echo360.com/hc/en-us). We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first two hours of gameplay. 
 
-The metadata for each clip appears in its Echo360 title for search purposes, and all of the Collection's metadata is stored in a spreadsheet we update each term. The spreadsheet can also be used for search purposes. 
+For search purposes, the metadata for each clip appears in its Echo360 title, and all of the Collection's metadata is stored in a spreadsheet we update regularly. 
 
 Project leads: Jentery Sayers and Charlie Susheski
 
@@ -202,14 +202,24 @@ This is a text input field without a controlled vocabulary. The ID is a number f
 ## Content Warnings 
 This is a text input field without a controlled vocabulary. It is intended for content warnings for the game and not only the clip. "alcohol, tobacco, and references to physical violence, slavery, and colonization" is an example of data intended for this field.
 
+This data does not appear in the clip's Echo360 title. It instead appears in Echo360's description field. 
+
 ## Clip Attribution 
 This is a text input field without a controlled vocabulary. It is intended for the name of the person who recorded the gameplay footage. "Jentery Sayers" is an example of data intended for this field.
+
+This data does not appear in the clip's Echo360 title. It instead appears in Echo360's description field. 
 
 ## Comment (related or not to clip)
 This is a text input field without a controlled vocabulary. It is intended for a quotation from relevant scholarship, reviews, or criticism. Only one quotation should be included per clip. "'in 80 Days Passepartout['s] perceived whiteness and masculinity and Frenchness never go unremarked. We don't treat these as though they are "normal," or automatically powerful. We mark bits of the map as off limits because of them, we have NPCs deny you authority and question your motives because of it. Whiteness and masculinity make you an outsider in 80 Days more often than it allows you within the circle. We remind players of Passepartout's social and cultural limitations. NPCs will often discuss their plans, goals, and ideas with Passepartout — but we very rarely allow Passepartout to make a choice for them.'  — [Meghna Jayanth](https://medium.com/@betterthemask/forget-protagonists-writing-npcs-with-agency-for-80-days-and-beyond-703201a2309) (writer for the game) in 2016" is an example of data intended for this field.
 
+This data does not appear in the clip's Echo360 title or description field. 
+
 ## More Info (MobyGames)
 This is a text input field without a controlled vocabulary. It is intended for the game's MobyGames URL. "https://www.mobygames.com/game/72226/80-days/" is an example of data intended for this field.
 
+This data does not appear in the clip's Echo360 title or description field. 
+
 ## Filename 
 This is a text input field without a controlled vocabulary. The filename is intended for internal reference and project maintenance. "80DaysAmphitriteExpressToParis.MP4" is an example of data intended for this field.
+
+This data does not appear in the clip's Echo360 title or description field. 
