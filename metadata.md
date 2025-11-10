@@ -98,6 +98,7 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Africa
 * Age of Discovery / Enlightenment
 * Alternate history
+* Antarctica
 * Anti-colonial
 * Asia
 * Caribbean
