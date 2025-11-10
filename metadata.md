@@ -1,11 +1,9 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025. 
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025. It is subject to change. 
 
 # Gameplay Footage Collection 
-This document contains the metadata fields and vocabularies for the Praxis Studio's [Gameplay Footage Collection](https://uvicpraxis.github.io/pressrecord.html). The Collection is intended for Media Studies teaching, learning, and research at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored for discovery in [Echo360](https://support.echo360.com/hc/en-us). We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil the ending(s) to games. Most clips contain footage from the first hour or so of gameplay. 
+This document contains the metadata fields and vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored for discovery in [Echo360](https://support.echo360.com/hc/en-us). We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first two hours or so of gameplay. 
 
 The metadata for each clip appears in its Echo360 title for search purposes, and all of the Collection's metadata is stored in a spreadsheet we update each term. The spreadsheet can also be used for search purposes. 
-
-The Collection is not available as a database at this time. 
 
 Project leads: Jentery Sayers and Charlie Susheski
 
@@ -18,11 +16,11 @@ This is a text input field without a controlled vocabulary. It is intended for t
 ## Clip Title w/ Echo URL
 This is a text input field without a controlled vocabulary. It is intended for a description of the clip ("clip title"), and the data should be created with search in mind. It may include quotations where applicable. The clip title is encoded with the clip's Echo360 URL such that someone may watch the clip online. "['Amphitrite Express to Paris: Departing Now!': Making Decisions for Monsieur Fogg under Pressure](https://echo360.ca/media/1e168ec9-62a5-40ca-b9ef-0d2e67bd263a/public)" is an example of data intended for this field. 
 
-## Discussion Topics
-This is a dropdown field with a controlled vocabulary developed by the Praxis Studio. It is intended to index discussion topics that the clip could supplement or augment. Multiple options may be selected. The options are:
+## Research Areas
+This is a dropdown field with a controlled vocabulary developed by the Praxis Studio. It is intended to index research areas pertinent to the clip or evoked by it. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 
 ## Genre(s) 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected. The options are: 
+This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting with some modifications for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Action
 * Adventure
 * Educational
@@ -35,7 +33,7 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Strategy / tactics
 
 ## Gameplay 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected. The options are: 
+This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 4X
 * Action RPG
 * Arcade
@@ -96,21 +94,24 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Word construction
 
 ## Setting(s) 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected. The options are: 
+This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting with some modifications for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Africa
 * Age of Discovery / Enlightenment
 * Alternate history
+* Anti-colonial
 * Asia
 * Caribbean
 * China (Ancient / Imperial)
 * Classical antiquity
 * Cold War
+* Colonial
 * Contemporary
 * Cyberpunk / dark sci-fi
 * Egypt (Ancient)
 * Europe
 * Fantasy
 * Historical events
+* Indigenous 
 * Industrial Age
 * Interwar
 * Japan (Ancient / Classical / Medieval)
@@ -120,6 +121,7 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * North America
 * Oceania
 * Post-apocalyptic
+* Post-colonial
 * Pre-Columbian Americas
 * Prehistoric
 * Sci-fi / futuristic
@@ -130,7 +132,7 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * World War II
 
 ## Narrative(s) 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected. The options are: 
+This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Adult
 * Comedy
 * Crime
@@ -145,7 +147,7 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * War
 
 ## Perspective(s) 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected.Multiple options may be selected. The options are: 
+This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 1st-person
 * 3rd-person
 * Audio game
@@ -156,7 +158,7 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Top-down
 
 ## Visual Presentation
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected.Multiple options may be selected. The options are: 
+This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 2D scrolling
 * Cinematic camera
 * Fixed
@@ -164,14 +166,14 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Isometric
 
 ## Pacing 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected. The options are: 
+This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Meditative
 * Persistent
 * Real-time
 * Turn-based
 
 ## Interface(s)  
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected. The options are: 
+This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Direct control
 * Menu structures
 * Motion control
@@ -180,10 +182,10 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Text parser
 * Voice control
 
-## Developer 
+## Developer(s)
 This is a text input field without a controlled vocabulary. It is intended for the name of the game's developer(s). "inkle Ltd." is an example of data intended for this field.
 
-## Publisher 
+## Publisher(s) 
 This is a text input field without a controlled vocabulary.  It is intended for the name of the game's publisher(s). "Profile Books + inkle Ltd." is an example of data intended for this field.
 
 ## Publisher Class 
