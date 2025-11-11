@@ -23,50 +23,50 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Adaptations / homages / remakes / remasters 
 * Affect / reactions / visceral connections 
 * Agency: character / player / system 
-* Bad vibes and hostile environments 
-* Black people and people of colour in games  
-* Character customization and fashion in games
+* Bad vibes / hostile environments 
+* Black people / people of colour in games  
+* Character customization / fashion in games
 * Chance / randomization / uncertainty
 * Cheating / cheesing / making your own fun 
-* Choices matter and narrative design
-* Cinematography and cinematics in games
-* Collaborative and cooperative play 
-* Colonization and decolonization in games
-* Combat design and violence in games
-* Competition and zero-sum games 
+* Choices matter / narrative design
+* Cinematography / cinematics in games
+* Collaborative / cooperative play 
+* Colonization / decolonization in games
+* Combat design / violence in games
+* Competition / zero-sum games 
 * Death / respawning / game over screens
 * Dialogue / NPC interactions / round characters 
 * Diasporas in games 
 * Difficulty / accessibility / assist modes 
 * Disabled people in games 
 * Economies / shopkeepers / monetization 
-* Environmental storytelling and story breadcrumbs 
+* Environmental storytelling / story breadcrumbs 
 * Fandom / mods / fan games 
 * Flow / optimization / distraction 
-* Gamification and data collection  
-* Gender nonconformity and expression in games 
-* Genre anarchy and unexpected uptakes 
-* Good vibes and friendly / cozy environments 
-* Governments and politics in games 
-* History and historical events in games 
+* Gamification / data collection  
+* Gender nonconformity / expression in games 
+* Genre anarchy / unexpected uptakes 
+* Good vibes / cozy / friendly environments 
+* Governments / politics in games 
+* History / historical events in games 
 * Indigenous people in games
 * Interface / interaction / experience design
 * Intersectionality / identity / stereotypes
-* Items and inventory management
+* Items / inventory management
 * Labour / grinding / farming / repetition
 * Level design / gating / critical paths 
-* Localization and culturalization 
+* Localization / culturalization 
 * Lore / lore dumps / exposition    
 * Ludonarrative dissonance
 * Maps / boundaries / real-world locations 
 * Mechanics / balance / gameplay design 
 * Metagames / paragames / orthogames
-* Mobile gaming and gaming in public
-* Nature and biomes in games 
+* Mobile gaming / gaming in public
+* Nature / biomes in games 
 * Player-centric / -agnostic / -antagonistic design 
-* Playstyles and player expression 
-* Power fantasies and entitlement 
-* Procedural rhetoric and gameplay loops 
+* Playstyles / player expression 
+* Power fantasies / entitlement 
+* Procedural rhetoric / gameplay loops 
 * Puzzle design / secrets / hidden information
 * Reading games
 * Realism / fidelity / the mundane
@@ -75,17 +75,17 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Romance / sexuality / intimacy in games
 * Saving / replaying / quality-of-life features
 * Side quests / collect-a-thons / completionism
-* Silent protagonists and nonverbal communication 
-* Sound design and music 
+* Silent protagonists / nonverbal communication 
+* Sound design / music 
 * Technical design / programming / engines
 * Training the player 
 * Travel / vehicles / transportation  
-* Tutorialization and learning how to play 
+* Tutorialization / learning how to play 
 * Values in design 
 * Visual art / visual effects / graphic design 
 * Voice acting / voice-over / barks 
 * Women in games 
-* Worldbuilding and worldviews
+* Worldbuilding / worldviews
 
 ## Genre(s) 
 This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting with some modifications for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
