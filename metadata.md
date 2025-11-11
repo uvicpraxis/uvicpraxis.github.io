@@ -19,72 +19,116 @@ This is a text input field without a controlled vocabulary. It is intended for a
 ## Research Areas
 This is a dropdown field with a controlled vocabulary developed by the Praxis Studio. It is intended to index research areas pertinent to the clip or evoked by it. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 
-* 2SLGBTQIA+ people in games 
+* 2SLGBTQIA+ characters / stories / representation 
 * Adaptations / homages / remakes / remasters 
-* Affect / reactions / visceral connections 
-* Agency: character / player / system 
+* Affect / tilt / visceral connections 
+* Agency: character / player / system
+* Alternate reality
+* Anime / manga 
 * Bad vibes / hostile environments 
-* Black people / people of colour in games  
-* Character customization / fashion in games
-* Chance / randomization / uncertainty
-* Cheating / cheesing / making your own fun 
+* BPOC characters / stories / representation 
+* Bugs / glitches / exploits
+* Character customization / loadouts / fashion
+* Chance / randomization 
+* Cheating / cheesing / save-scumming
 * Choices matter / narrative design
-* Cinematography / cinematics in games
+* Cinematography / cameras / scale 
+* Cisheteronormativity in games 
 * Collaborative / cooperative play 
 * Colonization / decolonization in games
 * Combat design / violence in games
 * Competition / zero-sum games 
+* Content / health warnings 
+* Cutscene / flashback / flash forward 
 * Death / respawning / game over screens
-* Dialogue / NPC interactions / round characters 
+* Deckbuilding 
+* Dialogue / dialogue trees 
 * Diasporas in games 
 * Difficulty / accessibility / assist modes 
-* Disabled people in games 
-* Economies / shopkeepers / monetization 
+* Disabled characters / disability stories 
+* Economies / currencies / shops / shopkeepers
+* Emotes / dance / nonverbal communication 
 * Environmental storytelling / story breadcrumbs 
-* Fandom / mods / fan games 
-* Flow / optimization / distraction 
-* Gamification / data collection  
+* Excuse plots 
+* Falling / leap of faith / verticality  
+* Fandom / mods / fan games
+* Female characters / representation 
+* Fishing in games 
+* Flow / focus / distraction 
+* Gachapon mechanics / loot boxes
+* Game highlights / replay videos 
+* Games by 2SLGBTQIA+ developers / queer games
+* Games by Indigenous / BPOC developers 
+* Games made in Canada 
+* Gamification / trophies /data collection 
+* Gauges / previews / menus / HUDs
 * Gender nonconformity / expression in games 
 * Genre anarchy / unexpected uptakes 
 * Good vibes / cozy / friendly environments 
 * Governments / politics in games 
 * History / historical events in games 
-* Indigenous people in games
+* Indigenous characters / stories / representation
 * Interface / interaction / experience design
 * Intersectionality / identity / stereotypes
-* Items / inventory management
+* Items / inventory / time / resource management
+* Jumpscares / monsters everywhere
 * Labour / grinding / farming / repetition
 * Level design / gating / critical paths 
+* Levelling up / buffs / skill trees
+* Lighting / colours / textures
+* Live service / free-to-play / monetization 
+* Local / online multiplayer / couch co-op
 * Localization / culturalization 
 * Lore / lore dumps / exposition    
 * Ludonarrative dissonance
-* Maps / boundaries / real-world locations 
+* Making your own fun / queergaming 
+* Maps / boundaries 
+* Masculinity / femininity in games 
 * Mechanics / balance / gameplay design 
 * Metagames / paragames / orthogames
 * Mobile gaming / gaming in public
 * Nature / biomes in games 
+* Nonhuman player characters
+* NPCs / NPC interactions / round NPCs
+* Optimization / theorycrafting
+* Overpowered / joke characters / ciphers
+* Parties / character groups 
+* Pets / companions / familiars 
+* Pixel art / chiptunes / 8-bit
 * Player-centric / -agnostic / -antagonistic design 
 * Playstyles / player expression 
 * Power fantasies / entitlement 
 * Procedural rhetoric / gameplay loops 
 * Puzzle design / secrets / hidden information
 * Reading games
+* Real-world locations 
 * Realism / fidelity / the mundane
 * Religion in games 
 * Roleplay / dramaturgy / bleed / shared fantasies
 * Romance / sexuality / intimacy in games
 * Saving / replaying / quality-of-life features
+* Score-chasing / leaderboards
+* Secondary mechanics
 * Side quests / collect-a-thons / completionism
-* Silent protagonists / nonverbal communication 
-* Sound design / music 
+* Silent protagonist / amnesia 
+* Sound effects / soundscapes / Foley / music 
+* Spamming 
+* Speedruns / routing / sequence breaking 
+* Story / campaign mode 
 * Technical design / programming / engines
+* Testing the system / narrative
 * Training the player 
-* Travel / vehicles / transportation  
+* Travel / transportation / vehicles  
 * Tutorialization / learning how to play 
+* Twitch mechanics / speed / timing / parrying 
+* Uncertainty / confusion / overthinking it
 * Values in design 
 * Visual art / visual effects / graphic design 
 * Voice acting / voice-over / barks 
-* Women in games 
+* Walk / run / jump / swim / fly
+* Watching games / zero-player games
+* Weenies / horizons 
+* White protagonists / whiteness in games  
 * Worldbuilding / worldviews
 
 ## Genre(s) 
