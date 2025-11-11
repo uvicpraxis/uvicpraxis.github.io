@@ -19,6 +19,73 @@ This is a text input field without a controlled vocabulary. It is intended for a
 ## Research Areas
 This is a dropdown field with a controlled vocabulary developed by the Praxis Studio. It is intended to index research areas pertinent to the clip or evoked by it. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 
+* 2SLGBTQIA+ people in games 
+* Adaptations, homages, remakes, and remasters 
+* Affect, reactions, and visceral connections 
+* Agency (character, player, and system) 
+* Bad or hostile vibes in games 
+* Black people and people of colour in games  
+* Character customization and fashion 
+* Chance, randomization, and uncertainty
+* Cheating, cheesing, and making your own fun 
+* Choices matter and narrative design
+* Cinematography and cinematics 
+* Collaborative and cooperative play 
+* Colonization and decolonization in games
+* Combat design and violence 
+* Competition and zero-sum games 
+* Death, respawning, and game over screens
+* Dialogue, NPC interactions, and round characters 
+* Difficulty, accessibility, and assist modes 
+* Disabled people in games 
+* Economies, shopkeepers, and monetization 
+* Environmental storytelling and story breadcrumbs 
+* Fandom, mods, and fan games 
+* Flow, optimization, and distraction 
+* Gamification and data collection  
+* Gender nonconformity and expression in games 
+* Genre anarchy and unexpected uptakes 
+* Good or friendly vibes in games 
+* Governments and politics in games 
+* History and historical events in games 
+* Indigenous people in games
+* Interface, interaction, and experience design
+* Intersectionality, identity, and stereotypes
+* Items and inventory management
+* Labour, grinding, farming, and repetition
+* Level design, gating, and critical paths 
+* Localization and culturalization 
+* Lore, lore dumps, and exposition    
+* Ludonarrative dissonance
+* Maps, boundaries, and real-world locations 
+* Mechanics, balance, and gameplay design 
+* Metagames, paragames, and orthogames
+* Mobile gaming and gaming in public
+* Nature and biomes in games 
+* Player-centric, -agnostic, and -antagonistic design 
+* Playstyles and player expression 
+* Power fantasies and entitlement 
+* Procedural rhetoric and gameplay loops 
+* Puzzle design, secrets, and hidden information
+* Reading games
+* Realism, fidelity, and the mundane
+* Religion in games 
+* Roleplay, dramaturgy, and shared fantasies
+* Romance, sexuality, and intimacy in games
+* Saving, replaying, and quality-of-life features
+* Side quests and game bloat
+* Silent protagonists and nonverbal communication 
+* Sound design and music 
+* Technical design, programming, and engines
+* Training the player 
+* Travel, vehicles, and transportation in games  
+* Tutorialization and learning how to play 
+* Values in design 
+* Visual art, visual effects, and graphic design 
+* Voice acting, voice-over, and barks 
+* Women in games 
+* Worldbuilding and worldviews
+
 ## Genre(s) 
 This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting with some modifications for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Action
