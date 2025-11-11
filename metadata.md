@@ -23,19 +23,20 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Adaptations, homages, remakes, and remasters 
 * Affect, reactions, and visceral connections 
 * Agency (character, player, and system) 
-* Bad or hostile vibes in games 
+* Bad vibes and hostile environments 
 * Black people and people of colour in games  
-* Character customization and fashion 
+* Character customization and fashion in games
 * Chance, randomization, and uncertainty
 * Cheating, cheesing, and making your own fun 
 * Choices matter and narrative design
-* Cinematography and cinematics 
+* Cinematography and cinematics in games
 * Collaborative and cooperative play 
 * Colonization and decolonization in games
-* Combat design and violence 
+* Combat design and violence in games
 * Competition and zero-sum games 
 * Death, respawning, and game over screens
 * Dialogue, NPC interactions, and round characters 
+* Diasporas in games 
 * Difficulty, accessibility, and assist modes 
 * Disabled people in games 
 * Economies, shopkeepers, and monetization 
@@ -45,7 +46,7 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Gamification and data collection  
 * Gender nonconformity and expression in games 
 * Genre anarchy and unexpected uptakes 
-* Good or friendly vibes in games 
+* Good vibes and friendly / cozy environments 
 * Governments and politics in games 
 * History and historical events in games 
 * Indigenous people in games
@@ -70,10 +71,10 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Reading games
 * Realism, fidelity, and the mundane
 * Religion in games 
-* Roleplay, dramaturgy, and shared fantasies
+* Roleplay, dramaturgy, bleed, and shared fantasies
 * Romance, sexuality, and intimacy in games
 * Saving, replaying, and quality-of-life features
-* Side quests and game bloat
+* Side quests, collect-a-thons, and completionism
 * Silent protagonists and nonverbal communication 
 * Sound design and music 
 * Technical design, programming, and engines
