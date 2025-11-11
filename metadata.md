@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 11 November 2025. It is subject to change. 
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025. It is subject to change. 
 
 ## Gameplay Footage Collection 
 This document contains the metadata fields and vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored in [Echo360](https://support.echo360.com/hc/en-us). We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
@@ -62,6 +62,7 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Games by Indigenous / BPOC developers 
 * Games made in Canada 
 * Gamification / trophies /data collection 
+* Gaming / discourse communities
 * Gauges / previews / menus / HUDs
 * Gender nonconformity / expression in games 
 * Genre anarchy / unexpected uptakes 
