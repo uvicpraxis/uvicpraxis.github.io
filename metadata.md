@@ -20,29 +20,29 @@ This is a text input field without a controlled vocabulary. It is intended for a
 This is a dropdown field with a controlled vocabulary developed by the Praxis Studio. It is intended to index research areas pertinent to the clip or evoked by it. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 
 * 2SLGBTQIA+ people in games 
-* Adaptations, homages, remakes, and remasters 
-* Affect, reactions, and visceral connections 
-* Agency (character, player, and system) 
+* Adaptations / homages / remakes / remasters 
+* Affect / reactions / visceral connections 
+* Agency: character / player / system 
 * Bad vibes and hostile environments 
 * Black people and people of colour in games  
 * Character customization and fashion in games
-* Chance, randomization, and uncertainty
-* Cheating, cheesing, and making your own fun 
+* Chance / randomization / uncertainty
+* Cheating / cheesing / making your own fun 
 * Choices matter and narrative design
 * Cinematography and cinematics in games
 * Collaborative and cooperative play 
 * Colonization and decolonization in games
 * Combat design and violence in games
 * Competition and zero-sum games 
-* Death, respawning, and game over screens
-* Dialogue, NPC interactions, and round characters 
+* Death / respawning / game over screens
+* Dialogue / NPC interactions / round characters 
 * Diasporas in games 
-* Difficulty, accessibility, and assist modes 
+* Difficulty / accessibility / assist modes 
 * Disabled people in games 
-* Economies, shopkeepers, and monetization 
+* Economies / shopkeepers / monetization 
 * Environmental storytelling and story breadcrumbs 
-* Fandom, mods, and fan games 
-* Flow, optimization, and distraction 
+* Fandom / mods / fan games 
+* Flow / optimization / distraction 
 * Gamification and data collection  
 * Gender nonconformity and expression in games 
 * Genre anarchy and unexpected uptakes 
@@ -50,40 +50,40 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Governments and politics in games 
 * History and historical events in games 
 * Indigenous people in games
-* Interface, interaction, and experience design
-* Intersectionality, identity, and stereotypes
+* Interface / interaction / experience design
+* Intersectionality / identity / stereotypes
 * Items and inventory management
-* Labour, grinding, farming, and repetition
-* Level design, gating, and critical paths 
+* Labour / grinding / farming / repetition
+* Level design / gating / critical paths 
 * Localization and culturalization 
-* Lore, lore dumps, and exposition    
+* Lore / lore dumps / exposition    
 * Ludonarrative dissonance
-* Maps, boundaries, and real-world locations 
-* Mechanics, balance, and gameplay design 
-* Metagames, paragames, and orthogames
+* Maps / boundaries / real-world locations 
+* Mechanics / balance / gameplay design 
+* Metagames / paragames / orthogames
 * Mobile gaming and gaming in public
 * Nature and biomes in games 
-* Player-centric, -agnostic, and -antagonistic design 
+* Player-centric / -agnostic / -antagonistic design 
 * Playstyles and player expression 
 * Power fantasies and entitlement 
 * Procedural rhetoric and gameplay loops 
-* Puzzle design, secrets, and hidden information
+* Puzzle design / secrets / hidden information
 * Reading games
-* Realism, fidelity, and the mundane
+* Realism / fidelity / the mundane
 * Religion in games 
-* Roleplay, dramaturgy, bleed, and shared fantasies
-* Romance, sexuality, and intimacy in games
-* Saving, replaying, and quality-of-life features
-* Side quests, collect-a-thons, and completionism
+* Roleplay / dramaturgy / bleed / shared fantasies
+* Romance / sexuality / intimacy in games
+* Saving / replaying / quality-of-life features
+* Side quests / collect-a-thons / completionism
 * Silent protagonists and nonverbal communication 
 * Sound design and music 
-* Technical design, programming, and engines
+* Technical design / programming / engines
 * Training the player 
-* Travel, vehicles, and transportation in games  
+* Travel / vehicles / transportation  
 * Tutorialization and learning how to play 
 * Values in design 
-* Visual art, visual effects, and graphic design 
-* Voice acting, voice-over, and barks 
+* Visual art / visual effects / graphic design 
+* Voice acting / voice-over / barks 
 * Women in games 
 * Worldbuilding and worldviews
 
