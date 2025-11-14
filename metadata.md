@@ -23,7 +23,7 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Adaptations / homages / remakes / remasters 
 * Affect / tilt / visceral connections 
 * Agency: character / player / system
-* Alternate reality
+* Alternate / augmented reality
 * Anime / manga 
 * Bad vibes / hostile environments 
 * BPOC characters / stories / representation 
