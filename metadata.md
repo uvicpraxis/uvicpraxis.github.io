@@ -30,19 +30,19 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Breaking the fourth wall
 * Bugs / glitches / exploits
 * Character customization / loadouts / fashion
-* Chance / randomization 
+* Chance / randomization / unpredictability
 * Cheating / cheesing / save-scumming
 * Choices matter / narrative design
 * Cinematography / cameras / scale 
 * Cisheteronormativity in games 
 * Collaborative / cooperative play 
 * Colonization / decolonization in games
-* Combat design / violence in games
+* Combat design / physical violence in games
 * Competition / zero-sum games 
 * Content / health warnings 
-* Cutscene / flashback / flash forward 
+* Cutscenes / flashbacks / flashforwards 
 * Death / respawning / game over screens
-* Deckbuilding 
+* Deckbuilding / synergies 
 * Dialogue / dialogue trees 
 * Diasporas in games 
 * Difficulty / accessibility / assist modes 
@@ -51,7 +51,7 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Emotes / dance / nonverbal communication 
 * Environmental storytelling / story breadcrumbs 
 * Excuse plots 
-* Falling / leap of faith / verticality  
+* Falling / leaps of faith / verticality  
 * Fandom / mods / fan games
 * Female characters / representation 
 * Fishing in games 
@@ -61,7 +61,8 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Games by 2SLGBTQIA+ developers / queer games
 * Games by Indigenous / BPOC developers 
 * Games made in Canada 
-* Gamification / trophies /data collection 
+* Games where you cannot die
+* Gamification / trophies / data collection 
 * Gaming / discourse communities
 * Gauges / previews / menus / HUDs
 * Gender nonconformity / expression in games 
@@ -71,12 +72,12 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * History / historical events in games 
 * Indigenous characters / stories / representation
 * Interface / interaction / experience design
-* Intersectionality / identity / stereotypes
+* Intersectionality / identities / stereotypes
 * Items / inventory / time / resource management
 * Jumpscares / monsters everywhere
 * Labour / grinding / farming / repetition
 * Level design / gating / critical paths 
-* Levelling up / buffs / skill trees
+* Leveling up / buffs / skill trees
 * Lighting / colours / textures
 * Live service / free-to-play / monetization 
 * Local / online multiplayer / couch co-op
@@ -84,7 +85,8 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Lore / lore dumps / exposition    
 * Ludonarrative dissonance
 * Making your own fun / queergaming 
-* Maps / boundaries 
+* Maps / boundaries / navigation 
+* Mascot games
 * Masculinity / femininity in games 
 * Mechanics / balance / gameplay design 
 * Metagames / paragames / orthogames
@@ -98,8 +100,9 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Pets / companions / familiars 
 * Pixel art / chiptunes / 8-bit
 * Player-centric / -agnostic / -antagonistic design 
-* Playstyles / player expression 
+* Playstyles / player expression
 * Power fantasies / entitlement 
+* Primary mechanics / walk / run / jump / swim / fly
 * Procedural rhetoric / gameplay loops 
 * Puzzle design / secrets / hidden information
 * Reading games
@@ -110,13 +113,13 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Romance / sexuality / intimacy in games
 * Saving / replaying / quality-of-life features
 * Score-chasing / leaderboards
-* Secondary mechanics
+* Secondary mechanics / expressive mechanics
 * Side quests / collect-a-thons / completionism
 * Silent protagonist / amnesia 
 * Sound effects / soundscapes / Foley / music 
 * Spamming 
 * Speedruns / routing / sequence breaking 
-* Story / campaign mode 
+* Story / campaign modes 
 * Technical design / programming / engines
 * Testing the system / narrative
 * Training the player 
@@ -127,10 +130,10 @@ This is a dropdown field with a controlled vocabulary developed by the Praxis St
 * Values in design 
 * Visual art / visual effects / graphic design 
 * Voice acting / voice-over / barks 
-* Walk / run / jump / swim / fly
+* Wandering / getting lost 
 * Watching games / zero-player games
 * Weenies / horizons 
-* White protagonists / whiteness in games  
+* White / cis male protagonists / whiteness in games  
 * Worldbuilding / worldviews
 
 ## Genre(s) 
