@@ -1,7 +1,7 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025. It is subject to change. 
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 16 November 2025 with feedback from Praxis Studio researchers. It is subject to change. 
 
 ## Gameplay Footage Collection 
-This document contains the metadata fields and vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored in [Echo360](https://support.echo360.com/hc/en-us). We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
+This document contains the metadata fields and controlled vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored in Echo360. We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
 
 For search purposes, the metadata for each clip appears in its Echo360 title, and all of the Collection's metadata is stored in a spreadsheet we update regularly. 
 
@@ -10,147 +10,27 @@ Project leads at UVic: Jentery Sayers and Charlie Susheski
 ## Game Title 
 This is a text input field without a controlled vocabulary. It is intended for the complete title of the game when it was initially released on any platform. "*80 Days*" is an example of data intended for this field. 
 
-## Year 
-This is a text input field without a controlled vocabulary. It is intended for the year of the game's initial release on any platform. "2014" is an example of data intended for this field. 
+## Release Year 
+This is a text input field. It is intended for the year of the game's initial release on any platform. "2014" is an example of data intended for this field. 
 
-## Clip Title w/ Echo URL
-This is a text input field without a controlled vocabulary. It is intended for a description of the clip ("clip title"), and the data should be created with search in mind. It may include quotations where applicable. The clip title is encoded with the clip's Echo360 URL such that someone may click it to watch the clip online. "['Amphitrite Express to Paris: Departing Now!': Making Decisions for Monsieur Fogg under Pressure](https://echo360.ca/media/1e168ec9-62a5-40ca-b9ef-0d2e67bd263a/public)" is an example of data intended for this field. 
-
-## Research Areas
-This is a dropdown field with a controlled vocabulary developed by the Praxis Studio. It is intended to index research areas pertinent to the clip or evoked by it. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
-
-* 2SLGBTQIA+ characters / stories / representation 
-* Adaptations / homages / remakes / remasters 
-* Affect / tilt / visceral connections 
-* Agency: character / player / system
-* Alternate / augmented reality
-* Anime / manga 
-* Bad vibes / hostile environments 
-* BPOC characters / stories / representation 
-* Breaking the fourth wall
-* Bugs / glitches / exploits
-* Character customization / loadouts / fashion
-* Chance / randomization / unpredictability
-* Cheating / cheesing / save-scumming
-* Choices matter / narrative design
-* Cinematography / cameras / scale 
-* Cisheteronormativity in games 
-* Collaborative / cooperative play 
-* Colonization / decolonization in games
-* Combat design / physical violence in games
-* Competition / zero-sum games 
-* Content / health warnings 
-* Cutscenes / flashbacks / flashforwards 
-* Death / respawning / game over screens
-* Deckbuilding / synergies 
-* Dialogue / dialogue trees 
-* Diasporas in games 
-* Difficulty / accessibility / assist modes 
-* Disabled characters / disability stories 
-* Economies / currencies / shops / shopkeepers
-* Emotes / dance / nonverbal communication 
-* Environmental storytelling / story breadcrumbs 
-* Excuse plots 
-* Falling / leaps of faith / verticality  
-* Fandom / mods / fan games
-* Female characters / representation 
-* Fishing in games 
-* Flow / focus / distraction 
-* Gachapon mechanics / loot boxes
-* Game highlights / replay videos 
-* Games by 2SLGBTQIA+ developers / queer games
-* Games by Indigenous / BPOC developers 
-* Games made in Canada 
-* Games where you cannot die
-* Gamification / trophies / data collection 
-* Gaming / discourse communities
-* Gauges / previews / menus / HUDs
-* Gender nonconformity / expression in games 
-* Genre anarchy / unexpected uptakes 
-* Good vibes / cozy / friendly environments 
-* Governments / politics in games 
-* History / historical events in games 
-* Indigenous characters / stories / representation
-* Interface / interaction / experience design
-* Intersectionality / identities / stereotypes
-* Items / inventory / time / resource management
-* Jumpscares / monsters everywhere
-* Labour / grinding / farming / repetition
-* Level design / gating / critical paths 
-* Leveling up / buffs / skill trees
-* Lighting / colours / textures
-* Live service / free-to-play / monetization 
-* Local / online multiplayer / couch co-op
-* Localization / culturalization 
-* Lore / lore dumps / exposition    
-* Ludonarrative dissonance
-* Making your own fun / queergaming 
-* Maps / boundaries / navigation 
-* Mascot games
-* Masculinity / femininity in games 
-* Mechanics / balance / gameplay design 
-* Metagames / paragames / orthogames
-* Mobile gaming / gaming in public
-* Nature / biomes in games 
-* Nonhuman player characters
-* NPCs / NPC interactions / round NPCs
-* Optimization / theorycrafting
-* Overpowered / joke characters / ciphers
-* Parties / character groups 
-* Pets / companions / familiars 
-* Pixel art / chiptunes / 8-bit
-* Player-centric / -agnostic / -antagonistic design 
-* Playstyles / player expression
-* Power fantasies / entitlement 
-* Primary mechanics / walk / run / jump / swim / fly
-* Procedural rhetoric / gameplay loops 
-* Puzzle design / secrets / hidden information
-* Reading games
-* Real-world locations 
-* Realism / fidelity / the mundane
-* Religion in games 
-* Roleplay / dramaturgy / bleed / shared fantasies
-* Romance / sexuality / intimacy in games
-* Saving / replaying / quality-of-life features
-* Score-chasing / leaderboards
-* Secondary mechanics / expressive mechanics
-* Side quests / collect-a-thons / completionism
-* Silent protagonist / amnesia 
-* Sound effects / soundscapes / Foley / music 
-* Spamming 
-* Speedruns / routing / sequence breaking 
-* Story / campaign modes 
-* Technical design / programming / engines
-* Testing the system / narrative
-* Training the player 
-* Travel / transportation / vehicles  
-* Tutorialization / learning how to play 
-* Twitch mechanics / speed / timing / parrying 
-* Uncertainty / confusion / overthinking it
-* Values in design 
-* Visual art / visual effects / graphic design 
-* Voice acting / voice-over / barks 
-* Wandering / getting lost 
-* Watching games / zero-player games
-* Weenies / horizons 
-* White / cis male protagonists / whiteness in games  
-* Worldbuilding / worldviews
+## Title of Clip
+This is a text input field without a controlled vocabulary. It is intended for a description of the clip ("title of clip"), and the title should be created with search in mind. It may include quotations where applicable. The title is encoded with the clip's Echo360 URL such that someone may click it to watch the clip online. "['Amphitrite Express to Paris: Departing Now!': Making Decisions for Monsieur Fogg under Pressure](https://echo360.ca/media/1e168ec9-62a5-40ca-b9ef-0d2e67bd263a/public)" is an example of data intended for this field. 
 
 ## Genre(s) 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting with some modifications for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Action
 * Adventure
 * Educational
 * Idle
 * Puzzle
-* Racing / Driving
+* Racing
 * RPG
 * Simulation
 * Sports
 * Strategy / tactics
 
 ## Gameplay 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting (with additions) for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 4X
 * Action RPG
 * Arcade
@@ -160,9 +40,13 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Cards / tiles
 * Chess
 * City building / construction sim
+* Collaborative
+* Competitive
+* Cooperative
 * Dating sim
-* Falling block puzzle
+* Emergent
 * Fighting
+* Friendslop
 * Gambling elements
 * Game show / trivia / quiz
 * Graphic adventure
@@ -173,14 +57,17 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Interactive fiction / text adventure
 * Japanese-style RPG (JRPG)
 * Japanese-style adventure
-* Life / social sim
-* MOBA / ARTS
+* Life sim / social sim
+* Local multiplayer
 * Managerial / business sim
 * Massively Multiplayer
 * Mental training
 * Metroidvania
 * Mini-games
+* MOBA / ARTS
+* Mobile game
 * Music / rhythm
+* Online multiplayer 
 * Paddle / Pong
 * Party game
 * Pinball
@@ -193,12 +80,13 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Real-time tactics
 * Roguelike
 * Sandbox / open world
+* Secret identity
 * Shooter
+* Single-player
 * Stealth
 * Survival horror
 * Tactical RPG
 * Tactical shooter
-* Tile matching puzzle
 * Time management
 * Timed input
 * Tower defense
@@ -209,12 +97,100 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Visual novel
 * Wargame
 * Word construction
+* Zero-player
+
+## Mechanics
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio and based partly on BoardGameGeek's list of mechanics. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+
+* Aiming
+* Alignment
+* Auctioning
+* Bidding
+* Bluffing
+* Building
+* Buying
+* Capturing 
+* Caring
+* Carrying
+* Cleaning / washing
+* Climbing
+* Collecting
+* Crafting
+* Crawling
+* Cryptic puzzle
+* Dancing
+* Deckbuilding
+* Delivering
+* Dice roll
+* Drawing
+* Driving
+* Emote
+* Exploring
+* Falling
+* Farming
+* Fast travel
+* Fishing
+* Flying
+* Gachapon
+* Jumping / leaping
+* Logic puzzle
+* Matching
+* Math puzzle
+* Mechanical puzzle
+* Nonverbal communication
+* Parrying
+* Pattern building
+* Pattern recognition
+* Pausing
+* Pool building
+* Pulling
+* Pushing
+* Rewinding
+* Riding
+* Rolling
+* Romancing
+* Running
+* Saving
+* Shooting
+* Side quests
+* Stealing
+* Storytelling
+* Swimming
+* Talking
+* Trading
+* Twitch 
+* Verbal communication
+* Voting
+* Walking
+* Wandering
+* Worker placement
+* Word puzzle
+
+
+## Metagames
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+
+* Bunny hopping
+* Cheating
+* Cheesing
+* Duping
+* Griefing
+* Making your own fun
+* Safe zone
+* Save-scumming
+* Speedrun / sequence-breaking
+* Testing the narrative
+* Testing the system
+* Theorycrafting
 
 ## Setting(s) 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting with some modifications for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+
+* Adaptation / homage
 * Africa
 * Age of Discovery / Enlightenment
 * Alternate history
+* Alternate reality
 * Antarctica
 * Anti-colonial
 * Asia
@@ -225,6 +201,7 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Colonial
 * Contemporary
 * Cyberpunk / dark sci-fi
+* Decolonial
 * Egypt (Ancient)
 * Europe
 * Fantasy
@@ -238,10 +215,13 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Middle East
 * North America
 * Oceania
+* Political / government
 * Post-apocalyptic
 * Post-colonial
 * Pre-Columbian Americas
 * Prehistoric
+* Real-world location 
+* Religious 
 * Sci-fi / futuristic
 * South America
 * Steampunk
@@ -249,8 +229,55 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * World War I
 * World War II
 
+## Area(s) and Environment(s)
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+
+* Afternoon
+* Arena
+* Cave
+* City / urban
+* Club / bar
+* Desert
+* Domestic / home
+* Dungeon 
+* Embedded story
+* Enacted story 
+* Evening
+* Evoked story 
+* Factory
+* Forest
+* Grasslands
+* Horizon
+* Horizontal
+* Hospital 
+* Hotel / inn
+* Invisible wall
+* Laboratory
+* Lava / fire
+* Map
+* Maze
+* Morning
+* Mountains
+* Moving vehicle
+* Night
+* Ocean / underwater
+* Overworld
+* Plains / flatland
+* Procedural generation
+* Rain 
+* Restaurant
+* Sky
+* Swamp / marsh
+* Town / village
+* Tropical  
+* Tundra / ice / snow
+* Underworld 
+* Vertical
+* Wasteland
+* Weenie
+
 ## Narrative(s) 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Adult
 * Comedy
 * Crime
@@ -264,8 +291,80 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Thriller
 * War
 
+## Pacing 
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adopting. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+* Meditative
+* Persistent
+* Real-time
+* Turn-based
+
+## Progression 
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+
+* Act structure
+* Chance / randomness 
+* Climax
+* Cutscene
+* Death / permadeath
+* Elimination / team wipe
+* Excuse plot 
+* Exposition 
+* Falling action
+* Flashback 
+* Flashforward 
+* Game over screen
+* Gating
+* Highlight / replay reel
+* Level
+* Leveling up
+* Loop
+* Lore dump
+* Resolution
+* Respawning
+* Rising action 
+* Rolling credits
+* Upgrades 
+* Waiting
+
+## Economy and Social
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+
+* Cosmetics / loadouts
+* Data collection
+* Energy / damage 
+* Esports
+* Extraction
+* Fan game
+* Free-to-play
+* Grinding
+* Hard currency
+* Inventory
+* Leaderboards 
+* Live service
+* Lives
+* Loot box
+* Mascot game
+* Medium currency
+* Monetization 
+* Optimization
+* Pay to win
+* Random number generator
+* Resource
+* Reward
+* Sink
+* Social currency / trophy
+* Soft currency
+* Shop
+* Shopkeeper
+* Skill tree
+* Tap / faucet
+* Team / roster 
+* Wealth
+* Zero-sum
+
 ## Perspective(s) 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adopting (with additions). This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+* Breaking the fourth wall
 * 1st-person
 * 3rd-person
 * Audio game
@@ -275,39 +374,139 @@ This is a dropdown field with a controlled vocabulary developed by MobyGames tha
 * Text-based
 * Top-down
 
-## Visual Presentation
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+## Art, Design, and Feedback
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adopting. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 2D scrolling
+* 8-bit
+* Adaptive lighting
+* Adaptive music
+* Anime
+* Barks
+* Black and white
+* Chiptune
 * Cinematic camera
-* Fixed
+* Dialogue
+* Fixed camera / view
+* Foley sound
 * Free camera
+* Haptics
 * Isometric
-
-## Pacing 
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting for our purposes. This data pertains to the entire game and not just the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
-* Meditative
-* Persistent
-* Real-time
-* Turn-based
+* Licensed music
+* Manga
+* Original soundtrack
+* Pixel art
+* Saturated colours
+* Scale / zooming
+* Soundscape
+* Sound effect 
+* Sprites
+* Textures
+* Typography
+* Visual effect
+* Voice acting
+* Voice-over 
 
 ## Interface(s)  
-This is a dropdown field with a controlled vocabulary developed by MobyGames that we are adopting with some modifications for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
-* Direct control
-* Menu structures
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting (with additions) for our purposes. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+* Character customization
+* Direct 
+* Gauge
+* Heads-up display
+* Menu
 * Motion control
 * Multiple characters / units 
 * Point and select
+* Preview
 * Text parser
 * Voice control
+* Webcam
+
+## Experience(s)
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+
+* Cannot die 
+* Challenging
+* Chaotic 
+* Choices matter 
+* Confusing
+* Content warning
+* Cozy
+* Dev is smarter than me
+* Focus 
+* Friendly
+* Gaming in private
+* Gaming in public
+* Health warning
+* Hostile
+* Intimate
+* Joyful
+* Jumpscare
+* Listening
+* Ludonarrative dissonance
+* Ludonarrative resonance
+* Mindless
+* Monsters everywhere
+* Mundane
+* Physical exercise
+* Player-centric
+* Player-agnostic 
+* Player-antagonistic 
+* Power fantasy
+* Reading
+* Repetitive 
+* Shared fantasy
+* Stressful
+* Surprise 
+* Thinky 
+* Tilt
+* Training
+* Violent
+* Watching
+
+## Accessibility and Difficulty 
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio and based partly on Game Accessibility Guidelines. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+
+* Alternate inputs
+* Assist mode 
+* Clear language
+* Default settings 
+* Easy / beginner / novice
+* Flickering images / patterns 
+* Haptics
+* Hard / expert / difficult
+* High contrast
+* Interactive tutorial
+* Normal / medium / standard
+* Remapping controls
+* Sensitivity of controls
+* Speed 
+* Story mode 
+* Subtitles 
+* Text formatting / font size
+* Unlockable content
+
+## Technical 
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip and not the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+
+* Augmented reality
+* Bug
+* Custom engine
+* Fidelity / photorealism
+* Glitch
+* Mod
+* Physics
+* Remake 
+* Remaster 
+* Virtual reality
 
 ## Developer(s)
 This is a text input field without a controlled vocabulary. It is intended for the name of the game's developer(s). "inkle Ltd." is an example of data intended for this field.
 
 ## Publisher(s) 
-This is a text input field without a controlled vocabulary.  It is intended for the name of the game's publisher(s). "Profile Books + inkle Ltd." is an example of data intended for this field.
+This is a text input field without a controlled vocabulary.  It is intended for the name of the game's publisher(s). "Profile Books and inkle Ltd." is an example of data intended for this field.
 
 ## Publisher Class 
-This metadata vocabulary was developed by the Praxis Studio. One option should be selected unless the developer is indie and self-publishes their games. The options are: 
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. One option should be selected unless the developer is indie and self-publishes their games. The options are: 
 * AAA
 * AA 
 * Indie
@@ -323,6 +522,11 @@ This data does not appear in the clip's Echo360 title. It instead appears in Ech
 
 ## Clip Attribution 
 This is a text input field without a controlled vocabulary. It is intended for the name of the person who recorded the gameplay footage. "Jentery Sayers" is an example of data intended for this field.
+
+This data does not appear in the clip's Echo360 title. It instead appears in Echo360's description field. 
+
+## Clip Attribution 
+This is a text input field without a controlled vocabulary. It is intended for the name of the person who entered the metadata. "Jentery Sayers" is an example of data intended for this field.
 
 This data does not appear in the clip's Echo360 title. It instead appears in Echo360's description field. 
 
