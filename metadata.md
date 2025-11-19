@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 16 November 2025 with feedback from Praxis Studio researchers. It is subject to change. 
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 16 November 2025 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. **Please do not cite this document.**
 
 ## Gameplay Footage Collection 
 This document contains the metadata fields and controlled vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored in Echo360. We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
@@ -525,7 +525,7 @@ This is a text input field without a controlled vocabulary. It is intended for t
 
 This data does not appear in the clip's Echo360 title. It instead appears in Echo360's description field. 
 
-## Clip Attribution 
+## Metadata Attribution 
 This is a text input field without a controlled vocabulary. It is intended for the name of the person who entered the metadata. "Jentery Sayers" is an example of data intended for this field.
 
 This data does not appear in the clip's Echo360 title. It instead appears in Echo360's description field. 
