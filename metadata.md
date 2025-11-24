@@ -1,6 +1,6 @@
 This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 23 November 2025 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. **Please do not cite this document.**
 
-## Gameplay Footage Collection 
+# Gameplay Footage Collection 
 This document contains the metadata terms and controlled vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored in Echo360. We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
 
 For search purposes, the metadata for each clip appears in its Echo360 title, and all of the Collection's metadata is stored in a spreadsheet we update regularly. 
