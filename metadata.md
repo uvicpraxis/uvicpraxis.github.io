@@ -121,7 +121,6 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Bidding
 * Bluffing
 * Building
-* Bullet hell
 * Buying
 * Capturing 
 * Caring
