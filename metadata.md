@@ -158,7 +158,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Dancing
 * Deckbuilding
 * Delivering
-* Destructing
+* Destroying
 * Dice roll
 * Dodging
 * Drawing
