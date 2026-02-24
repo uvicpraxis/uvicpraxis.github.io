@@ -688,6 +688,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 ## Art and Presentation
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio, based partly on MobyGames's vocabulary. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 8-bit
+* 16-bit
 * Abstract art
 * Adaptive lighting
 * Adaptive music
@@ -743,11 +744,11 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Surrealism
 * Texturing
 * Typography
-* Vector
+* Vector art
 * Visual effect
 * Voice acting
 * Voice-over
-* Voxel 
+* Voxel art
 
 ## Interface(s) (Required)
 This is a drop-down field with a controlled vocabulary developed by MobyGames and Game UI Database that we are adapting (with additions and changes) for our purposes. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
