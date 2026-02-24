@@ -630,6 +630,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Colony
 * Dungeon
 * Factory
+* Farm / rural
 * Government
 * Health / damage 
 * Inventory
@@ -637,10 +638,10 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Life
 * Lives
 * Loadout
+* Party / group
 * Resources
 * Skill tree
 * Sports
-* Team / party
 * Time
 * Wealth
 
