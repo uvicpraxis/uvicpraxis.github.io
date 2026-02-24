@@ -226,10 +226,12 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Advanced movement technique
 * AI breaking
+* Anti-meta
 * Challenge run
 * Cheat code
 * Cheesing
 * Complacent gaming
+* Current meta
 * Derailing
 * Dev console
 * Disc-one nuke
