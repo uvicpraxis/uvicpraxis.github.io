@@ -860,7 +860,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Violent
 * Watching
 
-## Accessibility and Difficulty 
+## Settings and Accessibility
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio, based partly on Game Accessibility Guidelines. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Alternate inputs
 * Arachnophobia mode
