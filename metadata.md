@@ -621,14 +621,25 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 ## Management
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Bonding / affinities
+* Business
 * Character
-* Energy / damage 
+* City
+* Climate / weather
+* Colony
+* Dungeon
+* Factory
+* Government
+* Health / damage 
 * Inventory
+* Items
+* Life
 * Lives
 * Loadout
 * Resources
 * Skill tree
+* Sports
 * Team / party
+* Time
 * Wealth
 
 ## Economic Elements
