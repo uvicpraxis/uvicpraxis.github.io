@@ -13,11 +13,11 @@ This is a text input field without a controlled vocabulary. It is intended for t
 ## Release Year (Required)
 This is a text input field. It is intended for the year of the game's initial release on any platform. "2014" is an example of data intended for this field. 
 
-## Length (Minutes) (Required)
-This is a text input field. It is intended for the length of the clip in minutes. "2:04" is an example of data intended for this field. 
-
 ## Title of Clip (Required) 
 This is a text input field without a controlled vocabulary. It is intended for a description of the clip ("title of clip"), and the title should be created with search in mind. It may include quotations where appropriate. The title is encoded with the clip's Echo360 URL such that someone may click it to watch the clip online. "['Amphitrite Express to Paris: Departing Now!': Making Decisions for Monsieur Fogg under Pressure](https://echo360.ca/media/1e168ec9-62a5-40ca-b9ef-0d2e67bd263a/public)" is an example of data intended for this field. 
+
+## Length (Minutes) (Required)
+This is a text input field. It is intended for the length of the clip in minutes. "2:04" is an example of data intended for this field. 
 
 ## Genre(s) (Required) 
 This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adopting. This data pertains to the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
