@@ -375,7 +375,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Race track
 * Rain 
 * Restaurant
-* Ruin
+* Ruins
 * School
 * Sewer
 * Ship
