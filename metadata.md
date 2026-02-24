@@ -649,7 +649,6 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip, and it addresses in- and out-of-game economies. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Content creation
 * Cosmetics / skins
-* Current meta
 * Data collection
 * DLC
 * Esports
