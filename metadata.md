@@ -5,7 +5,7 @@ This document contains the metadata terms and controlled vocabularies for the Pr
 
 For search purposes, the metadata for each clip appears in its Echo360 title, and all of the Collection's metadata is stored in a spreadsheet we update regularly. 
 
-Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback from Callum Carroll-Ireton, Abby Fry, Maya Wei Yan Linsley, Hector Lopez, Emma Newton, Marie Silhova, and Christina Woods)
+Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and contributions from Callum Carroll-Ireton, Abby Fry, Reginald Kachanoski, Maya Wei Yan Linsley, Héctor López Segarra, Emma Newton, Marie Silhova, and Christina Woods)
 
 ## Game Title (Required)
 This is a text input field without a controlled vocabulary. It is intended for the complete title of the game when it was initially released on any platform. "*80 Days*" is an example of data intended for this field. 
