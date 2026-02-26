@@ -1,11 +1,11 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 24 February 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 25 February 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
 
 # Gameplay Footage Collection 
 This document contains the metadata terms and controlled vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored in Echo360. We limit the number of clips per game to five, and we do not include clips that are NSFW or spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
 
 For search purposes, the metadata for each clip appears in its Echo360 title, and all of the Collection's metadata is stored in a spreadsheet we update regularly. 
 
-Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and contributions from Callum Carroll-Ireton, Abby Fry, Reginald Kachanoski, Maya Wei Yan Linsley, Héctor López Segarra, Emma Newton, Marie Silhova, and Christina Woods)
+Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and contributions from Callum Carroll-Ireton, Abby Fry, Reg Kachanoski, Maya Wei Yan Linsley, Héctor López Segarra, Emma Newton, Marie Silhova, and Christina Woods)
 
 ## Game Title (Required)
 This is a text input field without a controlled vocabulary. It is intended for the complete title of the game when it was initially released on any platform. "*80 Days*" is an example of data intended for this field. 
