@@ -762,13 +762,14 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames an
 * Challenges / achievements
 * Character select
 * Character customization
-* Chat / communication
+* Chat / player communication
 * Clock / timer
 * Codex
 * Collectibles
 * Crafting screen / window
 * Credits
-* Diegetic
+* Dialogue system
+* Diegetic interface
 * Difficulty selection
 * Direct control 
 * Equipment
