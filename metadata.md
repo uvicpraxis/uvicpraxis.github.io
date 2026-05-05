@@ -722,8 +722,8 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Low fidelity
 * Low-poly 3D
 * Manga
-* Maximalist
-* Minimalist
+* Maximalism
+* Minimalism
 * Monochrome
 * Motion / performance capture
 * Original soundtrack
