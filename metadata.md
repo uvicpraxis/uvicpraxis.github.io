@@ -359,6 +359,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Ice
 * Invisible wall
 * Island
+* Kitchen
 * Laboratory
 * Lava / fire
 * Liminal space
