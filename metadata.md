@@ -477,6 +477,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * PC is a parent / guardian
 * PC is a shapeshifter
 * PC is a stereotype
+* PC is a stranger / visitor
 * PC is a student
 * PC is a teenager
 * PC is a twin
