@@ -155,6 +155,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Cleaning / washing
 * Climbing
 * Collecting
+* Cooking / making food
 * Crafting
 * Crawling
 * Cryptic puzzle
