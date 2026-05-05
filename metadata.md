@@ -437,10 +437,10 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Avatar
 * Bisexual PC
 * Black PC
-* Blank character
+* Blank slate / cipher
 * Blind PC 
 * Canadian PC
-* Customized PC
+* Customizable PC
 * Deaf PC
 * Demisexual PC
 * Disabled PC
@@ -448,6 +448,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * European PC
 * Female PC
 * Fictional species
+* Fixed PC
 * Gay PC
 * Genderfluid PC
 * Hearing-impaired PC
