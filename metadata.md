@@ -208,7 +208,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Sailing
 * Saving
 * Shooting
-* Side quests
+* Side quests / fetch quests
 * Spellcasting / magic
 * Stealing
 * Storytelling
