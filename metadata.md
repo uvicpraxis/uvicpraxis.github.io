@@ -915,29 +915,38 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Unlockable content
 
 ## Platform(s) and Engine(s) (Required)
-This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting (with additions and minor changes) for our purposes. This data pertains to the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+This is a drop-down field with a controlled vocabulary developed by MobyGames and Wikipedia that we are adapting (with additions and minor changes) for our purposes. This data pertains to the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 1291 Advanced Programmable Video System
+* 4A Engine
 * 3DO
+* A-FRAME (VR)
 * ABC 80
 * Acorn 32-bit
+* Adventure Game Interpreter
+* Adventure Game Studio
 * Adventure Vision
 * AirConsole
+* Aleph One
 * Alice 32/90
 * Altair 680
 * Altair 8800
 * Amazon Alexa
+* Amazon Lumberyard
 * Amiga
 * Amiga CD32
 * Amstrad CPC
 * Amstrad PCW
 * Android
 * Anstream
+* Anvil
 * APF MP1000 / Imagination Machine
+* AppGameKit
 * Apple I
 * Apple II
 * Apple IIgs
 * Arcade
 * Arcadia 2001
+* Ardor3D
 * Arduboy
 * Astral 2000
 * Atari 2600
@@ -947,18 +956,26 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Atari ST
 * Atari VCS
 * Atom
+* Aurora toolset
 * Auto Response Board
+* Babylon.js
 * bada
 * Bally Astrocade
 * Bandai RX-78 Gundam
 * BBC Micro
 * BeOS
+* bitsy
 * BlackBerry
 * Blacknut
+* Blend4Web
+* Blender
 * Blu-ray disc player
 * BREW
 * Browser
 * Bubble
+* Build Engine
+* Buildbox
+* C4 Engine
 * Camputers Lynx
 * Casio FP-1000 / 1100
 * Casio Loopy
@@ -968,7 +985,14 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * CDTV
 * Champion 2711
 * Channel F
+* Chrome Engine
+* ClanLib
+* Clausewitz
 * ClickStart
+* Clickteam Fusion
+* Cobra Engine
+* Cocos2d / 2d-x / 2d-html5
+* Codea
 * Coleco Adam
 * ColecoVision
 * Colour Genie
@@ -980,119 +1004,197 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Compucolor I
 * Compucolor II
 * Compucorp Programmable Calculator
+* Construct
+* Coretech
 * COSMAC
 * CP/M
+* CraftStudio
+* Creation Engine
 * CreatiVision
+* CryEngine
+* Crystal Space
+* Crystal Tools
+* Cube Engine
+* Cube 2 Engine
 * Cybervision
+* Custom-built engine
+* Dagor Engine
 * DAI
 * Danger OS
+* Dark Engine
+* Decima
 * Dedicated console
 * Dedicated handheld
+* Defold
+* Delta3D
 * Didj
 * digiBlast
+* Dim3
+* DimensioneX Multiplayer Engine
+* Divinity Engine
 * DoJa
 * DOS
 * Dragon 32/64
 * Dreamcast
+* Dunia Engine
 * DVD Player
+* DX Studio
 * ECD Micromind
+* EGO
 * Electron
+* Electron toolset
+* Enforce
+* Enigma Engine
 * Enterprise
 * Epoch Cassette Vision
 * Epoch Game Pocket Computer
 * Epoch Super Cassette Vision
+* Essence Engine
 * Evercade
 * Excelvision
 * ExEn
 * Exidy Sorcerer
+* Exult
 * Feature phone
+* Flame
+* Flare3D
+* Flash (Adobe)
+* Flixel
 * Fire OS
 * FM Towns
 * FM-7
+* ForgeLight
+* Fox Engine
 * Freebox
 * FreeBSD
+* Freescape
+* Freespace 2
+* Frostbite
+* Future Pinball
 * G-cluster
 * Galaksija
 * Game Boy
 * Game Boy Advance
 * Game Boy Color
+* Game Editor
 * Game Gear
 * Game Wave
 * Game.com
+* Gamebryo
 * GameCube
+* GameMaker
+* GameSalad
 * GameStick
+* Gamestudio
+* GDevelop
 * Genesis
+* Genie Engine
 * GIMINI
 * Gizmondo
 * Gloud
 * Glulx
 * GNEX
+* Godot
+* Gold Box
+* GoldSrc
 * GP2X
 * GP2X Wix
 * GP32
 * GVM
+* Havok
 * HD DVD player
 * Heath/Zenith H8/H89
 * Heathkit H11
+* HeroEngine
 * Hitachi Basic Master
 * Hitachi Basic Master Level 3
 * Hitachi H68/TR
 * Hitachi SI
+* Horde3D
 * HP 9800
 * HP Oscilloscope
 * HP Programmable Calculator
 * HP Series 80
+* HPL Engine
 * Hugo
 * HyperScan
 * IBM 5100
+* id Tech (0-8)
 * Ideal-Computer
 * iiRcade
+* iMUSE
+* Infinity Engine
 * Intel 8008
 * Intel 8080
 * Intel 8086 / 8088
 * Intellivision
 * Interact Model One
 * Interton Video 2000
+* ioquake3
 * iPad
 * iPhone
 * iPod Classic
+* Iron Engine
+* Irrlicht
+* IW Engine
 * J2ME
+* Jade
 * Jaguar
+* Jake2
+* Java 3D
+* Jedi
+* jMonkeyEngine
 * Jolt
 * Jupiter Ace
 * KaiOS
 * KIM-1
 * Kindle Classic
+* Kinectica
+* Kivy (framework)
 * Laser 200
 * LaserActive
+* LayaAir
+* Leadwerks
 * LeapFrog Explorer
 * Leapster
 * LeapTV
+* LibGDX
 * Linux
+* LithTech
 * Lkit-16
+* LÖVE
+* Luminous Engine
 * Luna
+* LyN
 * Lync
+* M.U.G.E.N.
 * Macintosh
 * Maemo
 * Magic Leap
 * Mainframe
+* Marmalade
 * Marvel 2000
 * Matsushita / Panasonic JR
 * Mattel Aquarius
 * MeeGo
 * Memotech MTX
 * Meritum
+* Messiah
 * Microbee
 * Microtan 65
 * Microvision
 * Mitsubishi Multi-8
+* Moai SDK
 * Modular Game System
+* Monkey X
+* MonoGame / XNA
 * Mophun
 * MOS Technology 6502
 * Motorola 6800
 * Motorola 68k
 * MRE
 * MSX
+* MT Framework
 * N-Gage
 * N-Gage (service)
 * Nascom
@@ -1114,20 +1216,33 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Nintedno Switch
 * Nintendo Switch 2
 * North Star
+* Northlight
 * Noval 760
+* NScripter
 * Nuon
+* O3DE
 * Oculus Go
 * Odyssey
 * Odyssey 2
+* Odyssey Engine
+* OGRE
 * Ohio Scientific
+* OHRRPGCE
 * OnLive
+* ONScripter
 * OOParts
 * OpenBSD
+* OpenClonk
+* OpenMW
+* OpenSimulator
 * Orao
 * Oric
+* ORX
 * OS/2
 * Ouya
 * Palm OS
+* Panda3D
+* Panta Rhei
 * Pandora
 * PC Booter
 * PC-6001
@@ -1136,13 +1251,20 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * PC-98
 * PC-FX
 * Pebble
+* Phaser
 * Philips P200
 * Philips VG 5000
 * Photo CD
+* PhyreEngine
 * PICO
+* PICO-8
+* Pie in the Sky
 * Pippin
+* Pixel Game Maker MV
+* PlayCanvas
 * Playdate
 * Playdia
+* PlayN
 * PlayStation
 * PlayStation 2
 * PlayStation 3
@@ -1155,37 +1277,65 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Poly-88
 * PS Vita
 * PSP
+* Pulp
+* Pygame
+* Pyrogenesis
+* Q
+* Qfusion
 * Quest
 * RCA Studio II
+* REDengine
+* Ren'Py
+* RenderWare
 * Research Machines 380Z
+* Roblox
+* Rockstar Advanced Game Engine
 * Roku
+* RPG Maker
+* S&box
+* SAGE
 * SAM Coupé
 * SC/MP
+* Scratch
+* SCUMM
 * SD-200 / 270 / 290
 * SEGA 32X
 * SEGA CD
 * SEGA Master System
 * SEGA Pico
 * SEGA Saturn
+* Serious Engine
 * SG-1000
+* Shark 3D
 * Sharp MZ-80B / 2000 / 2500
 * Sharp MZ-80K / 700 / 800 / 1500
 * Sharp X1
 * Sharp X68000
 * Sharp Zaurus
 * Signetics 2650
+* Silent Storm Engine
 * Sinclair QL
 * SK-VM
 * SMC-777
 * SNES
+* Snowdrop
 * Socrates
 * Sol-20
+* Solar2D
 * Solaris
 * Sord M5
+* Source
+* Source 2
 * SPC-1000
 * Spectravideo
 * SRI-500 / 1000
 * Stadia
+* Starling Framework
+* Stencyl
+* StepMania
+* Stingray (Autodesk)
+* Stratagus
+* Stride
 * Super A'can
 * Super Vision 8000
 * SuperGrafx
@@ -1198,11 +1348,13 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Tatung Einstein
 * Tektronix 4050
 * Tele-Spiel ES-2201
+* Telltale Tool
 * Telstar Arcade
 * TempleOS
 * Terminal
 * Thomson MO
 * Thomson TO
+* Three.js
 * TI Programmable Calculator
 * TI-99 / 4A
 * TIC-80
@@ -1212,8 +1364,11 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Tizen
 * Tomahawk F1
 * Tomy Tutor
+* Torque3D
+* TOSHI
 * Toshiba Ex-80
 * Toshiba Pasopia
+* Treyarch NGL
 * Triton
 * TRS-80
 * TRS-80 CoCo
@@ -1221,17 +1376,31 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * TRS-80 Model 100
 * TurboGrafx CD
 * TurboGrafx-16
+* Turbulenz
 * tvOS
+* Twine
+* UbiArt Framework
+* Unigine
+* Unity
+* Unreal Engine
 * V.Flash
 * V.Smile
+* V-Play
 * Vectrex
+* Vengeance Engine
 * Versatile
 * VIC-20
+* Vicarious Visions Alchemy
 * VideoBrain
 * Videopac+ G7400
+* Virtools
 * Virtual Boy
 * VIS
+* Vision
 * visionOS
+* Visual3D Game Engine
+* Visual Pinball
+* VRAGE
 * Wang 2200
 * watchOS
 * webOS
@@ -1242,9 +1411,13 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Windows Apps
 * Windows Mobile
 * Windows Phone
+* Wintermute Engine
 * WIPI
+* Wolf RPG Editor
 * WonderSwan
 * WonderSwan Color
+* World Builder
+* WorldForge
 * XaviXPORT
 * Xbox
 * Xbox 360
@@ -1252,10 +1425,13 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Xbox One
 * Xbox Series
 * Xerox Alto
+* XnGine
 * Z-machine
 * Zeebo
+* Zero
 * Zilog Z80
 * Zilog Z8000
+* Zillions of Games
 * Zodiac
 * Zune
 * ZX Spectrum
