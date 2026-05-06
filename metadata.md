@@ -782,6 +782,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames an
 * Gauge
 * Guide
 * Heads-up display
+* Inspect / rotate object
 * Inventory screen / window
 * Level complete 
 * Level editor
