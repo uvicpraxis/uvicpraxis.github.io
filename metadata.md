@@ -914,6 +914,135 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Text formatting / font size
 * Unlockable content
 
+## Platform(s) (Required)
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting (with minor changes) for our purposes. This data pertains to the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+* 1291 Advanced Programmable Video System
+* 3DO
+* ABC 80
+* Acorn 32-bit
+* Adventure Vision
+* AirConsole
+* Alice 32/90
+* Altair 680
+* Altair 8800
+* Amazon Alexa
+* Amiga
+* Amiga CD32
+* Amstrad CPC
+* Amstrad PCW
+* Android
+* Anstream
+* APF MP1000 / Imagination Machine
+* Apple I
+* Apple II
+* Apple IIgs
+* Arcade
+* Arcadia 2001
+* Arduboy
+* Astral 2000
+* Atari 2600
+* Atari 5200
+* Atari 7800
+* Atari 8-bit
+* Atari ST
+* Atari VCS
+* Atom
+* Auto Response Board
+* bada
+* Bally Astrocade
+* Bandai RX-78 Gundam
+* BBC Micro
+* BeOS
+* BlackBerry
+* Blacknut
+* Blu-ray disc player
+* BREW
+* Browser
+* Bubble
+* Camputers Lynx
+* Casio Programmable Calculator
+* Casio PV-1000
+* CD-i
+* CDTV
+* Champion 2711
+* Channel F
+* ClickStart
+* Coleco Adam
+* ColecoVision
+* Colour Genie
+* Commodore 128
+* Commodore 16, Plus/4
+* Commodore 64
+* Commodore PET/CBM
+* Compal 80
+* Compucolor I
+* Compucolor II
+* Compucorp Programmable Calculator
+* COSMAC
+* CP/M
+* CreatiVision
+* DAI
+* Danger OS
+* Dedicated console
+* Dedicated handheld
+* Didj
+* digiBlast
+* DoJa
+* DOS
+* Dragon 32/64
+* Dreamcast
+* DVD Player
+* ECD Micromind
+* Electron
+* Enterprise
+* Epoch Cassette Vision
+* Epoch Game Pocket Computer
+* Epoch Super Cassette Vision
+* Evercade
+* Excelvision
+* ExEn
+* Exidy Sorcerer
+* Feature phone
+* Fire OS
+* FM Towns
+* FM-7
+* Freebox
+* FreeBSD
+* G-cluster
+* Galaksija
+* Game Boy
+* Game Boy Advance
+* Game Boy Color
+* Game Gear
+* Game Wave
+* Game.com
+* GameCube
+* GameStick
+* Genesis
+* GIMINI
+* Gizmondo
+* Gloud
+* Glulx
+* GNEX
+* GP2X
+* GP2X Wix
+* GP32
+* GVM
+* HD DVD player
+* Heath/Zenith H8/H89
+* Heathkit H11
+* Hitachi Basic Master
+* Hitachi Basic Master Level 3
+* Hitachi H68/TR
+* Hitachi SI
+* HP 9800
+* HP Oscilloscope
+* HP Programmable Calculator
+* HP Series 80
+* Hugo
+* HyperScan
+* IBM 5100
+
 ## Developer's Location(s) (Required) 
 This is a drop-down field with a controlled vocabulary that includes all countries in the world. It is intended for the geographic location(s) of the game's developers, designers, writers, and other creators. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Afghanistan
