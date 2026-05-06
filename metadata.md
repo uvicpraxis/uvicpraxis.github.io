@@ -732,6 +732,8 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Minimalism
 * Monochrome
 * Motion / performance capture
+* No audio
+* No visuals
 * Original soundtrack
 * Particle physics
 * Photography
