@@ -669,7 +669,8 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Loot box
 * Mascot game
 * Medium currency
-* Monetization 
+* Monetization
+* Open source
 * Out-of-game reward
 * Pay to win
 * Sink
