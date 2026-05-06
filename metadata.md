@@ -226,7 +226,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Word puzzle
 * Writing
 
-## Metagames/Paragames
+## Metagames / Paragames (Required)
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Advanced movement technique
 * AI breaking
@@ -252,6 +252,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Movement glitch
 * Munchkin
 * Nerf
+* Orthogame (no observable meta)
 * Parody
 * Pause scumming
 * Safe zone
@@ -327,8 +328,9 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * World War II
 * Victorian 
 
-## Area(s) and Environment(s)
+## Area(s) and Environment(s) (Required)
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+* Abstract
 * Afternoon
 * Alternate plane
 * Arena
@@ -402,15 +404,16 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Water / sea / ocean
 * Weenie
 
-## Narrative(s) 
+## Narrative(s) (Required)
 This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting (with additions and minor changes) for our purposes. This data pertains to the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
-* Abstract
+* Abstract / no narrative
 * Adult
 * Bildungsroman 
 * Children's
 * Comedy
 * Crime
 * Detective / mystery
+* Emergent / player-dependent
 * Escape
 * Folktale
 * Healthcare
@@ -428,7 +431,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * War
 * Young adult
 
-## Player Character 
+## Player Character (Required)
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains only to player characters who appear in the clip but intersects with their identities throughout the game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * African PC
 * Agender PC
@@ -460,6 +463,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Lesbian PC
 * Male PC
 * Neurodivergent PC
+* No player character
 * Non-binary PC
 * Nonhuman PC
 * North American PC
@@ -503,7 +507,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Wealthy PC
 * White PC 
 
-## Non-Player Character  
+## Non-Player Character (Required)
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains only to non-player characters who appear in the clip but intersects with their identities throughout the game. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * African NPC
 * Agender NPC
@@ -536,6 +540,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Lesbian NPC
 * Male NPC
 * Neurodivergent NPC
+* No NPCs
 * Non-binary NPC
 * Nonhuman NPC
 * North American NPC
@@ -581,7 +586,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Wealthy NPC
 * White NPC 
 
-## Pacing 
+## Pacing (Required)
 This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting (with minor changes) for our purposes. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * Critical path
 * Meditative
@@ -591,7 +596,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Synchronized
 * Turn-based
 
-## Progression 
+## Progression (Required)
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Aha moment
 * Act structure
@@ -627,7 +632,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Upgrades 
 * Waiting
 
-## Management
+## Management (Required)
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Bonding / affinities
 * Business
@@ -652,8 +657,9 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Time
 * Wealth
 
-## Economic Elements
+## Economic Elements (Required) 
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip, and it addresses in- and out-of-game economies. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
+* Commercial game
 * Content creation
 * Cosmetics / skins
 * Data collection
@@ -693,7 +699,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Text-based / spreadsheet
 * Top-down
 
-## Art and Presentation
+## Art and Presentation (Required) 
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio, based partly on MobyGames's vocabulary. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 8-bit
 * 16-bit
@@ -877,7 +883,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Violent
 * Watching
 
-## Settings and Accessibility
+## Settings and Accessibility (Required)
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio, based partly on Game Accessibility Guidelines. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Alternate inputs
 * Arachnophobia mode
@@ -908,7 +914,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Text formatting / font size
 * Unlockable content
 
-## Developer's Location(s)
+## Developer's Location(s) (Required) 
 This is a drop-down field with a controlled vocabulary that includes all countries in the world. It is intended for the geographic location(s) of the game's developers, designers, writers, and other creators. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Afghanistan
 * Albania
