@@ -1042,6 +1042,223 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Hugo
 * HyperScan
 * IBM 5100
+* Ideal-Computer
+* iiRcade
+* Intel 8008
+* Intel 8080
+* Intel 8086 / 8088
+* Intellivision
+* Interact Model One
+* Interton Video 2000
+* iPad
+* iPhone
+* iPod Classic
+* J2ME
+* Jaguar
+* Jolt
+* Jupiter Ace
+* KaiOS
+* KIM-1
+* Kindle Classic
+* Laser 200
+* LaserActive
+* LeapFrog Explorer
+* Leapster
+* LeapTV
+* Linux
+* Lkit-16
+* Luna
+* Lync
+* Macintosh
+* Maemo
+* Magic Leap
+* Mainframe
+* Marvel 2000
+* Matsushita / Panasonic JR
+* Mattel Aquarius
+* MeeGo
+* Memotech MTX
+* Meritum
+* Microbee
+* Microtan 65
+* Microvision
+* Mitsubishi Multi-8
+* Modular Game System
+* Mophun
+* MOS Technology 6502
+* Motorola 6800
+* Motorola 68k
+* MRE
+* MSX
+* N-Gage
+* N-Gage (service)
+* Nascom
+* NEC TK-80
+* Neo Geo
+* Neo Geo CD
+* Neo Geo Pocket
+* Neo Geo Pocket Color
+* Neo Geo X
+* NES
+* NetBSD
+* New Nintendo 3DS
+* NewBrain
+* Newton
+* Nintendo 3DS
+* Nintendo 64
+* Nintendo DS
+* Nintendo DSi
+* Nintedno Switch
+* Nintendo Switch 2
+* North Star
+* Noval 760
+* Nuon
+* Oculus Go
+* Odyssey
+* Odyssey 2
+* Ohio Scientific
+* OnLive
+* OOParts
+* OpenBSD
+* Orao
+* Oric
+* OS/2
+* Ouya
+* Palm OS
+* Pandora
+* PC Booter
+* PC-6001
+* PC-8000
+* PC-88
+* PC-98
+* PC-FX
+* Pebble
+* Philips P200
+* Philips VG 5000
+* Photo CD
+* PICO
+* Pippin
+* Playdate
+* Playdia
+* PlayStation
+* PlayStation 2
+* PlayStation 3
+* PlayStation 4
+* PlayStation 5
+* PlayStation Now
+* Plex Arcade
+* Pokitto
+* Pokémon Mini
+* Poly-88
+* PS Vita
+* PSP
+* Quest
+* RCA Studio II
+* Research Machines 380Z
+* Roku
+* SAM Coupé
+* SC/MP
+* SD-200 / 270 / 290
+* SEGA 32X
+* SEGA CD
+* SEGA Master System
+* SEGA Pico
+* SEGA Saturn
+* SG-1000
+* Sharp MZ-80B / 2000 / 2500
+* Sharp MZ-80K / 700 / 800 / 1500
+* Sharp X1
+* Sharp X68000
+* Sharp Zaurus
+* Signetics 2650
+* Sinclair QL
+* SK-VM
+* SMC-777
+* SNES
+* Socrates
+* Sol-20
+* Solaris
+* Sord M5
+* SPC-1000
+* Spectravideo
+* SRI-500 / 1000
+* Stadia
+* Super A'can
+* Super Vision 8000
+* SuperGrafx
+* Supervision
+* Sure Shot HD
+* SWTPC 6800
+* Symbian
+* TADS
+* Taito X-55
+* Tatung Einstein
+* Tektronix 4050
+* Tele-Spiel ES-2201
+* Telstar Arcade
+* TempleOS
+* Terminal
+* Thomson MO
+* Thomson TO
+* TI Programmable Calculator
+* TI-99 / 4A
+* TIC-80
+* Tiki 100
+* TIM
+* Timex Sinclair 2068
+* Tizen
+* Tomahawk F1
+* Tomy Tutor
+* Toshiba Ex-80
+* Toshiba Pasopia
+* Triton
+* TRS-80
+* TRS-80 CoCo
+* TRS-80 MC-10
+* TRS-80 Model 100
+* TurboGrafx CD
+* TurboGrafx-16
+* tvOS
+* V.Flash
+* V.Smile
+* Vectrex
+* Versatile
+* VIC-20
+* VideoBrain
+* Videopac+ G7400
+* Virtual Boy
+* VIS
+* visionOS
+* Wang 2200
+* watchOS
+* webOS
+* Wii
+* Wii U
+* Windows
+* Windows 16-bit
+* Windows Apps
+* Windows Mobile
+* Windows Phone
+* WIPI
+* WonderSwan
+* WonderSwan Color
+* XaviXPORT
+* Xbox
+* Xbox 360
+* Xbox Cloud Gaming
+* Xbox One
+* Xbox Series
+* Xerox Alto
+* Z-machine
+* Zeebo
+* Zilog Z80
+* Zilog Z8000
+* Zodiac
+* Zune
+* ZX Spectrum
+* ZX Spectrum Next
+* ZX80
+* ZX81
 
 ## Developer's Location(s) (Required) 
 This is a drop-down field with a controlled vocabulary that includes all countries in the world. It is intended for the geographic location(s) of the game's developers, designers, writers, and other creators. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
