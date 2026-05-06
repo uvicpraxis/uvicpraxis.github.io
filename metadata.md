@@ -914,8 +914,8 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Text formatting / font size
 * Unlockable content
 
-## Platform(s) (Required)
-This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting (with minor changes) for our purposes. This data pertains to the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
+## Platform(s) and Engine(s) (Required)
+This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adapting (with additions and minor changes) for our purposes. This data pertains to the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
 * 1291 Advanced Programmable Video System
 * 3DO
 * ABC 80
@@ -960,6 +960,8 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * Browser
 * Bubble
 * Camputers Lynx
+* Casio FP-1000 / 1100
+* Casio Loopy
 * Casio Programmable Calculator
 * Casio PV-1000
 * CD-i
@@ -981,6 +983,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames th
 * COSMAC
 * CP/M
 * CreatiVision
+* Cybervision
 * DAI
 * Danger OS
 * Dedicated console
