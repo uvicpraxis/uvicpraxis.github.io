@@ -632,7 +632,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Upgrades 
 * Waiting
 
-## Management (Required)
+## Management
 This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. This data pertains to the clip. Multiple options may be selected, and they should be listed in alphabetical order. The options are:
 * Bonding / affinities
 * Business
