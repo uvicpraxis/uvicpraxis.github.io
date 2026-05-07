@@ -1707,10 +1707,10 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Self-published 
 
 ## ID (Required)
-This is a text input field without a controlled vocabulary. The ID is a number for internal reference and project maintenance. "003" is an example of data intended for this field.
+This is a text input field without a controlled vocabulary. The ID is a number for internal reference and project maintenance. "00003" is an example of data intended for this field.
 
 ## Content Warnings 
-This is a text input field without a controlled vocabulary. It is intended for content warnings for the game and not only the clip. "alcohol, tobacco, and references to physical violence, slavery, and colonization" is an example of data intended for this field.
+This is a text input field without a controlled vocabulary. It is intended for content warnings for the clip. "alcohol, tobacco, and references to physical violence, slavery, and colonization" is an example of data intended for this field.
 
 ## Clip Attribution (Required)
 This is a text input field without a controlled vocabulary. It is intended for the name of the person who recorded the gameplay footage. "Jentery Sayers" is an example of data intended for this field.
@@ -1719,10 +1719,10 @@ This is a text input field without a controlled vocabulary. It is intended for t
 This is a text input field without a controlled vocabulary. It is intended for the name of the person who entered the metadata. "Jeffrey Samers" is an example of data intended for this field.
 
 ## Comment (related or not to clip)
-This is a text input field without a controlled vocabulary. It is intended for a quotation from relevant scholarship, reviews, or criticism. Only one quotation should be included per clip. "'[I]n 80 Days Passepartout['s] perceived whiteness and masculinity and Frenchness never go unremarked. We don't treat these as though they are "normal," or automatically powerful. We mark bits of the map as off limits because of them, we have NPCs deny you authority and question your motives because of it. Whiteness and masculinity make you an outsider in 80 Days more often than it allows you within the circle. We remind players of Passepartout's social and cultural limitations. NPCs will often discuss their plans, goals, and ideas with Passepartout — but we very rarely allow Passepartout to make a choice for them.'  — [Meghna Jayanth](https://medium.com/@betterthemask/forget-protagonists-writing-npcs-with-agency-for-80-days-and-beyond-703201a2309) (writer for the game) in 2016" is an example of data intended for this field.
+This is a text input field without a controlled vocabulary. It is intended for a quotation from relevant scholarship, reviews, or criticism. Only one quotation should be included per clip. "'[I]n 80 Days Passepartout['s] perceived whiteness and masculinity and Frenchness never go unremarked. We don't treat these as though they are "normal," or automatically powerful. We mark bits of the map as off limits because of them, we have NPCs deny you authority and question your motives because of it. Whiteness and masculinity make you an outsider in 80 Days more often than it allows you within the circle. We remind players of Passepartout's social and cultural limitations. NPCs will often discuss their plans, goals, and ideas with Passepartout — but we very rarely allow Passepartout to make a choice for them.'  — [Meghna Jayanth](https://medium.com/@betterthemask/forget-protagonists-writing-npcs-with-agency-for-80-days-and-beyond-703201a2309) (critic) in 2016" is an example of data intended for this field.
 
 ## More Info (MobyGames) (Required)
 This is a text input field without a controlled vocabulary. It is intended for the game's MobyGames URL. "https://www.mobygames.com/game/72226/80-days/" is an example of data intended for this field.
 
 ## Filename (Required)
-This is a text input field without a controlled vocabulary. The filename is intended for internal reference and project maintenance. "80DaysAmphitriteExpressToParis.MP4" is an example of data intended for this field. Using Camel casing, the filename should include the title of the game followed by the title of the clip.
+This is a text input field without a controlled vocabulary. The filename is intended for internal reference and project maintenance. "80Days2014AmphitriteExpressToParis00003.mp4" is an example of data intended for this field. Using Camel casing, the filename should include the title of the game, followed by its release year, the title of the clip, and its internal reference ID.
