@@ -7,7 +7,7 @@ Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and co
 
 * [Game Title](#game-title-required)
 * [Release Year](#release-year-required)
-* [Title of Clip](#title-of-clips-required)
+* [Title of Clip](#title-of-clip-required)
 * [Length](#length-minutes-required)
 * [Genres](#genres-required)
 * [Gameplay](#gameplay-required)
