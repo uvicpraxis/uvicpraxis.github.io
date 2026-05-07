@@ -3,8 +3,6 @@ This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project 
 # Gameplay Footage Collection 
 This document contains the metadata terms and controlled vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored at UVic. We limit the number of clips per game to 10, and we do not include NSFW clips or clips that spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
 
-For search purposes, the metadata for each clip appears in its title, and all of the Collection's metadata is stored in a spreadsheet we update regularly. 
-
 Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and contributions from Callum Carroll-Ireton, Abby Fry, Reg Kachanoski, Maya Wei Yan Linsley, Héctor López Segarra, Emma Newton, Marie Silhova, and Christina Woods)
 
 * [Game Title](#game-title-required)
