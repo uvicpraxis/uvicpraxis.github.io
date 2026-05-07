@@ -1204,6 +1204,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames an
 * Lync
 * M.U.G.E.N.
 * Macintosh
+* macOS
 * Maemo
 * Magic Leap
 * Mainframe
