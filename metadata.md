@@ -710,6 +710,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Mascot game
 * Medium currency
 * Monetization
+* Non-commercial game
 * Open source
 * Out-of-game reward
 * Pay to win
