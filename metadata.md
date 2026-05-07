@@ -21,7 +21,7 @@ Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and co
 * [Non-Player Character](#non-player-character-required)
 * [Pacing](#pacing-required)
 * [Progression](#progression-required)
-* [Management](#management-required)
+* [Management](#management)
 * [Economic Elements](#economic-elements-required)
 * [Perspectives](#perspectives-required)
 * [Art and Presentation](#art-and-presentation-required)
