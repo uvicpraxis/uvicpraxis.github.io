@@ -13,7 +13,7 @@ Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and co
 * [Gameplay](#gameplay-required)
 * [Social and Play Options](#social-and-play-options-required)
 * [Mechanics](#mechanics-required)
-* [Metagames / Paragames](#metagames-paragames-required)
+* [Metagames / Paragames](#metagames--paragames-required)
 * [Settings](#settings-required)
 * [Areas and Environments](#areas-and-environments-required)
 * [Narrative](#narratives-required)
