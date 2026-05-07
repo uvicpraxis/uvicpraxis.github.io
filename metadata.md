@@ -1249,7 +1249,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames an
 * Nintendo 64
 * Nintendo DS
 * Nintendo DSi
-* Nintedno Switch
+* Nintendo Switch
 * Nintendo Switch 2
 * North Star
 * Northlight
