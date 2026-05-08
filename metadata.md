@@ -203,6 +203,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Eating / drinking
 * Eavesdropping
 * Emote
+* Equipping
 * Exploring
 * Falling
 * Farming
@@ -818,6 +819,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames an
 * Clock / timer
 * Codex
 * Collectibles
+* Combat
 * Crafting screen / window
 * Credits
 * Dialogue system
