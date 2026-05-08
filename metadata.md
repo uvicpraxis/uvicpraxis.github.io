@@ -47,11 +47,14 @@ This is a text input field without a controlled vocabulary. It is intended for t
 ## Release Year (Required)
 This is a text input field. It is intended for the year of the game's initial release on any platform. "2014" is an example of data intended for this field. 
 
+## Version Played (Required) 
+This is a text input field without a controlled vocabulary. It is intended to describe the version of the game played and should be completed with search in mind. It may include information about the release year of the version played, who published it, and on which platform and/or console the game was played and recorded. 
+
 ## Title of Clip (Required) 
-This is a text input field without a controlled vocabulary. It is intended for a description of the clip ("title of clip"), and the title should be created with search in mind. It may include quotations where appropriate. "'Amphitrite Express to Paris: Departing Now!': Making Decisions for Monsieur Fogg under Pressure" is an example of data intended for this field. 
+This is a text input field without a controlled vocabulary. It is intended to describe the clip ("title of clip"), and the title should be completed with search in mind. It may include quotations where appropriate. "'Amphitrite Express to Paris: Departing Now!': Making Decisions for Monsieur Fogg under Pressure" is an example of data intended for this field. 
 
 ## Length (Minutes) (Required)
-This is a text input field. It is intended for the length of the clip in minutes. "2:04" is an example of data intended for this field. 
+This is a text input field. It is intended to specify the clip length in minutes. "2:04" is an example of data intended for this field. 
 
 ## Genre(s) (Required) 
 This is a drop-down field with a controlled vocabulary developed by MobyGames that we are adopting. This data pertains to the entire game. Multiple options may be selected, and they should be listed in alphabetical order. The options are: 
