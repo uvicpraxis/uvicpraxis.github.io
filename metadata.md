@@ -213,6 +213,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Foraging / gathering
 * Gachapon
 * Hacking
+* Healing
 * Hunger / thirst
 * Jumping / leaping
 * Logic puzzle
