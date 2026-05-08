@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 6 May 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 7 May 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
 
 # Gameplay Footage Collection: Metadata Scheme
 This document contains the metadata terms and controlled vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored at UVic. We limit the number of clips per game to 10, and we do not include NSFW clips or clips that spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
@@ -173,7 +173,6 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Accelerating 
 * Aiming
 * Alignment
-* Attacking
 * Auctioning
 * Balancing
 * Barricading
@@ -201,6 +200,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Dodging
 * Drawing
 * Driving
+* Eating / drinking
 * Eavesdropping
 * Emote
 * Exploring
@@ -220,6 +220,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Matching
 * Math puzzle
 * Mechanical puzzle
+* Melee attack
 * Monster raising
 * Nonverbal communication
 * Parrying
@@ -234,6 +235,7 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * Pulling
 * Pushing
 * Quick Time Events
+* Ranged attack
 * Researching
 * Rewinding
 * Riding
@@ -527,6 +529,8 @@ This is a drop-down field with a controlled vocabulary developed by the Praxis S
 * PC is an immigrant
 * PC is non-corporeal
 * PC is pregnant
+* PC is strong
+* PC is weak
 * Poor PC
 * Queer PC
 * Racialized PC
