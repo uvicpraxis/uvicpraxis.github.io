@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 7 May 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 14 May 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
 
 # Gameplay Footage Collection: Metadata Scheme
 This document contains the metadata terms and controlled vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored at UVic. We limit the number of clips per game to 10, and we do not include NSFW clips or clips that spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
@@ -7,6 +7,7 @@ Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and co
 
 * [Game Title](#game-title-required)
 * [Release Year](#release-year-required)
+* [Version Played](#version-played)
 * [Title of Clip](#title-of-clip-required)
 * [Length](#length-minutes-required)
 * [Genres](#genres-required)
@@ -37,7 +38,8 @@ Project leads at UVic: Jentery Sayers and Charlie Susheski (with feedback and co
 * [Content Warnings](#content-warnings)
 * [Clip Attribution](#clip-attribution-required)
 * [Metadata Attribution](#metadata-attribution-required)
-* [Comment](#comment-related-or-not-to-clip)
+* [Reception](#reception)
+* [Keywords](#keywords-required)
 * [More Info](#more-info-mobygames-required)
 * [Filename](#filename-required)
 
@@ -48,7 +50,7 @@ This is a text input field without a controlled vocabulary. It is intended for t
 This is a text input field. It is intended for the year of the game's initial release on any platform. "2014" is an example of data intended for this field. 
 
 ## Version Played (Required) 
-This is a text input field without a controlled vocabulary. It is intended to describe the version of the game played and should be completed with search in mind. It may include information about the release year of the version played, who published it, and on which platform and/or console the game was played and recorded. 
+This is a text input field without a controlled vocabulary. It is intended to describe the version of the game played and should be completed with search in mind. It may include information about the release year of the version played, who developed and published it, and on which platform and/or console the game was played and recorded. 
 
 ## Title of Clip (Required) 
 This is a text input field without a controlled vocabulary. It is intended to describe the clip ("title of clip"), and the title should be completed with search in mind. It may include quotations where appropriate. "'Amphitrite Express to Paris: Departing Now!': Making Decisions for Monsieur Fogg under Pressure" is an example of data intended for this field. 
@@ -1728,8 +1730,11 @@ This is a text input field without a controlled vocabulary. It is intended for t
 ## Metadata Attribution (Required)
 This is a text input field without a controlled vocabulary. It is intended for the name of the person who entered the metadata. "Jeffrey Samers" is an example of data intended for this field.
 
-## Comment (related or not to clip)
+## Reception
 This is a text input field without a controlled vocabulary. It is intended for a quotation from relevant scholarship, reviews, or criticism. Only one quotation should be included per clip. "'[I]n 80 Days Passepartout['s] perceived whiteness and masculinity and Frenchness never go unremarked. We don't treat these as though they are "normal," or automatically powerful. We mark bits of the map as off limits because of them, we have NPCs deny you authority and question your motives because of it. Whiteness and masculinity make you an outsider in 80 Days more often than it allows you within the circle. We remind players of Passepartout's social and cultural limitations. NPCs will often discuss their plans, goals, and ideas with Passepartout — but we very rarely allow Passepartout to make a choice for them.'  — [Meghna Jayanth](https://medium.com/@betterthemask/forget-protagonists-writing-npcs-with-agency-for-80-days-and-beyond-703201a2309) (critic) in 2016" is an example of data intended for this field.
+
+## Keywords (Required) 
+This is a drop-down field with a controlled vocabulary developed by the Praxis Studio. It is intended for pedagogical purposes, as it includes Game Studies keywords for teaching and learning. Multiple options may be selected, and they should be listed in alphabetical order. The options are forthcoming. 
 
 ## More Info (MobyGames) (Required)
 This is a text input field without a controlled vocabulary. It is intended for the game's MobyGames URL. "https://www.mobygames.com/game/72226/80-days/" is an example of data intended for this field.
