@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 14 May 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 10 November 2025 and last updated it on 18 May 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
 
 # Gameplay Footage Collection: Metadata Scheme
 This document contains the metadata terms and controlled vocabularies for the Praxis Studio's Gameplay Footage Collection. The Collection is intended for teaching, learning, and research in Media Studies at UVic. It contains short clips (30 seconds to five minutes long) of gameplay stored at UVic. We limit the number of clips per game to 10, and we do not include NSFW clips or clips that spoil a game's ending(s). Most clips contain footage from the first three hours of a game. 
@@ -1093,6 +1093,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames an
 * Enforce
 * Enigma Engine
 * Enterprise
+* Epic Games
 * Epoch Cassette Vision
 * Epoch Game Pocket Computer
 * Epoch Super Cassette Vision
@@ -1130,6 +1131,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames an
 * Gamebryo
 * GameCube
 * GameMaker
+* Games.gg
 * GameSalad
 * GameStick
 * Gamestudio
@@ -1379,6 +1381,7 @@ This is a drop-down field with a controlled vocabulary developed by MobyGames an
 * SRI-500 / 1000
 * Stadia
 * Starling Framework
+* Steam
 * Stencyl
 * StepMania
 * Stingray (Autodesk)
