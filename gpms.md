@@ -1,6 +1,6 @@
 This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 with feedback from Praxis Studio researchers. It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
 
-# Gameplay Metadata Schema (GPMS)
+# Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
 An adaptation of Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 
