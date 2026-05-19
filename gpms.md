@@ -4,8 +4,6 @@ This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project 
 
 An adaptation of Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 
-This file was created on 19 May 2026. 
-
 Elements marked with [R] are required.
 Elements marked with [+] are repeatable.
 
