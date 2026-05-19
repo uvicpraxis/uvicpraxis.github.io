@@ -7,6 +7,12 @@ This file was created on 19 May 2026.
 Elements marked with [R] are required.
 Elements marked with [+] are repeatable.
 
+* [Game Edition Entity](game-edition-entity)
+* [Gameplay File Entity](gameplay-file-entity)
+* [Gameplay Settings Entity](gameplay-settings-entity)
+* [Gameplay Footage Entity](gameplay-footage-entity)
+* [Gameplay Instruction Entity](gameplay-instruction-entity) 
+
 ## Game Edition Entity
 
 Description coming soon. 
@@ -235,7 +241,7 @@ controlled vocabulary [R][+]
 
 text input field 
 
-## Instruction Entity 
+## Gameplay Instruction Entity 
 
 ### Pertinent Topics
 
