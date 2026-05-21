@@ -32,7 +32,7 @@ Definition: "Denotes a particular instantiation of a video game. An edition may 
 
 * [Game Title](#game-title)
 * [Release Year](#release-year)
-* [Release Type](#release-year)
+* [Release Type](#release-type)
 * [Platform](#platform)
 * [Engine](#engine)
 * [Developer](#developer)
@@ -629,7 +629,12 @@ text input field [R][+]
 Definition: The geographic location of the platform edition's developer(s)
 
 <details>
-<summary>controlled vocabulary [R][+]</summary>
+
+<summary>
+
+#### controlled vocabulary [R][+]
+
+</summary>
 
 * Afghanistan
 * Albania
