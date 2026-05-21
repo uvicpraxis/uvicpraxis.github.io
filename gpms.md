@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and updated it on 21 May 2026 with feedback from the Praxis Studio and Humanities Computing and Media Centre at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document*<li>in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and updated it on 21 May 2026 with feedback from the Praxis Studio and Humanities Computing and Media Centre at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
