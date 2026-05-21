@@ -18,30 +18,30 @@ See citations below for specific instances of adaptation.
 Elements marked with [R] are required.
 Elements marked with [+] are repeatable.
 
-* [Platform Edition Entity](#platform-edition-entity)
-* [Gameplay File Entity](#gameplay-file-entity)
-* [Gameplay Settings Entity](#gameplay-settings-entity)
-* [Gameplay Footage Entity](#gameplay-footage-entity)
-* [Gameplay Instruction Entity](#gameplay-instruction-entity) 
+1. [Platform Edition Entity](#platform-edition-entity)
+2. [Gameplay File Entity](#gameplay-file-entity)
+3. [Gameplay Settings Entity](#gameplay-settings-entity)
+4. [Gameplay Footage Entity](#gameplay-footage-entity)
+5. [Gameplay Instruction Entity](#gameplay-instruction-entity) 
 
-## Platform Edition Entity
+## 1. Platform Edition Entity
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
 
 *The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the PRGFC.*
 
-* [Game Title](#game-title) (text input field)
-* [Release Year](#release-year) (text input field)
-* [Release Type](#release-type) (controlled vocabulary)
-* [Platform](#platform) (controlled vocabulary)
-* [Engine](#engine) (controlled vocabulary)
-* [Developer](#developer) (text input field)
-* [Developer's Location](#developers-location) (controlled vocabulary)
-* [Publisher](#publisher) (text input field)
-* [Publisher Class](#publisher-class) (controlled vocabulary)
-* [Edition Note](#edition-note) (text input field)
+* [Game Title](#1a-game-title) (text input field)
+* [Release Year](#1b-release-year) (text input field)
+* [Release Type](#1c-release-type) (controlled vocabulary)
+* [Platform](#1d-platform) (controlled vocabulary)
+* [Engine](#1e-engine) (controlled vocabulary)
+* [Developer](#1f-developer) (text input field)
+* [Developer's Location](#1g-developers-location) (controlled vocabulary)
+* [Publisher](#1h-publisher) (text input field)
+* [Publisher Class](#1i-publisher-class) (controlled vocabulary)
+* [Edition Note](#1-j-edition-note) (text input field)
 
-### Game Title
+### 1A. Game Title
 
 Definition: The proper name used to refer to the platform edition as assigned by its developer and/or publisher (Lee et al. 2024; CIDOC 2011).
 
@@ -49,7 +49,7 @@ Provide the complete game title. Avoid using an alternative, abbreviated, or col
 
 text input field [R]
 
-### Release Year
+### 1B. Release Year
 
 Definition: The year the platform edition was publicly/commercially released (Lee et al. 2024). 
 
@@ -57,7 +57,7 @@ The edition's release year may differ from the game's initial release year.
 
 text input field; format: YYYY [R]
 
-### Release Type
+### 1C. Release Type
 
 Definition: The platform edition's release type as assigned by its developer and/or publisher. 
 
@@ -81,7 +81,7 @@ Definition: The platform edition's release type as assigned by its developer and
 </ul>
 </details>
 
-### Platform
+### 1D. Platform
 Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al. 2024).
 
 <details>
@@ -441,7 +441,7 @@ Definition: The operating system, device, computer, console, and/or service on w
 </ul>
 </details>
 
-### Engine 
+### 1E. Engine 
 
 Definition: The software framework and/or development environment used to design the platform edition.
 
@@ -626,13 +626,13 @@ Definition: The software framework and/or development environment used to design
 </ul>
 </details>
 
-### Developer 
+### 1F. Developer 
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al. 2024; IFLA 2009)
 
 text input field [R][+]
 
-### Developer's Location
+### 1G. Developer's Location
 
 Definition: The geographic location of the platform edition's developer(s)
 
@@ -855,13 +855,13 @@ Definition: The geographic location of the platform edition's developer(s)
 </ul>
 </details>
 
-### Publisher 
+### 1H. Publisher 
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al. 2024; IFLA 2009)
 
 text input field [R][+]
 
-### Publisher Class 
+### 1I. Publisher Class 
 
 Defintion: A term used to describe the size, profile, and/or budget of the publisher and, in some cases, the developer, too
 <details>
@@ -875,93 +875,118 @@ Defintion: A term used to describe the size, profile, and/or budget of the publi
 </ul>
 </details>
 
-### Edition Note 
+### 1J. Edition Note 
 
 Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al. 2024). 
 
 text input field 
 
-## Gameplay File Entity 
+## 2. Gameplay File Entity 
 
 Description coming soon. 
 
-### Title of Clip
+* [Title of Clip](#2a-title-of-clip) (text input field)
+* [Length of Clip](#2b-length-of-clip) (text input field) 
+* [Date Recorded](#2c-date-recorded) (text input field) 
+* [Commentary](#2d-commentary) (controlled vocabulary)
+* [Gameplay Attribution](#2e-gameplay-attribution) (text input field)
+* [Metadata Attribution](#2f-metadata-attribution) (text input field) 
+* [ID](#2g-id) (text input field) 
+* [Filename](#2h-filename) (text inpout field) 
+* [Gameplay File Note](#2i-gameplay-file-note) (text input field)
+
+### 2A. Title of Clip
 
 text input field [R]
 
-### Length of Clip
+### 2B. Length of Clip
 
 text input field [R]
 
-### Date Recorded
+### 2C. Date Recorded
 
 text input field [R]
 
-### Commentary
+### 2D. Commentary
 
 controlled vocabulary [R]
 
-### Gameplay Attribution 
+### 2E. Gameplay Attribution 
 
 text input field [R][+]
 
-### Metadata Attribution
+### 2F. Metadata Attribution
 
 text input field [R][+]
 
-### ID 
+### 2G. ID 
 
 text input field [R]
 
-### Filename
+### 2H. Filename
 
 text input field [R]
 
-## Gameplay Settings Entity 
-
-Description coming soon. 
-
-### Input Device
-
-controlled vocabulary [R][+]
-
-### Networked Feature
-
-controlled vocabulary [R][+]
-
-### Number of Players 
-
-controlled vocabulary [R][+]
-
-### Type of Play
-
-controlled vocabulary [R][+]
-
-### Mode of Play
-
-controlled vocabulary [R][+]
-
-### Language 
-
-text input field [R][+]
-
-### Accessibility
-
-controlled vocabulary [R][+]
-
-### Technical
-
-controlled vocabulary [R][+]
-
-### Mods
-
-text input field [R][+]
-
-### Settings Note
+### 2I. Gameplay File Note
 
 text input field 
 
-## Gameplay Footage Entity
+## 3. Gameplay Settings Entity 
+
+Description coming soon. 
+
+* [Input Device](#3a-input-device) (controlled vocabulary)
+* [Networked Feature](#3b-networked-feature) (controlled vocabulary) 
+* [Number of Players](#3c-number-of-players) (controlled vocabulary) 
+* [Type of Play](#3d-type-of-play) (controlled vocabulary) 
+* [Mode of Play](#3e-mode-of-play) (controlled vocabulary) 
+* [Language](#3f-language) (text input field) 
+* [Accessibility](#3g-accessibility) (controlled vocabulary) 
+* [Technical](#3h-technical) (controlled vocabulary) 
+* [Mods](#3i-mods) (text input field) 
+* [Settings Note](#3j-settings-note) 
+
+### 3A. Input Device
+
+controlled vocabulary [R][+]
+
+### 3B. Networked Feature
+
+controlled vocabulary [R][+]
+
+### 3C. Number of Players 
+
+controlled vocabulary [R][+]
+
+### 3D. Type of Play
+
+controlled vocabulary [R][+]
+
+### 3E. Mode of Play
+
+controlled vocabulary [R][+]
+
+### 3F. Language 
+
+text input field [R][+]
+
+### 3G. Accessibility
+
+controlled vocabulary [R][+]
+
+### 3H. Technical
+
+controlled vocabulary [R][+]
+
+### 3I. Mods
+
+text input field [R][+]
+
+### 3J. Settings Note
+
+text input field 
+
+## 4. Gameplay Footage Entity
 
 Description coming soon. 
 
@@ -1065,7 +1090,7 @@ controlled vocabulary [R][+]
 
 text input field 
 
-## Gameplay Instruction Entity 
+## 5. Gameplay Instruction Entity 
 
 ### Pertinent Topics
 
