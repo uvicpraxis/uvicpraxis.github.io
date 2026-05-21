@@ -2,7 +2,7 @@ This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project 
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing files in the Press Record Gameplay Footage Collection: 
+This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing files in the Press Record Gameplay Footage Collection (PRGPFC): 
 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [http://www.cidoc-crm.org/index.html](http://www.cidoc-crm.org/index.html)
@@ -13,7 +13,7 @@ This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/l
 
 See citations below for specific instances of adaptation. 
 
-"PRGFC" refers to the Press Record Gameplay Footage Collection. 
+"PRGPFC" refers to the Press Record Gameplay Footage Collection. 
 
 Elements marked with [R] are required.
 Elements marked with [+] are repeatable.
@@ -28,7 +28,7 @@ Elements marked with [+] are repeatable.
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
 
-*The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the PRGFC.*
+*The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the PRGPFC.*
 
 * [Game Title](#1a-game-title) (text input field)
 * [Release Year](#1b-release-year) (text input field)
