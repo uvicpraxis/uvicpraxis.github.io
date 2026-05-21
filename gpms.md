@@ -39,7 +39,7 @@ Definition: "Denotes a particular instantiation of a video game. An edition may 
 * [Developer's Location](#1g-developers-location) (controlled vocabulary)
 * [Publisher](#1h-publisher) (text input field)
 * [Publisher Class](#1i-publisher-class) (controlled vocabulary)
-* [Edition Note](#1-j-edition-note) (text input field)
+* [Edition Note](#1j-edition-note) (text input field)
 
 ### 1A. Game Title
 
@@ -47,7 +47,7 @@ Definition: The proper name used to refer to the platform edition as assigned by
 
 Provide the complete game title. Avoid using an alternative, abbreviated, or colloquial title. 
 
-text input field [R]
+*text input field* [R]
 
 ### 1B. Release Year
 
@@ -55,14 +55,14 @@ Definition: The year the platform edition was publicly/commercially released (Le
 
 The edition's release year may differ from the game's initial release year. 
 
-text input field; format: YYYY [R]
+*text input field; format: YYYY* [R]
 
 ### 1C. Release Type
 
 Definition: The platform edition's release type as assigned by its developer and/or publisher. 
 
 <details>
-<summary>controlled vocabulary [R][+]</summary>
+<summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
 <li>Alpha</li>
 <li>Beta</li>
@@ -85,7 +85,7 @@ Definition: The platform edition's release type as assigned by its developer and
 Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al. 2024).
 
 <details>
-<summary>controlled vocabulary (adapted from Poff and Atari 2025) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025) [R][+]</summary>
 <ul>
 <li>1291 Advanced Programmable Video System</li>
 <li>3DO</li>
@@ -446,7 +446,7 @@ Definition: The operating system, device, computer, console, and/or service on w
 Definition: The software framework and/or development environment used to design the platform edition.
 
 <details>
-<summary>controlled vocabulary (adapted from Wikipedia 2025) [+]</summary>
+<summary><i>controlled vocabulary</i> (adapted from Wikipedia 2025) [+]</summary>
 <ul>
 <li>4A Engine</li>
 <li>A-FRAME (VR)</li>
@@ -630,14 +630,14 @@ Definition: The software framework and/or development environment used to design
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al. 2024; IFLA 2009)
 
-text input field [R][+]
+*text input field* [R][+]
 
 ### 1G. Developer's Location
 
 Definition: The geographic location of the platform edition's developer(s)
 
 <details>
-<summary>controlled vocabulary [R][+]</summary>
+<summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
 <li>Afghanistan</li>
 <li>Albania</li>
@@ -859,13 +859,13 @@ Definition: The geographic location of the platform edition's developer(s)
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al. 2024; IFLA 2009)
 
-text input field [R][+]
+*text input field* [R][+]
 
 ### 1I. Publisher Class 
 
 Defintion: A term used to describe the size, profile, and/or budget of the publisher and, in some cases, the developer, too
 <details>
-<summary>controlled vocabulary [R][+]</summary>
+<summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
 <li>AAA</li>
 <li>AA </li>
@@ -879,7 +879,7 @@ Defintion: A term used to describe the size, profile, and/or budget of the publi
 
 Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al. 2024). 
 
-text input field 
+*text input field*
 
 ## 2. Gameplay File Entity 
 
