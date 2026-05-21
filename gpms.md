@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and updated it on 21 May 2026 with feedback from the Praxis Studio and Humanities Computing and Media Centre at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document** in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and updated it on 21 May 2026 with feedback from the Praxis Studio and Humanities Computing and Media Centre at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document*<li>in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -30,16 +30,16 @@ Definition: "Denotes a particular instantiation of a video game. An edition may 
 
 *The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the PRGFC.*
 
-* [Game Title](#game-title)
-* [Release Year](#release-year)
-* [Release Type](#release-type)
-* [Platform](#platform)
-* [Engine](#engine)
-* [Developer](#developer)
-* [Developer's Location](#developers-location)
-* [Publisher](#publisher)
-* [Publisher Class](#publisher-class)
-* [Edition Note](#edition-note)
+* [Game Title](#game-title) (text input field)
+* [Release Year](#release-year) (text input field)
+* [Release Type](#release-type) (controlled vocabulary)
+* [Platform](#platform) (controlled vocabulary)
+* [Engine](#engine) (controlled vocabulary)
+* [Developer](#developer) (text input field)
+* [Developer's Location](#developers-location) (controlled vocabulary)
+* [Publisher](#publisher) (text input field)
+* [Publisher Class](#publisher-class) (controlled vocabulary)
+* [Edition Note](#edition-note) (text input field)
 
 ### Game Title
 
@@ -61,562 +61,570 @@ text input field; format: YYYY [R]
 
 Definition: The platform edition's release type as assigned by its developer and/or publisher. 
 
-controlled vocabulary [R][+]
-
-* Alpha
-* Beta
-* Demo
-* Downloadable content (DLC)
-* Early access
-* Emulation
-* Fan game
-* Initial release
-* Patch
-* Port
-* Reboot
-* Remake
-* Remaster
-* Unfinished
+<details>
+<summary>controlled vocabulary [R][+]</summary>
+<ul>
+<li>Alpha</li>
+<li>Beta</li>
+<li>Demo</li>
+<li>Downloadable content (DLC)</li>
+<li>Early access</li>
+<li>Emulation</li>
+<li>Fan game</li>
+<li>Initial release</li>
+<li>Patch</li>
+<li>Port</li>
+<li>Reboot</li>
+<li>Remake</li>
+<li>Remaster</li>
+<li>Unfinished</li>
+</ul>
+</details>
 
 ### Platform
-
 Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al. 2024).
 
-controlled vocabulary (adapted from Poff and Atari 2025) [R][+]
-
-* 1291 Advanced Programmable Video System
-* 3DO
-* ABC 80
-* Acorn 32-bit
-* Adventure Vision
-* AirConsole
-* Alice 32/90
-* Altair 680
-* Altair 8800
-* Amazon Alexa
-* Amiga
-* Amiga CD32
-* Amstrad CPC
-* Amstrad PCW
-* Android
-* Anstream
-* APF MP1000 / Imagination Machine
-* Apple I
-* Apple II
-* Apple IIgs
-* Arcade
-* Arcadia 2001
-* Arduboy
-* Astral 2000
-* Atari 2600
-* Atari 5200
-* Atari 7800
-* Atari 8-bit
-* Atari ST
-* Atari VCS
-* Atom
-* Auto Response Board
-* bada
-* Bally Astrocade
-* Bandai RX-78 Gundam
-* BBC Micro
-* BeOS
-* BlackBerry
-* Blacknut
-* Blu-ray disc player
-* BREW
-* Browser
-* Bubble
-* Camputers Lynx
-* Casio FP-1000 / 1100
-* Casio Loopy
-* Casio Programmable Calculator
-* Casio PV-1000
-* CD-i
-* CDTV
-* Champion 2711
-* Channel F
-* ClickStart
-* Coleco Adam
-* ColecoVision
-* Colour Genie
-* Commodore 128
-* Commodore 16, Plus/4
-* Commodore 64
-* Commodore PET/CBM
-* Compal 80
-* Compucolor I
-* Compucolor II
-* Compucorp Programmable Calculator
-* COSMAC
-* CP/M
-* CreatiVision
-* Cybervision
-* DAI
-* Danger OS
-* Dedicated console
-* Dedicated handheld
-* Didj
-* digiBlast
-* DoJa
-* DOS
-* Dragon 32/64
-* Dreamcast
-* DVD Player
-* ECD Micromind
-* Electron
-* Enterprise
-* Epoch Cassette Vision
-* Epoch Game Pocket Computer
-* Epoch Super Cassette Vision
-* Evercade
-* Excelvision
-* ExEn
-* Exidy Sorcerer
-* Feature phone
-* Fire OS
-* FM Towns
-* FM-7
-* Freebox
-* FreeBSD
-* G-cluster
-* Galaksija
-* Game Boy
-* Game Boy Advance
-* Game Boy Color
-* Game Gear
-* Game Wave
-* Game.com
-* GameCube
-* GameStick
-* Genesis
-* GIMINI
-* Gizmondo
-* Gloud
-* Glulx
-* GNEX
-* GP2X
-* GP2X Wix
-* GP32
-* GVM
-* HD DVD player
-* Heath/Zenith H8/H89
-* Heathkit H11
-* Hitachi Basic Master
-* Hitachi Basic Master Level 3
-* Hitachi H68/TR
-* Hitachi SI
-* HP 9800
-* HP Oscilloscope
-* HP Programmable Calculator
-* HP Series 80
-* Hugo
-* HyperScan
-* IBM 5100
-* Ideal-Computer
-* iiRcade
-* Intel 8008
-* Intel 8080
-* Intel 8086 / 8088
-* Intellivision
-* Interact Model One
-* Interton Video 2000
-* iPad
-* iPhone
-* iPod Classic
-* J2ME
-* Jaguar
-* Jolt
-* Jupiter Ace
-* KaiOS
-* KIM-1
-* Kindle Classic
-* Laser 200
-* LaserActive
-* LeapFrog Explorer
-* Leapster
-* LeapTV
-* Linux
-* Lkit-16
-* Luna
-* Lynx
-* Macintosh
-* macOS
-* Maemo
-* Magic Leap
-* Mainframe
-* Marvel 2000
-* Matsushita / Panasonic JR
-* Mattel Aquarius
-* MeeGo
-* Memotech MTX
-* Meritum
-* Microbee
-* Microtan 65
-* Microvision
-* Mitsubishi Multi-8
-* Modular Game System
-* Mophun
-* MOS Technology 6502
-* Motorola 6800
-* Motorola 68k
-* MRE
-* MSX
-* N-Gage
-* N-Gage (service)
-* Nascom
-* NEC TK-80
-* Neo Geo
-* Neo Geo CD
-* Neo Geo Pocket
-* Neo Geo Pocket Color
-* Neo Geo X
-* NES
-* NetBSD
-* New Nintendo 3DS
-* NewBrain
-* Newton
-* Nintendo 3DS
-* Nintendo 64
-* Nintendo DS
-* Nintendo DSi
-* Nintendo Switch
-* Nintendo Switch 2
-* North Star
-* Noval 760
-* Nuon
-* Oculus Go
-* Odyssey
-* Odyssey 2
-* Ohio Scientific
-* OnLive
-* OOParts
-* OpenBSD
-* Orao
-* Oric
-* OS/2
-* Ouya
-* Palm OS
-* Pandora
-* PC Booter
-* PC-6001
-* PC-8000
-* PC-88
-* PC-98
-* PC-FX
-* Pebble
-* Philips P200
-* Philips VG 5000
-* Photo CD
-* PICO
-* Pippin
-* Playdate
-* Playdia
-* PlayStation
-* PlayStation 2
-* PlayStation 3
-* PlayStation 4
-* PlayStation 5
-* PlayStation Now
-* Plex Arcade
-* Pokitto
-* Pokémon Mini
-* Poly-88
-* PS Vita
-* PSP
-* Quest
-* RCA Studio II
-* Research Machines 380Z
-* Roblox
-* Roku
-* SAM Coupé
-* SC/MP
-* SD-200 / 270 / 290
-* SEGA 32X
-* SEGA CD
-* SEGA Master System
-* SEGA Pico
-* SEGA Saturn
-* SG-1000
-* Sharp MZ-80B / 2000 / 2500
-* Sharp MZ-80K / 700 / 800 / 1500
-* Sharp X1
-* Sharp X68000
-* Sharp Zaurus
-* Signetics 2650
-* Sinclair QL
-* SK-VM
-* SMC-777
-* SNES
-* Socrates
-* Sol-20
-* Solaris
-* Sord M5
-* SPC-1000
-* Spectravideo
-* SRI-500 / 1000
-* Stadia
-* Steam
-* Steam Deck
-* Super A'can
-* Super Vision 8000
-* SuperGrafx
-* Supervision
-* Sure Shot HD
-* SWTPC 6800
-* Symbian
-* TADS
-* Taito X-55
-* Tatung Einstein
-* Tektronix 4050
-* Tele-Spiel ES-2201
-* Telstar Arcade
-* TempleOS
-* Terminal
-* Thomson MO
-* Thomson TO
-* TI Programmable Calculator
-* TI-99 / 4A
-* TIC-80
-* Tiki 100
-* TIM
-* Timex Sinclair 2068
-* Tizen
-* Tomahawk F1
-* Tomy Tutor
-* Toshiba Ex-80
-* Toshiba Pasopia
-* Triton
-* TRS-80
-* TRS-80 CoCo
-* TRS-80 MC-10
-* TRS-80 Model 100
-* TurboGrafx CD
-* TurboGrafx-16
-* tvOS
-* V.Flash
-* V.Smile
-* Vectrex
-* Versatile
-* VIC-20
-* VideoBrain
-* Videopac+ G7400
-* Virtual Boy
-* VIS
-* visionOS
-* Wang 2200
-* watchOS
-* webOS
-* Wii
-* Wii U
-* Windows
-* Windows 16-bit
-* Windows Apps
-* Windows Mobile
-* Windows Phone
-* WIPI
-* WonderSwan
-* WonderSwan Color
-* XaviXPORT
-* Xbox
-* Xbox 360
-* Xbox Cloud Gaming
-* Xbox One
-* Xbox Series
-* Xerox Alto
-* Z-machine
-* Zeebo
-* Zilog Z80
-* Zilog Z8000
-* Zillions of Games
-* Zodiac
-* Zune
-* ZX Spectrum
-* ZX Spectrum Next
-* ZX80
-* ZX81
+<details>
+<summary>controlled vocabulary (adapted from Poff and Atari 2025) [R][+]</summary>
+<ul>
+<li>1291 Advanced Programmable Video System</li>
+<li>3DO</li>
+<li>ABC 80</li>
+<li>Acorn 32-bit</li>
+<li>Adventure Vision</li>
+<li>AirConsole</li>
+<li>Alice 32/90</li>
+<li>Altair 680</li>
+<li>Altair 8800</li>
+<li>Amazon Alexa</li>
+<li>Amiga</li>
+<li>Amiga CD32</li>
+<li>Amstrad CPC</li>
+<li>Amstrad PCW</li>
+<li>Android</li>
+<li>Anstream</li>
+<li>APF MP1000 / Imagination Machine</li>
+<li>Apple I</li>
+<li>Apple II</li>
+<li>Apple IIgs</li>
+<li>Arcade</li>
+<li>Arcadia 2001</li>
+<li>Arduboy</li>
+<li>Astral 2000</li>
+<li>Atari 2600</li>
+<li>Atari 5200</li>
+<li>Atari 7800</li>
+<li>Atari 8-bit</li>
+<li>Atari ST</li>
+<li>Atari VCS</li>
+<li>Atom</li>
+<li>Auto Response Board</li>
+<li>bada</li>
+<li>Bally Astrocade</li>
+<li>Bandai RX-78 Gundam</li>
+<li>BBC Micro</li>
+<li>BeOS</li>
+<li>BlackBerry</li>
+<li>Blacknut</li>
+<li>Blu-ray disc player</li>
+<li>BREW</li>
+<li>Browser</li>
+<li>Bubble</li>
+<li>Camputers Lynx</li>
+<li>Casio FP-1000 / 1100</li>
+<li>Casio Loopy</li>
+<li>Casio Programmable Calculator</li>
+<li>Casio PV-1000</li>
+<li>CD-i</li>
+<li>CDTV</li>
+<li>Champion 2711</li>
+<li>Channel F</li>
+<li>ClickStart</li>
+<li>Coleco Adam</li>
+<li>ColecoVision</li>
+<li>Colour Genie</li>
+<li>Commodore 128</li>
+<li>Commodore 16, Plus/4</li>
+<li>Commodore 64</li>
+<li>Commodore PET/CBM</li>
+<li>Compal 80</li>
+<li>Compucolor I</li>
+<li>Compucolor II</li>
+<li>Compucorp Programmable Calculator</li>
+<li>COSMAC</li>
+<li>CP/M</li>
+<li>CreatiVision</li>
+<li>Cybervision</li>
+<li>DAI</li>
+<li>Danger OS</li>
+<li>Dedicated console</li>
+<li>Dedicated handheld</li>
+<li>Didj</li>
+<li>digiBlast</li>
+<li>DoJa</li>
+<li>DOS</li>
+<li>Dragon 32/64</li>
+<li>Dreamcast</li>
+<li>DVD Player</li>
+<li>ECD Micromind</li>
+<li>Electron</li>
+<li>Enterprise</li>
+<li>Epoch Cassette Vision</li>
+<li>Epoch Game Pocket Computer</li>
+<li>Epoch Super Cassette Vision</li>
+<li>Evercade</li>
+<li>Excelvision</li>
+<li>ExEn</li>
+<li>Exidy Sorcerer</li>
+<li>Feature phone</li>
+<li>Fire OS</li>
+<li>FM Towns</li>
+<li>FM-7</li>
+<li>Freebox</li>
+<li>FreeBSD</li>
+<li>G-cluster</li>
+<li>Galaksija</li>
+<li>Game Boy</li>
+<li>Game Boy Advance</li>
+<li>Game Boy Color</li>
+<li>Game Gear</li>
+<li>Game Wave</li>
+<li>Game.com</li>
+<li>GameCube</li>
+<li>GameStick</li>
+<li>Genesis</li>
+<li>GIMINI</li>
+<li>Gizmondo</li>
+<li>Gloud</li>
+<li>Glulx</li>
+<li>GNEX</li>
+<li>GP2X</li>
+<li>GP2X Wix</li>
+<li>GP32</li>
+<li>GVM</li>
+<li>HD DVD player</li>
+<li>Heath/Zenith H8/H89</li>
+<li>Heathkit H11</li>
+<li>Hitachi Basic Master</li>
+<li>Hitachi Basic Master Level 3</li>
+<li>Hitachi H68/TR</li>
+<li>Hitachi SI</li>
+<li>HP 9800</li>
+<li>HP Oscilloscope</li>
+<li>HP Programmable Calculator</li>
+<li>HP Series 80</li>
+<li>Hugo</li>
+<li>HyperScan</li>
+<li>IBM 5100</li>
+<li>Ideal-Computer</li>
+<li>iiRcade</li>
+<li>Intel 8008</li>
+<li>Intel 8080</li>
+<li>Intel 8086 / 8088</li>
+<li>Intellivision</li>
+<li>Interact Model One</li>
+<li>Interton Video 2000</li>
+<li>iPad</li>
+<li>iPhone</li>
+<li>iPod Classic</li>
+<li>J2ME</li>
+<li>Jaguar</li>
+<li>Jolt</li>
+<li>Jupiter Ace</li>
+<li>KaiOS</li>
+<li>KIM-1</li>
+<li>Kindle Classic</li>
+<li>Laser 200</li>
+<li>LaserActive</li>
+<li>LeapFrog Explorer</li>
+<li>Leapster</li>
+<li>LeapTV</li>
+<li>Linux</li>
+<li>Lkit-16</li>
+<li>Luna</li>
+<li>Lynx</li>
+<li>Macintosh</li>
+<li>macOS</li>
+<li>Maemo</li>
+<li>Magic Leap</li>
+<li>Mainframe</li>
+<li>Marvel 2000</li>
+<li>Matsushita / Panasonic JR</li>
+<li>Mattel Aquarius</li>
+<li>MeeGo</li>
+<li>Memotech MTX</li>
+<li>Meritum</li>
+<li>Microbee</li>
+<li>Microtan 65</li>
+<li>Microvision</li>
+<li>Mitsubishi Multi-8</li>
+<li>Modular Game System</li>
+<li>Mophun</li>
+<li>MOS Technology 6502</li>
+<li>Motorola 6800</li>
+<li>Motorola 68k</li>
+<li>MRE</li>
+<li>MSX</li>
+<li>N-Gage</li>
+<li>N-Gage (service)</li>
+<li>Nascom</li>
+<li>NEC TK-80</li>
+<li>Neo Geo</li>
+<li>Neo Geo CD</li>
+<li>Neo Geo Pocket</li>
+<li>Neo Geo Pocket Color</li>
+<li>Neo Geo X</li>
+<li>NES</li>
+<li>NetBSD</li>
+<li>New Nintendo 3DS</li>
+<li>NewBrain</li>
+<li>Newton</li>
+<li>Nintendo 3DS</li>
+<li>Nintendo 64</li>
+<li>Nintendo DS</li>
+<li>Nintendo DSi</li>
+<li>Nintendo Switch</li>
+<li>Nintendo Switch 2</li>
+<li>North Star</li>
+<li>Noval 760</li>
+<li>Nuon</li>
+<li>Oculus Go</li>
+<li>Odyssey</li>
+<li>Odyssey 2</li>
+<li>Ohio Scientific</li>
+<li>OnLive</li>
+<li>OOParts</li>
+<li>OpenBSD</li>
+<li>Orao</li>
+<li>Oric</li>
+<li>OS/2</li>
+<li>Ouya</li>
+<li>Palm OS</li>
+<li>Pandora</li>
+<li>PC Booter</li>
+<li>PC-6001</li>
+<li>PC-8000</li>
+<li>PC-88</li>
+<li>PC-98</li>
+<li>PC-FX</li>
+<li>Pebble</li>
+<li>Philips P200</li>
+<li>Philips VG 5000</li>
+<li>Photo CD</li>
+<li>PICO</li>
+<li>Pippin</li>
+<li>Playdate</li>
+<li>Playdia</li>
+<li>PlayStation</li>
+<li>PlayStation 2</li>
+<li>PlayStation 3</li>
+<li>PlayStation 4</li>
+<li>PlayStation 5</li>
+<li>PlayStation Now</li>
+<li>Plex Arcade</li>
+<li>Pokitto</li>
+<li>Pokémon Mini</li>
+<li>Poly-88</li>
+<li>PS Vita</li>
+<li>PSP</li>
+<li>Quest</li>
+<li>RCA Studio II</li>
+<li>Research Machines 380Z</li>
+<li>Roblox</li>
+<li>Roku</li>
+<li>SAM Coupé</li>
+<li>SC/MP</li>
+<li>SD-200 / 270 / 290</li>
+<li>SEGA 32X</li>
+<li>SEGA CD</li>
+<li>SEGA Master System</li>
+<li>SEGA Pico</li>
+<li>SEGA Saturn</li>
+<li>SG-1000</li>
+<li>Sharp MZ-80B / 2000 / 2500</li>
+<li>Sharp MZ-80K / 700 / 800 / 1500</li>
+<li>Sharp X1</li>
+<li>Sharp X68000</li>
+<li>Sharp Zaurus</li>
+<li>Signetics 2650</li>
+<li>Sinclair QL</li>
+<li>SK-VM</li>
+<li>SMC-777</li>
+<li>SNES</li>
+<li>Socrates</li>
+<li>Sol-20</li>
+<li>Solaris</li>
+<li>Sord M5</li>
+<li>SPC-1000</li>
+<li>Spectravideo</li>
+<li>SRI-500 / 1000</li>
+<li>Stadia</li>
+<li>Steam</li>
+<li>Steam Deck</li>
+<li>Super A'can</li>
+<li>Super Vision 8000</li>
+<li>SuperGrafx</li>
+<li>Supervision</li>
+<li>Sure Shot HD</li>
+<li>SWTPC 6800</li>
+<li>Symbian</li>
+<li>TADS</li>
+<li>Taito X-55</li>
+<li>Tatung Einstein</li>
+<li>Tektronix 4050</li>
+<li>Tele-Spiel ES-2201</li>
+<li>Telstar Arcade</li>
+<li>TempleOS</li>
+<li>Terminal</li>
+<li>Thomson MO</li>
+<li>Thomson TO</li>
+<li>TI Programmable Calculator</li>
+<li>TI-99 / 4A</li>
+<li>TIC-80</li>
+<li>Tiki 100</li>
+<li>TIM</li>
+<li>Timex Sinclair 2068</li>
+<li>Tizen</li>
+<li>Tomahawk F1</li>
+<li>Tomy Tutor</li>
+<li>Toshiba Ex-80</li>
+<li>Toshiba Pasopia</li>
+<li>Triton</li>
+<li>TRS-80</li>
+<li>TRS-80 CoCo</li>
+<li>TRS-80 MC-10</li>
+<li>TRS-80 Model 100</li>
+<li>TurboGrafx CD</li>
+<li>TurboGrafx-16</li>
+<li>tvOS</li>
+<li>V.Flash</li>
+<li>V.Smile</li>
+<li>Vectrex</li>
+<li>Versatile</li>
+<li>VIC-20</li>
+<li>VideoBrain</li>
+<li>Videopac+ G7400</li>
+<li>Virtual Boy</li>
+<li>VIS</li>
+<li>visionOS</li>
+<li>Wang 2200</li>
+<li>watchOS</li>
+<li>webOS</li>
+<li>Wii</li>
+<li>Wii U</li>
+<li>Windows</li>
+<li>Windows 16-bit</li>
+<li>Windows Apps</li>
+<li>Windows Mobile</li>
+<li>Windows Phone</li>
+<li>WIPI</li>
+<li>WonderSwan</li>
+<li>WonderSwan Color</li>
+<li>XaviXPORT</li>
+<li>Xbox</li>
+<li>Xbox 360</li>
+<li>Xbox Cloud Gaming</li>
+<li>Xbox One</li>
+<li>Xbox Series</li>
+<li>Xerox Alto</li>
+<li>Z-machine</li>
+<li>Zeebo</li>
+<li>Zilog Z80</li>
+<li>Zilog Z8000</li>
+<li>Zillions of Games</li>
+<li>Zodiac</li>
+<li>Zune</li>
+<li>ZX Spectrum</li>
+<li>ZX Spectrum Next</li>
+<li>ZX80</li>
+<li>ZX81</li>
+</ul>
+</details>
 
 ### Engine 
 
 Definition: The software framework and/or development environment used to design the platform edition.
 
-controlled vocabulary (adapted from Wikipedia 2025) [+]
-
-* 4A Engine
-* A-FRAME (VR)
-* Adventure Game Interpreter
-* Adventure Game Studio
-* Aleph One
-* Amazon Lumberyard
-* Anvil
-* AppGameKit
-* Ardor3D
-* Aurora toolset
-* Babylon.js
-* bitsy
-* Blend4Web
-* Blender
-* Build Engine
-* Buildbox
-* C4 Engine
-* Chrome Engine
-* ClanLib
-* Clausewitz
-* Clickteam Fusion
-* Cobra Engine
-* Cocos2d / 2d-x / 2d-html5
-* Codea
-* Construct
-* Coretech
-* CraftStudio
-* Creation Engine
-* CryEngine
-* Crystal Space
-* Crystal Tools
-* Cube Engine
-* Cube 2 Engine
-* Custom-built engine
-* Dagor Engine
-* Dark Engine
-* Decima
-* Defold
-* Delta3D
-* Dim3
-* DimensioneX Multiplayer Engine
-* Divinity Engine
-* Dunia Engine
-* DX Studio
-* EGO
-* Electron toolset
-* Enforce
-* Enigma Engine
-* Essence Engine
-* Exult
-* Flame
-* Flare3D
-* Flash (Adobe)
-* Flixel
-* ForgeLight
-* Fox Engine
-* Freescape
-* Freespace 2
-* Frostbite
-* Future Pinball
-* Gamebryo
-* GameMaker
-* GameSalad
-* Gamestudio
-* GDevelop
-* Genie Engine
-* Godot
-* Gold Box
-* GoldSrc
-* Havok
-* HeroEngine
-* Horde3D
-* HPL Engine
-* id Tech
-* iMUSE
-* Infinity Engine
-* ioquake3
-* Iron Engine
-* Irrlicht
-* IW Engine
-* Jade
-* Jake2
-* Java 3D
-* Jedi
-* jMonkeyEngine
-* Kinectica
-* Kivy (framework)
-* LayaAir
-* Leadwerks
-* LibGDX
-* LithTech
-* LÖVE
-* Luminous Engine
-* LyN
-* M.U.G.E.N.
-* Marmalade
-* Messiah
-* Moai SDK
-* Monkey X
-* MonoGame / XNA
-* MT Framework
-* Northlight
-* NScripter
-* O3DE
-* Odyssey Engine
-* OGRE
-* OHRRPGCE
-* ONScripter
-* OpenClonk
-* OpenMW
-* OpenSimulator
-* ORX
-* Panda3D
-* Panta Rhei
-* Phaser
-* PhyreEngine
-* PICO-8
-* Pie in the Sky
-* Pixel Game Maker MV
-* PlayCanvas
-* PlayN
-* Pulp
-* Pygame
-* Pyrogenesis
-* Q
-* Qfusion
-* REDengine
-* Ren'Py
-* RenderWare
-* Roblox
-* Rockstar Advanced Game Engine
-* RPG Maker
-* S&box
-* SAGE
-* Scratch
-* SCUMM
-* Serious Engine
-* Shark 3D
-* Silent Storm Engine
-* Snowdrop
-* Solar2D
-* Solaris
-* Source
-* Source 2
-* Starling Framework
-* Stencyl
-* StepMania
-* Stingray (Autodesk)
-* Stratagus
-* Stride
-* Telltale Tool
-* Three.js
-* Torque3D
-* TOSHI
-* Treyarch NGL
-* Turbulenz
-* Twine
-* UbiArt Framework
-* Unigine
-* Unity
-* Unreal Engine
-* V-Play
-* Vengeance Engine
-* Vicarious Visions Alchemy
-* Virtools
-* Vision
-* Visual3D Game Engine
-* Visual Pinball
-* VRAGE
-* Wintermute Engine
-* Wolf RPG Editor
-* World Builder
-* WorldForge
-* XnGine
-* Zero
+<details>
+<summary>controlled vocabulary (adapted from Wikipedia 2025) [+]</summary>
+<ul>
+<li>4A Engine</li>
+<li>A-FRAME (VR)</li>
+<li>Adventure Game Interpreter</li>
+<li>Adventure Game Studio</li>
+<li>Aleph One</li>
+<li>Amazon Lumberyard</li>
+<li>Anvil</li>
+<li>AppGameKit</li>
+<li>Ardor3D</li>
+<li>Aurora toolset</li>
+<li>Babylon.js</li>
+<li>bitsy</li>
+<li>Blend4Web</li>
+<li>Blender</li>
+<li>Build Engine</li>
+<li>Buildbox</li>
+<li>C4 Engine</li>
+<li>Chrome Engine</li>
+<li>ClanLib</li>
+<li>Clausewitz</li>
+<li>Clickteam Fusion</li>
+<li>Cobra Engine</li>
+<li>Cocos2d / 2d-x / 2d-html5</li>
+<li>Codea</li>
+<li>Construct</li>
+<li>Coretech</li>
+<li>CraftStudio</li>
+<li>Creation Engine</li>
+<li>CryEngine</li>
+<li>Crystal Space</li>
+<li>Crystal Tools</li>
+<li>Cube Engine</li>
+<li>Cube 2 Engine</li>
+<li>Custom-built engine</li>
+<li>Dagor Engine</li>
+<li>Dark Engine</li>
+<li>Decima</li>
+<li>Defold</li>
+<li>Delta3D</li>
+<li>Dim3</li>
+<li>DimensioneX Multiplayer Engine</li>
+<li>Divinity Engine</li>
+<li>Dunia Engine</li>
+<li>DX Studio</li>
+<li>EGO</li>
+<li>Electron toolset</li>
+<li>Enforce</li>
+<li>Enigma Engine</li>
+<li>Essence Engine</li>
+<li>Exult</li>
+<li>Flame</li>
+<li>Flare3D</li>
+<li>Flash (Adobe)</li>
+<li>Flixel</li>
+<li>ForgeLight</li>
+<li>Fox Engine</li>
+<li>Freescape</li>
+<li>Freespace 2</li>
+<li>Frostbite</li>
+<li>Future Pinball</li>
+<li>Gamebryo</li>
+<li>GameMaker</li>
+<li>GameSalad</li>
+<li>Gamestudio</li>
+<li>GDevelop</li>
+<li>Genie Engine</li>
+<li>Godot</li>
+<li>Gold Box</li>
+<li>GoldSrc</li>
+<li>Havok</li>
+<li>HeroEngine</li>
+<li>Horde3D</li>
+<li>HPL Engine</li>
+<li>id Tech</li>
+<li>iMUSE</li>
+<li>Infinity Engine</li>
+<li>ioquake3</li>
+<li>Iron Engine</li>
+<li>Irrlicht</li>
+<li>IW Engine</li>
+<li>Jade</li>
+<li>Jake2</li>
+<li>Java 3D</li>
+<li>Jedi</li>
+<li>jMonkeyEngine</li>
+<li>Kinectica</li>
+<li>Kivy (framework)</li>
+<li>LayaAir</li>
+<li>Leadwerks</li>
+<li>LibGDX</li>
+<li>LithTech</li>
+<li>LÖVE</li>
+<li>Luminous Engine</li>
+<li>LyN</li>
+<li>M.U.G.E.N.</li>
+<li>Marmalade</li>
+<li>Messiah</li>
+<li>Moai SDK</li>
+<li>Monkey X</li>
+<li>MonoGame / XNA</li>
+<li>MT Framework</li>
+<li>Northlight</li>
+<li>NScripter</li>
+<li>O3DE</li>
+<li>Odyssey Engine</li>
+<li>OGRE</li>
+<li>OHRRPGCE</li>
+<li>ONScripter</li>
+<li>OpenClonk</li>
+<li>OpenMW</li>
+<li>OpenSimulator</li>
+<li>ORX</li>
+<li>Panda3D</li>
+<li>Panta Rhei</li>
+<li>Phaser</li>
+<li>PhyreEngine</li>
+<li>PICO-8</li>
+<li>Pie in the Sky</li>
+<li>Pixel Game Maker MV</li>
+<li>PlayCanvas</li>
+<li>PlayN</li>
+<li>Pulp</li>
+<li>Pygame</li>
+<li>Pyrogenesis</li>
+<li>Q</li>
+<li>Qfusion</li>
+<li>REDengine</li>
+<li>Ren'Py</li>
+<li>RenderWare</li>
+<li>Roblox</li>
+<li>Rockstar Advanced Game Engine</li>
+<li>RPG Maker</li>
+<li>S&box</li>
+<li>SAGE</li>
+<li>Scratch</li>
+<li>SCUMM</li>
+<li>Serious Engine</li>
+<li>Shark 3D</li>
+<li>Silent Storm Engine</li>
+<li>Snowdrop</li>
+<li>Solar2D</li>
+<li>Solaris</li>
+<li>Source</li>
+<li>Source 2</li>
+<li>Starling Framework</li>
+<li>Stencyl</li>
+<li>StepMania</li>
+<li>Stingray (Autodesk)</li>
+<li>Stratagus</li>
+<li>Stride</li>
+<li>Telltale Tool</li>
+<li>Three.js</li>
+<li>Torque3D</li>
+<li>TOSHI</li>
+<li>Treyarch NGL</li>
+<li>Turbulenz</li>
+<li>Twine</li>
+<li>UbiArt Framework</li>
+<li>Unigine</li>
+<li>Unity</li>
+<li>Unreal Engine</li>
+<li>V-Play</li>
+<li>Vengeance Engine</li>
+<li>Vicarious Visions Alchemy</li>
+<li>Virtools</li>
+<li>Vision</li>
+<li>Visual3D Game Engine</li>
+<li>Visual Pinball</li>
+<li>VRAGE</li>
+<li>Wintermute Engine</li>
+<li>Wolf RPG Editor</li>
+<li>World Builder</li>
+<li>WorldForge</li>
+<li>XnGine</li>
+<li>Zero</li>
+</ul>
+</details>
 
 ### Developer 
 
@@ -629,226 +637,222 @@ text input field [R][+]
 Definition: The geographic location of the platform edition's developer(s)
 
 <details>
-
-<summary>
-
-controlled vocabulary [R][+]
-
-</summary>
-
-* Afghanistan
-* Albania
-* Algeria
-* Andorra
-* Angola
-* Antigua and Barbuda
-* Argentina
-* Armenia
-* Australia
-* Austria
-* Azerbaijan
-* Bahamas
-* Bahrain
-* Bangladesh
-* Barbados
-* Belarus
-* Belgium
-* Belize
-* Benin
-* Bermuda 
-* Bhutan
-* Bolivia
-* Bosnia and Herzegovina
-* Botswana
-* Brazil
-* Brunei
-* Bulgaria
-* Burkina Faso
-* Burundi
-* Cambodia
-* Cameroon
-* Canada
-* Canada / Alberta
-* Canada / British Columbia
-* Canada / Manitoba
-* Canada / New Brunswick
-* Canada / Newfoundland and Labrador
-* Canada / Northwest Territories 
-* Canada / Nova Scotia 
-* Canada / Nunavut
-* Canada / Ontario 
-* Canada / Prince Edward Island 
-* Canada / Quebec
-* Canada / Saskatchewan
-* Canada / Yukon
-* Cape Verde
-* Central African Republic
-* Chad
-* Chile
-* China
-* Colombia
-* Comoros
-* Congo, Republic of the
-* Congo, Democratic Republic of the
-* Costa Rica
-* Croatia
-* Cuba
-* Curacao
-* Cyprus
-* Czech Republic
-* Denmark
-* Djibouti
-* Dominica
-* Dominican Republic
-* East Timor
-* Ecuador
-* Egypt
-* El Salvador
-* Equatorial Guinea
-* Eritrea
-* Estonia
-* Eswatini
-* Ethiopia
-* Fiji
-* Finland
-* France
-* Gabon
-* Gambia
-* Georgia
-* Germany
-* Ghana
-* Greece
-* Grenada
-* Guatemala
-* Guinea
-* Guinea-Bissau
-* Guyana
-* Haiti
-* Honduras
-* Hungary
-* Iceland
-* India
-* Indonesia
-* Iran
-* Iraq
-* Ireland
-* Israel
-* Italy
-* Ivory Coast
-* Jamaica
-* Japan
-* Jordan
-* Kazakhstan
-* Kenya
-* Kiribati
-* Kosovo
-* Kuwait
-* Kyrgyzstan
-* Laos
-* Latvia
-* Lebanon
-* Lesotho
-* Liberia
-* Libya
-* Liechtenstein
-* Lithuania
-* Luxembourg
-* Madagascar
-* Malawi
-* Malaysia
-* Maldives
-* Mali
-* Malta
-* Marshall Islands
-* Mauritania
-* Mauritius
-* Mexico
-* Micronesia
-* Moldova
-* Monaco
-* Mongolia
-* Montenegro
-* Morocco
-* Mozambique
-* Myanmar
-* Namibia
-* Nauru
-* Nepal
-* Netherlands
-* New Zealand
-* Nicaragua
-* Niger
-* Nigeria
-* North Korea
-* North Macedonia
-* Norway
-* Oman
-* Pakistan
-* Palau
-* Palestine
-* Panama
-* Papua New Guinea
-* Paraguay
-* Peru
-* Philippines
-* Poland
-* Portugal
-* Puerto Rico
-* Qatar
-* Romania
-* Russia
-* Rwanda
-* Saint Kitts and Nevis
-* Saint Lucia
-* Saint Vincent and the Grenadines
-* Samoa
-* San Marino
-* São Tomé and Príncipe
-* Saudi Arabia
-* Senegal
-* Serbia
-* Seychelles
-* Sierra Leone
-* Singapore
-* Slovakia
-* Slovenia
-* Solomon Islands
-* Somalia
-* South Africa
-* South Korea
-* South Sudan
-* Spain
-* Sri Lanka
-* Sudan
-* Suriname
-* Sweden
-* Switzerland
-* Syria
-* Taiwan
-* Tajikistan
-* Tanzania
-* Thailand
-* Togo
-* Tonga
-* Trinidad and Tobago
-* Tunisia
-* Turkey
-* Turkmenistan
-* Tuvalu
-* Uganda
-* Ukraine
-* United Arab Emirates
-* United Kingdom
-* United States
-* Uruguay
-* Uzbekistan
-* Vanuatu
-* Vatican City
-* Venezuela
-* Vietnam
-* Yemen
-* Zambia
-* Zimbabwe
+<summary>controlled vocabulary [R][+]</summary>
+<ul>
+<li>Afghanistan</li>
+<li>Albania</li>
+<li>Algeria</li>
+<li>Andorra</li>
+<li>Angola</li>
+<li>Antigua and Barbuda</li>
+<li>Argentina</li>
+<li>Armenia</li>
+<li>Australia</li>
+<li>Austria</li>
+<li>Azerbaijan</li>
+<li>Bahamas</li>
+<li>Bahrain</li>
+<li>Bangladesh</li>
+<li>Barbados</li>
+<li>Belarus</li>
+<li>Belgium</li>
+<li>Belize</li>
+<li>Benin</li>
+<li>Bermuda </li>
+<li>Bhutan</li>
+<li>Bolivia</li>
+<li>Bosnia and Herzegovina</li>
+<li>Botswana</li>
+<li>Brazil</li>
+<li>Brunei</li>
+<li>Bulgaria</li>
+<li>Burkina Faso</li>
+<li>Burundi</li>
+<li>Cambodia</li>
+<li>Cameroon</li>
+<li>Canada</li>
+<li>Canada / Alberta</li>
+<li>Canada / British Columbia</li>
+<li>Canada / Manitoba</li>
+<li>Canada / New Brunswick</li>
+<li>Canada / Newfoundland and Labrador</li>
+<li>Canada / Northwest Territories </li>
+<li>Canada / Nova Scotia </li>
+<li>Canada / Nunavut</li>
+<li>Canada / Ontario </li>
+<li>Canada / Prince Edward Island </li>
+<li>Canada / Quebec</li>
+<li>Canada / Saskatchewan</li>
+<li>Canada / Yukon</li>
+<li>Cape Verde</li>
+<li>Central African Republic</li>
+<li>Chad</li>
+<li>Chile</li>
+<li>China</li>
+<li>Colombia</li>
+<li>Comoros</li>
+<li>Congo, Republic of the</li>
+<li>Congo, Democratic Republic of the</li>
+<li>Costa Rica</li>
+<li>Croatia</li>
+<li>Cuba</li>
+<li>Curacao</li>
+<li>Cyprus</li>
+<li>Czech Republic</li>
+<li>Denmark</li>
+<li>Djibouti</li>
+<li>Dominica</li>
+<li>Dominican Republic</li>
+<li>East Timor</li>
+<li>Ecuador</li>
+<li>Egypt</li>
+<li>El Salvador</li>
+<li>Equatorial Guinea</li>
+<li>Eritrea</li>
+<li>Estonia</li>
+<li>Eswatini</li>
+<li>Ethiopia</li>
+<li>Fiji</li>
+<li>Finland</li>
+<li>France</li>
+<li>Gabon</li>
+<li>Gambia</li>
+<li>Georgia</li>
+<li>Germany</li>
+<li>Ghana</li>
+<li>Greece</li>
+<li>Grenada</li>
+<li>Guatemala</li>
+<li>Guinea</li>
+<li>Guinea-Bissau</li>
+<li>Guyana</li>
+<li>Haiti</li>
+<li>Honduras</li>
+<li>Hungary</li>
+<li>Iceland</li>
+<li>India</li>
+<li>Indonesia</li>
+<li>Iran</li>
+<li>Iraq</li>
+<li>Ireland</li>
+<li>Israel</li>
+<li>Italy</li>
+<li>Ivory Coast</li>
+<li>Jamaica</li>
+<li>Japan</li>
+<li>Jordan</li>
+<li>Kazakhstan</li>
+<li>Kenya</li>
+<li>Kiribati</li>
+<li>Kosovo</li>
+<li>Kuwait</li>
+<li>Kyrgyzstan</li>
+<li>Laos</li>
+<li>Latvia</li>
+<li>Lebanon</li>
+<li>Lesotho</li>
+<li>Liberia</li>
+<li>Libya</li>
+<li>Liechtenstein</li>
+<li>Lithuania</li>
+<li>Luxembourg</li>
+<li>Madagascar</li>
+<li>Malawi</li>
+<li>Malaysia</li>
+<li>Maldives</li>
+<li>Mali</li>
+<li>Malta</li>
+<li>Marshall Islands</li>
+<li>Mauritania</li>
+<li>Mauritius</li>
+<li>Mexico</li>
+<li>Micronesia</li>
+<li>Moldova</li>
+<li>Monaco</li>
+<li>Mongolia</li>
+<li>Montenegro</li>
+<li>Morocco</li>
+<li>Mozambique</li>
+<li>Myanmar</li>
+<li>Namibia</li>
+<li>Nauru</li>
+<li>Nepal</li>
+<li>Netherlands</li>
+<li>New Zealand</li>
+<li>Nicaragua</li>
+<li>Niger</li>
+<li>Nigeria</li>
+<li>North Korea</li>
+<li>North Macedonia</li>
+<li>Norway</li>
+<li>Oman</li>
+<li>Pakistan</li>
+<li>Palau</li>
+<li>Palestine</li>
+<li>Panama</li>
+<li>Papua New Guinea</li>
+<li>Paraguay</li>
+<li>Peru</li>
+<li>Philippines</li>
+<li>Poland</li>
+<li>Portugal</li>
+<li>Puerto Rico</li>
+<li>Qatar</li>
+<li>Romania</li>
+<li>Russia</li>
+<li>Rwanda</li>
+<li>Saint Kitts and Nevis</li>
+<li>Saint Lucia</li>
+<li>Saint Vincent and the Grenadines</li>
+<li>Samoa</li>
+<li>San Marino</li>
+<li>São Tomé and Príncipe</li>
+<li>Saudi Arabia</li>
+<li>Senegal</li>
+<li>Serbia</li>
+<li>Seychelles</li>
+<li>Sierra Leone</li>
+<li>Singapore</li>
+<li>Slovakia</li>
+<li>Slovenia</li>
+<li>Solomon Islands</li>
+<li>Somalia</li>
+<li>South Africa</li>
+<li>South Korea</li>
+<li>South Sudan</li>
+<li>Spain</li>
+<li>Sri Lanka</li>
+<li>Sudan</li>
+<li>Suriname</li>
+<li>Sweden</li>
+<li>Switzerland</li>
+<li>Syria</li>
+<li>Taiwan</li>
+<li>Tajikistan</li>
+<li>Tanzania</li>
+<li>Thailand</li>
+<li>Togo</li>
+<li>Tonga</li>
+<li>Trinidad and Tobago</li>
+<li>Tunisia</li>
+<li>Turkey</li>
+<li>Turkmenistan</li>
+<li>Tuvalu</li>
+<li>Uganda</li>
+<li>Ukraine</li>
+<li>United Arab Emirates</li>
+<li>United Kingdom</li>
+<li>United States</li>
+<li>Uruguay</li>
+<li>Uzbekistan</li>
+<li>Vanuatu</li>
+<li>Vatican City</li>
+<li>Venezuela</li>
+<li>Vietnam</li>
+<li>Yemen</li>
+<li>Zambia</li>
+<li>Zimbabwe</li>
+</ul>
 </details>
 
 ### Publisher 
@@ -860,14 +864,16 @@ text input field [R][+]
 ### Publisher Class 
 
 Defintion: A term used to describe the size, profile, and/or budget of the publisher and, in some cases, the developer, too
-
-controlled vocabulary [R][+]
-
-* AAA
-* AA 
-* B
-* Indie
-* Self-published 
+<details>
+<summary>controlled vocabulary [R][+]</summary>
+<ul>
+<li>AAA</li>
+<li>AA </li>
+<li>B</li>
+<li>Indie</li>
+<li>Self-published</li>
+</ul>
+</details>
 
 ### Edition Note 
 
