@@ -18,11 +18,11 @@ See citations below for specific instances of adaptation.
 Elements marked with [R] are required.
 Elements marked with [+] are repeatable.
 
-1. [Platform Edition Entity](#platform-edition-entity)
-2. [Gameplay File Entity](#gameplay-file-entity)
-3. [Gameplay Settings Entity](#gameplay-settings-entity)
-4. [Gameplay Footage Entity](#gameplay-footage-entity)
-5. [Gameplay Instruction Entity](#gameplay-instruction-entity) 
+1. [Platform Edition Entity](#1-platform-edition-entity)
+2. [Gameplay File Entity](#2-gameplay-file-entity)
+3. [Gameplay Settings Entity](#3-gameplay-settings-entity)
+4. [Gameplay Footage Entity](#4-gameplay-footage-entity)
+5. [Gameplay Instruction Entity](#5-gameplay-instruction-entity)
 
 ## 1. Platform Edition Entity
 
