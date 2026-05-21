@@ -632,7 +632,7 @@ Definition: The geographic location of the platform edition's developer(s)
 
 <summary>
 
-#### controlled vocabulary [R][+]
+#### controlled vocabulary for Developer's Location [R][+]
 
 </summary>
 
