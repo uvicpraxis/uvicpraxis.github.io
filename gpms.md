@@ -2,7 +2,7 @@ This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project 
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (PRGPFC), which is scheduled for early-access release in 2026-27: 
+This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for early-access release in 2026-27: 
 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [http://www.cidoc-crm.org/index.html](http://www.cidoc-crm.org/index.html)
@@ -17,7 +17,7 @@ Notes:
 
 * Elements marked with [R] are required.
 * Elements marked with [+] are repeatable.
-* "PRGPFC" refers to the Press Record Gameplay Footage Collection. 
+* "GPFC" refers to the Press Record Gameplay Footage Collection. 
 
 Table of Contents: 
 
@@ -31,7 +31,7 @@ Table of Contents:
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
 
-*The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the PRGPFC.*
+*The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
 * [Game Title](#1a-game-title) (text input field)
 * [Release Year](#1b-release-year) (text input field)
@@ -74,9 +74,11 @@ Definition: The platform edition's release type, ideally as assigned by its deve
 <li>Early access</li>
 <li>Emulation</li>
 <li>Fan game</li>
+<li>Commercial release</li>
 <li>Initial release</li>
 <li>Patch</li>
 <li>Port</li>
+<li>Public release</li>
 <li>Reboot</li>
 <li>Remake</li>
 <li>Remaster</li>
@@ -871,8 +873,9 @@ Defintion: A term used to describe the size, profile, and/or budget of the publi
 <summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
 <li>AAA</li>
-<li>AA </li>
+<li>AA</li>
 <li>B</li>
+<li>III</li>
 <li>Indie</li>
 <li>Self-published</li>
 </ul>
@@ -886,53 +889,123 @@ Definition: "Any other notable characteristics of the platform edition" that are
 
 ## 2. Gameplay File Entity 
 
-Description coming soon. 
+Definition: Denotes a video file containing gameplay footage of a video game; also called "game capture" and "game recording"
 
-* [Title of Clip](#2a-title-of-clip) (text input field)
-* [Length of Clip](#2b-length-of-clip) (text input field) 
+For the purposes of the GPFC, the video file will typically be a "clip" that is 30 seconds to five minutes long.
+
+*The following aspects of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
+
+* [Clip Title](#2a-clip-title) (text input field)
+* [Clip Length](#2b-clip-length) (text input field) 
 * [Date Recorded](#2c-date-recorded) (text input field) 
 * [Commentary](#2d-commentary) (controlled vocabulary)
-* [Gameplay Attribution](#2e-gameplay-attribution) (text input field)
-* [Metadata Attribution](#2f-metadata-attribution) (text input field) 
-* [ID](#2g-id) (text input field) 
-* [Filename](#2h-filename) (text inpout field) 
-* [Gameplay File Note](#2i-gameplay-file-note) (text input field)
+* [Chat](#2e-chat) (controlled vocabulary)
+* [Gameplay Attribution](#2f-gameplay-attribution) (text input field)
+* [Metadata Attribution](#2g-metadata-attribution) (text input field) 
+* [ID](#2h-id) (text input field) 
+* [Filename](#2i-filename) (text inpout field) 
+* [Gameplay File Note](#2j-gameplay-file-note) (text input field)
 
-### 2A. Title of Clip
+### 2A. Clip Title
 
-text input field [R]
+Defintion: A public-facing, search-friendly description of the gameplay footage as assigned by the person who played the game while the video was recorded
 
-### 2B. Length of Clip
+Provide a title that helps viewers anticipate what they will see, hear, read, and watch. Describe the content of the clip and the actions occurring in it. An example of such a title is, "Starting a New Game: Naming the Player Character, Encountering Emus and Hobgoblins, and Collecting Darts, Scrolls, and Potions on Level 1."
 
-text input field [R]
+*text input field* [R]
+
+### 2B. Clip Length
+
+Definition: The length of the video in minutes and seconds 
+
+*text input field; format: MM:SS* [R]
 
 ### 2C. Date Recorded
 
-text input field [R]
+Definition: The date the video was recorded
+
+This date is presumably identical to the video file's "created" date.  
+
+*text input field; format: YYYY-MM-DD* [R]
 
 ### 2D. Commentary
 
-controlled vocabulary [R]
+Definition: The type of player commentary, if any, included in the footage
 
-### 2E. Gameplay Attribution 
+Commentary is reflective, and it typically addresses the video's audience. 
 
-text input field [R][+]
+Select "No commentary" if the footage contains no commentary. 
 
-### 2F. Metadata Attribution
+<details>
+<summary><i>controlled vocabulary</i> [R][+]</summary>
 
-text input field [R][+]
+<ul>
+<li>Avatar / VTubing</li>
+<li>Captions / subtitles
+<li>Emotes</li>
+<li>Face cam / facecam<li>
+<li>No commentary</li>
+<li>Voice over / voice-over / voiceover (VO)</li>
+<ul>
+</details>
 
-### 2G. ID 
+### 2E. Chat
 
-text input field [R]
+Definition: The type of chat, if any, included in the footage
 
-### 2H. Filename
+Chat typically occurs between players; however, in cases such as livestreams, it may also occur between players and audiences. 
 
-text input field [R]
+Select "No chat" if the footage contains no chat.
 
-### 2I. Gameplay File Note
+<details>
+<summary><i>controlled vocabulary</i> [R][+]</summary>
 
-text input field 
+<ul>
+<li>Emotes</li>
+<li>No chat</li>
+<li>Text chat</li>
+<li>Video chat</li>
+<li>Voice chat</li>
+<ul>
+</details>
+
+### 2F. Gameplay Attribution 
+
+Definition: The chosen or preferred name of the person who played the game while the video was recorded
+
+Multiple names may be included. Full or complete names are optional. 
+
+*text input field* [R][+]
+
+### 2G. Metadata Attribution
+
+Definition: The chosen or preferred name of the person who described the gameplay and entered the metadata
+
+Multiple names may be included. Full or complete names are optional. 
+
+*text input field* [R][+]
+
+### 2H. ID 
+
+Definition: The internal reference number for the file and its metadata 
+
+This number is used by the Press Record team to identify files in the GPFC. It is a five-character numeric string. 
+
+*text input field; format: #####* [R]
+
+### 2I. Filename
+
+Definition: The filename of the video file 
+
+Use camelCasing to include the following information in the following order: gameTitlePlatformEditionReleaseYearClipTitleID. An example of such a filmename is rogue1985StartingANewGame00011.mp4. Abbreviate the clip's title to avoid long filenames. 
+
+*text input field; format: gameTitlePlatformEditionReleaseYearClipTitleID* [R]
+
+### 2J. Gameplay File Note
+
+Definition: "Any other notable characteristics of the" gameplay file that are "not captured in other fields" of this metadata schema (Lee et al. 2024). 
+
+*text input field*
 
 ## 3. Gameplay Settings Entity 
 
