@@ -999,7 +999,7 @@ Definition: The filename of the video file
 
 Use camelCasing to include the following information in the following order: gameTitlePlatformEditionReleaseYearClipTitleID. An example of such a filmename is rogue1985StartingANewGame00011.mp4. Abbreviate the clip's title to avoid long filenames. 
 
-*text input field; format: gameTitlePlatformEditionReleaseYearClipTitleID* [R]
+*text input field; format: gameTitlePlatformEditionReleaseYearClipTitleID.extension* [R]
 
 ### 2J. Gameplay File Note
 
