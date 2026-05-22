@@ -31,6 +31,8 @@ Table of Contents:
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
 
+The platform edition played for the GPFC may correspond with the initial release of the game. For instance, *Journey* was released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). 
+
 *The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
 * [Game Title](#1a-game-title) (text input field)
@@ -62,19 +64,21 @@ The edition's release year may differ from the game's initial release year.
 
 ### 1C. Release Type
 
-Definition: The platform edition's release type, ideally as assigned by its developer, publisher, and/or distributor. 
+Definition: The platform edition's release type as assigned by its developer, publisher, and/or distributor. 
+
+In cases where the developer, publisher, and/or distributor
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
 <li>Alpha</li>
 <li>Beta</li>
+<li>Commercial release</li>
 <li>Demo</li>
 <li>Downloadable content (DLC)</li>
 <li>Early access</li>
 <li>Emulation</li>
 <li>Fan game</li>
-<li>Commercial release</li>
 <li>Initial release</li>
 <li>Patch</li>
 <li>Port</li>
@@ -868,7 +872,7 @@ Definition: "An individual, organization, or group of individuals or organizatio
 
 ### 1I. Publisher Class 
 
-Defintion: A term used to describe the size, profile, and/or budget of the publisher and, in some cases, the developer, too
+Definition: A term used to describe the size, profile, and/or budget of the publisher and, in some cases, the developer, too
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
@@ -959,7 +963,6 @@ Select "No chat" if the footage contains no chat.
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
-
 <ul>
 <li>Emotes</li>
 <li>No chat</li>
