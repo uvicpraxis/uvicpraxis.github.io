@@ -1,8 +1,8 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 22 May 2026 with feedback from the Praxis Studio and Humanities Computing and Media Centre at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 22 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for early-access release in 2026-27: 
+This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for early-access release in 2026-27: 
 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [http://www.cidoc-crm.org/index.html](http://www.cidoc-crm.org/index.html)
@@ -891,7 +891,7 @@ Definition: "Any other notable characteristics of the platform edition" that are
 
 Definition: Denotes a video file containing gameplay footage of a video game; also called "game capture" and "game recording"
 
-For the purposes of the GPFC, the video file will typically be a "clip" that is 30 seconds to five minutes long.
+For the fair-dealing purposes of the GPFC, the video file will typically be a "clip" that is 30 seconds to five minutes long.
 
 *The following aspects of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
 
@@ -908,7 +908,7 @@ For the purposes of the GPFC, the video file will typically be a "clip" that is 
 
 ### 2A. Clip Title
 
-Defintion: A public-facing, search-friendly description of the gameplay footage as assigned by the person who played the game while the video was recorded
+Definition: A public-facing, search-friendly description of the gameplay footage as assigned by the person who played the game while the video was recorded
 
 Provide a title that helps viewers anticipate what they will see, hear, read, and watch. Describe the content of the clip and the actions occurring in it. An example of such a title is, "Starting a New Game: Naming the Player Character, Encountering Emus and Hobgoblins, and Collecting Darts, Scrolls, and Potions on Level 1."
 
@@ -997,7 +997,7 @@ This number is used by the Press Record team to identify files in the GPFC. It i
 
 Definition: The filename of the video file 
 
-Use camelCasing to include the following information in the following order: gameTitlePlatformEditionReleaseYearClipTitleID. An example of such a filmename is rogue1985StartingANewGame00011.mp4. Abbreviate the clip's title to avoid long filenames. 
+Use camelCasing to include the following information in the following order: gameTitlePlatformEditionReleaseYearClipTitleID. An example of such a filename is rogue1985StartingANewGame00011.mp4. Abbreviate the clip's title to avoid long filenames. 
 
 *text input field; format: gameTitlePlatformEditionReleaseYearClipTitleID.extension* [R]
 
