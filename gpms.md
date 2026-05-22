@@ -31,7 +31,7 @@ Table of Contents:
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
 
-The platform edition played for the GPFC may correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions are ports of the 2012 platform edition (the initial release). 
+The platform edition played for the GPFC may or may not correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release). 
 
 *The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
@@ -48,7 +48,7 @@ The platform edition played for the GPFC may correspond with the game's initial 
 
 ### 1A. Game Title
 
-Definition: The proper name used to refer to the platform edition as assigned by its developer and/or publisher (Lee et al. 2024; CIDOC 2011).
+Definition: The proper name used to refer to the platform edition as assigned by its developer and/or publisher (Lee et al. 2024; CIDOC 2011)
 
 Provide the complete game title. Avoid using an alternative, abbreviated, or colloquial title. 
 
@@ -56,7 +56,7 @@ Provide the complete game title. Avoid using an alternative, abbreviated, or col
 
 ### 1B. Release Year
 
-Definition: The year the platform edition was publicly/commercially released (Lee et al. 2024). 
+Definition: The year the platform edition was publicly/commercially released (Lee et al. 2024) 
 
 The edition's release year may differ from the game's initial release year. 
 
@@ -64,7 +64,7 @@ The edition's release year may differ from the game's initial release year.
 
 ### 1C. Release Type
 
-Definition: The platform edition's release type as, where applicable, assigned by its developer, publisher, and/or distributor. 
+Definition: The platform edition's release type as, where applicable, assigned by its developer, publisher, and/or distributor
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
@@ -87,7 +87,7 @@ Definition: The platform edition's release type as, where applicable, assigned b
 </details>
 
 ### 1D. Platform
-Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al. 2024).
+Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al. 2024)
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025) [R][+]</summary>
@@ -102,6 +102,7 @@ Definition: The operating system, device, computer, console, and/or service on w
 <li>Altair 680</li>
 <li>Altair 8800</li>
 <li>Amazon Alexa</li>
+<li>Amazon Luna</li>
 <li>Amiga</li>
 <li>Amiga CD32</li>
 <li>Amstrad CPC</li>
@@ -448,7 +449,7 @@ Definition: The operating system, device, computer, console, and/or service on w
 
 ### 1E. Engine 
 
-Definition: The software framework and/or development environment used to design the platform edition.
+Definition: The software framework and/or development environment used to design the platform edition
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted from Wikipedia 2025) [+]</summary>
@@ -864,6 +865,8 @@ Definition: The geographic location of the platform edition's developer(s)
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al. 2024; IFLA 2009)
 
+Both publishers and distributors may be included in this field. 
+
 *text input field* [R][+]
 
 ### 1I. Publisher Class 
@@ -883,7 +886,7 @@ Definition: A term used to describe the size, profile, and/or budget of the publ
 
 ### 1J. Edition Note 
 
-Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al. 2024). 
+Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al. 2024)
 
 *text input field*
 
@@ -910,7 +913,7 @@ For the fair-dealing purposes of the GPFC, the video file will typically be a "c
 
 Definition: A public-facing, search-friendly description of the gameplay footage as assigned by the person who played the game while the video was recorded
 
-Provide a title that helps viewers anticipate what they will see, hear, read, and watch. Describe the content of the clip and the actions occurring in it. An example of such a title is, "Starting a New Game: Naming the Player Character, Encountering Emus and Hobgoblins, and Collecting Darts, Scrolls, and Potions on Level 1."
+Provide a title that helps viewers anticipate what they will see, hear, read, and watch. Describe the content of the clip and the actions occurring in it. An example is, "Starting a New Game: Naming the Player Character, Encountering Emus and Hobgoblins, and Collecting Darts, Scrolls, and Potions on Level 1."
 
 *text input field* [R]
 
@@ -971,7 +974,7 @@ Select "No chat" if the footage contains no chat.
 
 Definition: The chosen or preferred name of the person who played the game while the video was recorded
 
-Multiple names may be included. Full or complete names are optional. 
+Multiple names may be included. Full names are optional. 
 
 *text input field* [R][+]
 
@@ -979,7 +982,7 @@ Multiple names may be included. Full or complete names are optional.
 
 Definition: The chosen or preferred name of the person who described the gameplay and entered the metadata
 
-Multiple names may be included. Full or complete names are optional. 
+Multiple names may be included. Full names are optional. 
 
 *text input field* [R][+]
 
@@ -995,13 +998,13 @@ This number is used by the Press Record team to identify files in the GPFC. It i
 
 Definition: The filename of the video file 
 
-Use camelCasing to include the following information in the following order: gameTitlePlatformEditionReleaseYearClipTitleID. An example of such a filename is rogue1985StartingANewGame00011.mp4. Abbreviate the clip's title to avoid long filenames. 
+Use camelCasing to include the following information in the following order: gameTitlePlatformEditionReleaseYearClipTitleID. An example is rogue1985StartingANewGame00011.mp4. Abbreviate the clip's title to avoid long filenames. 
 
 *text input field; format: gameTitlePlatformEditionReleaseYearClipTitleID.extension* [R]
 
 ### 2J. Gameplay File Note
 
-Definition: "Any other notable characteristics of the" gameplay file that are "not captured in other fields" of this metadata schema (Lee et al. 2024). 
+Definition: "Any other notable characteristics of the" gameplay file that are "not captured in other fields" of this metadata schema (Lee et al. 2024)
 
 *text input field*
 
