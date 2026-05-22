@@ -940,7 +940,7 @@ Select "No commentary" if the footage contains no commentary.
 <summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
 <li>Avatar / VTubing</li>
-<li>Captions / subtitles
+<li>Captions / subtitles</li>
 <li>Emotes</li>
 <li>Face cam / facecam<li>
 <li>No commentary</li>
