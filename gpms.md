@@ -964,7 +964,7 @@ Select "No chat" if the footage contains no chat.
 <li>Text chat</li>
 <li>Video chat</li>
 <li>Voice chat</li>
-<ul>
+</ul>
 </details>
 
 ### 2F. Gameplay Attribution 
