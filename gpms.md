@@ -942,7 +942,7 @@ Select "No commentary" if the footage contains no commentary.
 <li>Avatar / VTubing</li>
 <li>Captions / subtitles</li>
 <li>Emotes</li>
-<li>Face cam / facecam<li>
+<li>Face cam / facecam</li>
 <li>No commentary</li>
 <li>Voice over / voice-over / voiceover (VO)</li>
 </ul>
