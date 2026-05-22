@@ -938,7 +938,6 @@ Select "No commentary" if the footage contains no commentary.
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
-
 <ul>
 <li>Avatar / VTubing</li>
 <li>Captions / subtitles
