@@ -1,8 +1,8 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and updated it on 21 May 2026 with feedback from the Praxis Studio and Humanities Computing and Media Centre at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. **Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 22 May 2026 with feedback from the Praxis Studio and Humanities Computing and Media Centre at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing files in the Press Record Gameplay Footage Collection (PRGPFC): 
+This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (PRGPFC), which is scheduled for early-access release in 2026-27: 
 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [http://www.cidoc-crm.org/index.html](http://www.cidoc-crm.org/index.html)
@@ -13,10 +13,13 @@ This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/l
 
 See citations below for specific instances of adaptation. 
 
-"PRGPFC" refers to the Press Record Gameplay Footage Collection. 
+Notes:
 
-Elements marked with [R] are required.
-Elements marked with [+] are repeatable.
+* Elements marked with [R] are required.
+* Elements marked with [+] are repeatable.
+* "PRGPFC" refers to the Press Record Gameplay Footage Collection. 
+
+Table of Contents: 
 
 1. [Platform Edition Entity](#1-platform-edition-entity)
 2. [Gameplay File Entity](#2-gameplay-file-entity)
@@ -59,7 +62,7 @@ The edition's release year may differ from the game's initial release year.
 
 ### 1C. Release Type
 
-Definition: The platform edition's release type as assigned by its developer and/or publisher. 
+Definition: The platform edition's release type, ideally as assigned by its developer, publisher, and/or distributor. 
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
