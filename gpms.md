@@ -31,7 +31,7 @@ Table of Contents:
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
 
-The platform edition played for the GPFC may correspond with the game's initial release. For instance, *Journey* was released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). 
+The platform edition played for the GPFC may correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). All four of these platform editions are ports. 
 
 *The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
