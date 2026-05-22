@@ -31,7 +31,7 @@ Table of Contents:
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
 
-The platform edition played for the GPFC may correspond with the initial release of the game. For instance, *Journey* was released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). 
+The platform edition played for the GPFC may correspond with the game's initial release. For instance, *Journey* was released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). 
 
 *The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
@@ -64,16 +64,13 @@ The edition's release year may differ from the game's initial release year.
 
 ### 1C. Release Type
 
-Definition: The platform edition's release type as assigned by its developer, publisher, and/or distributor. 
-
-In cases where the developer, publisher, and/or distributor
+Definition: The platform edition's release type as, where applicable, assigned by its developer, publisher, and/or distributor. 
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
 <li>Alpha</li>
 <li>Beta</li>
-<li>Commercial release</li>
 <li>Demo</li>
 <li>Downloadable content (DLC)</li>
 <li>Early access</li>
@@ -82,7 +79,6 @@ In cases where the developer, publisher, and/or distributor
 <li>Initial release</li>
 <li>Patch</li>
 <li>Port</li>
-<li>Public release</li>
 <li>Reboot</li>
 <li>Remake</li>
 <li>Remaster</li>
@@ -907,7 +903,7 @@ For the fair-dealing purposes of the GPFC, the video file will typically be a "c
 * [Gameplay Attribution](#2f-gameplay-attribution) (text input field)
 * [Metadata Attribution](#2g-metadata-attribution) (text input field) 
 * [ID](#2h-id) (text input field) 
-* [Filename](#2i-filename) (text inpout field) 
+* [Filename](#2i-filename) (text input field) 
 * [Gameplay File Note](#2j-gameplay-file-note) (text input field)
 
 ### 2A. Clip Title
@@ -942,6 +938,7 @@ Select "No commentary" if the footage contains no commentary.
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
+
 <ul>
 <li>Avatar / VTubing</li>
 <li>Captions / subtitles
