@@ -946,7 +946,7 @@ Select "No commentary" if the footage contains no commentary.
 <li>Face cam / facecam<li>
 <li>No commentary</li>
 <li>Voice over / voice-over / voiceover (VO)</li>
-<ul>
+</ul>
 </details>
 
 ### 2E. Chat
