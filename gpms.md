@@ -10,6 +10,7 @@ This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/l
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
 * Wikipedia (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
+* Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
 
 See citations below for specific instances of adaptation. 
 
@@ -452,7 +453,7 @@ Definition: The operating system, device, computer, console, and/or service on w
 Definition: The software framework and/or development environment used to design the platform edition
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted from Wikipedia 2025) [+]</summary>
+<summary><i>controlled vocabulary</i> (adapted from Wikipedia, "List of Game Engines," 2025) [+]</summary>
 <ul>
 <li>4A Engine</li>
 <li>A-FRAME (VR)</li>
@@ -1010,7 +1011,9 @@ Definition: "Any other notable characteristics of the" gameplay file that are "n
 
 ## 3. Gameplay Settings Entity 
 
-Description coming soon. 
+Definition: Denotes the settings of the platform edition as played and recorded in the gameplay file
+
+*The following aspects of the Gameplay Settings Entity should describe the platform edition's settings when it was played and recorded for the GPFC.*
 
 * [Input Device](#3a-input-device) (controlled vocabulary)
 * [Networked Feature](#3b-networked-feature) (controlled vocabulary) 
@@ -1025,7 +1028,33 @@ Description coming soon.
 
 ### 3A. Input Device
 
-controlled vocabulary [R][+]
+Definition: The equipment used to play the game while the video was recorded (Lee et al. 2024)
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted from Wikipedia, "Game Controller," 2026) [R][+]</summary>
+<ul>
+<li>Adaptive controller</li>
+<li>Balance board</li>
+<li>Camera</li>
+<li>Dance pad</li>
+<li>Fishing rod</li>
+<li>Gamepad / joypad</li>
+<li>Joystick</li>
+<li>Keyboard</li>
+<li>Light gun</li>
+<li>Mechanical motion tracker</li>
+<li>Microphone</li>
+<li>Mouse</li>
+<li>Optical motion tracker</li>
+<li>Paddle</li>
+<li>Pedals</li>
+<li>Racing wheel / steering wheel</li>
+<li>Rhythm game accessory</li>
+<li>Touchscreen</li>
+<li>Trackball</li>
+<li>Wii remote</li>
+</ul>
+</details>
 
 ### 3B. Networked Feature
 
