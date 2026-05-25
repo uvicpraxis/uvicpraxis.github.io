@@ -1,16 +1,18 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 22 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 25 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
 This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for early-access release in 2026-27: 
 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
+* Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [http://www.cidoc-crm.org/index.html](http://www.cidoc-crm.org/index.html)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
 * Wikipedia (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 * Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
+* Wikipedia (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
 
 See citations below for specific instances of adaptation. 
 
@@ -36,22 +38,22 @@ The platform edition played for the GPFC may or may not correspond with the game
 
 *The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
-* [Game Title](#1a-game-title) (text input field)
-* [Release Year](#1b-release-year) (text input field)
-* [Release Type](#1c-release-type) (controlled vocabulary)
-* [Platform](#1d-platform) (controlled vocabulary)
-* [Engine](#1e-engine) (controlled vocabulary)
-* [Developer](#1f-developer) (text input field)
-* [Developer's Location](#1g-developers-location) (controlled vocabulary)
-* [Publisher](#1h-publisher) (text input field)
-* [Publisher Class](#1i-publisher-class) (controlled vocabulary)
-* [Edition Note](#1j-edition-note) (text input field)
+* [Game Title](#1a-game-title) (text input field; [R])
+* [Release Year](#1b-release-year) (text input field; [R])
+* [Release Type](#1c-release-type) (controlled vocabulary; [R][+])
+* [Platform](#1d-platform) (controlled vocabulary; [R][+])
+* [Engine](#1e-engine) (controlled vocabulary; [+])
+* [Developer](#1f-developer) (text input field; [R][+])
+* [Developer's Location](#1g-developers-location) (controlled vocabulary; [R][+])
+* [Publisher](#1h-publisher) (text input field; [R][+])
+* [Publisher Class](#1i-publisher-class) (controlled vocabulary; [R][+])
+* [Platform Edition Note](#1j-platform-edition-note) (text input field)
 
 ### 1A. Game Title
 
 Definition: The proper name used to refer to the platform edition as assigned by its developer and/or publisher (Lee et al. 2024; CIDOC 2011)
 
-Provide the complete game title. Avoid using an alternative, abbreviated, or colloquial title. 
+Provide the complete, official game title. Avoid using an alternative, abbreviated, or colloquial title. 
 
 *text input field* [R]
 
@@ -872,7 +874,9 @@ Both publishers and distributors may be included in this field.
 
 ### 1I. Publisher Class 
 
-Definition: A term used to describe the size, profile, and/or budget of the publisher and, in some cases, the developer, too
+Definition: The size, profile, and/or budget of the publisher and, in some cases, the developer, too
+
+This element rarely needs to be repeated. Exceptions include cases where the platform edition is both "indie" and "self-published." 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
@@ -885,7 +889,7 @@ Definition: A term used to describe the size, profile, and/or budget of the publ
 </ul>
 </details>
 
-### 1J. Edition Note 
+### 1J. Platform Edition Note 
 
 Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al. 2024)
 
@@ -893,26 +897,26 @@ Definition: "Any other notable characteristics of the platform edition" that are
 
 ## 2. Gameplay File Entity 
 
-Definition: Denotes a video file containing gameplay footage of a video game; also called "game capture" and "game recording"
+Definition: Denotes a video file containing gameplay footage of a particular instantiation (called a "platform edition") of a video game; also called "game capture" and "game recording"
 
 For the fair-dealing purposes of the GPFC, the video file will typically be a "clip" that is 30 seconds to five minutes long.
 
 *The following aspects of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
 
-* [Clip Title](#2a-clip-title) (text input field)
-* [Clip Length](#2b-clip-length) (text input field) 
-* [Date Recorded](#2c-date-recorded) (text input field) 
-* [Commentary](#2d-commentary) (controlled vocabulary)
-* [Chat](#2e-chat) (controlled vocabulary)
-* [Gameplay Attribution](#2f-gameplay-attribution) (text input field)
-* [Metadata Attribution](#2g-metadata-attribution) (text input field) 
-* [ID](#2h-id) (text input field) 
-* [Filename](#2i-filename) (text input field) 
+* [Clip Title](#2a-clip-title) (text input field; [R])
+* [Clip Length](#2b-clip-length) (text input field; [R]) 
+* [Date Recorded](#2c-date-recorded) (text input field; [R]) 
+* [Commentary](#2d-commentary) (controlled vocabulary; [R][+])
+* [Chat](#2e-chat) (controlled vocabulary; [R][+])
+* [Gameplay Attribution](#2f-gameplay-attribution) (text input field; [R][+])
+* [Metadata Attribution](#2g-metadata-attribution) (text input field; [R][+]) 
+* [ID](#2h-id) (text input field; [R]) 
+* [Filename](#2i-filename) (text input field; [R]) 
 * [Gameplay File Note](#2j-gameplay-file-note) (text input field)
 
 ### 2A. Clip Title
 
-Definition: A public-facing, search-friendly description of the gameplay footage as assigned by the person who played the game while the video was recorded
+Definition: A public-facing, search-friendly description of the gameplay footage as assigned by the person who played the platform edition while the video was recorded
 
 Provide a title that helps viewers anticipate what they will see, hear, read, and watch. Describe the content of the clip and the actions occurring in it. An example is, "Starting a New Game: Naming the Player Character, Encountering Emus and Hobgoblins, and Collecting Darts, Scrolls, and Potions on Level 1."
 
@@ -973,7 +977,7 @@ Select "No chat" if the footage contains no chat.
 
 ### 2F. Gameplay Attribution 
 
-Definition: The chosen or preferred name of the person who played the game while the video was recorded
+Definition: The chosen or preferred name of the person who played the platform edition while the video was recorded
 
 Multiple names may be included. Full names are optional. 
 
@@ -981,7 +985,7 @@ Multiple names may be included. Full names are optional.
 
 ### 2G. Metadata Attribution
 
-Definition: The chosen or preferred name of the person who described the gameplay and entered the metadata
+Definition: The chosen or preferred name of the person who described the platform edition, the gameplay file, the gameplay settings, the gameplay footage, and/or the gameplay instruction and/or entered the metadata
 
 Multiple names may be included. Full names are optional. 
 
@@ -1011,24 +1015,23 @@ Definition: "Any other notable characteristics of the" gameplay file that are "n
 
 ## 3. Gameplay Settings Entity 
 
-Definition: Denotes the settings of the platform edition as played and recorded in the gameplay file
+Definition: Denotes the settings of a particular instantiation (called a "platform edition") of a video game
 
-*The following aspects of the Gameplay Settings Entity should describe the platform edition's settings when it was played and recorded for the GPFC.*
+*The following aspects of the Gameplay Settings Entity should describe the platform edition's settings while it was played and recorded for the GPFC.*
 
-* [Input Device](#3a-input-device) (controlled vocabulary)
-* [Networked Feature](#3b-networked-feature) (controlled vocabulary) 
-* [Number of Players](#3c-number-of-players) (controlled vocabulary) 
-* [Type of Play](#3d-type-of-play) (controlled vocabulary) 
-* [Mode of Play](#3e-mode-of-play) (controlled vocabulary) 
-* [Language](#3f-language) (text input field) 
-* [Accessibility](#3g-accessibility) (controlled vocabulary) 
-* [Technical](#3h-technical) (controlled vocabulary) 
-* [Mods](#3i-mods) (text input field) 
-* [Settings Note](#3j-settings-note) 
+* [Input Device](#3a-input-device) (controlled vocabulary; [R][+])
+* [Connectivity](#3b-connectivity) (controlled vocabulary; [R][+]) 
+* [Number of Players](#3c-number-of-players) (controlled vocabulary; [R]) 
+* [Type of Play](#3d-type-of-play) (controlled vocabulary; [R][+]) 
+* [Gameplay Mode](#3e-gameplay-mode) (controlled vocabulary; [R][+]) 
+* [Language](#3f-language) (text input field; [R][+]) 
+* [Accessibility](#3g-accessibility) (controlled vocabulary; [+]) 
+* [Mods](#3h-mods) (text input field; [R][+]) 
+* [Gameplay Settings Note](#3i-gameplay-settings-note) (text input field)
 
 ### 3A. Input Device
 
-Definition: The equipment used to play the game while the video was recorded (Lee et al. 2024)
+Definition: The equipment used to play the platform edition while the video was recorded (Lee et al. 2024)
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted from Wikipedia, "Game Controller," 2026) [R][+]</summary>
@@ -1037,6 +1040,7 @@ Definition: The equipment used to play the game while the video was recorded (Le
 <li>Balance board</li>
 <li>Camera</li>
 <li>Dance pad</li>
+<li>Exercise accessory</li>
 <li>Fishing rod</li>
 <li>Gamepad / joypad</li>
 <li>Joystick</li>
@@ -1056,41 +1060,194 @@ Definition: The equipment used to play the game while the video was recorded (Le
 </ul>
 </details>
 
-### 3B. Networked Feature
+### 3B. Connectivity
 
-controlled vocabulary [R][+]
+Definition: Whether and how the platform edition was online or networked while the video was recorded (Lee et al. 2024)
+
+Select "Offline" if were no online or networked components. 
+
+<details>
+<summary><i>controlled vocabulary</i> [R][+]</summary>
+<ul>
+<li>Cloud gaming / gaming on demand</li>
+<li>Online browser</li>
+<li>Online console / networked console</li>
+<li>Online computer / networked computer</li>
+<li>Online features / networked features</li>
+<li>Online mobile device / online networked device</li>
+<li>Online play / networked play</li>
+<li>Offline</li>
+</ul>
+</details>
 
 ### 3C. Number of Players 
 
-controlled vocabulary [R][+]
+Definition: The number of players in the gameplay footage of the platform edition (Lee et al. 2024)
+
+<details>
+<summary><i>controlled vocabulary</i> [R]</summary>
+<ul>
+<li>1 player</li>
+<li>2 players<li>
+<li>3 players</li>
+<li>4 players</li>
+<li>5-10 players</li>
+<li>11-50 players</li>
+<li>51 or more players</li>
+</ul>
+</details>
 
 ### 3D. Type of Play
 
-controlled vocabulary [R][+]
+Definition: How players relate socially to each other and the platform edition in the gameplay footage
 
-### 3E. Mode of Play
+<details>
+<summary><i>controlled vocabulary</i> [R][+]</summary>
+<ul>
+<li>Asynchronous multiplayer</li>
+<li>Collaborative</li>
+<li>Competitive</li>
+<li>Competitive teams</li>
+<li>Cooperative</li>
+<li>Cooperative teams</li>
+<li>Geolocative</li>
+<li>Local multiplayer</li>
+<li>Massively multiplayer</li>
+<li>Online multiplayer</li>
+<li>Player versus environment (PvE)</li>
+<li>Player versus player (PvP)</li>
+<li>Single-player</li>
+<li>Split screen</li>
+<li>Synchronous multiplayer</li>
+<li>Zero player</li>
+</ul>
+</details>
 
-controlled vocabulary [R][+]
+### 3E. Gameplay Mode 
+
+Definition: A distinct configuration of the platform edition's mechanics and gameplay in the gameplay footage
+
+<details>
+<summary><i>controlled vocabulary</li> (adapted from Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
+<ul>
+<li>Attract / display / show</li>
+<li>Arena</li>
+<li>Capture the flag</li>
+<li>Career</li>
+<li>Challenge</li>
+<li>Control point</li>
+<li>Deathmatch</li>
+<li>Debug</li>
+<li>Easy / beginner / casual</li>
+<li>Endless</li>
+<li>God / invincible / infinite health</li>
+<li>Hard / expert</li>
+<li>King of the hill</li>
+<li>New game plus</li>
+<li>Noclip</li>
+<li>Normal / moderate / default</li>
+<li>Permadeath</li>
+<li>Score attack</li>
+<li>Skirmish</li>
+<li>Spectator</li>
+<li>Story / campaign</li>
+<li>Survival / horde</li>
+<li>Time attack</li>
+</ul>
+</details>
 
 ### 3F. Language 
+
+Definition: The language appearing in the gameplay footage of the platform edition
+
+Multiple languages, including constructed languages such as Simlish, may be included. 
+
+Include languages that are read as well as heard, be they diegetic (read or heard by characters in the world) or non-diegetic (intended to be read or heard by players). 
 
 text input field [R][+]
 
 ### 3G. Accessibility
 
-controlled vocabulary [R][+]
+Definition: A configuration or appearance of the platform edition's accessibility features in the gameplay footage
 
-### 3H. Technical
+<details>
+<summary><i>controlled vocabulary</i> (adapted from Ellis et al. n.d.) [+]</summary>
+<ul>
+<li>Alternate inputs</li>
+<li>Arachnophobia mode</li>
+<li>Assist mode</li>
+<li>Auto aim</li>
+<li>Auto float</li>
+<li>Autosave</li>
+<li>Customized audio</li>
+<li>Customized background movement</li>
+<li>Customized communications or chat</li>
+<li>Customized control sensitivity</li>
+<li>Customized colours</li>
+<li>Customized cool-down period</li>
+<li>Customized cursor or crosshair design</li>
+<li>Customized font size</li>
+<li>Customized game speed</li>
+<li>Customized haptics</li>
+<li>Customized interface</li>
+<li>Customized motion tracking</li>
+<li>Customized speed</li>
+<li>Customized steering</li>
+<li>Customized text formatting</li>
+<li>Customized virtual keyboard</li>
+<li>High contrast mode</li>
+<li>In-game help / guidance / tips</li>
+<li>Infinite items</li>
+<li>Interactive tutorial</li>
+<li>Manual save</li>
+<li>No blood or gore</li>
+<li>No button mashing</li>
+<li>No camera movement</li>
+<li>No flashing and strobing effects</li>
+<li>No flickering images</li>
+<li>No music</li>
+<li>No permadeath</li>
+<li>No quick time events</li>
+<li>No sound effects</li>
+<li>No unexpected movement or events</li>
+<li>No triggering content</li>
+<li>Practice level</li>
+<li>Progress summaries</li>
+<li>Realtime speech-to-text</li>
+<li>Realtime text-to-speech</li>
+<li>Remapped controls</li>
+<li>Screenreader</li>
+<li>Sign language</li>
+<li>Skip boss or enemy</li>
+<li>Skip level</li>
+<li>Skip scene</li>
+<li>Subtitles / captions</li>
+<li>Surround sound</li>
+<li>Symbol-based chat</li>
+<li>Text chat</li>
+<li>Text highlighing</li>
+<li>Thalassophobia mode</li>
+<li>Visually indicated interactive object</li>
+<li>Visually indicated movement</li>
+<li>Visually indicated speech</li>
+<li>Voice chat</li>
+<li>Voiced global positioning</li>
+<li>Voiceovers for menus</li>
+<li>Voiceovers for text</li>
+</ul>
+</details>
 
-controlled vocabulary [R][+]
+### 3H. Mods
 
-### 3I. Mods
+Definition: A configuration or appearance of a player or fan-authored alteration of the platform edition in the gameplay footage
 
-text input field [R][+]
+*text input field* [R][+]
 
-### 3J. Settings Note
+### 3I. Gameplay Settings Note
 
-text input field 
+Definition: "Any other notable characteristics of the" gameplay settings that are "not captured in other fields" of this metadata schema (Lee et al. 2024)
+
+*text input field*
 
 ## 4. Gameplay Footage Entity
 
