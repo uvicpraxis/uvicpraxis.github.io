@@ -1128,7 +1128,7 @@ Definition: How players relate socially to each other and the platform edition i
 Definition: A distinct configuration of the platform edition's mechanics and gameplay in the gameplay footage
 
 <details>
-<summary><i>controlled vocabulary</li> (adapted from Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (adapted from Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
 <ul>
 <li>Attract / display / show</li>
 <li>Arena</li>
