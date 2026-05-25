@@ -1088,7 +1088,7 @@ Definition: The number of players in the gameplay footage of the platform editio
 <summary><i>controlled vocabulary</i> [R]</summary>
 <ul>
 <li>1 player</li>
-<li>2 players<li>
+<li>2 players</li>
 <li>3 players</li>
 <li>4 players</li>
 <li>5-10 players</li>
