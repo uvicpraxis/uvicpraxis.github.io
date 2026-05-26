@@ -1,8 +1,8 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 26 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 25 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27: 
+This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release by [UVic Media Studies](https://www.uvic.ca/humanities/media-studies/index.php) in 2026-27: 
 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
@@ -69,7 +69,7 @@ The edition's release year may differ from the game's initial release year.
 
 Definition: The platform edition's release type as assigned by its developer, publisher, and/or distributor
 
-Use information available on MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type if it was not assigned by the developer, publisher, and/or distributor. 
+Use information available on MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type, especially if it was not assigned by the developer, publisher, and/or distributor. 
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
@@ -81,8 +81,7 @@ Use information available on MobyGames, Wikipedia, Steam, and/or fansites to con
 <li>Early access</li>
 <li>Emulation</li>
 <li>Fan game</li>
-<li>Initial release</li>
-<li>Patch</li>
+<li>Initial release / original release</li>
 <li>Port</li>
 <li>Reboot</li>
 <li>Remake</li>
@@ -643,7 +642,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al. 2024; IFLA 2009)
 
-Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer. 
+Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer(s). 
 
 *text input field* [R][+]
 
@@ -651,7 +650,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 
 Definition: The geographic location of the platform edition's developer(s)
 
-Use information available on MobyGames, Wikipedia, Steam, fansites, the developer's official site, and/or the platform edition's official site, title screen, credits sequence, and/or advertising to confirm the developer's location. 
+Use information available on MobyGames, Wikipedia, Steam, fansites, the developer's official website, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer's location. 
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
@@ -877,6 +876,8 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, the develope
 Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al. 2024; IFLA 2009)
 
 Both publishers and distributors may be included in this field. 
+
+Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition’s official website, title screen, credits sequence, and/or advertising to confirm the publisher(s) and distributor(s). 
 
 *text input field* [R][+]
 
