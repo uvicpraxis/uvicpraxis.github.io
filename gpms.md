@@ -908,7 +908,7 @@ Definition: "Any other notable characteristics of the platform edition" that are
 
 ## 2. Gameplay File Entity 
 
-Definition: Denotes a video file containing gameplay footage of a particular instantiation (called a "platform edition") of a video game; also called "game capture" and "game recording"
+Definition: Denotes a video file containing gameplay footage of a particular instantiation (a ["platform edition"](#1-platform-edition-entity)) of a video game; also called "game capture" and "game recording"
 
 For the fair-dealing purposes of the GPFC, the video file will typically be a "clip" that is 30 seconds to five minutes long.
 
@@ -935,13 +935,13 @@ Provide a title that helps viewers anticipate what they will see, hear, read, an
 
 ### 2B. Clip Length
 
-Definition: The length of the video in minutes and seconds 
+Definition: The length of the gameplay video in minutes and seconds 
 
 *text input field; format: MM:SS* [R]
 
 ### 2C. Date Recorded
 
-Definition: The date the video was recorded
+Definition: The date the gameplay video was recorded
 
 This date is presumably identical to the video file's "created" date.  
 
@@ -949,7 +949,7 @@ This date is presumably identical to the video file's "created" date.
 
 ### 2D. Commentary
 
-Definition: The type of player commentary, if any, included in the footage
+Definition: The type of player commentary, if any, included in the gameplay footage of the platform edition
 
 Commentary is reflective, and it typically addresses the video's audience. 
 
@@ -969,7 +969,7 @@ Select "No commentary" if the footage contains no commentary.
 
 ### 2E. Chat
 
-Definition: The type of chat, if any, included in the footage
+Definition: The type of chat, if any, included in the gameplay footage of the platform edition
 
 Chat typically occurs between players; however, in cases such as livestreams, it may also occur between players and audiences. 
 
@@ -1004,15 +1004,15 @@ Multiple names may be included. Full names are optional.
 
 ### 2H. ID 
 
-Definition: The internal reference number for the file and its metadata 
+Definition: The internal reference number for the gameplay file and its metadata 
 
-This number is used by the Press Record team to identify files in the GPFC. It is a five-character numeric string. 
+This number is used by the Press Record team to identify files and metadata in the GPFC. It is a five-character numeric string. 
 
 *text input field; format: #####* [R]
 
 ### 2I. Filename
 
-Definition: The filename of the video file 
+Definition: The filename of the video file containing gameplay footage of the platform edition
 
 Use camelCasing to include the following information in the following order: gameTitlePlatformEditionReleaseYearClipTitleID. An example is rogue1985StartingANewGame00011.mp4. Abbreviate the clip's title to avoid long filenames. 
 
