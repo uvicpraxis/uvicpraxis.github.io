@@ -1,12 +1,12 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 25 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 26 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for early-access release in 2026-27: 
+This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27: 
 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
-* International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [http://www.cidoc-crm.org/index.html](http://www.cidoc-crm.org/index.html)
+* International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
@@ -16,13 +16,13 @@ This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/l
 
 See citations below for specific instances of adaptation. 
 
-Notes:
+## Notes
 
 * Elements marked with [R] are required.
 * Elements marked with [+] are repeatable.
 * "GPFC" refers to the Press Record Gameplay Footage Collection. 
 
-Table of Contents: 
+## Table of Contents
 
 1. [Platform Edition Entity](#1-platform-edition-entity)
 2. [Gameplay File Entity](#2-gameplay-file-entity)
@@ -34,9 +34,9 @@ Table of Contents:
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
 
-The platform edition played for the GPFC may or may not correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release). 
+The platform edition played and recorded for the GPFC may or may not correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release). 
 
-*The following aspects of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
+*The following elements of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
 * [Game Title](#1a-game-title) (text input field; [R])
 * [Release Year](#1b-release-year) (text input field; [R])
@@ -51,7 +51,7 @@ The platform edition played for the GPFC may or may not correspond with the game
 
 ### 1A. Game Title
 
-Definition: The proper name used to refer to the platform edition as assigned by its developer and/or publisher (Lee et al. 2024; CIDOC 2011)
+Definition: The proper name of the platform edition as assigned by its developer and/or publisher (Lee et al. 2024; CIDOC 2011)
 
 Provide the complete, official game title. Avoid using an alternative, abbreviated, or colloquial title. 
 
@@ -67,7 +67,9 @@ The edition's release year may differ from the game's initial release year.
 
 ### 1C. Release Type
 
-Definition: The platform edition's release type as, where applicable, assigned by its developer, publisher, and/or distributor
+Definition: The platform edition's release type as assigned by its developer, publisher, and/or distributor
+
+Use information available on MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type if it was not assigned by the developer, publisher, and/or distributor. 
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
@@ -454,6 +456,8 @@ Definition: The operating system, device, computer, console, and/or service on w
 
 Definition: The software framework and/or development environment used to design the platform edition
 
+Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the engine.
+
 <details>
 <summary><i>controlled vocabulary</i> (adapted from Wikipedia, "List of Game Engines," 2025) [+]</summary>
 <ul>
@@ -639,11 +643,15 @@ Definition: The software framework and/or development environment used to design
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al. 2024; IFLA 2009)
 
+Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer. 
+
 *text input field* [R][+]
 
 ### 1G. Developer's Location
 
 Definition: The geographic location of the platform edition's developer(s)
+
+Use information available on MobyGames, Wikipedia, Steam, fansites, the developer's official site, and/or the platform edition's official site, title screen, credits sequence, and/or advertising to confirm the developer's location. 
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
@@ -876,6 +884,8 @@ Both publishers and distributors may be included in this field.
 
 Definition: The size, profile, and/or budget of the publisher and, in some cases, the developer, too
 
+Use information available on MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class. 
+
 This element rarely needs to be repeated. Exceptions include cases where the platform edition is both "indie" and "self-published." 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
@@ -901,7 +911,7 @@ Definition: Denotes a video file containing gameplay footage of a particular ins
 
 For the fair-dealing purposes of the GPFC, the video file will typically be a "clip" that is 30 seconds to five minutes long.
 
-*The following aspects of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
+*The following elements of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
 
 * [Clip Title](#2a-clip-title) (text input field; [R])
 * [Clip Length](#2b-clip-length) (text input field; [R]) 
@@ -1017,7 +1027,7 @@ Definition: "Any other notable characteristics of the" gameplay file that are "n
 
 Definition: Denotes the settings of a particular instantiation (called a "platform edition") of a video game
 
-*The following aspects of the Gameplay Settings Entity should describe the platform edition's settings while it was played and recorded for the GPFC.*
+*The following elements of the Gameplay Settings Entity should describe the platform edition's settings while it was played and recorded for the GPFC.*
 
 * [Input Device](#3a-input-device) (controlled vocabulary; [R][+])
 * [Connectivity](#3b-connectivity) (controlled vocabulary; [R][+]) 
