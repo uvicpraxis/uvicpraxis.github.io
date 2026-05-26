@@ -1256,7 +1256,7 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Player Character](#4j-player-character) (controlled vocabulary; [R][+]) 
 * [Non-Player Character](#4k-non-player-character) (controlled vocabulary; [R][+]) 
 * [Hostile Character](#4l-hostile-character) (controlled vocabulary; [R][+]) 
-* [Objects](#4m-objects) (controlled vocabulary; [+])
+* [Objects](#4m-objects) (controlled vocabulary; [R+][+])
 * [Mechanics](#4n-mechanics) (controlled vocabulary; [R][+]) 
 * [Activity](#4o-activity) (controlled vocabulary; [R][+]) 
 * [Pacing](#4p-pacing) (controlled vocabulary; [R][+]) 
@@ -1343,7 +1343,7 @@ controlled vocabulary [R][+]
 
 ### 4M. Objects
 
-controlled vocabulary [+]
+controlled vocabulary [R][+]
 
 ### 4N. Mechanics 
 
@@ -1365,7 +1365,7 @@ controlled vocabulary [R][+]
 
 controlled vocabulary [R][+]
 
-### 4S. Tropes
+### 4S. Trope
 
 controlled vocabulary [R][+]
 
