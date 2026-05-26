@@ -1026,19 +1026,18 @@ Definition: "Any other notable characteristics of the" gameplay file that are "n
 
 ## 3. Gameplay Settings Entity 
 
-Definition: Denotes the settings of a particular instantiation (called a "platform edition") of a video game
+Definition: Denotes the settings of a particular instantiation (a ["platform edition"](#1-platform-edition-entity)) of a video game
 
 *The following elements of the Gameplay Settings Entity should describe the platform edition's settings while it was played and recorded for the GPFC.*
 
 * [Input Device](#3a-input-device) (controlled vocabulary; [R][+])
 * [Connectivity](#3b-connectivity) (controlled vocabulary; [R][+]) 
 * [Number of Players](#3c-number-of-players) (controlled vocabulary; [R]) 
-* [Type of Play](#3d-type-of-play) (controlled vocabulary; [R][+]) 
-* [Gameplay Mode](#3e-gameplay-mode) (controlled vocabulary; [R][+]) 
-* [Language](#3f-language) (text input field; [R][+]) 
-* [Accessibility](#3g-accessibility) (controlled vocabulary; [+]) 
-* [Mods](#3h-mods) (text input field; [R][+]) 
-* [Gameplay Settings Note](#3i-gameplay-settings-note) (text input field)
+* [Gameplay Mode](#3d-gameplay-mode) (controlled vocabulary; [R][+]) 
+* [Language](#3e-language) (text input field; [R][+]) 
+* [Accessibility](#3f-accessibility) (controlled vocabulary; [+]) 
+* [Mods](#3g-mods) (text input field; [R][+]) 
+* [Gameplay Settings Note](#3h-gameplay-settings-note) (text input field)
 
 ### 3A. Input Device
 
@@ -1081,13 +1080,13 @@ Select "Offline" if were no online or networked components.
 <summary><i>controlled vocabulary</i> [R][+]</summary>
 <ul>
 <li>Cloud gaming / gaming on demand</li>
-<li>Online browser</li>
-<li>Online console / networked console</li>
-<li>Online computer / networked computer</li>
-<li>Online features / networked features</li>
-<li>Online mobile device / online networked device</li>
-<li>Online play / networked play</li>
 <li>Offline</li>
+<li>Online browser</li>
+<li>Online computer / networked computer</li>
+<li>Online console / networked console</li>
+<li>Online features / networked features</li>
+<li>Online mobile device / networked mobile device</li>
+<li>Online play / networked play</li>
 </ul>
 </details>
 
@@ -1102,47 +1101,26 @@ Definition: The number of players in the gameplay footage of the platform editio
 <li>2 players</li>
 <li>3 players</li>
 <li>4 players</li>
-<li>5-10 players</li>
+<li>5 players</li>
+<li>6 players</li>
+<li>7 players</li>
+<li>8 players</li>
+<li>9 players</li>
+<li>10 players</li>
 <li>11-50 players</li>
 <li>51 or more players</li>
 </ul>
 </details>
 
-### 3D. Type of Play
-
-Definition: How players relate socially to each other and the platform edition in the gameplay footage
-
-<details>
-<summary><i>controlled vocabulary</i> [R][+]</summary>
-<ul>
-<li>Asynchronous multiplayer</li>
-<li>Collaborative</li>
-<li>Competitive</li>
-<li>Competitive teams</li>
-<li>Cooperative</li>
-<li>Cooperative teams</li>
-<li>Geolocative</li>
-<li>Local multiplayer</li>
-<li>Massively multiplayer</li>
-<li>Online multiplayer</li>
-<li>Player versus environment (PvE)</li>
-<li>Player versus player (PvP)</li>
-<li>Single-player</li>
-<li>Split screen</li>
-<li>Synchronous multiplayer</li>
-<li>Zero player</li>
-</ul>
-</details>
-
-### 3E. Gameplay Mode 
+### 3D. Gameplay Mode 
 
 Definition: A distinct configuration of the platform edition's mechanics and gameplay in the gameplay footage
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted from Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
 <ul>
-<li>Attract / display / show</li>
 <li>Arena</li>
+<li>Attract / display / show</li>
 <li>Capture the flag</li>
 <li>Career</li>
 <li>Challenge</li>
@@ -1167,7 +1145,7 @@ Definition: A distinct configuration of the platform edition's mechanics and gam
 </ul>
 </details>
 
-### 3F. Language 
+### 3E. Language 
 
 Definition: The language appearing in the gameplay footage of the platform edition
 
@@ -1175,9 +1153,9 @@ Multiple languages, including constructed languages such as Simlish, may be incl
 
 Include languages that are read as well as heard, be they diegetic (read or heard by characters in the world) or non-diegetic (intended to be read or heard by players). 
 
-text input field [R][+]
+*text input field* [R][+]
 
-### 3G. Accessibility
+### 3F. Accessibility
 
 Definition: A configuration or appearance of the platform edition's accessibility features in the gameplay footage
 
@@ -1220,10 +1198,10 @@ Definition: A configuration or appearance of the platform edition's accessibilit
 <li>No permadeath</li>
 <li>No quick time events</li>
 <li>No sound effects</li>
-<li>No unexpected movement or events</li>
 <li>No triggering content</li>
+<li>No unexpected movement or events</li>
 <li>Practice level</li>
-<li>Progress summaries</li>
+<li>Progress summary</li>
 <li>Realtime speech-to-text</li>
 <li>Realtime text-to-speech</li>
 <li>Remapped controls</li>
@@ -1248,13 +1226,13 @@ Definition: A configuration or appearance of the platform edition's accessibilit
 </ul>
 </details>
 
-### 3H. Mods
+### 3G. Mods
 
 Definition: A configuration or appearance of a player or fan-authored alteration of the platform edition in the gameplay footage
 
 *text input field* [R][+]
 
-### 3I. Gameplay Settings Note
+### 3H. Gameplay Settings Note
 
 Definition: "Any other notable characteristics of the" gameplay settings that are "not captured in other fields" of this metadata schema (Lee et al. 2024)
 
@@ -1263,6 +1241,33 @@ Definition: "Any other notable characteristics of the" gameplay settings that ar
 ## 4. Gameplay Footage Entity
 
 Description coming soon. 
+
+### Type of Play
+
+Definition: How players relate socially to each other and the platform edition in the gameplay footage
+
+<details>
+<summary><i>controlled vocabulary</i> [R][+]</summary>
+<ul>
+<li>Asynchronous multiplayer</li>
+<li>Collaborative</li>
+<li>Competitive</li>
+<li>Competitive teams</li>
+<li>Cooperative</li>
+<li>Cooperative teams</li>
+<li>Geolocative</li>
+<li>Local multiplayer</li>
+<li>Massively multiplayer</li>
+<li>Online multiplayer</li>
+<li>Player versus environment (PvE)</li>
+<li>Player versus player (PvP)</li>
+<li>Single-player</li>
+<li>Split screen</li>
+<li>Synchronous multiplayer</li>
+<li>Zero player</li>
+</ul>
+</details>
+
 
 ### Gameplay Genre
 
