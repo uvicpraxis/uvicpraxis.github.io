@@ -1253,21 +1253,21 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Time Period](#4g-time-period) (controlled vocabulary; [R][+]) 
 * [Atmosphere](#4h-atmosphere) (controlled vocabulary; [R][+]) 
 * [Perspective](#4i-perspective) (controlled vocabulary; [R][+]) 
-* [Player Characters](#4j-player-characters) (controlled vocabulary; [R][+]) 
-* [Non-Player Characters](#4k-non-player-characters) (controlled vocabulary; [R][+]) 
-* [Hostile Characters](#4l-hostile-characters) (controlled vocabulary; [R][+]) 
+* [Player Character](#4j-player-character) (controlled vocabulary; [R][+]) 
+* [Non-Player Character](#4k-non-player-character) (controlled vocabulary; [R][+]) 
+* [Hostile Character](#4l-hostile-character) (controlled vocabulary; [R][+]) 
 * [Objects](#4m-objects) (controlled vocabulary; [+])
 * [Mechanics](#4n-mechanics) (controlled vocabulary; [R][+]) 
 * [Activity](#4o-activity) (controlled vocabulary; [R][+]) 
 * [Pacing](#4p-pacing) (controlled vocabulary; [R][+]) 
 * [Progression](#4q-progression) (controlled vocabulary; [R][+]) 
 * [Theme](#4r-theme) (controlled vocabulary; [R][+]) 
-* [Tropes](#4s-tropes) (controlled vocabulary; [R][+]) 
+* [Trope](#4s-trope) (controlled vocabulary; [R][+]) 
 * [Art](#4t-art) (controlled vocabulary; [R][+]) 
 * [Style](#4u-style) (controlled vocabulary; [R][+]) 
-* [Interfaces](#4v-interfaces) (controlled vocabulary; [R][+]) 
+* [Interface](#4v-interface) (controlled vocabulary; [R][+]) 
 * [Experience](#4w-experience) (controlled vocabulary; [R][+]) 
-* [Transactions](#4x-transactions) (controlled vocabulary; [R][+]) 
+* [Transaction](#4x-transaction) (controlled vocabulary; [R][+]) 
 * [Metagaming](#4y-metagaming) (controlled vocabulary; [R][+]) 
 * [Gameplay Footage Note](#4z-gameplay-footage-note) (text input field)  
 
@@ -1329,15 +1329,15 @@ controlled vocabulary [R][+]
 
 controlled vocabulary [R][+]
 
-### 4J. Player Characters
+### 4J. Player Character
 
 controlled vocabulary [R][+]
 
-### 4K. Non-Player Characters
+### 4K. Non-Player Character
 
 controlled vocabulary [R][+]
 
-### 4L. Hostile Characters
+### 4L. Hostile Character
 
 controlled vocabulary [R][+]
 
@@ -1377,7 +1377,7 @@ controlled vocabulary [R][+]
 
 controlled vocabulary [R][+]
 
-### 4V. Interfaces
+### 4V. Interface
 
 controlled vocabulary [R][+]
 
@@ -1385,7 +1385,7 @@ controlled vocabulary [R][+]
 
 controlled vocabulary [R][+]
 
-### 4X. Transactions 
+### 4X. Transaction 
 
 controlled vocabulary [R][+]
 
@@ -1399,10 +1399,10 @@ text input field
 
 ## 5. Gameplay Instruction Entity 
 
-### Pertinent Topics
+### Pertinent Topic
 
 controlled vocabulary [R][+]
 
-### Instruction Note 
+### Gameplay Instruction Note 
 
 text input field
