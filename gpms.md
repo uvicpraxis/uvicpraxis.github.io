@@ -1240,9 +1240,38 @@ Definition: "Any other notable characteristics of the" gameplay settings that ar
 
 ## 4. Gameplay Footage Entity
 
-Description coming soon. 
+Definition: Denotes the recorded video material of a particular instantiation (a [“platform edition”](#1-platform-edition-entity)) of a video game
 
-### Type of Play
+*The following elements of the Gameplay Footage Entity should describe recorded gameplay of the platform edition intended for the GPFC.*
+
+* [Type of Play](#4a-type-of-play) (controlled vocabulary; [R][+]) 
+* [Gameplay Genre](#4b-gameplay-genre) (controlled vocabulary; [R][+]) 
+* [Narrative Genre](#4c-narrative-genre) (controlled vocabulary; [R][+]) 
+* [Dimension](#4d-dimension) (controlled vocabulary; [R][+]) 
+* [World](#4e-world) (controlled vocabulary; [R][+]) 
+* [Place](#4f-place) (controlled vocabulary; [R][+])
+* [Time Period](#4g-time-period) (controlled vocabulary; [R][+]) 
+* [Atmosphere](#4h-atmosphere) (controlled vocabulary; [R][+]) 
+* [Perspective](#4i-perspective) (controlled vocabulary; [R][+]) 
+* [Player Characters](#4j-player-characters) (controlled vocabulary; [R][+]) 
+* [Non-Player Characters](#4k-non-player-characters) (controlled vocabulary; [R][+]) 
+* [Hostile Characters](#4l-hostile-characters) (controlled vocabulary; [R][+]) 
+* [Objects](#4m-objects) (controlled vocabulary; [+])
+* [Mechanics](#4n-mechanics) (controlled vocabulary; [R][+]) 
+* [Activity](#4o-activity) (controlled vocabulary; [R][+]) 
+* [Pacing](#4p-pacing) (controlled vocabulary; [R][+]) 
+* [Progression](#4q-progression) (controlled vocabulary; [R][+]) 
+* [Theme](#4r-theme) (controlled vocabulary; [R][+]) 
+* [Tropes](#4s-tropes) (controlled vocabulary; [R][+]) 
+* [Art](#4t-art) (controlled vocabulary; [R][+]) 
+* [Style](#4u-style) (controlled vocabulary; [R][+]) 
+* [Interfaces](#4v-interfaces) (controlled vocabulary; [R][+]) 
+* [Experience](#4w-experience) (controlled vocabulary; [R][+]) 
+* [Transactions](#4x-transactions) (controlled vocabulary; [R][+]) 
+* [Metagaming](#4y-metagaming) (controlled vocabulary; [R][+]) 
+* [Gameplay Footage Note](#4z-gameplay-footage-note) (text input field)  
+
+### 4A. Type of Play
 
 Definition: How players relate socially to each other and the platform edition in the gameplay footage
 
@@ -1268,104 +1297,103 @@ Definition: How players relate socially to each other and the platform edition i
 </ul>
 </details>
 
-
-### Gameplay Genre
-
-controlled vocabulary [R][+]
-
-### Narrative Genre 
+### 4B. Gameplay Genre
 
 controlled vocabulary [R][+]
 
-### Dimension 
+### 4C. Narrative Genre 
 
 controlled vocabulary [R][+]
 
-### World
+### 4D. Dimension 
 
 controlled vocabulary [R][+]
 
-### Place
+### 4E. World
 
 controlled vocabulary [R][+]
 
-### Time Period
+### 4F. Place
 
 controlled vocabulary [R][+]
 
-### Atmosphere
+### 4G. Time Period
 
 controlled vocabulary [R][+]
 
-### Perspective
+### 4H. Atmosphere
 
 controlled vocabulary [R][+]
 
-### Player Characters
+### 4I. Perspective
 
 controlled vocabulary [R][+]
 
-### Non-Player Characters
+### 4J. Player Characters
 
 controlled vocabulary [R][+]
 
-### Hostile Characters
+### 4K. Non-Player Characters
 
 controlled vocabulary [R][+]
 
-### Objects
+### 4L. Hostile Characters
+
+controlled vocabulary [R][+]
+
+### 4M. Objects
 
 controlled vocabulary [+]
 
-### Mechanics 
+### 4N. Mechanics 
 
 controlled vocabulary [R][+]
 
-### Activity
+### 4O. Activity
 
 controlled vocabulary [R][+]
 
-### Pacing
+### 4P. Pacing
 
 controlled vocabulary [R][+]
 
-### Progression 
+### 4Q. Progression 
 
 controlled vocabulary [R][+]
 
-### Theme
+### 4R. Theme
 
 controlled vocabulary [R][+]
 
-### Tropes
+### 4S. Tropes
 
 controlled vocabulary [R][+]
 
-### Art 
+### 4T. Art 
 
 controlled vocabulary [R][+]
 
-### Style 
+### 4U. Style 
 
 controlled vocabulary [R][+]
 
-### Interfaces
+### 4V. Interfaces
 
 controlled vocabulary [R][+]
 
-### Experience
+### 4W. Experience
 
 controlled vocabulary [R][+]
 
-### Transactions 
+### 4X. Transactions 
 
 controlled vocabulary [R][+]
 
-### Metagaming 
+### 4Y. Metagaming 
 
 controlled vocabulary [R][+]
 
-### Gameplay Footage Note
+### 4Z. Gameplay Footage Note
 
 text input field 
 
