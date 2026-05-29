@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 25 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 29 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -9,6 +9,8 @@ This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/l
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
+* Lee, J. H.,  Schmalz, M., Newman, M., & Koughan, L. D. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. 
+[https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
 * Wikipedia (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 * Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
@@ -1246,10 +1248,10 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 
 * [Type of Play](#4a-type-of-play) (controlled vocabulary; [R][+]) 
 * [Gameplay Genre](#4b-gameplay-genre) (controlled vocabulary; [R][+]) 
-* [Narrative Genre](#4c-narrative-genre) (controlled vocabulary; [R][+]) 
-* [Dimension](#4d-dimension) (controlled vocabulary; [R][+]) 
-* [World](#4e-world) (controlled vocabulary; [R][+]) 
-* [Place](#4f-place) (controlled vocabulary; [R][+])
+* [Gameplay Subgenre](#4c-gameplay-subgenre) (controlled vocabulary; [R][+])
+* [Narrative Genre](#4d-narrative-genre) (controlled vocabulary; [R][+]) 
+* [Dimension](#4e-dimension) (controlled vocabulary; [R][+]) 
+* [World and Place](#4f-world-and-place) (controlled vocabulary; [R][+]) 
 * [Time Period](#4g-time-period) (controlled vocabulary; [R][+]) 
 * [Atmosphere](#4h-atmosphere) (controlled vocabulary; [R][+]) 
 * [Perspective](#4i-perspective) (controlled vocabulary; [R][+]) 
@@ -1273,7 +1275,7 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 
 ### 4A. Type of Play
 
-Definition: How players relate socially to each other and the platform edition in the gameplay footage
+Definition: How players relate socially to each other and the game in the gameplay footage
 
 <details>
 <summary><i>controlled vocabulary</i> [R][+]</summary>
@@ -1299,21 +1301,130 @@ Definition: How players relate socially to each other and the platform edition i
 
 ### 4B. Gameplay Genre
 
+Definition: "The overall nature of . . . interactivity" appearing in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al. 2024)
+
+Note: "Traditional" in the controlled vocabulary below denotes "games based on mechanics that exist in the real world and can be played in a physical setting." They include board, card, exercise, gambling, game show, maze, pinball, and trivia games (Lee et al., "Controlled Vocabulary for Genre," 2024). 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024) [R][+]</summary>
+<ul>
+<li>Action</li>
+<li>Adventure</li>
+<li>Compilation / collection</li>
+<li>Educational</li>
+<li>Idle</li>
+<li>Puzzle</li>
+<li>Racing / driving</li>
+<li>Role-playing / RPG</li>
+<li>Simulation</li>
+<li>Sports</li>
+<li>Strategy</li>
+<li>Traditional</li>
+</ul>
+</details>
+
+### 4C. Gameplay Subgenre
+
+Definition: Patterns of interactivity appearing in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al. 2024)
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024) [R][+]</summary>
+<ul>
+<li>4X</li>
+<li>Arcade</li>
+<li>Artillery</li>
+<li>Augmented reality</li>
+<li>Battle royale</li>
+<li>Beat ‘em up / brawler</li>
+<li>Block breaking</li>
+<li>Board game</li>
+<li>Breeding</li>
+<li>Bullet hell</li>
+<li>Cards / tiles / card game</li>
+<li>Chess</li>
+<li>City building / construction sim</li>
+<li>Collect-a-thon</li>
+<li>Dating sim</li>
+<li>Falling block / block fill</li>
+<li>Farming sim</li>
+<li>Fashion sim</li>
+<li>Fighting</li>
+<li>First-person shooter</li>
+<li>Fitness / exercise</li>
+<li>Flight simulator</li>
+<li>Gambling / gambling elements</li>
+<li>Game show</li>
+<li>God game</li>
+<li>Graphic adventure</li>
+<li>Hack and slash</li>
+<li>Hidden object</li>
+<li>Hunting / hunting sim</li>
+<li>Immersive sim</li>
+<li>Interactive book</li>
+<li>Interactive fiction / text adventure</li>
+<li>Japanese-style adventure</li>
+<li>Japanese-style RPG / JRPG</li>
+<li>Life sim / social sim</li>
+<li>Managerial / business sim / tycoon</li>
+<li>Mascot</li>
+<li>Massively multiplayer online RPG (MMPORG)</li>
+<li>Maze</li>
+<li>Mental training</li>
+<li>Metroidvania / search action</li>
+<li>Military simulator / wargame</li>
+<li>Mini-games</li>
+<li>Movie / full-motion video / FMV</li>
+<li>Multiplayer online battle arean / MOBA</li>
+<li>Paddle / Pong</li>
+<li>Parkour</li>
+<li>Party</li>
+<li>Pinball</li>
+<li>Platform / platformer</li>
+<li>Point and click</li>
+<li>Programming</li>
+<li>Puzzle elements</li>
+<li>Rail shooter</li>
+<li>Real-time strategy</li>
+<li>Roguelike / roguelite</li>
+<li>Rhythm / music / dancing</li>
+<li>Run and gun</li>
+<li>Sandbox / open world</li>
+<li>Shoot 'em up</li>
+<li>Shooting gallery</li>
+<li>Social deduction / secret identity</li>
+<li>Stealth</li>
+<li>Survival / survival horror</li>
+<li>Tactics</li>
+<li>Third-person shooter</li>
+<li>Tile matching puzzle</li>
+<li>Time management</li>
+<li>Timed input</li>
+<li>Tower defense</li>
+<li>Trading / collectible card</li>
+<li>Tricks / stunts</li>
+<li>Trivia / quiz</li>
+<li>Turn-based strategy</li>
+<li>Twin-stick shooter</li>
+<li>Twitch skill</li>
+<li>Vehicle combat / car combat</li>
+<li>Virtual life</li>
+<li>Virtual reality</li>
+<li>Visual novel</li>
+<li>Walking sim</li>
+<li>Wargame</li>
+<li>Word construction / word puzzle</li>
+</ul>
+</details>
+
+### 4D. Narrative Genre 
+
 controlled vocabulary [R][+]
 
-### 4C. Narrative Genre 
+### 4E. Dimension 
 
 controlled vocabulary [R][+]
 
-### 4D. Dimension 
-
-controlled vocabulary [R][+]
-
-### 4E. World
-
-controlled vocabulary [R][+]
-
-### 4F. Place
+### 4F. World and Place
 
 controlled vocabulary [R][+]
 
