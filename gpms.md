@@ -97,7 +97,7 @@ Use information available on MobyGames, Wikipedia, Steam, and/or fansites to con
 Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025) [R][+]</summary>
 <ul>
 <li>1291 Advanced Programmable Video System</li>
 <li>3DO</li>
@@ -1536,6 +1536,8 @@ Definition: "The intended perception of the depth of the represented entities in
 <li>Stereoscopic 3D</li>
 <li>Text-based / spreadsheet</li>
 <li>Top-down</li>
+</ul>
+</details>
 
 ### 4G. World and Place
 
