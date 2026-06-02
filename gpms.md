@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 29 May 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 2 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -9,12 +9,13 @@ This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/l
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
-* Lee, J. H.,  Schmalz, M., Newman, M., & Koughan, L. D. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. 
-[https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
+* --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
+* --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Narrative Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-narrative-genre](https://github.com/uwgamergroup/vocabulary-narrative-genre)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
 * Wikipedia (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 * Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
 * Wikipedia (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
+* Wikipedia (2026). List of Genres. [https://en.wikipedia.org/wiki/List_of_genres](https://en.wikipedia.org/wiki/List_of_genres)
 
 See citations below for specific instances of adaptation. 
 
@@ -34,7 +35,7 @@ See citations below for specific instances of adaptation.
 
 ## 1. Platform Edition Entity
 
-Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al. 2024).
+Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al., "VGMS 4.2," 2024).
 
 The platform edition played and recorded for the GPFC may or may not correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release). 
 
@@ -53,7 +54,7 @@ The platform edition played and recorded for the GPFC may or may not correspond 
 
 ### 1A. Game Title
 
-Definition: The proper name of the platform edition as assigned by its developer and/or publisher (Lee et al. 2024; CIDOC 2011)
+Definition: The proper name of the platform edition as assigned by its developer and/or publisher (Lee et al., "VGMS 4.2," 2024; CIDOC 2011)
 
 Provide the complete, official game title. Avoid using an alternative, abbreviated, or colloquial title. 
 
@@ -61,7 +62,7 @@ Provide the complete, official game title. Avoid using an alternative, abbreviat
 
 ### 1B. Release Year
 
-Definition: The year the platform edition was publicly/commercially released (Lee et al. 2024) 
+Definition: The year the platform edition was publicly/commercially released (Lee et al., "VGMS 4.2," 2024) 
 
 The edition's release year may differ from the game's initial release year. 
 
@@ -93,7 +94,7 @@ Use information available on MobyGames, Wikipedia, Steam, and/or fansites to con
 </details>
 
 ### 1D. Platform
-Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al. 2024)
+Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al., "VGMS 4.2," 2024)
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025) [R][+]</summary>
@@ -460,7 +461,7 @@ Definition: The software framework and/or development environment used to design
 Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the engine.
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted from Wikipedia, "List of Game Engines," 2025) [+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "List of Game Engines," 2025) [+]</summary>
 <ul>
 <li>4A Engine</li>
 <li>A-FRAME (VR)</li>
@@ -642,7 +643,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 
 ### 1F. Developer 
 
-Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al. 2024; IFLA 2009)
+Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
 Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer(s). 
 
@@ -875,7 +876,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, the develope
 
 ### 1H. Publisher 
 
-Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al. 2024; IFLA 2009)
+Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
 Both publishers and distributors may be included in this field. 
 
@@ -904,7 +905,7 @@ This element rarely needs to be repeated. Exceptions include cases where the pla
 
 ### 1J. Platform Edition Note 
 
-Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al. 2024)
+Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
 *text input field*
 
@@ -1022,7 +1023,7 @@ Use camelCasing to include the following information in the following order: gam
 
 ### 2J. Gameplay File Note
 
-Definition: "Any other notable characteristics of the" gameplay file that are "not captured in other fields" of this metadata schema (Lee et al. 2024)
+Definition: "Any other notable characteristics of the" gameplay file that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
 *text input field*
 
@@ -1043,10 +1044,10 @@ Definition: Denotes the settings of a particular instantiation (a ["platform edi
 
 ### 3A. Input Device
 
-Definition: The equipment used to play the platform edition while the video was recorded (Lee et al. 2024)
+Definition: The equipment used to play the platform edition while the video was recorded (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted from Wikipedia, "Game Controller," 2026) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "Game Controller," 2026) [R][+]</summary>
 <ul>
 <li>Adaptive controller</li>
 <li>Balance board</li>
@@ -1074,7 +1075,7 @@ Definition: The equipment used to play the platform edition while the video was 
 
 ### 3B. Connectivity
 
-Definition: Whether and how the platform edition was online or networked while the video was recorded (Lee et al. 2024)
+Definition: Whether and how the platform edition was online or networked while the video was recorded (Lee et al., "VGMS 4.2," 2024)
 
 Select "Offline" if were no online or networked components. 
 
@@ -1094,7 +1095,7 @@ Select "Offline" if were no online or networked components.
 
 ### 3C. Number of Players 
 
-Definition: The number of players in the gameplay footage of the platform edition (Lee et al. 2024)
+Definition: The number of players in the gameplay footage of the platform edition (Lee et al., "VGMS 4.2," 2024)
 
 <details>
 <summary><i>controlled vocabulary</i> [R]</summary>
@@ -1119,7 +1120,7 @@ Definition: The number of players in the gameplay footage of the platform editio
 Definition: A distinct configuration of the platform edition's mechanics and gameplay in the gameplay footage
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted from Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
 <ul>
 <li>Arena</li>
 <li>Attract / display / show</li>
@@ -1162,7 +1163,7 @@ Include languages that are read as well as heard, be they diegetic (read or hear
 Definition: A configuration or appearance of the platform edition's accessibility features in the gameplay footage
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted from Ellis et al. n.d.) [+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Ellis et al. n.d.) [+]</summary>
 <ul>
 <li>Alternate inputs</li>
 <li>Arachnophobia mode</li>
@@ -1236,7 +1237,7 @@ Definition: A configuration or appearance of a player or fan-authored alteration
 
 ### 3H. Gameplay Settings Note
 
-Definition: "Any other notable characteristics of the" gameplay settings that are "not captured in other fields" of this metadata schema (Lee et al. 2024)
+Definition: "Any other notable characteristics of the" gameplay settings that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
 *text input field*
 
@@ -1250,11 +1251,11 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Gameplay Genre](#4b-gameplay-genre) (controlled vocabulary; [R][+]) 
 * [Gameplay Subgenre](#4c-gameplay-subgenre) (controlled vocabulary; [R][+])
 * [Narrative Genre](#4d-narrative-genre) (controlled vocabulary; [R][+]) 
-* [Dimension](#4e-dimension) (controlled vocabulary; [R][+]) 
-* [World and Place](#4f-world-and-place) (controlled vocabulary; [R][+]) 
-* [Time Period](#4g-time-period) (controlled vocabulary; [R][+]) 
-* [Atmosphere](#4h-atmosphere) (controlled vocabulary; [R][+]) 
-* [Perspective](#4i-perspective) (controlled vocabulary; [R][+]) 
+* [Narrative Subgenre](#4e-narrative-subgenre) (controlled vocabulary; [R][+]) 
+* [Dimension and Perspective](#4f-dimension-and-perspective) (controlled vocabulary; [R][+]) 
+* [World and Place](#4g-world-and-place) (controlled vocabulary; [R][+]) 
+* [Time Period](#4h-time-period) (controlled vocabulary; [R][+]) 
+* [Atmosphere](#4i-atmosphere) (controlled vocabulary; [R][+]) 
 * [Player Character](#4j-player-character) (controlled vocabulary; [R][+]) 
 * [Non-Player Character](#4k-non-player-character) (controlled vocabulary; [R][+]) 
 * [Hostile Character](#4l-hostile-character) (controlled vocabulary; [R][+]) 
@@ -1301,12 +1302,12 @@ Definition: How players relate socially to each other and the game in the gamepl
 
 ### 4B. Gameplay Genre
 
-Definition: "The overall nature of . . . interactivity" appearing in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al. 2024)
+Definition: "The overall nature of . . . interactivity" in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al., "VGMS 4.2," 2024)
 
 Note: "Traditional" in the controlled vocabulary below denotes "games based on mechanics that exist in the real world and can be played in a physical setting." They include board, card, exercise, gambling, game show, maze, pinball, and trivia games (Lee et al., "Controlled Vocabulary for Genre," 2024). 
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024) [R][+]</summary>
 <ul>
 <li>Action</li>
 <li>Adventure</li>
@@ -1325,10 +1326,10 @@ Note: "Traditional" in the controlled vocabulary below denotes "games based on m
 
 ### 4C. Gameplay Subgenre
 
-Definition: Patterns of interactivity appearing in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al. 2024)
+Definition: Patterns of interactivity appearing in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024) [R][+]</summary>
 <ul>
 <li>4X</li>
 <li>Arcade</li>
@@ -1345,6 +1346,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>City building / construction sim</li>
 <li>Collect-a-thon</li>
 <li>Dating sim</li>
+<li>Escape room / exit game / riddle room</li>
 <li>Falling block / block fill</li>
 <li>Farming sim</li>
 <li>Fashion sim</li>
@@ -1418,25 +1420,137 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 
 ### 4D. Narrative Genre 
 
+Definition: The overall nature of storytelling in the gameplay footage based on how stories in the platform edition are told, plotted, and arranged
+
+Use "abstract / no narrative" for abstract games and games without narratives or narrative elements. 
+
+<details>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Narrative Genre," 2024) [R][+]</summary>
+<ul>
+<li>Abstract / no narrative</li>
+<li>Action</li>
+<li>Adventure</li>
+<li>Comedy</li>
+<li>Documentary</li>
+<li>Drama</li>
+<li>Fantasy</li>
+<li>Historical</li>
+<li>Horror</li>
+<li>Mystery</li>
+<li>Nonsense</li>
+<li>Romance</li>
+<li>Satire</li>
+<li>Science fiction</li>
+<li>Speculative</li>
+<li>Thriller</li>
+<li>War</li>
+<li>Western</li>
+
+### 4E. Narrative Subgenre 
+
+Definition: Patterns of storytelling in the gameplay footage based on how stories in the platform edition are told, plotted, and arranged
+
+Use "abstract / no narrative" for abstract games and games without narratives or narrative elements. 
+
+<details>
+<summary><i>controlled vocabulary</i> (mostly adapted from Lee et al., "Controlled Vocabulary for Narrative Genre," 2024 and Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
+<ul>
+<li>Abstract / no narrative</li>
+<li>Alternate history</li>
+<li>Bait-and-switch</li>
+<li>Biography / memoir / autobiography</li>
+<li>Body horror</li>
+<li>Burlesque</li>
+<li>Children’s</li>
+<li>Coming-of-age / Bildungsroman</li>
+<li>Crime / detective</li>
+<li>Cyberpunk</li>
+<li>Dark comedy</li>
+<li>Dark fantasy</li>
+<li>Fable</li>
+<li>Folk horror</li>
+<li>Folklore / fairy tale</li>
+<li>Found footage</li>
+<li>Ghost story</li>
+<li>Heist</li>
+<li>Heroic fantasy / sword and sorcery</li>
+<li>High fantasy</li>
+<li>Instructional / pedagogical</li>
+<li>Isekai / portal fantasy</li>
+<li>Literary / classic</li>
+<li>Love story</li>
+<li>Low fantasy</li>
+<li>Melodrama</li>
+<li>Metafiction</li>
+<li>Military</li>
+<li>Monster / kaiju</li>
+<li>Myth / mythic</li>
+<li>Observational comedy</li>
+<li>Parody / spoof</li>
+<li>Period piece</li>
+<li>Physical comedy</li>
+<li>Procedural generation / randomized</li>
+<li>Psychological</li>
+<li>Religious</li>
+<li>Retropunk / steampunk / dieselpunk</li>
+<li>Revisionist Western</li>
+<li>Romantic comedy</li>
+<li>Shenmo</li>
+<li>Sitcom / situational comedy</li>
+<li>Slasher horror</li>
+<li>Slice of life</li>
+<li>Space opera / space Western</li>
+<li>Spy / espionage</li>
+<li>Superhero</li>
+<li>Supernatural</li>
+<li>Suspense</li>
+<li>Vampire</li>
+<li>Variety show</li>
+<li>Wuxia</li>
+<li>Young adult / teen drama</li>
+<li>Zombie</li>
+</ul>
+</details>
+
+### 4F. Dimension and Perspective
+
+Definition: "The intended perception of the depth of the represented entities inside the video game," and "[t]he [point of view and camera] from which the player experiences the gameplay" in the footage (Lee et al., "VGMS 4.2," 2024)  
+
+<details>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "VGMS 4.2," 2024) [R][+]</summary>
+<ul>
+<li>2D</li>
+<li>2.5D</li>
+<li>3D</li>
+<li>1st-person</li>
+<li>2nd-person</li>
+<li>3rd-person</li>
+<li>Audio game</li>
+<li>Behind view / over the shoulder</li>
+<li>Breaks the fourth wall</li>
+<li>Diagonal-down / isometric</li>
+<li>HD-2D</li>
+<li>Orthographic camera</li>
+<li>Perspective camera</li>
+<li>Side view / side-on</li>
+<li>Stereoscopic 3D</li>
+<li>Text-based / spreadsheet</li>
+<li>Top-down</li>
+
+### 4G. World and Place
+
 controlled vocabulary [R][+]
 
-### 4E. Dimension 
+### 4H. Time Period
 
 controlled vocabulary [R][+]
 
-### 4F. World and Place
+### 4I. Atmosphere
 
 controlled vocabulary [R][+]
 
-### 4G. Time Period
+note: consider dystopian, utopian, post-apocalyptic,
 
-controlled vocabulary [R][+]
-
-### 4H. Atmosphere
-
-controlled vocabulary [R][+]
-
-### 4I. Perspective
 
 controlled vocabulary [R][+]
 
@@ -1488,6 +1602,8 @@ controlled vocabulary [R][+]
 
 controlled vocabulary [R][+]
 
+Note: consider realism, social realism, surrealism, magical realism, epic, experimental
+
 ### 4V. Interface
 
 controlled vocabulary [R][+]
@@ -1496,11 +1612,13 @@ controlled vocabulary [R][+]
 
 controlled vocabulary [R][+]
 
-### 4X. Transaction 
+note: include emergent / player-dependent
+
+### 4Y. Transaction 
 
 controlled vocabulary [R][+]
 
-### 4Y. Metagaming 
+### 4X. Metagaming 
 
 controlled vocabulary [R][+]
 
