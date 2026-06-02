@@ -1445,6 +1445,8 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 <li>Thriller</li>
 <li>War</li>
 <li>Western</li>
+</ul>
+</details>
 
 ### 4E. Narrative Subgenre 
 
