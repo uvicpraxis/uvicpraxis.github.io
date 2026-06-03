@@ -50,15 +50,15 @@ The platform edition played and recorded for the GPFC may or may not correspond 
 
 *The following elements of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
-* [Game Title](#3a-game-title-r) ([R]; text input field)
-* [Release Year](#3b-release-year-r) ([R]; text input field)
-* [Release Type](#3c-release-type-r) ([R][+]; controlled vocabulary)
-* [Platform](#3d-platform-r) ([R][+]; controlled vocabulary)
-* [Engine](#3e-engine-) ([+]; controlled vocabulary)
-* [Developer](#3f-developer-r) ([R][+]; text input field)
-* [Developer's Location](#3g-developers-location-r) ( [R][+]; controlled vocabulary)
-* [Publisher](#3h-publisher-r) ([R][+]; text input field)
-* [Publisher Class](#3i-publisher-class-r) ([R][+]; controlled vocabulary)
+* [Game Title](#3a-game-title-r) [R] (text input field)
+* [Release Year](#3b-release-year-r) [R] (text input field)
+* [Release Type](#3c-release-type-r) [R][+] (controlled vocabulary)
+* [Platform](#3d-platform-r) [R][+] (controlled vocabulary)
+* [Engine](#3e-engine-) [+] (controlled vocabulary)
+* [Developer](#3f-developer-r) [R][+] (text input field)
+* [Developer's Location](#3g-developers-location-r) [R][+] (controlled vocabulary)
+* [Publisher](#3h-publisher-r) [R][+] (text input field)
+* [Publisher Class](#3i-publisher-class-r) [R][+] (controlled vocabulary)
 * [Platform Edition Note](#3j-platform-edition-note) (text input field)
 
 ### 3A. Game Title [R]
