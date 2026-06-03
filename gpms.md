@@ -29,9 +29,9 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Narrative Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-narrative-genre](https://github.com/uwgamergroup/vocabulary-narrative-genre)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
 * Wikipedia (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
-* Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
-* Wikipedia (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
-* Wikipedia (2026). List of Genres. [https://en.wikipedia.org/wiki/List_of_genres](https://en.wikipedia.org/wiki/List_of_genres)
+* --- (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
+* --- (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
+* --- (2026). List of Genres. [https://en.wikipedia.org/wiki/List_of_genres](https://en.wikipedia.org/wiki/List_of_genres)
 
 See citations below for specific instances of adaptation. 
 
@@ -50,18 +50,18 @@ The platform edition played and recorded for the GPFC may or may not correspond 
 
 *The following elements of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
-* [Game Title](#1a-game-title-r) (text input field; [R])
-* [Release Year](#1b-release-year-r) (text input field; [R])
-* [Release Type](#1c-release-type-r) (controlled vocabulary; [R][+])
-* [Platform](#1d-platform-r) (controlled vocabulary; [R][+])
-* [Engine](#1e-engine-) (controlled vocabulary; [+])
-* [Developer](#1f-developer-r) (text input field; [R][+])
-* [Developer's Location](#1g-developers-location-r) (controlled vocabulary; [R][+])
-* [Publisher](#1h-publisher-r) (text input field; [R][+])
-* [Publisher Class](#1i-publisher-class-r) (controlled vocabulary; [R][+])
-* [Platform Edition Note](#1j-platform-edition-note) (text input field)
+* [Game Title](#3a-game-title-r) ([R]; text input field)
+* [Release Year](#3b-release-year-r) ([R]; text input field)
+* [Release Type](#3c-release-type-r) ([R][+]; controlled vocabulary)
+* [Platform](#3d-platform-r) ([R][+]; controlled vocabulary)
+* [Engine](#3e-engine-) ([+]; controlled vocabulary)
+* [Developer](#3f-developer-r) ([R][+]; text input field)
+* [Developer's Location](#3g-developers-location-r) ( [R][+]; controlled vocabulary)
+* [Publisher](#3h-publisher-r) ([R][+]; text input field)
+* [Publisher Class](#3i-publisher-class-r) ([R][+]; controlled vocabulary)
+* [Platform Edition Note](#3j-platform-edition-note) (text input field)
 
-### 1A. Game Title [R]
+### 3A. Game Title [R]
 
 Definition: The proper name of the platform edition as assigned by its developer and/or publisher (Lee et al., "VGMS 4.2," 2024; CIDOC 2011)
 
@@ -69,7 +69,7 @@ Provide the complete, official game title. Avoid using an alternative, abbreviat
 
 *text input field* 
 
-### 1B. Release Year [R]
+### 3B. Release Year [R]
 
 Definition: The year the platform edition was publicly/commercially released (Lee et al., "VGMS 4.2," 2024) 
 
@@ -77,7 +77,7 @@ The edition's release year may differ from the game's initial release year.
 
 *text input field; format: YYYY* 
 
-### 1C. Release Type [R][+]
+### 3C. Release Type [R][+]
 
 Definition: The platform edition's release type as assigned by its developer, publisher, and/or distributor
 
@@ -92,6 +92,7 @@ Use information available on MobyGames, Wikipedia, Steam, and/or fansites to con
 <li>Downloadable content (DLC)</li>
 <li>Early access</li>
 <li>Emulation</li>
+<li>Expansion</li>
 <li>Fan game</li>
 <li>Initial release / original release</li>
 <li>Port</li>
@@ -102,7 +103,7 @@ Use information available on MobyGames, Wikipedia, Steam, and/or fansites to con
 </ul>
 </details>
 
-### 1D. Platform [R][+]
+### 3D. Platform [R][+]
 Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al., "VGMS 4.2," 2024)
 
 <details>
@@ -463,7 +464,7 @@ Definition: The operating system, device, computer, console, and/or service on w
 </ul>
 </details>
 
-### 1E. Engine [+]
+### 3E. Engine [+]
 
 Definition: The software framework and/or development environment used to design the platform edition
 
@@ -650,7 +651,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 </ul>
 </details>
 
-### 1F. Developer [R][+]
+### 3F. Developer [R][+]
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
@@ -658,9 +659,13 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 
 *text input field* 
 
-### 1G. Developer's Location [R][+]
+### 3G. Developer's Location [R][+]
 
 Definition: The geographic location of the platform edition's developer(s)
+
+Select the country for all developers except those in Canada.
+
+For developers in Canada, select the country and province or territory: for example, Canada / British Columbia. 
 
 Use information available on MobyGames, Wikipedia, Steam, fansites, the developer's official website, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer's location. 
 
@@ -883,7 +888,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, the develope
 </ul>
 </details>
 
-### 1H. Publisher [R][+]
+### 3H. Publisher [R][+]
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
@@ -893,7 +898,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 
 *text input field*
 
-### 1I. Publisher Class [R][+]
+### 3I. Publisher Class [R][+]
 
 Definition: The size, profile, and/or budget of the publisher and, in some cases, the developer, too
 
@@ -912,7 +917,7 @@ This element rarely needs to be repeated. Exceptions include cases where the pla
 </ul>
 </details>
 
-### 1J. Platform Edition Note 
+### 3J. Platform Edition Note 
 
 Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
@@ -920,46 +925,46 @@ Definition: "Any other notable characteristics of the platform edition" that are
 
 ## 4. Gameplay File Entity 
 
-Definition: Denotes a video file containing gameplay footage of a particular instantiation (a ["platform edition"](#1-platform-edition-entity)) of a video game; also called "game capture" and "game recording"
+Definition: Denotes a video file containing gameplay footage of a particular instantiation (a ["platform edition"](#3-platform-edition-entity)) of a video game; also called "game capture" and "game recording"
 
 For the fair-dealing purposes of the GPFC, the video file will typically be a "clip" that is 30 seconds to five minutes long.
 
 *The following elements of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
 
-* [Clip Title](#2a-clip-title) (text input field; [R])
-* [Clip Length](#2b-clip-length) (text input field; [R]) 
-* [Date Recorded](#2c-date-recorded) (text input field; [R]) 
-* [Commentary](#2d-commentary) (controlled vocabulary; [R][+])
-* [Chat](#2e-chat) (controlled vocabulary; [R][+])
-* [Gameplay Attribution](#2f-gameplay-attribution) (text input field; [R][+])
-* [Metadata Attribution](#2g-metadata-attribution) (text input field; [R][+]) 
-* [ID](#2h-id) (text input field; [R]) 
-* [Filename](#2i-filename) (text input field; [R]) 
-* [Gameplay File Note](#2j-gameplay-file-note) (text input field)
+* [Clip Title](#4a-clip-title-r) ([R]; text input field; )
+* [Clip Length](#4b-clip-length-r) ([R]; text input field) 
+* [Date Recorded](#4c-date-recorded-r) ([R]; text input field) 
+* [Commentary](#4d-commentary-r) ([R][+]; controlled vocabulary)
+* [Chat](#4e-chat-r) ([R][+]; controlled vocabulary)
+* [Gameplay Attribution](#4f-gameplay-attribution-r) ([R][+]; text input field)
+* [Metadata Attribution](#4g-metadata-attribution-r) ([R][+]; text input field) 
+* [ID](#4h-id-r) ([R]; text input field) 
+* [Filename](#4i-filename-r) ([R]; text input field) 
+* [Gameplay File Note](#4j-gameplay-file-note) (text input field)
 
-### 2A. Clip Title
+### 4A. Clip Title [R]
 
 Definition: A public-facing, search-friendly description of the gameplay footage as assigned by the person who played the platform edition while the video was recorded
 
 Provide a title that helps viewers anticipate what they will see, hear, read, and watch. Describe the content of the clip and the actions occurring in it. An example is, "Starting a New Game: Naming the Player Character, Encountering Emus and Hobgoblins, and Collecting Darts, Scrolls, and Potions on Level 1."
 
-*text input field* [R]
+*text input field*
 
-### 2B. Clip Length
+### 4B. Clip Length [R]
 
 Definition: The length of the gameplay video in minutes and seconds 
 
-*text input field; format: MM:SS* [R]
+*text input field; format: MM:SS* 
 
-### 2C. Date Recorded
+### 4C. Date Recorded [R]
 
 Definition: The date the gameplay video was recorded
 
 This date is presumably identical to the video file's "created" date.  
 
-*text input field; format: YYYY-MM-DD* [R]
+*text input field; format: YYYY-MM-DD* 
 
-### 2D. Commentary
+### 4D. Commentary [R][+]
 
 Definition: The type of player commentary, if any, included in the gameplay footage of the platform edition
 
@@ -968,7 +973,7 @@ Commentary is reflective, and it typically addresses the video's audience.
 Select "No commentary" if the footage contains no commentary. 
 
 <details>
-<summary><i>controlled vocabulary</i> [R][+]</summary>
+<summary><i>controlled vocabulary</i></summary>
 <ul>
 <li>Avatar / VTubing</li>
 <li>Captions / subtitles</li>
@@ -979,7 +984,7 @@ Select "No commentary" if the footage contains no commentary.
 </ul>
 </details>
 
-### 2E. Chat
+### 4E. Chat [R][+]
 
 Definition: The type of chat, if any, included in the gameplay footage of the platform edition
 
@@ -988,7 +993,7 @@ Chat typically occurs between players; however, in cases such as livestreams, it
 Select "No chat" if the footage contains no chat.
 
 <details>
-<summary><i>controlled vocabulary</i> [R][+]</summary>
+<summary><i>controlled vocabulary</i></summary>
 <ul>
 <li>Emotes</li>
 <li>No chat</li>
@@ -998,39 +1003,39 @@ Select "No chat" if the footage contains no chat.
 </ul>
 </details>
 
-### 2F. Gameplay Attribution 
+### 4F. Gameplay Attribution [R][+]
 
 Definition: The chosen or preferred name of the person who played the platform edition while the video was recorded
 
 Multiple names may be included. Full names are optional. 
 
-*text input field* [R][+]
+*text input field*
 
-### 2G. Metadata Attribution
+### 4G. Metadata Attribution [R][+]
 
 Definition: The chosen or preferred name of the person who described the platform edition, the gameplay file, the gameplay settings, the gameplay footage, and/or the gameplay instruction and/or entered the metadata
 
 Multiple names may be included. Full names are optional. 
 
-*text input field* [R][+]
+*text input field*
 
-### 2H. ID 
+### 4H. ID [R]
 
 Definition: The internal reference number for the gameplay file and its metadata 
 
 This number is used by the Press Record team to identify files and metadata in the GPFC. It is a five-character numeric string. 
 
-*text input field; format: #####* [R]
+*text input field; format: #####*
 
-### 2I. Filename
+### 4I. Filename [R]
 
 Definition: The filename of the video file containing gameplay footage of the platform edition
 
 Use camelCasing to include the following information in the following order: gameTitlePlatformEditionReleaseYearClipTitleID. An example is rogue1985StartingANewGame00011.mp4. Abbreviate the clip's title to avoid long filenames. 
 
-*text input field; format: gameTitlePlatformEditionReleaseYearClipTitleID.extension* [R]
+*text input field; format: gameTitlePlatformEditionReleaseYearClipTitleID.extension* 
 
-### 2J. Gameplay File Note
+### 4J. Gameplay File Note
 
 Definition: "Any other notable characteristics of the" gameplay file that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
