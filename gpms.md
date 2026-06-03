@@ -931,15 +931,15 @@ For the fair-dealing purposes of the GPFC, the video file will typically be a "c
 
 *The following elements of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
 
-* [Clip Title](#4a-clip-title-r) ([R]; text input field; )
-* [Clip Length](#4b-clip-length-r) ([R]; text input field) 
-* [Date Recorded](#4c-date-recorded-r) ([R]; text input field) 
-* [Commentary](#4d-commentary-r) ([R][+]; controlled vocabulary)
-* [Chat](#4e-chat-r) ([R][+]; controlled vocabulary)
-* [Gameplay Attribution](#4f-gameplay-attribution-r) ([R][+]; text input field)
-* [Metadata Attribution](#4g-metadata-attribution-r) ([R][+]; text input field) 
-* [ID](#4h-id-r) ([R]; text input field) 
-* [Filename](#4i-filename-r) ([R]; text input field) 
+* [Clip Title](#4a-clip-title-r) [R] (text input field; )
+* [Clip Length](#4b-clip-length-r) [R] (text input field) 
+* [Date Recorded](#4c-date-recorded-r) [R] (text input field) 
+* [Commentary](#4d-commentary-r) [R][+] (controlled vocabulary)
+* [Chat](#4e-chat-r) [R][+] (controlled vocabulary)
+* [Gameplay Attribution](#4f-gameplay-attribution-r) [R][+] (text input field)
+* [Metadata Attribution](#4g-metadata-attribution-r) [R][+] (text input field) 
+* [ID](#4h-id-r) [R] (text input field) 
+* [Filename](#4i-filename-r) [R] (text input field) 
 * [Gameplay File Note](#4j-gameplay-file-note) (text input field)
 
 ### 4A. Clip Title [R]
@@ -1043,25 +1043,25 @@ Definition: "Any other notable characteristics of the" gameplay file that are "n
 
 ## 5. Gameplay Settings Entity 
 
-Definition: Denotes the settings of a particular instantiation (a ["platform edition"](#1-platform-edition-entity)) of a video game
+Definition: Denotes the settings of a particular instantiation (a ["platform edition"](#3-platform-edition-entity)) of a video game
 
 *The following elements of the Gameplay Settings Entity should describe the platform edition's settings while it was played and recorded for the GPFC.*
 
-* [Input Device](#3a-input-device) (controlled vocabulary; [R][+])
-* [Connectivity](#3b-connectivity) (controlled vocabulary; [R][+]) 
-* [Number of Players](#3c-number-of-players) (controlled vocabulary; [R]) 
-* [Gameplay Mode](#3d-gameplay-mode) (controlled vocabulary; [R][+]) 
-* [Language](#3e-language) (text input field; [R][+]) 
-* [Accessibility](#3f-accessibility) (controlled vocabulary; [+]) 
-* [Mods](#3g-mods) (text input field; [R][+]) 
-* [Gameplay Settings Note](#3h-gameplay-settings-note) (text input field)
+* [Input Device](#5a-input-device-r) [R][+] (controlled vocabulary)
+* [Connectivity](#5b-connectivity-r) [R][+] (controlled vocabulary) 
+* [Number of Players](#5c-number-of-players-r) [R] (controlled vocabulary) 
+* [Gameplay Mode](#5d-gameplay-mode-r) [R][+] (controlled vocabulary) 
+* [Language](#5e-language-r) [R][+] (text input field) 
+* [Accessibility](#5f-accessibility-) [+] (controlled vocabulary) 
+* [Mods](#5g-mods-r) [R][+] (text input field) 
+* [Gameplay Settings Note](#5h-gameplay-settings-note) (text input field)
 
-### 3A. Input Device
+### 5A. Input Device [R][+]
 
 Definition: The equipment used to play the platform edition while the video was recorded (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "Game Controller," 2026) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "Game Controller," 2026)</summary>
 <ul>
 <li>Adaptive controller</li>
 <li>Balance board</li>
@@ -1087,14 +1087,14 @@ Definition: The equipment used to play the platform edition while the video was 
 </ul>
 </details>
 
-### 3B. Connectivity
+### 5B. Connectivity [R][+]
 
 Definition: Whether and how the platform edition was online or networked while the video was recorded (Lee et al., "VGMS 4.2," 2024)
 
 Select "Offline" if were no online or networked components. 
 
 <details>
-<summary><i>controlled vocabulary</i> [R][+]</summary>
+<summary><i>controlled vocabulary</i></summary>
 <ul>
 <li>Cloud gaming / gaming on demand</li>
 <li>Offline</li>
@@ -1107,12 +1107,12 @@ Select "Offline" if were no online or networked components.
 </ul>
 </details>
 
-### 3C. Number of Players 
+### 5C. Number of Players [R] 
 
 Definition: The number of players in the gameplay footage of the platform edition (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> [R]</summary>
+<summary><i>controlled vocabulary</i></summary>
 <ul>
 <li>1 player</li>
 <li>2 players</li>
@@ -1129,12 +1129,12 @@ Definition: The number of players in the gameplay footage of the platform editio
 </ul>
 </details>
 
-### 3D. Gameplay Mode 
+### 5D. Gameplay Mode [R][+]
 
 Definition: A distinct configuration of the platform edition's mechanics and gameplay in the gameplay footage
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "Glossary of Video Game Terms," 2026)</summary>
 <ul>
 <li>Arena</li>
 <li>Attract / display / show</li>
@@ -1162,7 +1162,7 @@ Definition: A distinct configuration of the platform edition's mechanics and gam
 </ul>
 </details>
 
-### 3E. Language 
+### 5E. Language [R][+]
 
 Definition: The language appearing in the gameplay footage of the platform edition
 
@@ -1170,14 +1170,14 @@ Multiple languages, including constructed languages such as Simlish, may be incl
 
 Include languages that are read as well as heard, be they diegetic (read or heard by characters in the world) or non-diegetic (intended to be read or heard by players). 
 
-*text input field* [R][+]
+*text input field*
 
-### 3F. Accessibility
+### 5F. Accessibility [+]
 
 Definition: A configuration or appearance of the platform edition's accessibility features in the gameplay footage
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Ellis et al. n.d.) [+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Ellis et al. n.d.)</summary>
 <ul>
 <li>Alternate inputs</li>
 <li>Arachnophobia mode</li>
@@ -1243,13 +1243,13 @@ Definition: A configuration or appearance of the platform edition's accessibilit
 </ul>
 </details>
 
-### 3G. Mods
+### 5G. Mods [R][+]
 
 Definition: A configuration or appearance of a player or fan-authored alteration of the platform edition in the gameplay footage
 
-*text input field* [R][+]
+*text input field* 
 
-### 3H. Gameplay Settings Note
+### 5H. Gameplay Settings Note
 
 Definition: "Any other notable characteristics of the" gameplay settings that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
