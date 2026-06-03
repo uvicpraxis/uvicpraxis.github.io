@@ -1257,43 +1257,43 @@ Definition: "Any other notable characteristics of the" gameplay settings that ar
 
 ## 6. Gameplay Footage Entity
 
-Definition: Denotes the recorded video material of a particular instantiation (a [“platform edition”](#1-platform-edition-entity)) of a video game
+Definition: Denotes the recorded video material of a particular instantiation (a [“platform edition”](#3-platform-edition-entity)) of a video game
 
 *The following elements of the Gameplay Footage Entity should describe recorded gameplay of the platform edition intended for the GPFC.*
 
-* [Type of Play](#4a-type-of-play) (controlled vocabulary; [R][+]) 
-* [Gameplay Genre](#4b-gameplay-genre) (controlled vocabulary; [R][+]) 
-* [Gameplay Subgenre](#4c-gameplay-subgenre) (controlled vocabulary; [R][+])
-* [Narrative Genre](#4d-narrative-genre) (controlled vocabulary; [R][+]) 
-* [Narrative Subgenre](#4e-narrative-subgenre) (controlled vocabulary; [R][+]) 
-* [Dimension and Perspective](#4f-dimension-and-perspective) (controlled vocabulary; [R][+]) 
-* [World and Place](#4g-world-and-place) (controlled vocabulary; [R][+]) 
-* [Time Period](#4h-time-period) (controlled vocabulary; [R][+]) 
-* [Atmosphere](#4i-atmosphere) (controlled vocabulary; [R][+]) 
-* [Player Character](#4j-player-character) (controlled vocabulary; [R][+]) 
-* [Non-Player Character](#4k-non-player-character) (controlled vocabulary; [R][+]) 
-* [Hostile Character](#4l-hostile-character) (controlled vocabulary; [R][+]) 
-* [Objects](#4m-objects) (controlled vocabulary; [R+][+])
-* [Mechanics](#4n-mechanics) (controlled vocabulary; [R][+]) 
-* [Activity](#4o-activity) (controlled vocabulary; [R][+]) 
-* [Pacing](#4p-pacing) (controlled vocabulary; [R][+]) 
-* [Progression](#4q-progression) (controlled vocabulary; [R][+]) 
-* [Theme](#4r-theme) (controlled vocabulary; [R][+]) 
-* [Trope](#4s-trope) (controlled vocabulary; [R][+]) 
-* [Art](#4t-art) (controlled vocabulary; [R][+]) 
-* [Style](#4u-style) (controlled vocabulary; [R][+]) 
-* [Interface](#4v-interface) (controlled vocabulary; [R][+]) 
-* [Experience](#4w-experience) (controlled vocabulary; [R][+]) 
-* [Transaction](#4x-transaction) (controlled vocabulary; [R][+]) 
-* [Metagaming](#4y-metagaming) (controlled vocabulary; [R][+]) 
-* [Gameplay Footage Note](#4z-gameplay-footage-note) (text input field)  
+* [Type of Play](#6a-type-of-play-r) [R][+] (controlled vocabulary) 
+* [Gameplay Genre](#6b-gameplay-genre-r) [R][+] (controlled vocabulary) 
+* [Gameplay Subgenre](#6c-gameplay-subgenre-r) [R][+] (controlled vocabulary)
+* [Narrative Genre](#6d-narrative-genre-r) [R][+] (controlled vocabulary) 
+* [Narrative Subgenre](#6e-narrative-subgenre-r) [R][+] (controlled vocabulary) 
+* [Dimension and Perspective](#6f-dimension-and-perspective-r) [R][+] (controlled vocabulary) 
+* [World and Place](#6g-world-and-place-r) [R][+] (controlled vocabulary) 
+* [Time Period](#6h-time-period-r) [R][+] (controlled vocabulary) 
+* [Atmosphere](#6i-atmosphere-r) [R][+] (controlled vocabulary) 
+* [Player Character](#6j-player-character-r) [R][+] (controlled vocabulary) 
+* [Non-Player Character](#6k-non-player-character-r) [R][+] (controlled vocabulary) 
+* [Hostile Character](#6l-hostile-character-r) [R][+] (controlled vocabulary) 
+* [Objects](#6m-objects-r) [R+][+] (controlled vocabulary)
+* [Mechanics](#6n-mechanics-r) [R][+] (controlled vocabulary) 
+* [Activity](#6o-activity-r) [R][+] (controlled vocabulary) 
+* [Pacing](#6p-pacing-r) [R][+] (controlled vocabulary) 
+* [Progression](#6q-progression-r) [R][+] (controlled vocabulary) 
+* [Theme](#6r-theme-r) [R][+] (controlled vocabulary) 
+* [Trope](#6s-trope-r) [R][+] (controlled vocabulary) 
+* [Art](#6t-art-r) [R][+] (controlled vocabulary) 
+* [Style](#6u-style-r) [R][+] (controlled vocabulary) 
+* [Interface](#6v-interface-r) [R][+] (controlled vocabulary) 
+* [Experience](#6w-experience-r) [R][+] (controlled vocabulary) 
+* [Transaction](#6x-transaction-r) [R][+] (controlled vocabulary) 
+* [Metagaming](#6y-metagaming-r) [R][+] (controlled vocabulary) 
+* [Gameplay Footage Note](#6z-gameplay-footage-note) (text input field)  
 
-### 4A. Type of Play
+### 6A. Type of Play [R][+]
 
 Definition: How players relate socially to each other and the game in the gameplay footage
 
 <details>
-<summary><i>controlled vocabulary</i> [R][+]</summary>
+<summary><i>controlled vocabulary</i></summary>
 <ul>
 <li>Asynchronous multiplayer</li>
 <li>Collaborative</li>
@@ -1314,14 +1314,14 @@ Definition: How players relate socially to each other and the game in the gamepl
 </ul>
 </details>
 
-### 4B. Gameplay Genre
+### 6B. Gameplay Genre [R][+]
 
 Definition: "The overall nature of . . . interactivity" in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al., "VGMS 4.2," 2024)
 
 Note: "Traditional" in the controlled vocabulary below denotes "games based on mechanics that exist in the real world and can be played in a physical setting." They include board, card, exercise, gambling, game show, maze, pinball, and trivia games (Lee et al., "Controlled Vocabulary for Genre," 2024). 
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024)</summary>
 <ul>
 <li>Action</li>
 <li>Adventure</li>
@@ -1338,12 +1338,12 @@ Note: "Traditional" in the controlled vocabulary below denotes "games based on m
 </ul>
 </details>
 
-### 4C. Gameplay Subgenre
+### 6C. Gameplay Subgenre [R][+]
 
 Definition: Patterns of interactivity appearing in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024)</summary>
 <ul>
 <li>4X</li>
 <li>Arcade</li>
@@ -1432,14 +1432,14 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 </ul>
 </details>
 
-### 4D. Narrative Genre 
+### 6D. Narrative Genre [R][+]
 
 Definition: The overall nature of storytelling in the gameplay footage based on how stories in the platform edition are told, plotted, and arranged
 
 Use "abstract / no narrative" for abstract games and games without narratives or narrative elements. 
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Narrative Genre," 2024) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Narrative Genre," 2024)</summary>
 <ul>
 <li>Abstract / no narrative</li>
 <li>Action</li>
@@ -1462,14 +1462,14 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 </ul>
 </details>
 
-### 4E. Narrative Subgenre 
+### 6E. Narrative Subgenre [R][+]
 
 Definition: Patterns of storytelling in the gameplay footage based on how stories in the platform edition are told, plotted, and arranged
 
 Use "abstract / no narrative" for abstract games and games without narratives or narrative elements. 
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Lee et al., "Controlled Vocabulary for Narrative Genre," 2024 and Wikipedia, "List of Genres," 2026) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Lee et al., "Controlled Vocabulary for Narrative Genre," 2024 and Wikipedia, "List of Genres," 2026)</summary>
 <ul>
 <li>Abstract / no narrative</li>
 <li>Alternate history</li>
@@ -1528,12 +1528,12 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 </ul>
 </details>
 
-### 4F. Dimension and Perspective
+### 6F. Dimension and Perspective [R][+]
 
 Definition: "The intended perception of the depth of the represented entities inside the video game," and "[t]he [point of view and camera] from which the player experiences the gameplay" in the footage (Lee et al., "VGMS 4.2," 2024)  
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "VGMS 4.2," 2024) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "VGMS 4.2," 2024)</summary>
 <ul>
 <li>2D</li>
 <li>2.5D</li>
@@ -1555,101 +1555,98 @@ Definition: "The intended perception of the depth of the represented entities in
 </ul>
 </details>
 
-### 4G. World and Place
+### 6G. World and Place [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4H. Time Period
+### 6H. Time Period [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4I. Atmosphere
+### 6I. Atmosphere [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
 note: consider dystopian, utopian, post-apocalyptic,
 
+### 6J. Player Character [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4J. Player Character
+### 6K. Non-Player Character [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4K. Non-Player Character
+### 6L. Hostile Character [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4L. Hostile Character
+### 6M. Objects [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4M. Objects
+### 6N. Mechanics [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4N. Mechanics 
+### 6O. Activity [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4O. Activity
+### 6P. Pacing [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4P. Pacing
+### 6Q. Progression [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4Q. Progression 
+### 6R. Theme [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4R. Theme
+### 6S. Trope [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4S. Trope
+### 6T. Art [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4T. Art 
+### 6U. Style [R][+]
 
-controlled vocabulary [R][+]
-
-### 4U. Style 
-
-controlled vocabulary [R][+]
+controlled vocabulary 
 
 Note: consider realism, social realism, surrealism, magical realism, epic, experimental
 
-### 4V. Interface
+### 6V. Interface [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4W. Experience
+### 6W. Experience [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
 note: include emergent / player-dependent
 
-### 4Y. Transaction 
+### 6X. Transaction [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4X. Metagaming 
+### 6Y. Metagaming [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### 4Z. Gameplay Footage Note
+### 6Z. Gameplay Footage Note
 
 text input field 
 
 ## 7. Gameplay Instruction Entity 
 
-### Pertinent Topic
+### 7A. Game Studies Topic [R][+]
 
-controlled vocabulary [R][+]
+controlled vocabulary 
 
-### Gameplay Instruction Note 
+### 7B. Gameplay Instruction Note 
 
 text input field
