@@ -1,8 +1,24 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 2 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria. It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 2 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was developed by Jentery Sayers and the Praxis Studio for Comparative Media Studies at the University of Victoria. It adapts the following projects for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release by [UVic Media Studies](https://www.uvic.ca/humanities/media-studies/index.php) in 2026-27: 
+This metadata schema was developed by Jentery Sayers and the Praxis Studio for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27.
+
+License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Table of Contents
+
+1. [Sources](#1-sources)
+2. [Abbreviations, Acronyms, and Symbols](#2-abbreviations-acronyms-and-symbols)
+3. [Platform Edition Entity](#3-platform-edition-entity)
+4. [Gameplay File Entity](#4-gameplay-file-entity)
+5. [Gameplay Settings Entity](#5-gameplay-settings-entity)
+6. [Gameplay Footage Entity](#6-gameplay-footage-entity)
+7. [Gameplay Instruction Entity](#7-gameplay-instruction-entity)
+
+## 1. Sources
+
+The GPMS adapts the following projects for many of its entities, elements, and controlled vocabularies: 
 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
@@ -19,21 +35,14 @@ This metadata schema is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/l
 
 See citations below for specific instances of adaptation. 
 
-## Notes
+## 2. Abbreviations, Acronyms, and Symbols
 
 * Elements marked with [R] are required.
 * Elements marked with [+] are repeatable.
-* "GPFC" refers to the Press Record Gameplay Footage Collection. 
+* GPMS refers to the Gameplay Metadata Schema. 
+* GPFC refers to the Press Record Gameplay Footage Collection. 
 
-## Table of Contents
-
-1. [Platform Edition Entity](#1-platform-edition-entity)
-2. [Gameplay File Entity](#2-gameplay-file-entity)
-3. [Gameplay Settings Entity](#3-gameplay-settings-entity)
-4. [Gameplay Footage Entity](#4-gameplay-footage-entity)
-5. [Gameplay Instruction Entity](#5-gameplay-instruction-entity)
-
-## 1. Platform Edition Entity
+## 3. Platform Edition Entity
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al., "VGMS 4.2," 2024).
 
@@ -41,41 +50,41 @@ The platform edition played and recorded for the GPFC may or may not correspond 
 
 *The following elements of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
 
-* [Game Title](#1a-game-title) (text input field; [R])
-* [Release Year](#1b-release-year) (text input field; [R])
-* [Release Type](#1c-release-type) (controlled vocabulary; [R][+])
-* [Platform](#1d-platform) (controlled vocabulary; [R][+])
-* [Engine](#1e-engine) (controlled vocabulary; [+])
-* [Developer](#1f-developer) (text input field; [R][+])
-* [Developer's Location](#1g-developers-location) (controlled vocabulary; [R][+])
-* [Publisher](#1h-publisher) (text input field; [R][+])
-* [Publisher Class](#1i-publisher-class) (controlled vocabulary; [R][+])
+* [Game Title](#1a-game-title-r) (text input field; [R])
+* [Release Year](#1b-release-year-r) (text input field; [R])
+* [Release Type](#1c-release-type-r) (controlled vocabulary; [R][+])
+* [Platform](#1d-platform-r) (controlled vocabulary; [R][+])
+* [Engine](#1e-engine-) (controlled vocabulary; [+])
+* [Developer](#1f-developer-r) (text input field; [R][+])
+* [Developer's Location](#1g-developers-location-r) (controlled vocabulary; [R][+])
+* [Publisher](#1h-publisher-r) (text input field; [R][+])
+* [Publisher Class](#1i-publisher-class-r) (controlled vocabulary; [R][+])
 * [Platform Edition Note](#1j-platform-edition-note) (text input field)
 
-### 1A. Game Title
+### 1A. Game Title [R]
 
 Definition: The proper name of the platform edition as assigned by its developer and/or publisher (Lee et al., "VGMS 4.2," 2024; CIDOC 2011)
 
 Provide the complete, official game title. Avoid using an alternative, abbreviated, or colloquial title. 
 
-*text input field* [R]
+*text input field* 
 
-### 1B. Release Year
+### 1B. Release Year [R]
 
 Definition: The year the platform edition was publicly/commercially released (Lee et al., "VGMS 4.2," 2024) 
 
 The edition's release year may differ from the game's initial release year. 
 
-*text input field; format: YYYY* [R]
+*text input field; format: YYYY* 
 
-### 1C. Release Type
+### 1C. Release Type [R][+]
 
 Definition: The platform edition's release type as assigned by its developer, publisher, and/or distributor
 
 Use information available on MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type, especially if it was not assigned by the developer, publisher, and/or distributor. 
 
 <details>
-<summary><i>controlled vocabulary</i> [R][+]</summary>
+<summary><i>controlled vocabulary</i></summary>
 <ul>
 <li>Alpha</li>
 <li>Beta</li>
@@ -93,11 +102,11 @@ Use information available on MobyGames, Wikipedia, Steam, and/or fansites to con
 </ul>
 </details>
 
-### 1D. Platform
+### 1D. Platform [R][+]
 Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025)</summary>
 <ul>
 <li>1291 Advanced Programmable Video System</li>
 <li>3DO</li>
@@ -454,14 +463,14 @@ Definition: The operating system, device, computer, console, and/or service on w
 </ul>
 </details>
 
-### 1E. Engine 
+### 1E. Engine [+]
 
 Definition: The software framework and/or development environment used to design the platform edition
 
 Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the engine.
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "List of Game Engines," 2025) [+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "List of Game Engines," 2025)</summary>
 <ul>
 <li>4A Engine</li>
 <li>A-FRAME (VR)</li>
@@ -641,22 +650,22 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 </ul>
 </details>
 
-### 1F. Developer 
+### 1F. Developer [R][+]
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
 Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer(s). 
 
-*text input field* [R][+]
+*text input field* 
 
-### 1G. Developer's Location
+### 1G. Developer's Location [R][+]
 
 Definition: The geographic location of the platform edition's developer(s)
 
 Use information available on MobyGames, Wikipedia, Steam, fansites, the developer's official website, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer's location. 
 
 <details>
-<summary><i>controlled vocabulary</i> [R][+]</summary>
+<summary><i>controlled vocabulary</i></summary>
 <ul>
 <li>Afghanistan</li>
 <li>Albania</li>
@@ -874,7 +883,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, the develope
 </ul>
 </details>
 
-### 1H. Publisher 
+### 1H. Publisher [R][+]
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
@@ -882,9 +891,9 @@ Both publishers and distributors may be included in this field.
 
 Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition’s official website, title screen, credits sequence, and/or advertising to confirm the publisher(s) and distributor(s). 
 
-*text input field* [R][+]
+*text input field*
 
-### 1I. Publisher Class 
+### 1I. Publisher Class [R][+]
 
 Definition: The size, profile, and/or budget of the publisher and, in some cases, the developer, too
 
@@ -892,7 +901,7 @@ Use information available on MobyGames, Wikipedia, Steam, and/or fansites to con
 
 This element rarely needs to be repeated. Exceptions include cases where the platform edition is both "indie" and "self-published." 
 <details>
-<summary><i>controlled vocabulary</i> [R][+]</summary>
+<summary><i>controlled vocabulary</i></summary>
 <ul>
 <li>AAA</li>
 <li>AA</li>
@@ -909,7 +918,7 @@ Definition: "Any other notable characteristics of the platform edition" that are
 
 *text input field*
 
-## 2. Gameplay File Entity 
+## 4. Gameplay File Entity 
 
 Definition: Denotes a video file containing gameplay footage of a particular instantiation (a ["platform edition"](#1-platform-edition-entity)) of a video game; also called "game capture" and "game recording"
 
@@ -1027,7 +1036,7 @@ Definition: "Any other notable characteristics of the" gameplay file that are "n
 
 *text input field*
 
-## 3. Gameplay Settings Entity 
+## 5. Gameplay Settings Entity 
 
 Definition: Denotes the settings of a particular instantiation (a ["platform edition"](#1-platform-edition-entity)) of a video game
 
@@ -1241,7 +1250,7 @@ Definition: "Any other notable characteristics of the" gameplay settings that ar
 
 *text input field*
 
-## 4. Gameplay Footage Entity
+## 6. Gameplay Footage Entity
 
 Definition: Denotes the recorded video material of a particular instantiation (a [“platform edition”](#1-platform-edition-entity)) of a video game
 
@@ -1455,7 +1464,7 @@ Definition: Patterns of storytelling in the gameplay footage based on how storie
 Use "abstract / no narrative" for abstract games and games without narratives or narrative elements. 
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Lee et al., "Controlled Vocabulary for Narrative Genre," 2024 and Wikipedia, "Glossary of Video Game Terms," 2026) [R][+]</summary>
+<summary><i>controlled vocabulary</i> (mostly adapted from Lee et al., "Controlled Vocabulary for Narrative Genre," 2024 and Wikipedia, "List of Genres," 2026) [R][+]</summary>
 <ul>
 <li>Abstract / no narrative</li>
 <li>Alternate history</li>
@@ -1630,7 +1639,7 @@ controlled vocabulary [R][+]
 
 text input field 
 
-## 5. Gameplay Instruction Entity 
+## 7. Gameplay Instruction Entity 
 
 ### Pertinent Topic
 
