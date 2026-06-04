@@ -2013,6 +2013,7 @@ Select "No items" if the footage contains no items.
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
+<ul>
 <li>Accessory</li>
 <li>Ammunition / ammo</li>
 <li>Antidote</li>
@@ -2076,7 +2077,7 @@ The controlled vocabulary for this element avoids duplicating terms used in voca
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Mood," 2024)</summary>
-
+<ul>
 <li>Accessible</li>
 <li>Beautiful</li>
 <li>Believable</li>
