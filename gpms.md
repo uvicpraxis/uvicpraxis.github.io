@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 2 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 4 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -9,7 +9,7 @@ License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ## Table of Contents
 
 1. [Sources](#1-sources)
-2. [Abbreviations, Acronyms, and Symbols](#2-abbreviations-acronyms-and-symbols)
+2. [Abbreviation and Acronym Key](#2-abbreviation-and-acronym-key)
 3. [Platform Edition Entity](#3-platform-edition-entity)
 4. [Gameplay File Entity](#4-gameplay-file-entity)
 5. [Gameplay Settings Entity](#5-gameplay-settings-entity)
@@ -27,15 +27,18 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Narrative Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-narrative-genre](https://github.com/uwgamergroup/vocabulary-narrative-genre)
+* --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Setting. Version 2.3. [https://github.com/uwgamergroup/vocabulary-setting](https://github.com/uwgamergroup/vocabulary-setting)
+* --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Mood. Version 3.2. [https://github.com/uwgamergroup/vocabulary-mood](https://github.com/uwgamergroup/vocabulary-mood)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
-* Wikipedia (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
-* --- (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
+* Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
 * --- (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
+* --- (2026). Item (game terminology). [https://en.wikipedia.org/wiki/Item_(game_terminology)](https://en.wikipedia.org/wiki/Item_(game_terminology)
+* --- (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 * --- (2026). List of Genres. [https://en.wikipedia.org/wiki/List_of_genres](https://en.wikipedia.org/wiki/List_of_genres)
 
 See citations below for specific instances of adaptation. 
 
-## 2. Abbreviations, Acronyms, and Symbols
+## 2. Abbreviation and Acronym Key
 
 * Elements marked with [R] are required.
 * Elements marked with [+] are repeatable.
@@ -81,7 +84,7 @@ The edition's release year may differ from the game's initial release year.
 
 Definition: The platform edition's release type as assigned by its developer, publisher, and/or distributor
 
-Use information available on MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type, especially if it was not assigned by the developer, publisher, and/or distributor. 
+Use MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type if it was not assigned by the developer, publisher, and/or distributor. 
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
@@ -107,7 +110,7 @@ Use information available on MobyGames, Wikipedia, Steam, and/or fansites to con
 Definition: The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Poff and Atari 2025)</summary>
 <ul>
 <li>1291 Advanced Programmable Video System</li>
 <li>3DO</li>
@@ -468,10 +471,10 @@ Definition: The operating system, device, computer, console, and/or service on w
 
 Definition: The software framework and/or development environment used to design the platform edition
 
-Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the engine.
+Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the engine.
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "List of Game Engines," 2025)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Wikipedia, "List of Game Engines," 2025)</summary>
 <ul>
 <li>4A Engine</li>
 <li>A-FRAME (VR)</li>
@@ -655,7 +658,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
-Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer(s). 
+Use MobyGames, Wikipedia, Steam, fansites, official advertisements, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the developer(s). 
 
 *text input field* 
 
@@ -667,7 +670,7 @@ Select the country for all developers except those in Canada.
 
 For developers in Canada, select the country and province or territory: for example, Canada / British Columbia. 
 
-Use information available on MobyGames, Wikipedia, Steam, fansites, the developer's official website, and/or the platform edition's official website, title screen, credits sequence, and/or advertising to confirm the developer's location. 
+Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the developer's location. 
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
@@ -894,7 +897,7 @@ Definition: "An individual, organization, or group of individuals or organizatio
 
 Both publishers and distributors may be included in this field. 
 
-Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the platform edition’s official website, title screen, credits sequence, and/or advertising to confirm the publisher(s) and distributor(s). 
+Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition’s official website, title screen, and/or credits sequence to confirm the publisher(s) and distributor(s). 
 
 *text input field*
 
@@ -902,7 +905,7 @@ Use information available on MobyGames, Wikipedia, Steam, fansites, and/or the p
 
 Definition: The size, profile, and/or budget of the publisher and, in some cases, the developer, too
 
-Use information available on MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class. 
+Use MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class. 
 
 This element rarely needs to be repeated. Exceptions include cases where the platform edition is both "indie" and "self-published." 
 <details>
@@ -1061,7 +1064,7 @@ Definition: Denotes the settings of a particular instantiation (a ["platform edi
 Definition: The equipment used to play the platform edition while the video was recorded (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "Game Controller," 2026)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Wikipedia, "Game Controller," 2026)</summary>
 <ul>
 <li>Adaptive controller</li>
 <li>Balance board</li>
@@ -1134,7 +1137,7 @@ Definition: The number of players in the gameplay footage of the platform editio
 Definition: A distinct configuration of the platform edition's mechanics and gameplay in the gameplay footage
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Wikipedia, "Glossary of Video Game Terms," 2026)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Wikipedia, "Glossary of Video Game Terms," 2026)</summary>
 <ul>
 <li>Arena</li>
 <li>Attract / display / show</li>
@@ -1177,7 +1180,7 @@ Include languages that are read as well as heard, be they diegetic (read or hear
 Definition: A configuration or appearance of the platform edition's accessibility features in the gameplay footage
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Ellis et al. n.d.)</summary>
+<summary><i>controlled vocabulary</i> (based on guidelines from Ellis et al. n.d.)</summary>
 <ul>
 <li>Alternate inputs</li>
 <li>Arachnophobia mode</li>
@@ -1267,25 +1270,29 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Narrative Genre](#6d-narrative-genre-r) [R][+] (controlled vocabulary) 
 * [Narrative Subgenre](#6e-narrative-subgenre-r) [R][+] (controlled vocabulary) 
 * [Dimension and Perspective](#6f-dimension-and-perspective-r) [R][+] (controlled vocabulary) 
-* [World and Place](#6g-world-and-place-r) [R][+] (controlled vocabulary) 
+* [Location](#6g-location-r) [R][+] (controlled vocabulary) 
 * [Time Period](#6h-time-period-r) [R][+] (controlled vocabulary) 
-* [Atmosphere](#6i-atmosphere-r) [R][+] (controlled vocabulary) 
-* [Player Character](#6j-player-character-r) [R][+] (controlled vocabulary) 
-* [Non-Player Character](#6k-non-player-character-r) [R][+] (controlled vocabulary) 
-* [Hostile Character](#6l-hostile-character-r) [R][+] (controlled vocabulary) 
-* [Objects](#6m-objects-r) [R+][+] (controlled vocabulary)
-* [Mechanics](#6n-mechanics-r) [R][+] (controlled vocabulary) 
-* [Activity](#6o-activity-r) [R][+] (controlled vocabulary) 
-* [Pacing](#6p-pacing-r) [R][+] (controlled vocabulary) 
-* [Progression](#6q-progression-r) [R][+] (controlled vocabulary) 
-* [Theme](#6r-theme-r) [R][+] (controlled vocabulary) 
-* [Trope](#6s-trope-r) [R][+] (controlled vocabulary) 
-* [Art](#6t-art-r) [R][+] (controlled vocabulary) 
-* [Style](#6u-style-r) [R][+] (controlled vocabulary) 
-* [Interface](#6v-interface-r) [R][+] (controlled vocabulary) 
-* [Experience](#6w-experience-r) [R][+] (controlled vocabulary) 
-* [Transaction](#6x-transaction-r) [R][+] (controlled vocabulary) 
-* [Metagaming](#6y-metagaming-r) [R][+] (controlled vocabulary) 
+* [Biome](#6i-biome-r) [R][+] (controlled vocabulary) 
+* [Built Envrionment](#6j-built-envrionment-r) [R][+] (controlled vocabulary) 
+* [Mode of Transport](#6k-mode-of-transport-r) [R][+] (controlled vocabulary) 
+* [Items](#6l-items-r) [R+][+] (controlled vocabulary)
+* [Atmosphere](#6m-atmosphere-r) [R][+] (controlled vocabulary) 
+* [Player Character](#6n-player-character-r) [R][+] (controlled vocabulary) 
+* [Non-Player Character](#6o-non-player-character-r) [R][+] (controlled vocabulary) 
+* [Hostile Character](#6p-hostile-character-r) [R][+] (controlled vocabulary) 
+* [Mechanics](#6q-mechanics-r) [R][+] (controlled vocabulary) 
+* [Activity](#6r-activity-r) [R][+] (controlled vocabulary) 
+* [Pacing](#6s-pacing-r) [R][+] (controlled vocabulary) 
+* [Progression](#6t-progression-r) [R][+] (controlled vocabulary) 
+* [Theme](#6u-theme-r) [R][+] (controlled vocabulary) 
+* [Trope](#6v-trope-r) [R][+] (controlled vocabulary) 
+* [Art](#6w-art-r) [R][+] (controlled vocabulary) 
+* [Style](#6x-style-r) [R][+] (controlled vocabulary) 
+* [Interface](#6y-interface-r) [R][+] (controlled vocabulary) 
+* [Experience](#6z-experience-r) [R][+] (controlled vocabulary) 
+* [Transaction](#6aa-transaction-r) [R][+] (controlled vocabulary) 
+* [Metagaming](#6bb-metagaming-r) [R][+] (controlled vocabulary) 
+* [Content Warning](#6cc-content-warning-r) [R] (text input field)
 * [Gameplay Footage Note](#6z-gameplay-footage-note) (text input field)  
 
 ### 6A. Type of Play [R][+]
@@ -1321,7 +1328,7 @@ Definition: "The overall nature of . . . interactivity" in the gameplay footage 
 Note: "Traditional" in the controlled vocabulary below denotes "games based on mechanics that exist in the real world and can be played in a physical setting." They include board, card, exercise, gambling, game show, maze, pinball, and trivia games (Lee et al., "Controlled Vocabulary for Genre," 2024). 
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024)</summary>
+<summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024)</summary>
 <ul>
 <li>Action</li>
 <li>Adventure</li>
@@ -1343,7 +1350,7 @@ Note: "Traditional" in the controlled vocabulary below denotes "games based on m
 Definition: Patterns of interactivity appearing in the gameplay footage "based on [the platform edition's] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay" (Lee et al., "VGMS 4.2," 2024)
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with additions, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024)</summary>
 <ul>
 <li>4X</li>
 <li>Arcade</li>
@@ -1434,12 +1441,12 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 
 ### 6D. Narrative Genre [R][+]
 
-Definition: The overall nature of storytelling in the gameplay footage based on how stories in the platform edition are told, plotted, and arranged
+Definition: The overall nature of storytelling in the gameplay footage based on how the platform edition tells, plots, and arranges stories
 
 Use "abstract / no narrative" for abstract games and games without narratives or narrative elements. 
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Narrative Genre," 2024)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Narrative Genre," 2024)</summary>
 <ul>
 <li>Abstract / no narrative</li>
 <li>Action</li>
@@ -1464,12 +1471,12 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 
 ### 6E. Narrative Subgenre [R][+]
 
-Definition: Patterns of storytelling in the gameplay footage based on how stories in the platform edition are told, plotted, and arranged
+Definition: Patterns of storytelling in the gameplay footage based on how the platform edition tells, plots, and arranges stories
 
 Use "abstract / no narrative" for abstract games and games without narratives or narrative elements. 
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Lee et al., "Controlled Vocabulary for Narrative Genre," 2024 and Wikipedia, "List of Genres," 2026)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with additions, from Lee et al., "Controlled Vocabulary for Narrative Genre," 2024 and Wikipedia, "List of Genres," 2026)</summary>
 <ul>
 <li>Abstract / no narrative</li>
 <li>Alternate history</li>
@@ -1530,17 +1537,19 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 
 ### 6F. Dimension and Perspective [R][+]
 
-Definition: "The intended perception of the depth of the represented entities inside the video game," and "[t]he [point of view and camera] from which the player experiences the gameplay" in the footage (Lee et al., "VGMS 4.2," 2024)  
+Definition: "The intended perception of the depth of the represented entities in" the gameplay footage and "[t]he [point of view and camera] from which the player experiences the gameplay" (Lee et al., "VGMS 4.2," 2024)  
+
+This element will typically be repeated: for example, 3D, 1st-person, and perspective camera. 
 
 <details>
-<summary><i>controlled vocabulary</i> (mostly adapted from Poff and Atari 2025 and Lee et al., "VGMS 4.2," 2024)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Poff and Atari 2025 and Lee et al., "VGMS 4.2," 2024)</summary>
 <ul>
-<li>2D</li>
 <li>2.5D</li>
+<li>2D</li>
 <li>3D</li>
-<li>1st-person</li>
-<li>2nd-person</li>
-<li>3rd-person</li>
+<li>1st-person / first-person</li>
+<li>2nd-person / second-person</li>
+<li>3rd-person / third-person</li>
 <li>Audio game</li>
 <li>Behind view / over the shoulder</li>
 <li>Breaks the fourth wall</li>
@@ -1555,89 +1564,634 @@ Definition: "The intended perception of the depth of the represented entities in
 </ul>
 </details>
 
-### 6G. World and Place [R][+]
+### 6G. Location [R][+]
 
-controlled vocabulary 
+Definition: The planet, continent, and/or country appearing the gameplay footage 
+
+Select "Fictional" if the location is imaginary (that is, it originated in the video game or its franchise). 
+
+Select "Unspecified" when the location (such as "outer space") is vague or cannot be determined.
+
+Note that gameplay footage may combine actual and fictional locations: for example, the town of Tigland in Canada on Earth. It may also combine actual and unspecified locations: "somewhere on Earth," for instance. 
+
+Use the "Gameplay Footage Note" to include a more specific location, such as an actual city or fictional town appearing in the gameplay footage. 
+
+Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to confirm the location.
+
+<details>
+<summary><i>controlled vocabulary</i></summary>
+<ul>
+<li>Afghanistan</li>
+<li>Africa</li>
+<li>Albania</li>
+<li>Algeria</li>
+<li>Andorra</li>
+<li>Angola</li>
+<li>Antarctica</li>
+<li>Antigua and Barbuda</li>
+<li>Argentina</li>
+<li>Armenia</li>
+<li>Asia</li>
+<li>Australia</li>
+<li>Austria</li>
+<li>Azerbaijan</li>
+<li>Bahamas</li>
+<li>Bahrain</li>
+<li>Bangladesh</li>
+<li>Barbados</li>
+<li>Belarus</li>
+<li>Belgium</li>
+<li>Belize</li>
+<li>Benin</li>
+<li>Bermuda </li>
+<li>Bhutan</li>
+<li>Bolivia</li>
+<li>Bosnia and Herzegovina</li>
+<li>Botswana</li>
+<li>Brazil</li>
+<li>Brunei</li>
+<li>Bulgaria</li>
+<li>Burkina Faso</li>
+<li>Burundi</li>
+<li>Cambodia</li>
+<li>Cameroon</li>
+<li>Canada</li>
+<li>Cape Verde</li>
+<li>Central African Republic</li>
+<li>Chad</li>
+<li>Chile</li>
+<li>China</li>
+<li>Colombia</li>
+<li>Comoros</li>
+<li>Congo, Republic of the</li>
+<li>Congo, Democratic Republic of the</li>
+<li>Costa Rica</li>
+<li>Croatia</li>
+<li>Cuba</li>
+<li>Curacao</li>
+<li>Cyprus</li>
+<li>Czech Republic</li>
+<li>Denmark</li>
+<li>Djibouti</li>
+<li>Dominica</li>
+<li>Dominican Republic</li>
+<li>Earth</li>
+<li>East Timor</li>
+<li>Ecuador</li>
+<li>Egypt</li>
+<li>El Salvador</li>
+<li>Equatorial Guinea</li>
+<li>Eritrea</li>
+<li>Estonia</li>
+<li>Eswatini</li>
+<li>Ethiopia</li>
+<li>Europe</li>
+<li>Fictional</li>
+<li>Fiji</li>
+<li>Finland</li>
+<li>France</li>
+<li>Gabon</li>
+<li>Gambia</li>
+<li>Georgia</li>
+<li>Germany</li>
+<li>Ghana</li>
+<li>Greece</li>
+<li>Grenada</li>
+<li>Guatemala</li>
+<li>Guinea</li>
+<li>Guinea-Bissau</li>
+<li>Guyana</li>
+<li>Haiti</li>
+<li>Honduras</li>
+<li>Hungary</li>
+<li>Iceland</li>
+<li>India</li>
+<li>Indonesia</li>
+<li>Iran</li>
+<li>Iraq</li>
+<li>Ireland</li>
+<li>Israel</li>
+<li>Italy</li>
+<li>Ivory Coast</li>
+<li>Jamaica</li>
+<li>Japan</li>
+<li>Jordan</li>
+<li>Jupiter</li>
+<li>Kazakhstan</li>
+<li>Kenya</li>
+<li>Kiribati</li>
+<li>Kosovo</li>
+<li>Kuwait</li>
+<li>Kyrgyzstan</li>
+<li>Laos</li>
+<li>Latvia</li>
+<li>Lebanon</li>
+<li>Lesotho</li>
+<li>Liberia</li>
+<li>Libya</li>
+<li>Liechtenstein</li>
+<li>Lithuania</li>
+<li>Luxembourg</li>
+<li>Madagascar</li>
+<li>Malawi</li>
+<li>Malaysia</li>
+<li>Maldives</li>
+<li>Mali</li>
+<li>Malta</li>
+<li>Mars</li>
+<li>Marshall Islands</li>
+<li>Mauritania</li>
+<li>Mauritius</li>
+<li>Mercury</li>
+<li>Mexico</li>
+<li>Micronesia</li>
+<li>Moldova</li>
+<li>Monaco</li>
+<li>Mongolia</li>
+<li>Montenegro</li>
+<li>Morocco</li>
+<li>Mozambique</li>
+<li>Myanmar</li>
+<li>Namibia</li>
+<li>Nauru</li>
+<li>Nepal</li>
+<li>Neptune</li>
+<li>Netherlands</li>
+<li>New Zealand</li>
+<li>Nicaragua</li>
+<li>Niger</li>
+<li>Nigeria</li>
+<li>North America</li>
+<li>North Korea</li>
+<li>North Macedonia</li>
+<li>Norway</li>
+<li>Oceania</li>
+<li>Oman</li>
+<li>Pakistan</li>
+<li>Palau</li>
+<li>Palestine</li>
+<li>Panama</li>
+<li>Papua New Guinea</li>
+<li>Paraguay</li>
+<li>Peru</li>
+<li>Philippines</li>
+<li>Poland</li>
+<li>Portugal</li>
+<li>Puerto Rico</li>
+<li>Qatar</li>
+<li>Romania</li>
+<li>Russia</li>
+<li>Rwanda</li>
+<li>Saint Kitts and Nevis</li>
+<li>Saint Lucia</li>
+<li>Saint Vincent and the Grenadines</li>
+<li>Samoa</li>
+<li>San Marino</li>
+<li>São Tomé and Príncipe</li>
+<li>Saturn</li>
+<li>Saudi Arabia</li>
+<li>Senegal</li>
+<li>Serbia</li>
+<li>Seychelles</li>
+<li>Sierra Leone</li>
+<li>Singapore</li>
+<li>Slovakia</li>
+<li>Slovenia</li>
+<li>Solomon Islands</li>
+<li>Somalia</li>
+<li>South Africa</li>
+<li>South America</li>
+<li>South Korea</li>
+<li>South Sudan</li>
+<li>Spain</li>
+<li>Sri Lanka</li>
+<li>Sudan</li>
+<li>Suriname</li>
+<li>Sweden</li>
+<li>Switzerland</li>
+<li>Syria</li>
+<li>Taiwan</li>
+<li>Tajikistan</li>
+<li>Tanzania</li>
+<li>Thailand</li>
+<li>Togo</li>
+<li>Tonga</li>
+<li>Trinidad and Tobago</li>
+<li>Tunisia</li>
+<li>Turkey</li>
+<li>Turkmenistan</li>
+<li>Tuvalu</li>
+<li>Uganda</li>
+<li>Ukraine</li>
+<li>United Arab Emirates</li>
+<li>United Kingdom</li>
+<li>United States</li>
+<li>Unspecified</li>
+<li>Uranus</li>
+<li>Uruguay</li>
+<li>Uzbekistan</li>
+<li>Vanuatu</li>
+<li>Vatican City</li>
+<li>Venezuela</li>
+<li>Venus</li>
+<li>Vietnam</li>
+<li>Yemen</li>
+<li>Zambia</li>
+<li>Zimbabwe</li>
+</ul>
+</details>
 
 ### 6H. Time Period [R][+]
 
+Definition: The general time period in which the gameplay footage is set
+
+Select "Fictional" if the time period is imaginary (that is, it originated in the video game or its franchise). 
+
+Select "Unspecified" when the time period is vague or cannot be determined.
+
+Use the "Gameplay Footage Note" to include a specific date, year, period, moment, or event represented by the gameplay footage. 
+
+Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to confirm the time period.
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
+<ul>
+<li>Axial Age</li>
+<li>Bronze Age</li>
+<li>Contemporary</li>
+<li>Copper Age / Chalcolithic</li>
+<li>Classical antiquity</li>
+<li>Early modern</li>
+<li>Fictional</li>
+<li>Future</li>
+<li>Geologic time</li>
+<li>Iron Age</li>
+<li>Late antiquity</li>
+<li>Late modern</li>
+<li>Mesolithic</li>
+<li>Neolithic</li>
+<li>Paleolithic</li>
+<li>Postclassical</li>
+<li>Time immemorial</li>
+<li>Unspecified</li>
+</ul>
+</details>
+
+### 6I. Biome [R][+]
+
+Definition: The ecological community type appearing in the gameplay footage
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
+<ul>
+<li>Abstract</li>
+<li>Aquatic / underwater</li>
+<li>Beach / island</li>
+<li>Cave / subterranean</li>
+<li>Desert</li>
+<li>Forest / woodlands</li>
+<li>Grasslands / plains / savanna</li>
+<li>Jungle</li>
+<li>Lava / volcano</li>
+<li>Mountains</li>
+<li>Outer space</li>
+<li>Ruins</li>
+<li>Sky</li>
+<li>Suburban / suburb</li>
+<li>Swamp / marsh</li>
+<li>Tundra / snow / ice</li>
+<li>Urban / city</li>
+</ul>
+</details>
+
+### 6J. Built Envrionment [R][+]
+
+Definition: An artificial physical feature or edifice appearing in the gameplay footage that's typically meant to surround, structure, and/or guide the diegetic activities of characters in the platform edition 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
+<ul>
+<li>Alley</li>
+<li>Amusement park / circus</li>
+<li>Aquarium</li>
+<li>Arcade</li>
+<li>Arena / coliseum / stadium</li>
+<li>Bank</li>
+<li>Basement</li>
+<li>Bathhouse / spa / sauna</li>
+<li>Bathroom / washroom / water closet</li>
+<li>Bedroom</li>
+<li>Bridge</li>
+<li>Castle / fortress</li>
+<li>Church / cathedral / chapel / temple</li>
+<li>Club / bar / saloon / pub</li>
+<li>Computer / cyberspace / internet</li>
+<li>Door</li>
+<li>Dungeon</li>
+<li>Factory</li>
+<li>Farm / farmhouse</li>
+<li>Funeral home / morgue</li>
+<li>Garage</li>
+<li>Graveyard</li>
+<li>Gym / gymnasium</li>
+<li>House / apartment / townhouse</li>
+<li>Hospital / asylum</li>
+<li>Hotel / inn</li>
+<li>Invisible wall</li>
+<li>Jail / prison</li>
+<li>Kitchen</li>
+<li>Laboratory / lab</li>
+<li>Library</li>
+<li>Longhouse</li>
+<li>Mansion / palace</li>
+<li>Maze</li>
+<li>Military base</li>
+<li>Mill</li>
+<li>Mine</li>
+<li>Monastery</li>
+<li>Museum / archive / gallery</li>
+<li>Office / office building</li>
+<li>Park / nature reserve</li>
+<li>Playground</li>
+<li>Race track</li>
+<li>Restaurant / cafe</li>
+<li>Rooftop</li>
+<li>School / classroom</li>
+<li>Sewer</li>
+<li>Shack</li>
+<li>Ship</li>
+<li>Shrine</li>
+<li>Skyscraper</li>
+<li>Space station</li>
+<li>Stairs / ladder</li>
+<li>Store</li>
+<li>Street light / street lamp</li>
+<li>Tower</li>
+<li>Town</li>
+<li>Training ground</li>
+<li>University campus / college campus</li>
+<li>Village</li>
+<li>Visible wall</li>
+<li>Window</li>
+<li>Zoo</li>
+</ul>
+</details>
+
+### 6K. Mode of Transport [R][+]
+
+Definition: A means of conveyance or travel from one place to another appearing in the gameplay footage 
+
+Select "No mode of transport" if the footage contains no means of conveyance or travel.
+
+<details>
+<summary><i>controlled vocabulary</li> (adapted, with changes and additions, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
+<ul>
+<li>Airplane</li>
+<li>Airship</li>
+<li>All-terrain vehicle</li>
+<li>Bicycle / bike</li>
+<li>Boat / sailboat / steamboat / yacht</li>
+<li>Bovine / cow / buffalo</li>
+<li>Buggy / carriage</li>
+<li>Bus</li>
+<li>Cable car</li>
+<li>Camel</li>
+<li>Canoe / kayak</li>
+<li>Car / racecar</li>
+<li>Caribou / reindeer</li>
+<li>Cat</li>
+<li>Chocobo</li>
+<li>Dog</li>
+<li>Elephant</li>
+<li>Equine / horse / donkey / mule</li>
+<li>Ferry</li>
+<li>Fictional item</li>
+<li>Fictional species</li>
+<li>Fictional technology</li>
+<li>Fictional vehicle</li>
+<li>Gliding</li>
+<li>Helicopter</li>
+<li>Hot air balloon</li>
+<li>Hoverboard</li>
+<li>Hovercraft</li>
+<li>Kart / go kart</li>
+<li>Llama</li>
+<li>Mecha / giant robot</li>
+<li>Minecart</li>
+<li>Motorcycle</li>
+<li>Portal / fast travel / teleportation</li>
+<li>Running</li>
+<li>Skateboard</li>
+<li>Skates</li>
+<li>Skis</li>
+<li>Sled</li>
+<li>Snowboard</li>
+<li>Snowmobile</li>
+<li>Spacecraft / spaceship</li>
+<li>Submarine</li>
+<li>Swimming</li>
+<li>Tank</li>
+<li>Taxi</li>
+<li>Time machine</li>
+<li>Tractor</li>
+<li>Train / subway</li>
+<li>Trolley</li>
+<li>Truck</li>
+<li>Unicorn</li>
+<li>Walking</li>
+<li>Wheelchair</li>
+<li>Wings / flight</li>
+<li>Zipline</li>
+</ul>
+</details>
+
+### 6L. Items [R][+]
+
+Definition: Types of consumables, equipment, progression items, crafting materials, currencies, and valuables appearing in the gameplay footage (Wikipedia, "Item (game terminology)," 2026). 
+
+Select "No items" if the footage contains no items.
+
+<details>
+<summary><i>controlled vocabulary</i></summary>
+<li>Accessory</li>
+<li>Ammunition / ammo</li>
+<li>Antidote</li>
+<li>Armour</li>
+<li>Blueprint</li>
+<li>Book</li>
+<li>Buff / boost</li>
+<li>Coat</li>
+<li>Collectible</li>
+<li>Compact disc / CD</li>
+<li>Compass</li>
+<li>Computer / computer parts</li>
+<li>Cooked food / prepared food</li>
+<li>Cosmetic</li>
+<li>Credits</li>
+<li>Digital optical disc / DVD</li>
+<li>Dress</li>
+<li>Drink</li>
+<li>Dye / ink</li>
+<li>Energy</li>
+<li>Fabric / textile</li>
+<li>Film / rolls of film</li>
+<li>Fruit / fruit product</li>
+<li>Hat</li>
+<li>Health potion</li>
+<li>Key / keycard</li>
+<li>Letter / journal entry</li>
+<li>Mana potion</li>
+<li>Map</li>
+<li>Meat / bone / animal product</li>
+<li>Money / coins / cash</li>
+<li>Monster parts</li>
+<li>Mushroom / fungi</li>
+<li>Musical instrument</li>
+<li>No items</li>
+<li>Oil</li>
+<li>Ore / minerals / metals</li>
+<li>Pants</li>
+<li>Photograph</li>
+<li>Recipe</li>
+<li>Shirt</li>
+<li>Shoes / boots</li>
+<li>Skirt</li>
+<li>Suit</li>
+<li>Swimsuit</li>
+<li>Tape / cassette / audio / video</li>
+<li>Tool / technology</li>
+<li>Underwear</li>
+<li>Vegetable / herb / plant / plant product</li>
+<li>Water</li>
+<li>Wood</li>
+<li>Weapon</li>
+</ul>
+</details>
+
+### 6M. Atmosphere [R][+]
+
+Definition: "The pervading [mood] or tone of the" world appearing in the gameplay footage; it "evokes or recalls a certain emotion or state of mind" (Lee et al., "VGMS 4.2," 2024) 
+
+The controlled vocabulary for this element avoids duplicating terms used in vocabularies for other elements, such as "Narrative Genre," "Narrative Subgenre," and "Type of Play." 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Mood," 2024)</summary>
+
+<li>Accessible</li>
+<li>Beautiful</li>
+<li>Believable</li>
+<li>Bleak</li>
+<li>Bold</li>
+<li>Bright</li>
+<li>Brittle</li>
+<li>Captivating</li>
+<li>Cozy</li>
+<li>Creative</li>
+<li>Dangerous</li>
+<li>Disturbing</li>
+<li>Eerie</li>
+<li>Energizing</li>
+<li>Erotic</li>
+<li>Gloomy</li>
+<li>Hopeful</li>
+<li>Hostile</li>
+<li>Intellectual</li>
+<li>Intense</li>
+<li>Intimate</li>
+<li>Lonely</li>
+<li>Mischievous</li>
+<li>Mournful</li>
+<li>Ominous</li>
+<li>Opaque</li>
+<li>Peaceful</li>
+<li>Punishing</li>
+<li>Quotidian</li>
+<li>Rigid</li>
+<li>Sentimental</li>
+<li>Serene</li>
+<li>Snarky</li>
+<li>Suspicious</li>
+<li>Theatrical</li>
+<li>Threatening</li>
+<li>Toxic</li>
+<li>Unpredictable</li>
+<li>Violent</li>
+<li>Welcoming</li>
+<li>Whimsical</li>
+</ul>
+</details>
+
+### 6N. Player Character [R][+]
+
 controlled vocabulary 
 
-### 6I. Atmosphere [R][+]
+### 6O. Non-Player Character [R][+]
 
 controlled vocabulary 
 
-note: consider dystopian, utopian, post-apocalyptic,
-
-### 6J. Player Character [R][+]
+### 6P. Hostile Character [R][+]
 
 controlled vocabulary 
 
-### 6K. Non-Player Character [R][+]
+### 6Q. Mechanics [R][+]
 
 controlled vocabulary 
 
-### 6L. Hostile Character [R][+]
+### 6R. Activity [R][+]
 
 controlled vocabulary 
 
-### 6M. Objects [R][+]
+### 6S. Pacing [R][+]
 
 controlled vocabulary 
 
-### 6N. Mechanics [R][+]
+### 6T. Progression [R][+]
 
 controlled vocabulary 
 
-### 6O. Activity [R][+]
+vertical movment / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation (some of these might be themes or Game Studies topics, tho)
+
+### 6U. Theme [R][+]
 
 controlled vocabulary 
 
-### 6P. Pacing [R][+]
+anti-colonial; decolonial; political / government; monsters everywhere (is this an experience?); nostalgia (also an experience?); utopian; dystopian; carnivalesque; diegetic simulation
+
+### 6V. Trope [R][+]
 
 controlled vocabulary 
 
-### 6Q. Progression [R][+]
+### 6W. Art [R][+]
 
 controlled vocabulary 
 
-### 6R. Theme [R][+]
+### 6X. Style [R][+]
 
 controlled vocabulary 
 
-### 6S. Trope [R][+]
+photorealism; social realism; surrealism; magical realism; epic; experimental; adaptation / homage; mashup
+
+### 6Y. Interface [R][+]
 
 controlled vocabulary 
 
-### 6T. Art [R][+]
+### 6Z. Experience [R][+]
+
+controlled vocabulary
+
+### 6AA. Transaction [R][+]
 
 controlled vocabulary 
 
-### 6U. Style [R][+]
+### 6BB. Metagaming [R][+]
 
-controlled vocabulary 
+controlled vocabulary
 
-Note: consider realism, social realism, surrealism, magical realism, epic, experimental
+### 6CC. Content Warning [R]
 
-### 6V. Interface [R][+]
+text input field 
 
-controlled vocabulary 
-
-### 6W. Experience [R][+]
-
-controlled vocabulary 
-
-note: include emergent / player-dependent
-
-### 6X. Transaction [R][+]
-
-controlled vocabulary 
-
-### 6Y. Metagaming [R][+]
-
-controlled vocabulary 
-
-### 6Z. Gameplay Footage Note
+### 6DD. Gameplay Footage Note
 
 text input field 
 
@@ -1646,6 +2200,8 @@ text input field
 ### 7A. Game Studies Topic [R][+]
 
 controlled vocabulary 
+
+liminal spaces, ludonarrative dissonance / resonance, player-centric, player-agnostic, player-antagonistic
 
 ### 7B. Gameplay Instruction Note 
 
