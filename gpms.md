@@ -2,7 +2,7 @@ This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project 
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-This metadata schema was developed by Jentery Sayers and the Praxis Studio for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27.
+Jentery Sayers and the Praxis Studio developed this metadata schema for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27.
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -20,7 +20,7 @@ License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 The GPMS adapts the following projects for many of its entities, elements, and controlled vocabularies: 
 
-* Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
+* 6, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
@@ -897,7 +897,7 @@ Definition: "An individual, organization, or group of individuals or organizatio
 
 Both publishers and distributors may be included in this field. 
 
-Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition’s official website, title screen, and/or credits sequence to confirm the publisher(s) and distributor(s). 
+Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the publisher(s) and distributor(s). 
 
 *text input field*
 
@@ -1273,7 +1273,7 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Location](#6g-location-r) [R][+] (controlled vocabulary) 
 * [Time Period](#6h-time-period-r) [R][+] (controlled vocabulary) 
 * [Biome](#6i-biome-r) [R][+] (controlled vocabulary) 
-* [Built Envrionment](#6j-built-envrionment-r) [R][+] (controlled vocabulary) 
+* [Built Environment](#6j-built-environment-r) [R][+] (controlled vocabulary) 
 * [Mode of Transport](#6k-mode-of-transport-r) [R][+] (controlled vocabulary) 
 * [Items](#6l-items-r) [R+][+] (controlled vocabulary)
 * [Atmosphere](#6m-atmosphere-r) [R][+] (controlled vocabulary) 
@@ -1484,7 +1484,7 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 <li>Biography / memoir / autobiography</li>
 <li>Body horror</li>
 <li>Burlesque</li>
-<li>Children’s</li>
+<li>Children's</li>
 <li>Coming-of-age / Bildungsroman</li>
 <li>Crime / detective</li>
 <li>Cyberpunk</li>
@@ -1864,7 +1864,7 @@ Definition: The ecological community type appearing in the gameplay footage
 </ul>
 </details>
 
-### 6J. Built Envrionment [R][+]
+### 6J. Built Environment [R][+]
 
 Definition: An artificial physical feature or edifice appearing in the gameplay footage that's typically meant to surround, structure, and/or guide the diegetic activities of characters in the platform edition 
 
@@ -1944,7 +1944,7 @@ Definition: A means of conveyance or travel from one place to another appearing 
 Select "No mode of transport" if the footage contains no means of conveyance or travel.
 
 <details>
-<summary><i>controlled vocabulary</li> (adapted, with changes and additions, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
 <ul>
 <li>Airplane</li>
 <li>Airship</li>
@@ -2149,7 +2149,7 @@ controlled vocabulary
 
 controlled vocabulary 
 
-vertical movment / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation (some of these might be themes or Game Studies topics, tho)
+vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation (some of these might be themes or Game Studies topics, tho)
 
 ### 6U. Theme [R][+]
 
