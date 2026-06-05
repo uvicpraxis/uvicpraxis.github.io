@@ -20,16 +20,18 @@ License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 The GPMS adapts the following projects for many of its entities, elements, and controlled vocabularies: 
 
-* 6, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
+* Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Narrative Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-narrative-genre](https://github.com/uwgamergroup/vocabulary-narrative-genre)
+* ---. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Protagonist. Version 1.0. [https://github.com/uwgamergroup/vocabulary-protagonist](https://github.com/uwgamergroup/vocabulary-protagonist)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Setting. Version 2.3. [https://github.com/uwgamergroup/vocabulary-setting](https://github.com/uwgamergroup/vocabulary-setting)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Mood. Version 3.2. [https://github.com/uwgamergroup/vocabulary-mood](https://github.com/uwgamergroup/vocabulary-mood)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
+* Shaw, A. et al. (2025). LGBTQ+ Game Archive: Types of Content. [https://lgbtqgamearchive.com/types-of-content/](https://lgbtqgamearchive.com/types-of-content/)
 * Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
 * --- (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
 * --- (2026). Item (game terminology). [https://en.wikipedia.org/wiki/Item_(game_terminology)](https://en.wikipedia.org/wiki/Item_(game_terminology))
@@ -44,6 +46,8 @@ See citations below for specific instances of adaptation.
 * Elements marked with [+] are repeatable.
 * GPMS refers to the Gameplay Metadata Schema. 
 * GPFC refers to the Press Record Gameplay Footage Collection. 
+* NPC refers to a non-player character. 
+* PC refers to a player character. 
 
 ## 3. Platform Edition Entity
 
@@ -84,7 +88,7 @@ The edition's release year may differ from the game's initial release year.
 
 Definition: The platform edition's release type as assigned by its developer, publisher, and/or distributor
 
-Use MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type if it was not assigned by the developer, publisher, and/or distributor. 
+Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type if it was not assigned by the developer, publisher, and/or distributor. 
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
@@ -471,7 +475,7 @@ Definition: The operating system, device, computer, console, and/or service on w
 
 Definition: The software framework and/or development environment used to design the platform edition
 
-Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the engine.
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the engine.
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with minor changes, from Wikipedia, "List of Game Engines," 2025)</summary>
@@ -658,7 +662,7 @@ Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the develope
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
-Use MobyGames, Wikipedia, Steam, fansites, official advertisements, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the developer(s). 
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the developer(s). 
 
 *text input field* 
 
@@ -670,7 +674,7 @@ Select the country for all developers except those in Canada.
 
 For developers in Canada, select the country and province or territory: for example, Canada / British Columbia. 
 
-Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the developer's location. 
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the developer's location. 
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
@@ -897,7 +901,7 @@ Definition: "An individual, organization, or group of individuals or organizatio
 
 Both publishers and distributors may be included in this field. 
 
-Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the publisher(s) and distributor(s). 
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the publisher(s) and distributor(s). 
 
 *text input field*
 
@@ -905,7 +909,7 @@ Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the develope
 
 Definition: The size, profile, and/or budget of the publisher and, in some cases, the developer, too
 
-Use MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class. 
+Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class. 
 
 This element rarely needs to be repeated. Exceptions include cases where the platform edition is both "indie" and "self-published." 
 <details>
@@ -1279,21 +1283,20 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Atmosphere](#6m-atmosphere-r) [R][+] (controlled vocabulary) 
 * [Player Character](#6n-player-character-r) [R][+] (controlled vocabulary) 
 * [Non-Player Character](#6o-non-player-character-r) [R][+] (controlled vocabulary) 
-* [Hostile Character](#6p-hostile-character-r) [R][+] (controlled vocabulary) 
-* [Mechanics](#6q-mechanics-r) [R][+] (controlled vocabulary) 
-* [Activity](#6r-activity-r) [R][+] (controlled vocabulary) 
-* [Pacing](#6s-pacing-r) [R][+] (controlled vocabulary) 
-* [Progression](#6t-progression-r) [R][+] (controlled vocabulary) 
-* [Theme](#6u-theme-r) [R][+] (controlled vocabulary) 
-* [Trope](#6v-trope-r) [R][+] (controlled vocabulary) 
-* [Art](#6w-art-r) [R][+] (controlled vocabulary) 
-* [Style](#6x-style-r) [R][+] (controlled vocabulary) 
-* [Interface](#6y-interface-r) [R][+] (controlled vocabulary) 
-* [Experience](#6z-experience-r) [R][+] (controlled vocabulary) 
-* [Transaction](#6aa-transaction-r) [R][+] (controlled vocabulary) 
-* [Metagaming](#6bb-metagaming-r) [R][+] (controlled vocabulary) 
-* [Content Warning](#6cc-content-warning-r) [R] (text input field)
-* [Gameplay Footage Note](#6z-gameplay-footage-note) (text input field)  
+* [Mechanics](#6p-mechanics-r) [R][+] (controlled vocabulary) 
+* [Activity](#6q-activity-r) [R][+] (controlled vocabulary) 
+* [Pacing](#6r-pacing-r) [R][+] (controlled vocabulary) 
+* [Progression](#6s-progression-r) [R][+] (controlled vocabulary) 
+* [Theme](#6t-theme-r) [R][+] (controlled vocabulary) 
+* [Trope](#6u-trope-r) [R][+] (controlled vocabulary) 
+* [Art](#6v-art-r) [R][+] (controlled vocabulary) 
+* [Style](#6w-style-r) [R][+] (controlled vocabulary) 
+* [Interface](#6x-interface-r) [R][+] (controlled vocabulary) 
+* [Experience](#6y-experience-r) [R][+] (controlled vocabulary) 
+* [Transaction](#6z-transaction-r) [R][+] (controlled vocabulary) 
+* [Metagaming](#6aa-metagaming-r) [R][+] (controlled vocabulary) 
+* [Content Warning](#6bb-content-warning-r) [R] (text input field)
+* [Gameplay Footage Note](#6cc-gameplay-footage-note) (text input field)  
 
 ### 6A. Type of Play [R][+]
 
@@ -1576,7 +1579,7 @@ Note that gameplay footage may combine actual and fictional locations: for examp
 
 Use the "Gameplay Footage Note" to include a more specific location, such as an actual city or fictional town appearing in the gameplay footage. 
 
-Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to confirm the location.
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to confirm the location.
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
@@ -1811,7 +1814,7 @@ Select "Unspecified" when the time period is vague or cannot be determined.
 
 Use the "Gameplay Footage Note" to include a specific date, year, period, moment, or event represented by the gameplay footage. 
 
-Use MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to confirm the time period.
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to confirm the time period.
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
@@ -2124,75 +2127,272 @@ The controlled vocabulary for this element avoids duplicating terms used in voca
 
 ### 6N. Player Character [R][+]
 
-controlled vocabulary 
+Definition: A character in the gameplay footage whose actions are controlled by the player 
+
+This element will typically be repeated. 
+
+Select "No player character" if no player character appears in the footage. 
+
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the player character. 
+
+Feature request (4 June 2026): select "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid). We will update the GPMS and GPFC as both projects unfold, and we will correct our mistakes and learn from them as they occur. Many aspects of this element are thus subject to change. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist," 2024)</summary>
+<ul>
+<li>African PC</li>
+<li>Agender PC</li>
+<li>Aromantic PC</li>
+<li>Asexual PC</li>
+<li>Asian PC</li>
+<li>Australian PC / from Oceania</li>
+<li>Autistic PC</li>
+<li>Avatar</li>
+<li>Bisexual PC</li>
+<li>Black PC</li>
+<li>Blank slate / cipher</li>
+<li>Blind PC</li>
+<li>Canadian PC</li>
+<li>Customizable age</li>
+<li>Customizable character model</li>
+<li>Customizable complexion</li>
+<li>Customizable gender</li>
+<li>Customizable hair</li>
+<li>Customizable PC</li>
+<li>Customizable race/ethnicity</li>
+<li>Customizable relationships</li>
+<li>Customizable species</li>
+<li>Deaf PC</li>
+<li>Demisexual PC</li>
+<li>Disabled PC</li>
+<li>Entitled PC</li>
+<li>European PC</li>
+<li>Female PC</li>
+<li>Fictional species</li>
+<li>Gay PC</li>
+<li>Gender non-conforming PC</li>
+<li>Genderfluid PC</li>
+<li>Genderqueer PC</li>
+<li>Hearing-impaired PC</li>
+<li>Heterosexual PC / straight PC </li>
+<li>Indigenous PC</li>
+<li>Intersex PC</li>
+<li>Lesbian PC</li>
+<li>Male PC</li>
+<li>Neurodivergent PC</li>
+<li>No player character</li>
+<li>Non-binary PC</li>
+<li>Nonhuman PC</li>
+<li>North American PC</li>
+<li>Original character</li>
+<li>Overpowered PC</li>
+<li>Pansexual PC</li>
+<li>Party member</li>
+<li>PC can die</li>
+<li>PC cannot die</li>
+<li>PC cannot be customized</li>
+<li>PC has amnesia</li>
+<li>PC has great hair</li>
+<li>PC is a child</li>
+<li>PC is a colonizer / settler</li>
+<li>PC is a hero</li>
+<li>PC is a hivemind</li>
+<li>PC is a migrant</li>
+<li>PC is a parent / guardian</li>
+<li>PC is a shapeshifter</li>
+<li>PC is a stereotype</li>
+<li>PC is a stranger / visitor</li>
+<li>PC is a student</li>
+<li>PC is a teenager</li>
+<li>PC is a twin</li>
+<li>PC is a villain</li>
+<li>PC is an adult</li>
+<li>PC is an elder</li>
+<li>PC is an immigrant</li>
+<li>PC is non-corporeal</li>
+<li>PC is poor</li>
+<li>PC is pregnant</li>
+<li>PC is strong</li>
+<li>PC is weak</li>
+<li>PC is wealthy</li>
+<li>Queer PC</li>
+<li>Racialized PC</li>
+<li>Religious PC</li>
+<li>Roleplay</li>
+<li>Silent protagonist</li>
+<li>South American PC</li>
+<li>Trans PC</li>
+<li>Two-spirit PC</li>
+<li>Visually-impaired PC</li>
+<li>White PC</li>
+</ul>
+</details>
 
 ### 6O. Non-Player Character [R][+]
 
+Definition: A character in the gameplay footage whose actions are not controlled by the player 
+
+This element will typically be repeated. 
+
+Select "No non-player character" if a non-player character does not appear in the footage. 
+
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the non-player character. 
+
+Feature request (4 June 2026): select "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid). We will update the GPMS and GPFC as both projects unfold, and we will correct our mistakes and learn from them as they occur. Many aspects of this element are thus subject to change. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist," 2024)</summary>
+<ul>
+<li>African NPC</li>
+<li>Agender NPC</li>
+<li>Aromantic NPC</li>
+<li>Asexual NPC</li>
+<li>Asian NPC</li>
+<li>Australian NPC / from Oceania</li>
+<li>Autistic NPC</li>
+<li>Bisexual NPC</li>
+<li>Black NPC</li>
+<li>Blind NPC</li>
+<li>Boss</li>
+<li>Canadian NPC</li>
+<li>Companion / buddy</li>
+<li>Customizable NPC</li>
+<li>Deaf NPC</li>
+<li>Demisexual NPC</li>
+<li>Disabled NPC</li>
+<li>Entitled NPC</li>
+<li>European NPC</li>
+<li>Familiar</li>
+<li>Female NPC</li>
+<li>Fictional species</li>
+<li>Gay NPC</li>
+<li>Gender non-conforming NPC</li>
+<li>Genderfluid NPC</li>
+<li>Genderqueer NPC</li>
+<li>Hearing-impaired NPC</li>
+<li>Heterosexual NPC / straight NPC</li>
+<li>Imaginary NPC</li>
+<li>Indigenous NPC</li>
+<li>Intersex NPC</li>
+<li>Lesbian NPC</li>
+<li>Male NPC</li>
+<li>Neurodivergent NPC</li>
+<li>No non-player character</li>
+<li>Non-binary NPC</li>
+<li>Nonhuman NPC</li>
+<li>North American NPC</li>
+<li>NPC can die</li>
+<li>NPC cannot die</li>
+<li>NPC has amnesia</li>
+<li>NPC has great hair</li>
+<li>NPC is a child</li>
+<li>NPC is a colonizer / settler</li>
+<li>NPC is a fetch quest</li>
+<li>NPC is a guide</li>
+<li>NPC is a hero</li>
+<li>NPC is a hivemind</li>
+<li>NPC is a migrant</li>
+<li>NPC is a parent / guardian</li>
+<li>NPC is a protagonist</li>
+<li>NPC is a rival</li>
+<li>NPC is a shapeshifter</li>
+<li>NPC is a stereotype</li>
+<li>NPC is a student</li>
+<li>NPC is a teenager</li>
+<li>NPC is a twin</li>
+<li>NPC is a villain</li>
+<li>NPC is an adult</li>
+<li>NPC is an elder</li>
+<li>NPC is an enemy / monster</li>
+<li>NPC is an immigrant</li>
+<li>NPC is hostile </li>
+<li>NPC is non-corporeal</li>
+<li>NPC is PC's grandparent</li>
+<li>NPC is PC's mentor / adviser</li>
+<li>NPC is PC's roommate</li>
+<li>NPC is PC's parent / guardian</li>
+<li>NPC is PC's partner </li>
+<li>NPC is PC's sibling</li>
+<li>NPC is PC's teacher</li>
+<li>NPC is poor</li>
+<li>NPC is pregnant</li>
+<li>NPC is wealthy</li>
+<li>Overpowered NPC</li>
+<li>Pansexual NPC</li>
+<li>Party member</li>
+<li>Pet</li>
+<li>Queer NPC</li>
+<li>Racialized NPC</li>
+<li>Religious NPC</li>
+<li>Shopkeeper</li>
+<li>South American NPC</li>
+<li>Trans NPC</li>
+<li>Tutorial NPC</li>
+<li>Two-spirit NPC</li>
+<li>Visually-impaired NPC</li>
+<li>White NPC</li>
+</ul>
+</details>
+
+### 6P. Mechanics [R][+]
+
 controlled vocabulary 
 
-### 6P. Hostile Character [R][+]
+### 6Q. Activity [R][+]
 
 controlled vocabulary 
 
-### 6Q. Mechanics [R][+]
+### 6R. Pacing [R][+]
 
 controlled vocabulary 
 
-### 6R. Activity [R][+]
+### 6S. Progression [R][+]
 
 controlled vocabulary 
 
-### 6S. Pacing [R][+]
+vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation; unreliable narrator (some of these might be themes or Game Studies topics, tho)
 
-controlled vocabulary 
-
-### 6T. Progression [R][+]
-
-controlled vocabulary 
-
-vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation (some of these might be themes or Game Studies topics, tho)
-
-### 6U. Theme [R][+]
+### 6T. Theme [R][+]
 
 controlled vocabulary 
 
 anti-colonial; decolonial; political / government; monsters everywhere (is this an experience?); nostalgia (also an experience?); utopian; dystopian; carnivalesque; diegetic simulation
 
-### 6V. Trope [R][+]
+### 6U. Trope [R][+]
 
 controlled vocabulary 
 
-### 6W. Art [R][+]
+### 6V. Art [R][+]
 
 controlled vocabulary 
 
-### 6X. Style [R][+]
+### 6W. Style [R][+]
 
 controlled vocabulary 
 
 photorealism; social realism; surrealism; magical realism; epic; experimental; adaptation / homage; mashup
 
-### 6Y. Interface [R][+]
+### 6X. Interface [R][+]
 
 controlled vocabulary 
 
-### 6Z. Experience [R][+]
+### 6Y. Experience [R][+]
 
 controlled vocabulary
 
-### 6AA. Transaction [R][+]
+### 6Z. Transaction [R][+]
 
 controlled vocabulary 
 
-### 6BB. Metagaming [R][+]
+### 6AA. Metagaming [R][+]
 
 controlled vocabulary
 
-### 6CC. Content Warning [R]
+### 6BB. Content Warning [R]
 
 text input field 
 
-### 6DD. Gameplay Footage Note
+### 6CC. Gameplay Footage Note
 
 text input field 
 
