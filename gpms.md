@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 4 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 5 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -20,18 +20,21 @@ License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 The GPMS adapts the following projects for many of its entities, elements, and controlled vocabularies: 
 
+* BoardGameGeek (n.d.). Board Game Mechanics. [https://boardgamegeek.com/browse/boardgamemechanic](https://boardgamegeek.com/browse/boardgamemechanic)
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
+* --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Mechanics. Version 1.1. [https://github.com/uwgamergroup/vocabulary-mechanics](https://github.com/uwgamergroup/vocabulary-mechanics)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Mood. Version 3.2. [https://github.com/uwgamergroup/vocabulary-mood](https://github.com/uwgamergroup/vocabulary-mood)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Narrative Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-narrative-genre](https://github.com/uwgamergroup/vocabulary-narrative-genre)
 * ---. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Protagonist. Version 1.0. [https://github.com/uwgamergroup/vocabulary-protagonist](https://github.com/uwgamergroup/vocabulary-protagonist)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Setting. Version 2.3. [https://github.com/uwgamergroup/vocabulary-setting](https://github.com/uwgamergroup/vocabulary-setting)
 * Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
 * Shaw, A. et al. (2025). LGBTQ+ Game Archive: Types of Content. [https://lgbtqgamearchive.com/types-of-content/](https://lgbtqgamearchive.com/types-of-content/)
+* Sicart, M. (2015). Defining Game Mechanics. *Game Studies* 15.2. [https://gamestudies.org/1502/articles/sicart](https://gamestudies.org/1502/articles/sicart)
 * Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
 * --- (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
 * --- (2026). Item (game terminology). [https://en.wikipedia.org/wiki/Item_(game_terminology)](https://en.wikipedia.org/wiki/Item_(game_terminology))
@@ -2336,11 +2339,132 @@ Feature request (4 June 2026): select "implicit" when characters are implicitly 
 
 ### 6P. Mechanics [R][+]
 
-controlled vocabulary 
+Definition: a method or "verb" players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al. 2024)
+
+Select "No mechanic" if a mechanic is not used in the gameplay footage. 
+
+This element will typically be repeated. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from BoardGameGeek n.d. and Lee et al., "Controlled Vocabulary for Mechanics," 2024)</summary>
+<ul>
+<li>Accelerating</li>
+<li>Aiming</li>
+<li>Aligning</li>
+<li>Attacking (melee)</li>
+<li>Attacking (ranged)</li>
+<li>Auctioning</li>
+<li>Avoiding</li>
+<li>Balancing</li>
+<li>Barricading</li>
+<li>Bidding</li>
+<li>Blocking</li>
+<li>Bluffing</li>
+<li>Breaking</li>
+<li>Building</li>
+<li>Buying</li>
+<li>Capturing</li>
+<li>Caring</li>
+<li>Carrying</li>
+<li>Chaining</li>
+<li>Choosing</li>
+<li>Cleaning / washing</li>
+<li>Climbing</li>
+<li>Collecting</li>
+<li>Communicating noverbally</li>
+<li>Communicating verbally</li>
+<li>Cooking / making food</li>
+<li>Crafting</li>
+<li>Crawling / dungeon crawling</li>
+<li>Dancing</li>
+<li>Dealing</li>
+<li>Deckbuilding</li>
+<li>Decoding</li>
+<li>Delivering</li>
+<li>Destroying</li>
+<li>Digging</li>
+<li>Dodging</li>
+<li>Drawing</li>
+<li>Drinking</li>
+<li>Driving</li>
+<li>Eating</li>
+<li>Eavesdropping</li>
+<li>Emoting</li>
+<li>Equipping</li>
+<li>Exercising</li>
+<li>Exploring</li>
+<li>Falling</li>
+<li>Farming</li>
+<li>Fetching</li>
+<li>Fighting / kicking / punching</li>
+<li>Fishing</li>
+<li>Flying</li>
+<li>Foraging / gathering</li>
+<li>Grabbing</li>
+<li>Hacking</li>
+<li>Healing</li>
+<li>Hiding</li>
+<li>Hitting</li>
+<li>Inputting text</li>
+<li>Jumping / leaping</li>
+<li>Locking</li>
+<li>Managing</li>
+<li>Matching</li>
+<li>Moving</li>
+<li>Negotiating</li>
+<li>No mechanic</li></li>
+<li>Parrying</li>
+<li>Pausing</li>
+<li>Photographing</li>
+<li>Piloting</li>
+<li>Placing workers</li>
+<li>Playing cards</li>
+<li>Playing music</li>
+<li>Pool building</li>
+<li>Positioning</li>
+<li>Programming</li>
+<li>Pulling</li>
+<li>Pushing</li>
+<li>Raising monsters</li>
+<li>Releasing</li>
+<li>Researching</li>
+<li>Rewinding</li>
+<li>Riding</li>
+<li>Rolling</li>
+<li>Rolling dice</li>
+<li>Romancing</li>
+<li>Running</li>
+<li>Sailing</li>
+<li>Saving</li>
+<li>Searching</li>
+<li>Sharing</li>
+<li>Shooting</li>
+<li>Signing</li>
+<li>Singing</li>
+<li>Sneaking</li>
+<li>Spellcasting</li>
+<li>Stealing</li>
+<li>Storytelling</li>
+<li>Swimming</li>
+<li>Swiping</li>
+<li>Talking / speaking</li>
+<li>Throwing</li>
+<li>Timing</li>
+<li>Trading</li>
+<li>Travelling</li>
+<li>Unlocking</li>
+<li>Voting</li>
+<li>Walking</li>
+<li>Wandering</li>
+<li>Writing</li>
+</ul>
+</details>
 
 ### 6Q. Activity [R][+]
 
 controlled vocabulary 
+
+gacha/gachapon
 
 ### 6R. Pacing [R][+]
 
@@ -2350,7 +2474,7 @@ controlled vocabulary
 
 controlled vocabulary 
 
-vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation; unreliable narrator (some of these might be themes or Game Studies topics, tho)
+vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation; unreliable narrator; cryptic puzzle; mechanical puzzle; logic puzzle; math puzzle; pipe puzzle; Quick Time Events (some of these might be themes or Game Studies topics, tho)
 
 ### 6T. Theme [R][+]
 
