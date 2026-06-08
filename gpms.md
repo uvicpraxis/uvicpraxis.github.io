@@ -1288,19 +1288,18 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Player Character](#6n-player-character-r) [R][+] (controlled vocabulary) 
 * [Non-Player Character](#6o-non-player-character-r) [R][+] (controlled vocabulary) 
 * [Mechanics](#6p-mechanics-r) [R][+] (controlled vocabulary) 
-* [Activity](#6q-activity-r) [R][+] (controlled vocabulary) 
-* [Pacing](#6r-pacing-r) [R][+] (controlled vocabulary) 
-* [Progression](#6s-progression-r) [R][+] (controlled vocabulary) 
-* [Theme](#6t-theme-r) [R][+] (controlled vocabulary) 
-* [Trope](#6u-trope-r) [R][+] (controlled vocabulary) 
-* [Art](#6v-art-r) [R][+] (controlled vocabulary) 
-* [Style](#6w-style-r) [R][+] (controlled vocabulary) 
-* [Interface](#6x-interface-r) [R][+] (controlled vocabulary) 
-* [Experience](#6y-experience-r) [R][+] (controlled vocabulary) 
-* [Transaction](#6z-transaction-r) [R][+] (controlled vocabulary) 
-* [Metagaming](#6aa-metagaming-r) [R][+] (controlled vocabulary) 
-* [Content Warning](#6bb-content-warning-r) [R] (text input field)
-* [Gameplay Footage Note](#6cc-gameplay-footage-note) (text input field)  
+* [Pacing](#6q-pacing-r) [R][+] (controlled vocabulary) 
+* [Progression](#6r-progression-r) [R][+] (controlled vocabulary) 
+* [Theme](#6s-theme-r) [R][+] (controlled vocabulary) 
+* [Trope](#6t-trope-r) [R][+] (controlled vocabulary) 
+* [Art](#6u-art-r) [R][+] (controlled vocabulary) 
+* [Style](#6v-style-r) [R][+] (controlled vocabulary) 
+* [Interface](#6w-interface-r) [R][+] (controlled vocabulary) 
+* [Experience](#6x-experience-r) [R][+] (controlled vocabulary) 
+* [Transaction](#6y-transaction-r) [R][+] (controlled vocabulary) 
+* [Metagaming](#6z-metagaming-r) [R][+] (controlled vocabulary) 
+* [Content Warning](#6aa-content-warning-r) [R] (text input field)
+* [Gameplay Footage Note](#6bb-gameplay-footage-note) (text input field)  
 
 ### 6A. Type of Play [R][+]
 
@@ -1379,7 +1378,6 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Board game</li>
 <li>Boardsports</li>
 <li>Bowling</li>
-<li>Breeding</li>
 <li>Bullet hell</li>
 <li>Business sim / tycoon</li>
 <li>Card battle</li>
@@ -1392,9 +1390,10 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Combat sports / wrestling</li>
 <li>Cooking sim</li>
 <li>Choose your own adventure</li>
+<li>Creature breeding / genetics</li>
 <li>Cricket</li>
 <li>Cryptic puzzle</li>
-<li>Cue sports</li>
+<li>Cue sports / billiards</li>
 <li>Cycling</li>
 <li>Darts</li>
 <li>Dating sim</li>
@@ -1417,6 +1416,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Gambling / gambling elements</li>
 <li>Game show</li>
 <li>Gashapon</li>
+<li>Genetics</li>
 <li>God game</li>
 <li>Golf</li>
 <li>Government sim</li>
@@ -1427,7 +1427,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Hidden object</li>
 <li>Hockey</li>
 <li>Horde shooter / horde surivor</li>
-<li>Horse racing / horse raising</li>
+<li>Horse racing</li>
 <li>Hunting / hunting sim</li>
 <li>Immersive sim</li>
 <li>Incremental</li>
@@ -1442,6 +1442,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Life sim / social sim</li>
 <li>Looter shooter</li>
 <li>Logic puzzle</li>
+<li>Martial arts</li>
 <li>Mascot</li>
 <li>Massively multiplayer online RPG (MMPORG)</li>
 <li>Math puzzle</li>
@@ -1452,7 +1453,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Metroidvania / search action</li>
 <li>Military sim / milsim</li>
 <li>Mini-games / micro-games</li>
-<li>Monster taming</li>
+<li>Monster taming / raising</li>
 <li>Movement shooter</li>
 <li>Multi-user dungeon / MUD</li>
 <li>Multiplayer online battle arean / MOBA</li>
@@ -1496,6 +1497,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Survival</li>
 <li>Tabletop card / tabletop tile</li>
 <li>Tactics / tactical</li>
+<li>Tennis</li>
 <li>Text adventure</li>
 <li>Tile matching</li>
 <li>Tiling puzzle / jigsaw</li>
@@ -1510,7 +1512,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Twin-stick shooter</li>
 <li>Twitch skill</li>
 <li>Vehicle combat / car combat</li>
-<li>Vehicle sim </li>
+<li>Vehicle sim</li>
 <li>Virtual life</li>
 <li>Virtual pet</li>
 <li>Virtual reality</li>
@@ -2459,6 +2461,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Crafting</li>
 <li>Crawling / dungeon crawling</li>
 <li>Dancing</li>
+<li>Dating</li>
 <li>Dealing</li>
 <li>Deckbuilding</li>
 <li>Decoding</li>
@@ -2494,6 +2497,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Locking</li>
 <li>Managing</li>
 <li>Matching</li>
+<li>Mining</li>
 <li>Moving</li>
 <li>Negotiating</li>
 <li>No mechanic</li>
@@ -2510,7 +2514,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Programming</li>
 <li>Pulling</li>
 <li>Pushing</li>
-<li>Raising monsters</li>
+<li>Raising creatures</li>
 <li>Releasing</li>
 <li>Researching</li>
 <li>Rewinding</li>
@@ -2527,6 +2531,9 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Shooting</li>
 <li>Signing</li>
 <li>Singing</li>
+<li>Skateboarding</li>
+<li>Skating</li>
+<li>Skiing</li>
 <li>Sneaking</li>
 <li>Spellcasting</li>
 <li>Spinning</li>
@@ -2535,6 +2542,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Swimming</li>
 <li>Swiping</li>
 <li>Talking / speaking</li>
+<li>Taming</li>
 <li>Throwing</li>
 <li>Timing</li>
 <li>Trading</li>
@@ -2547,63 +2555,57 @@ This element will typically be repeated. Select only significant mechanics in ca
 </ul>
 </details>
 
-### 6Q. Activity [R][+]
+### 6Q. Pacing [R][+]
 
 controlled vocabulary 
 
-gacha/gachapon
-
-### 6R. Pacing [R][+]
-
-controlled vocabulary 
-
-### 6S. Progression [R][+]
+### 6R. Progression [R][+]
 
 controlled vocabulary 
 
 vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation; unreliable narrator; Quick Time Events; gacha (some of these might be themes or Game Studies topics, tho)
 
-### 6T. Theme [R][+]
+### 6S. Theme [R][+]
 
 controlled vocabulary 
 
 anti-colonial; decolonial; political / government; monsters everywhere (is this an experience?); nostalgia (also an experience?); utopian; dystopian; carnivalesque; diegetic simulation
 
-### 6U. Trope [R][+]
+### 6T. Trope [R][+]
 
 controlled vocabulary 
 
-### 6V. Art [R][+]
+### 6U. Art [R][+]
 
 controlled vocabulary 
 
-### 6W. Style [R][+]
+### 6V. Style [R][+]
 
 controlled vocabulary 
 
 photorealism; social realism; surrealism; magical realism; epic; experimental; adaptation / homage; mashup
 
-### 6X. Interface [R][+]
+### 6W. Interface [R][+]
 
 controlled vocabulary 
 
-### 6Y. Experience [R][+]
+### 6X. Experience [R][+]
 
 controlled vocabulary
 
-### 6Z. Transaction [R][+]
+### 6Y. Transaction [R][+]
 
 controlled vocabulary 
 
-### 6AA. Metagaming [R][+]
+### 6Z. Metagaming [R][+]
 
 controlled vocabulary
 
-### 6BB. Content Warning [R]
+### 6AA. Content Warning [R]
 
 text input field 
 
-### 6CC. Gameplay Footage Note
+### 6BB. Gameplay Footage Note
 
 text input field 
 
