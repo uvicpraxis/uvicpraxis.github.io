@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 5 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 8 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -1076,6 +1076,7 @@ Definition: The equipment used to play the platform edition while the video was 
 <li>Adaptive controller</li>
 <li>Balance board</li>
 <li>Camera</li>
+<li>Crank</li>
 <li>Dance pad</li>
 <li>Exercise accessory</li>
 <li>Fishing rod</li>
@@ -1337,7 +1338,7 @@ Note: "Traditional" in the controlled vocabulary below denotes "games based on m
 <summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024)</summary>
 <ul>
 <li>Action</li>
-<li>Adventure</li>
+<li>Adventure / story-driven</li>
 <li>Compilation / collection</li>
 <li>Educational</li>
 <li>Idle</li>
@@ -1345,6 +1346,7 @@ Note: "Traditional" in the controlled vocabulary below denotes "games based on m
 <li>Racing / driving</li>
 <li>Role-playing / RPG</li>
 <li>Simulation</li>
+<li>Social</li>
 <li>Sports</li>
 <li>Strategy</li>
 <li>Traditional</li>
@@ -1359,76 +1361,148 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <summary><i>controlled vocabulary</i> (adapted, with additions, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024)</summary>
 <ul>
 <li>4X</li>
+<li>Abstract</li>
+<li>American football</li>
 <li>Arcade</li>
+<li>Arena shooter</li>
 <li>Artillery</li>
 <li>Augmented reality</li>
+<li>Australian football</li>
+<li>Auto battler / auto chess</li>
+<li>Auto runner</li>
+<li>Baseball</li>
+<li>Basketball</li>
 <li>Battle royale</li>
 <li>Beat ‘em up / brawler</li>
+<li>Blobber</li>
 <li>Block breaking</li>
 <li>Board game</li>
+<li>Boardsports</li>
+<li>Bowling</li>
 <li>Breeding</li>
 <li>Bullet hell</li>
-<li>Cards / tiles / card game</li>
+<li>Business sim / tycoon</li>
+<li>Card battle</li>
+<li>Casino / roulette</li>
+<li>Castle defence / castle attack</li>
 <li>Chess</li>
 <li>City building / construction sim</li>
+<li>Claw machine</li>
 <li>Collect-a-thon</li>
+<li>Combat sports / wrestling</li>
+<li>Cooking sim</li>
+<li>Choose your own adventure</li>
+<li>Cricket</li>
+<li>Cryptic puzzle</li>
+<li>Cue sports</li>
+<li>Cycling</li>
+<li>Darts</li>
 <li>Dating sim</li>
+<li>Deckbuilder</li>
+<li>Dexterity</li>
+<li>Dodgeball</li>
+<li>Dungeon crawl</li>
 <li>Escape room / exit game / riddle room</li>
+<li>Extraction</li>
+<li>Extreme sports</li>
+<li>Fairy chess / unorthodox chess</li>
 <li>Falling block / block fill</li>
 <li>Farming sim</li>
 <li>Fashion sim</li>
 <li>Fighting</li>
-<li>First-person shooter</li>
 <li>Fitness / exercise</li>
-<li>Flight simulator</li>
+<li>Flight sim</li>
+<li>Friendslop</li>
+<li>Fumblecore</li>
 <li>Gambling / gambling elements</li>
 <li>Game show</li>
+<li>Gashapon</li>
 <li>God game</li>
+<li>Golf</li>
+<li>Government sim</li>
 <li>Graphic adventure</li>
+<li>Guessing / charades</li>
 <li>Hack and slash</li>
+<li>Hero shooter</li>
 <li>Hidden object</li>
+<li>Hockey</li>
+<li>Horde shooter / horde surivor</li>
+<li>Horse racing / horse raising</li>
 <li>Hunting / hunting sim</li>
 <li>Immersive sim</li>
+<li>Incremental</li>
 <li>Interactive book</li>
-<li>Interactive fiction / text adventure</li>
+<li>Interactive fiction</li>
+<li>Interactive movie / full-motion video</li>
 <li>Japanese-style adventure</li>
 <li>Japanese-style RPG / JRPG</li>
+<li>Job sim</li>
+<li>Karaoke / singing</li>
+<li>Kart racing</li>
 <li>Life sim / social sim</li>
-<li>Managerial / business sim / tycoon</li>
+<li>Looter shooter</li>
+<li>Logic puzzle</li>
 <li>Mascot</li>
 <li>Massively multiplayer online RPG (MMPORG)</li>
-<li>Maze</li>
+<li>Math puzzle</li>
+<li>Maze / maze chase</li>
+<li>Mechanical puzzle</li>
+<li>Medical sim</li>
 <li>Mental training</li>
 <li>Metroidvania / search action</li>
-<li>Military simulator / wargame</li>
-<li>Mini-games</li>
-<li>Movie / full-motion video / FMV</li>
+<li>Military sim / milsim</li>
+<li>Mini-games / micro-games</li>
+<li>Monster taming</li>
+<li>Movement shooter</li>
+<li>Multi-user dungeon / MUD</li>
 <li>Multiplayer online battle arean / MOBA</li>
-<li>Paddle / Pong</li>
+<li>Obstacle course</li>
+<li>Off-road racing / rally racing</li>
+<li>Pachinko</li>
+<li>Paddle / ball and paddle</li>
 <li>Parkour</li>
-<li>Party</li>
+<li>Parser adventure</li>
+<li>Party / parlour</li>
+<li>Physics sim / physics puzzle</li>
+<li>Photography sim</li>
 <li>Pinball</li>
+<li>Pipe puzzle</li>
 <li>Platform / platformer</li>
+<li>Platform fighter</li>
 <li>Point and click</li>
-<li>Programming</li>
-<li>Puzzle elements</li>
+<li>Programming / hacking sim</li>
+<li>Racing sim</li>
+<li>Racket sports</li>
 <li>Rail shooter</li>
 <li>Real-time strategy</li>
+<li>Rocks and diamonds</li>
 <li>Roguelike / roguelite</li>
 <li>Rhythm / music / dancing</li>
+<li>Rugby</li>
 <li>Run and gun</li>
-<li>Sandbox / open world</li>
+<li>Sandbox / open world / falling sand</li>
 <li>Shoot 'em up</li>
 <li>Shooting gallery</li>
+<li>Skating</li>
+<li>Slot machine</li>
+<li>Snake</li>
+<li>Soccer / football</li>
 <li>Social deduction / secret identity</li>
+<li>Sokoban</li>
+<li>Soulslike</li>
+<li>Sports sim</li>
 <li>Stealth</li>
-<li>Survival / survival horror</li>
-<li>Tactics</li>
-<li>Third-person shooter</li>
-<li>Tile matching puzzle</li>
+<li>Surveillance</li>
+<li>Survival</li>
+<li>Tabletop card / tabletop tile</li>
+<li>Tactics / tactical</li>
+<li>Text adventure</li>
+<li>Tile matching</li>
+<li>Tiling puzzle / jigsaw</li>
 <li>Time management</li>
 <li>Timed input</li>
-<li>Tower defense</li>
+<li>Tower defence</li>
+<li>Track and field</li>
 <li>Trading / collectible card</li>
 <li>Tricks / stunts</li>
 <li>Trivia / quiz</li>
@@ -1436,12 +1510,17 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Twin-stick shooter</li>
 <li>Twitch skill</li>
 <li>Vehicle combat / car combat</li>
+<li>Vehicle sim </li>
 <li>Virtual life</li>
+<li>Virtual pet</li>
 <li>Virtual reality</li>
 <li>Visual novel</li>
+<li>Volleyball</li>
 <li>Walking sim</li>
-<li>Wargame</li>
-<li>Word construction / word puzzle</li>
+<li>Wargame / grand strategy</li>
+<li>Water sports</li>
+<li>Winter sports</li>
+<li>Word construction / word puzzle / crossword</li>
 </ul>
 </details>
 
@@ -1492,6 +1571,7 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 <li>Burlesque</li>
 <li>Children's</li>
 <li>Coming-of-age / Bildungsroman</li>
+<li>Cosmic horror / eldritch horror</li>
 <li>Crime / detective</li>
 <li>Cyberpunk</li>
 <li>Dark comedy</li>
@@ -1499,7 +1579,7 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 <li>Fable</li>
 <li>Folk horror</li>
 <li>Folklore / fairy tale</li>
-<li>Found footage</li>
+<li>Found footage / creepypasta</li>
 <li>Ghost story</li>
 <li>Heist</li>
 <li>Heroic fantasy / sword and sorcery</li>
@@ -2111,6 +2191,7 @@ The controlled vocabulary for this element avoids duplicating terms used in voca
 <li>Ominous</li>
 <li>Opaque</li>
 <li>Peaceful</li>
+<li>Pensive</li>
 <li>Punishing</li>
 <li>Quotidian</li>
 <li>Rigid</li>
@@ -2343,7 +2424,7 @@ Definition: a method or "verb" players use to interact with the state of the pla
 
 Select "No mechanic" if a mechanic is not used in the gameplay footage. 
 
-This element will typically be repeated. 
+This element will typically be repeated. Select only significant mechanics in cases where five or more options in the controlled vocabulary apply. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from BoardGameGeek n.d. and Lee et al., "Controlled Vocabulary for Mechanics," 2024)</summary>
@@ -2370,6 +2451,7 @@ This element will typically be repeated.
 <li>Choosing</li>
 <li>Cleaning / washing</li>
 <li>Climbing</li>
+<li>Closing</li>
 <li>Collecting</li>
 <li>Communicating noverbally</li>
 <li>Communicating verbally</li>
@@ -2380,9 +2462,11 @@ This element will typically be repeated.
 <li>Dealing</li>
 <li>Deckbuilding</li>
 <li>Decoding</li>
+<li>Defenestrating</li>
 <li>Delivering</li>
 <li>Destroying</li>
 <li>Digging</li>
+<li>Disk-flicking</li>
 <li>Dodging</li>
 <li>Drawing</li>
 <li>Drinking</li>
@@ -2412,7 +2496,8 @@ This element will typically be repeated.
 <li>Matching</li>
 <li>Moving</li>
 <li>Negotiating</li>
-<li>No mechanic</li></li>
+<li>No mechanic</li>
+<li>Opening</li>
 <li>Parrying</li>
 <li>Pausing</li>
 <li>Photographing</li>
@@ -2433,6 +2518,7 @@ This element will typically be repeated.
 <li>Rolling</li>
 <li>Rolling dice</li>
 <li>Romancing</li>
+<li>Rotating</li>
 <li>Running</li>
 <li>Sailing</li>
 <li>Saving</li>
@@ -2443,6 +2529,7 @@ This element will typically be repeated.
 <li>Singing</li>
 <li>Sneaking</li>
 <li>Spellcasting</li>
+<li>Spinning</li>
 <li>Stealing</li>
 <li>Storytelling</li>
 <li>Swimming</li>
@@ -2474,7 +2561,7 @@ controlled vocabulary
 
 controlled vocabulary 
 
-vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation; unreliable narrator; cryptic puzzle; mechanical puzzle; logic puzzle; math puzzle; pipe puzzle; Quick Time Events (some of these might be themes or Game Studies topics, tho)
+vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation; unreliable narrator; Quick Time Events; gacha (some of these might be themes or Game Studies topics, tho)
 
 ### 6T. Theme [R][+]
 
