@@ -1626,7 +1626,7 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 
 ### 6F. Dimension and Perspective [R][+]
 
-Definition: "The intended perception of the depth of the represented entities in" the gameplay footage and "[t]he [point of view and camera] from which the player experiences the gameplay" (Lee et al., "VGMS 4.2," 2024)  
+Definition: "The intended perception of the depth of the represented entities in" the gameplay footage and "[t]he [point of view, camera, and/or graphical projection] from which the player experiences the gameplay" (Lee et al., "VGMS 4.2," 2024)  
 
 Two options for this element (free camera and cinematic camera) are defined here to avoid confusion. 
 
@@ -2570,7 +2570,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 
 ### 6Q. Timekeeping [R][+]
 
-Definition: How the platform edition handles the passage of time in the gameplay footage; approaches to timekeeping inevitably influence narrative pacing as well as the rhythm and timing of both players and games 
+Definition: How the platform edition handles the passage of time in the gameplay footage; approaches to timekeeping inevitably influence narrative pacing as well as the timing and rhythm of both players and games 
 
 Two options for this element ("meditative / zen" and "persistent") are defined here to avoid confusion. 
 
