@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 8 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 9 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -25,6 +25,7 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
+* Jan, M. (2017). Game Developer’s Guide to Graphical Projections. [https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d](https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Mechanics. Version 1.1. [https://github.com/uwgamergroup/vocabulary-mechanics](https://github.com/uwgamergroup/vocabulary-mechanics)
@@ -32,7 +33,7 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Narrative Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-narrative-genre](https://github.com/uwgamergroup/vocabulary-narrative-genre)
 * ---. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Protagonist. Version 1.0. [https://github.com/uwgamergroup/vocabulary-protagonist](https://github.com/uwgamergroup/vocabulary-protagonist)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Setting. Version 2.3. [https://github.com/uwgamergroup/vocabulary-setting](https://github.com/uwgamergroup/vocabulary-setting)
-* Poff, T. & Atari (2025). MobyGames Standards. [https://www.mobygames.com/info/standards/](https://www.mobygames.com/info/standards/)
+* Poff, T. & Atari (2025). MobyGames Genres and Other Classifications. [https://www.mobygames.com/genre/](https://www.mobygames.com/genre/)
 * Shaw, A. et al. (2025). LGBTQ+ Game Archive: Types of Content. [https://lgbtqgamearchive.com/types-of-content/](https://lgbtqgamearchive.com/types-of-content/)
 * Sicart, M. (2015). Defining Game Mechanics. *Game Studies* 15.2. [https://gamestudies.org/1502/articles/sicart](https://gamestudies.org/1502/articles/sicart)
 * Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
@@ -1288,7 +1289,7 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Player Character](#6n-player-character-r) [R][+] (controlled vocabulary) 
 * [Non-Player Character](#6o-non-player-character-r) [R][+] (controlled vocabulary) 
 * [Mechanics](#6p-mechanics-r) [R][+] (controlled vocabulary) 
-* [Pacing](#6q-pacing-r) [R][+] (controlled vocabulary) 
+* [Timekeeping](#6q-timekeeping-r) [R][+] (controlled vocabulary) 
 * [Progression](#6r-progression-r) [R][+] (controlled vocabulary) 
 * [Theme](#6s-theme-r) [R][+] (controlled vocabulary) 
 * [Trope](#6t-trope-r) [R][+] (controlled vocabulary) 
@@ -1627,10 +1628,18 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 
 Definition: "The intended perception of the depth of the represented entities in" the gameplay footage and "[t]he [point of view and camera] from which the player experiences the gameplay" (Lee et al., "VGMS 4.2," 2024)  
 
+Two options for this element (free camera and cinematic camera) are defined here to avoid confusion. 
+
+Select "free camera" if "the camera is not attached to a specific avatar and does not follow a specific target" (Poff and Atari 2025). Such cameras are common in strategy and sandbox games, where the "player is able to freely slide/scroll/rotate through the environment" (ibid). 
+
+Select "cinematic camera" if "different, fixed camera positions are set during the game's creation for a maximum cinematic effect. These positions cannot be controlled by the player" (ibid). 
+
+Don't select "free camera" or "cinematic camera" if they do not apply to the gameplay footage. 
+
 This element will typically be repeated: for example, 3D, 1st-person, and perspective camera. 
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Poff and Atari 2025 and Lee et al., "VGMS 4.2," 2024)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Poff and Atari 2025, Jan 2017, and Lee et al., "VGMS 4.2," 2024)</summary>
 <ul>
 <li>2.5D</li>
 <li>2D</li>
@@ -1641,14 +1650,18 @@ This element will typically be repeated: for example, 3D, 1st-person, and perspe
 <li>Audio game</li>
 <li>Behind view / over the shoulder</li>
 <li>Breaks the fourth wall</li>
-<li>Diagonal-down / isometric</li>
+<li>Cinematic camera</li>
+<li>Curvilinear projection</li>
+<li>Diagonal-down view / isometric / 3/4 projection</li>
+<li>Fixed screen / flip-screen scrolling</li>
+<li>Free camera</li>
 <li>HD-2D</li>
-<li>Orthographic camera</li>
-<li>Perspective camera</li>
-<li>Side view / side-on</li>
+<li>Perspective projection</li>
+<li>Side-scrolling / tracking camera</li>
+<li>Side view / multiview projection</li>
 <li>Stereoscopic 3D</li>
 <li>Text-based / spreadsheet</li>
-<li>Top-down</li>
+<li>Top-down view / multiview projection</li>
 </ul>
 </details>
 
@@ -2422,7 +2435,7 @@ Feature request (4 June 2026): select "implicit" when characters are implicitly 
 
 ### 6P. Mechanics [R][+]
 
-Definition: a method or "verb" players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al. 2024)
+Definition: A method or "verb" players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al. 2024)
 
 Select "No mechanic" if a mechanic is not used in the gameplay footage. 
 
@@ -2555,9 +2568,27 @@ This element will typically be repeated. Select only significant mechanics in ca
 </ul>
 </details>
 
-### 6Q. Pacing [R][+]
+### 6Q. Timekeeping [R][+]
 
-controlled vocabulary 
+Definition: How the platform edition handles the passage of time in the gameplay footage; approaches to timekeeping inevitably influence narrative pacing as well as the rhythm and timing of both players and games 
+
+Two options for this element ("meditative / zen" and "persistent") are defined here to avoid confusion. 
+
+Select "meditative / zen" if the game "tr[ies] to calm or relax players. These types of games often have no goals and players can't do anything wrong inside the game" (Poff and Atari 2025). 
+
+Select "persistent" if the game's "mechanics continue even when the player is not playing the game. Either the game state is simulated on a remote server or the changes over time are calculated when the player returns to playing" (ibid). 
+
+Don't select "meditative / zen" or "persistent" if they do not apply to the gameplay footage. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted from Poff and Atari 2025)</summary>
+<ul>
+<li>Meditative / zen</li>
+<li>Persistent</li>
+<li>Real-time</li>
+<li>Turn-based</li>
+</ul>
+</details>
 
 ### 6R. Progression [R][+]
 
