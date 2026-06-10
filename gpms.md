@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 9 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 10 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -21,6 +21,7 @@ License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 The GPMS adapts the following projects for many of its entities, elements, and controlled vocabularies: 
 
 * BoardGameGeek (n.d.). Board Game Mechanics. [https://boardgamegeek.com/browse/boardgamemechanic](https://boardgamegeek.com/browse/boardgamemechanic)
+* Brazie, A. (2024). Game Progression and Progression Systems. [https://gamedesignskills.com/game-design/game-progression/](https://gamedesignskills.com/game-design/game-progression/)
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
@@ -2128,7 +2129,7 @@ Select "No items" if the footage contains no items.
 <li>Compass</li>
 <li>Computer / computer parts</li>
 <li>Cooked food / prepared food</li>
-<li>Cosmetic</li>
+<li>Cosmetic / skin</li>
 <li>Credits</li>
 <li>Digital optical disc / DVD</li>
 <li>Dress</li>
@@ -2592,9 +2593,75 @@ Don't select "meditative / zen" or "persistent" if they do not apply to the game
 
 ### 6R. Progression [R][+]
 
-controlled vocabulary 
+Description: How, as demonstrated by the footage, the platform edition allows players to advance or affords them with a sense of progress, achievement, or productivity (Lee et al. 2024) 
 
-vertical movement / space; horizontal movement / space; embedded story; enacted story; evoked story; choices don't matter; choices matter; procedural generation; unreliable narrator; Quick Time Events; gacha (some of these might be themes or Game Studies topics, tho)
+Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution), and gamification (achievements or trophies) (Brazie 2024). 
+
+<details>
+<summary><i>controlled vocabulary</i></summary>
+<ul>
+<li>Achievement / trophy / badge</li>
+<li>Aha moment</li>
+<li>Act structure</li>
+<li>Branching narrative</li>
+<li>Checkpoint</li>
+<li>Choices don't matter </li>
+<li>Choices matter</li>
+<li>Climax</li>
+<li>Cognitive development</li>
+<li>Collectible</li>
+<li>Core loop</li>
+<li>Cutscene</li>
+<li>Death</li>
+<li>Delivery quest</li>
+<li>Elimination / team wipe</li>
+<li>Embedded story</li>
+<li>Enacted story</li>
+<li>Evoked story</li>
+<li>Excuse plot</li>
+<li>Exposition</li>
+<li>Falling action</li>
+<li>Fetch quest</li>
+<li>Flashback</li>
+<li>Flashforward</li>
+<li>Gating</li>
+<li>Highlight reel / replay reel</li>
+<li>Horizontal movement</li>
+<li>Hub / home base</li>
+<li>In-game reward</li>
+<li>Level complete</li>
+<li>Levelling up</li>
+<li>Lore dump</li>
+<li>MacGuffin</li>
+<li>Mission complete / quest complete</li>
+<li>Motor development</li>
+<li>New ability / skill</li>
+<li>New character</li>
+<li>New cosmetic / skin</li>
+<li>New game plus</li>
+<li>New item</li>
+<li>New level</li>
+<li>New location</li>
+<li>New mission / quest</li>
+<li>New round</li>
+<li>Platinum / 100% achievements</li>
+<li>Procedural generation</li>
+<li>Progression map / player path</li>
+<li>Quick time event</li>
+<li>Randomization</li>
+<li>Resolution / ending</li>
+<li>Respawning</li>
+<li>Rising action</li>
+<li>Rolling credits</li>
+<li>Round complete</li>
+<li>Safe space / bonfire</li>
+<li>Save point</li>
+<li>Unreliable narrator</li>
+<li>Upgrade</li>
+<li>Vertical movement</li>
+<li>Waiting</li>
+</ul>
+</details>
 
 ### 6S. Theme [R][+]
 
