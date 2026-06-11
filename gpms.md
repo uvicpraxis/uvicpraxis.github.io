@@ -1,8 +1,8 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 10 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 11 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
-Jentery Sayers and the Praxis Studio developed this metadata schema for the purposes of describing video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27.
+Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27.
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -26,7 +26,9 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
+* J. Paul Getty Trust (2004). Art & Architecture Thesaurus Online: Full Record Display, "Theme." [https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523](https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523)
 * Jan, M. (2017). Game Developer’s Guide to Graphical Projections. [https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d](https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d)
+* Lee, J. H., Perti, A., Thirumalai, V., Welch, H., Zachary, A., & Nguyen, T. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Theme. Version 1.2. [http://gamer.ischool.uw.edu/official_release/](http://gamer.ischool.uw.edu/official_release/)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Mechanics. Version 1.1. [https://github.com/uwgamergroup/vocabulary-mechanics](https://github.com/uwgamergroup/vocabulary-mechanics)
@@ -1974,7 +1976,7 @@ Definition: An artificial physical feature or edifice appearing in the gameplay 
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
 <ul>
 <li>Alley</li>
-<li>Amusement park / circus</li>
+<li>Amusement park / circus / carnival</li>
 <li>Aquarium</li>
 <li>Arcade</li>
 <li>Arena / coliseum / stadium</li>
@@ -2196,6 +2198,7 @@ The controlled vocabulary for this element avoids duplicating terms used in voca
 <li>Energizing</li>
 <li>Erotic</li>
 <li>Gloomy</li>
+<li>Haunting</li>
 <li>Hopeful</li>
 <li>Hostile</li>
 <li>Intellectual</li>
@@ -2436,7 +2439,7 @@ Feature request (4 June 2026): select "implicit" when characters are implicitly 
 
 ### 6P. Mechanics [R][+]
 
-Definition: A method or "verb" players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al. 2024)
+Definition: A method or "verb" players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al., "VGMS 4.2," 2024)
 
 Select "No mechanic" if a mechanic is not used in the gameplay footage. 
 
@@ -2593,7 +2596,7 @@ Don't select "meditative / zen" or "persistent" if they do not apply to the game
 
 ### 6R. Progression [R][+]
 
-Description: How, as demonstrated by the footage, the platform edition allows players to advance or affords them with a sense of progress, achievement, or productivity (Lee et al. 2024) 
+Description: How, as demonstrated by the footage, the platform edition allows players to advance or affords them with a sense of progress, achievement, or productivity (Lee et al., "VGMS 4.2," 2024)
 
 Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution), and gamification (achievements or trophies) (Brazie 2024). 
 
@@ -2665,9 +2668,207 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 
 ### 6S. Theme [R][+]
 
-controlled vocabulary 
+Definition: "A common thread, motif, subject, or idea that recurs in" the gameplay footage (Getty 2004; Lee et al., "VGMS 4.2," 2024)
 
-anti-colonial; decolonial; political / government; monsters everywhere (is this an experience?); nostalgia (also an experience?); utopian; dystopian; carnivalesque; diegetic simulation
+This element will typically be repeated. Select only significant themes in cases where five or more options in the controlled vocabulary apply. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with additions, from Lee et al., "Controlled Vocabulary for Theme," 2024)</summary>
+<ul>
+<li>2SLGBTQIA+ / queer</li>
+<li>Abandonment / trust</li>
+<li>Ableism</li>
+<li>Alienation / isolation / solitude</li>
+<li>Abduction</li>
+<li>Addiction</li>
+<li>Aging</li>
+<li>Alcoholism / drinking</li>
+<li>Alter-ego</li>
+<li>Anti-capitalism</li>
+<li>Anti-colonial</li>
+<li>Anti-war</li>
+<li>Apocalypse / post-apocalypse</li>
+<li>Arrogance / hubris</li>
+<li>Athletics</li>
+<li>Beauty / attraction</li>
+<li>Belonging / inclusion</li>
+<li>Betrayal / heartbreak</li>
+<li>Binaries</li>
+<li>Biphobia</li>
+<li>Blackness</li>
+<li>Blasphemy</li>
+<li>Bravery / courage</li>
+<li>Capitalism</li>
+<li>Catastrophe</li>
+<li>Chance / certainty</li>
+<li>Chaos / order</li>
+<li>Childhood</li>
+<li>Circle of life</li>
+<li>Cisnormativity</li>
+<li>Civilization</li>
+<li>Class / wealth</li>
+<li>Companionship / friendship</li>
+<li>Competition / winning / losing</li>
+<li>Connecting with nature / land / water</li>
+<li>Conquest / colonization</li>
+<li>Conservation</li>
+<li>Conspiracy</li>
+<li>Convention / rebellion</li>
+<li>Corruption</li>
+<li>Cult</li>
+<li>Curse</li>
+<li>Decolonization</li>
+<li>Democracy</li>
+<li>Destruction</li>
+<li>Diplomacy</li>
+<li>Disability</li>
+<li>Displacement</li>
+<li>Dreams / hopes</li>
+<li>Drugs</li>
+<li>Duty / responsibility</li>
+<li>Dystopia</li>
+<li>East / West</li>
+<li>Economy / economics</li>
+<li>Education / learning / pedagogy</li>
+<li>Empire</li>
+<li>Equality / equity</li>
+<li>Evolution</li>
+<li>Failure</li>
+<li>Faith / doubt</li>
+<li>Family</li>
+<li>Fascism</li>
+<li>Fate / free will</li>
+<li>Fatphobia</li>
+<li>Fear</li>
+<li>Feminism</li>
+<li>Freedom</li>
+<li>Gender / gender expression</li>
+<li>Gods / goddesses</li>
+<li>Good versus evil </li>
+<li>Grace / humility</li>
+<li>Greed / ambition</li>
+<li>Grotesque</li>
+<li>Guilt/ conscience</li>
+<li>Happiness / joy</li>
+<li>Harassment</li>
+<li>Hate / hate crime</li>
+<li>Health / healing / medicine</li>
+<li>Help from others</li>
+<li>Heroism</li>
+<li>Heteronormativity</li>
+<li>Hierarchies</li>
+<li>Holiday / vacation</li>
+<li>Homophobia</li>
+<li>Human rights / civil rights</li>
+<li>Humans versus machine</li>
+<li>Humans versus nature</li>
+<li>Humour / laughter</li>
+<li>Identity / self-image</li>
+<li>Illuminati</li>
+<li>Illusion / disillusionment</li>
+<li>Indigeneity </li>
+<li>Intersectionality</li>
+<li>Interspecies friendship</li>
+<li>Intrigue</li>
+<li>Invasion / alien invasion</li>
+<li>Jealousy</li>
+<li>Justice / injustice</li>
+<li>Knowledge / ignorance</li>
+<li>Light and darkness</li>
+<li>Logic / common sense</li>
+<li>Loss / grief</li>
+<li>Loss of innocence</li>
+<li>Love / everlasting love / forbidden love</li>
+<li>Loyalty</li>
+<li>Lust / desire</li>
+<li>Marginalization / discrimination</li>
+<li>Masking</li>
+<li>Matriarchy</li>
+<li>Memory / amnesia</li>
+<li>Mercy / ruthlessness</li>
+<li>Miscommunication</li>
+<li>Mistaken identity</li>
+<li>Monarchy / kings / queens</li>
+<li>Morality</li>
+<li>Mortality / immortality</li>
+<li>Murder</li>
+<li>Nationalism / patriotism</li>
+<li>Neoliberalism</li>
+<li>Nonviolence</li>
+<li>North / South</li>
+<li>Nostalgia</li>
+<li>Obscenity</li>
+<li>Occult / witchcraft</li>
+<li>Oppression / internalized oppression</li>
+<li>Othering</li>
+<li>Pandemic</li>
+<li>Paranormal</li>
+<li>Parenthood</li>
+<li>Passing</li>
+<li>Patriarchy</li>
+<li>Peer pressure</li>
+<li>Perseverance</li>
+<li>Personal growth / maturity</li>
+<li>Police / policing</li>
+<li>Polyamory</li>
+<li>Power / regime change</li>
+<li>Pride</li>
+<li>Privacy</li>
+<li>Privilege</li>
+<li>Productivity</li>
+<li>Progress</li>
+<li>Prophecy</li>
+<li>Race </li>
+<li>Racism</li>
+<li>Rebirth</li>
+<li>Redemption / forgiveness</li>
+<li>Regret</li>
+<li>Religion</li>
+<li>Resistance</li>
+<li>Reunion</li>
+<li>Revenge / honour / reputation</li>
+<li>Rivalry</li>
+<li>Sacred / profane</li>
+<li>Sacrifice / dedication</li>
+<li>Sanity / madness</li>
+<li>Secrecy</li>
+<li>Self-harm</li>
+<li>Self-reliance / will to survive</li>
+<li>Sex</li>
+<li>Sexism / misogyny </li>
+<li>Sexuality</li>
+<li>Slavery</li>
+<li>Simplicity / simple living</li>
+<li>Social mobility</li>
+<li>Social norms / conformity</li>
+<li>Socialism</li>
+<li>Spirituality</li>
+<li>Stranger</li>
+<li>Sublime</li>
+<li>Succession</li>
+<li>Technological determinism</li>
+<li>Temptation</li>
+<li>Tokenism</li>
+<li>Totalitarianism</li>
+<li>Tradition</li>
+<li>Transitioning</li>
+<li>Transphobia / Transmisogyny</li>
+<li>Trauma</li>
+<li>Treachery / deception</li>
+<li>Truth</li>
+<li>Tyranny</li>
+<li>Urban / rural</li>
+<li>Vanity</li>
+<li>Violence / combat / war</li>
+<li>Vulnerability</li>
+<li>White supremacy</li>
+<li>Whiteness</li>
+<li>Wisdom</li>
+<li>Wrath / anger</li>
+<li>Work / labour</li>
+<li>Xenophobia</li>
+</ul>
+</details>
 
 ### 6T. Trope [R][+]
 
@@ -2690,6 +2891,8 @@ controlled vocabulary
 ### 6X. Experience [R][+]
 
 controlled vocabulary
+
+monsters everywhere
 
 ### 6Y. Transaction [R][+]
 
