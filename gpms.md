@@ -2282,7 +2282,7 @@ Feature request (4 June 2026): select "implicit" when characters are implicitly 
 <li>Genderfluid PC</li>
 <li>Genderqueer PC</li>
 <li>Hearing-impaired PC</li>
-<li>Heterosexual PC / straight PC </li>
+<li>Heterosexual PC / straight PC</li>
 <li>Indigenous PC</li>
 <li>Intersex PC</li>
 <li>Lesbian PC</li>
