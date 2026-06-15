@@ -2114,7 +2114,136 @@ Select "No mode of transport" if the footage contains no means of conveyance or 
 </ul>
 </details>
 
+### 6L. Items [R][+]
+
+Definition: Types of consumables, equipment, progression items, crafting materials, currencies, and valuables appearing in the gameplay footage (Wikipedia, "Item (game terminology)," 2026). 
+
+Select "No items" if the footage contains no items.
+
+<details>
+<summary><i>controlled vocabulary</i></summary>
+<ul>
+<li>Accessory</li>
+<li>Ammunition / ammo</li>
+<li>Antidote</li>
+<li>Armour</li>
+<li>Blueprint</li>
+<li>Book</li>
+<li>Buff / boost</li>
+<li>Coat</li>
+<li>Collectible</li>
+<li>Compact disc / CD</li>
+<li>Compass</li>
+<li>Computer / computer parts</li>
+<li>Cooked food / prepared food</li>
+<li>Cosmetic / skin</li>
+<li>Credits</li>
+<li>Digital optical disc / DVD</li>
+<li>Dress</li>
+<li>Drink</li>
+<li>Dye / ink</li>
+<li>Energy</li>
+<li>Fabric / textile</li>
+<li>Film / rolls of film</li>
+<li>Fruit / fruit product</li>
+<li>Hat</li>
+<li>Health potion</li>
+<li>Key / keycard</li>
+<li>Letter / journal entry</li>
+<li>Mana potion</li>
+<li>Map</li>
+<li>Meat / bone / animal product</li>
+<li>Money / coins / cash</li>
+<li>Monster parts</li>
+<li>Mushroom / fungi</li>
+<li>Musical instrument</li>
+<li>No items</li>
+<li>Oil</li>
+<li>Ore / minerals / metals</li>
+<li>Pants</li>
+<li>Photograph</li>
+<li>Recipe</li>
+<li>Shirt</li>
+<li>Shoes / boots</li>
+<li>Skirt</li>
+<li>Suit</li>
+<li>Swimsuit</li>
+<li>Tape / cassette / audio / video</li>
+<li>Tool / technology</li>
+<li>Underwear</li>
+<li>Vegetable / herb / plant / plant product</li>
+<li>Water</li>
+<li>Wood</li>
+<li>Weapon</li>
+</ul>
+</details>
+
+### 6M. Atmosphere [R][+]
+
+Definition: "The pervading [mood] or tone of the" world appearing in the gameplay footage; it "evokes or recalls a certain emotion or state of mind" (Lee et al., "VGMS 4.2," 2024) 
+
+The controlled vocabulary for this element avoids duplicating terms used in vocabularies for other elements, such as "Narrative Genre," "Narrative Subgenre," and "Type of Play." 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Mood," 2024)</summary>
+<ul>
+<li>Accessible</li>
+<li>Beautiful</li>
+<li>Believable</li>
+<li>Bleak</li>
+<li>Bold</li>
+<li>Bright</li>
+<li>Brittle</li>
+<li>Captivating</li>
+<li>Cozy</li>
+<li>Creative</li>
+<li>Dangerous</li>
+<li>Disturbing</li>
+<li>Eerie</li>
+<li>Energizing</li>
+<li>Erotic</li>
+<li>Gloomy</li>
+<li>Haunting</li>
+<li>Hopeful</li>
+<li>Hostile</li>
+<li>Intellectual</li>
+<li>Intense</li>
+<li>Intimate</li>
+<li>Lonely</li>
+<li>Mischievous</li>
+<li>Mournful</li>
+<li>Ominous</li>
+<li>Opaque</li>
+<li>Peaceful</li>
+<li>Pensive</li>
+<li>Punishing</li>
+<li>Quotidian</li>
+<li>Rigid</li>
+<li>Sentimental</li>
+<li>Serene</li>
+<li>Snarky</li>
+<li>Suspicious</li>
+<li>Theatrical</li>
+<li>Threatening</li>
+<li>Toxic</li>
+<li>Unpredictable</li>
+<li>Violent</li>
+<li>Welcoming</li>
+<li>Whimsical</li>
+</ul>
+</details>
+
 ### 6N. Player Character [R][+]
+
+Definition: A character in the gameplay footage whose actions are controlled by the player 
+
+This element will typically be repeated. 
+
+Select "No player character" if no player character appears in the footage. 
+
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the player character. 
+
+Feature request (4 June 2026): select "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid). We will update the GPMS and GPFC as both projects unfold, and we will correct our mistakes and learn from them as they occur. Many aspects of this element are thus subject to change. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist" and "Controlled Vocabulary for Tropes," 2024)</summary>
@@ -2318,7 +2447,7 @@ Feature request (4 June 2026): select "implicit" when characters are implicitly 
 <li>NPC is an elder</li>
 <li>NPC is an enemy / monster</li>
 <li>NPC is an immigrant</li>
-<li>NPC is an outlaw<li>
+<li>NPC is an outlaw</li>
 <li>NPC is an overlord</li>
 <li>NPC is hostile </li>
 <li>NPC is funny</li>
@@ -2778,6 +2907,379 @@ This element will typically be repeated. Select only significant themes in cases
 <li>Wrath / anger</li>
 <li>Work / labour</li>
 <li>Xenophobia</li>
+</ul>
+</details>
+
+### 6T. Trope [R][+]
+
+Definition: "A generally recognizable narrative device or [gameplay] convention [appearing in the footage]. Tropes rely on culturally mediated expectations to expedite the development of [gameplay], events, characterization, or narrative. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities [see 6U. Stereotypes]" (Lee et al., "VGMS 4.2," 2024)
+
+This element will typically be repeated. Select only significant tropes in cases where five or more options in the controlled vocabulary apply. 
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of most elements in this controlled vocabulary. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
+<ul>
+<li>Ability required to proceed</li>
+<li>Acceptable break from reality</li>
+<li>Action-based mission</li>
+<li>Action commands</li>
+<li>Addressing the player</li>
+<li>Adventure-friendly world</li>
+<li>Alchemic elementals</li>
+<li>Animal sidekick</li>
+<li>Announcer chatter</li>
+<li>Another side, another story</li>
+<li>Antepiece for the setpiece</li>
+<li>Arbitrary mission restriction</li>
+<li>Area of effect</li>
+<li>Art shift</li>
+<li>Attack its weak point</li>
+<li>Back from the brink</li>
+<li>Backtracking</li>
+<li>Bats won't leave you alone</li>
+<li>Battle intro</li>
+<li>Battle theme music</li>
+<li>Big bad</li>
+<li>Big first choice</li>
+<li>Blacksmith upgrade service</li>
+<li>Blamed for being railroaded</li>
+<li>Boss battle</li>
+<li>Boss runback</li>
+<li>Bottle episode</li>
+<li>Bottomless fuel tanks</li>
+<li>Breather level</li>
+<li>Bright and colourful war</li>
+<li>Broken bridge</li>
+<li>Brutal bonus level</li>
+<li>But thou must! / it's up to you</li>
+<li>Calling your shots</li>
+<li>Calvinball</li>
+<li>Catastrophic countdown</li>
+<li>Character-specific dialogue</li>
+<li>Character class system / job system</li>
+<li>Character customization</li>
+<li>Character portrait</li>
+<li>Checkpoint starvation</li>
+<li>Chess motif</li>
+<li>Choices don't matter</li>
+<li>Choices matter</li>
+<li>Clairvoyant security force</li>
+<li>Collision damage</li>
+<li>Colour-coded armies or groups</li>
+<li>Colour-coded multiplayer</li>
+<li>Com mon / common monster</li>
+<li>Combat resuscitation</li>
+<li>Comeback mechanic</li>
+<li>Commander is you</li>
+<li>Completion mockery</li>
+<li>Computer is lying to me</li>
+<li>Computer shall taunt you</li>
+<li>Concealed customization</li>
+<li>Context-sensitive button</li>
+<li>Control room puzzle</li>
+<li>Controllable helplessnes</li>
+<li>Cooldown</li>
+<li>Cooperation versus competition</li>
+<li>Corridor cubbyhole run</li>
+<li>Coup de grâce cutscene</li>
+<li>Cranium ride</li>
+<li>Crate expectations / crates everywhere</li>
+<li>Critical hit</li>
+<li>Critical status buff</li>
+<li>Cruelty is the only option</li>
+<li>Damage is fire</li>
+<li>Dangerous relative / family member</li>
+<li>Deadly game of chance</li>
+<li>Defeat means playable</li>
+<li>Defeating the cheating opponent</li>
+<li>Deliberate game crash</li>
+<li>Delivery quest</li>
+<li>Demonic spiders</li>
+<li>Designated victim</li>
+<li>Destruction-proof fire exit</li>
+<li>Dev is smarter than me</li>
+<li>Developer's desired date</li>
+<li>Dialogue during gameplay</li>
+<li>Diegetic character creation</li>
+<li>Diegetic simulation</li>
+<li>Difficulty spike</li>
+<li>Disembodied dialogue / voice</li>
+<li>Drop-in-drop-out multiplayer</li>
+<li>Dueling player characters</li>
+<li>Dynamic loading</li>
+<li>Early game hell</li>
+<li>Earn your bad ending</li>
+<li>Earn your fun</li>
+<li>Earn your happy ending</li>
+<li>Easy EXP</li>
+<li>Elaborate equals effective</li>
+<li>Emergent gameplay</li>
+<li>Empty room psych</li>
+<li>Empty room until the trap</li>
+<li>Enemy-detecting radar</li>
+<li>Enemy chatter / enemy barks</li>
+<li>Enemy overconfidence</li>
+<li>Enjoy the story, skip the game</li>
+<li>Enter the solution here</li>
+<li>Entrepreneur is you</li>
+<li>Escort mission</li>
+<li>Essence drop</li>
+<li>Event flag</li>
+<li>Everything breaks</li>
+<li>Everything is smashable</li>
+<li>Everything is trying to kill you</li>
+<li>Excuse plot</li>
+<li>Expository gameplay limitation</li>
+<li>Expressive health bar</li>
+<li>Extra turn</li>
+<li>Fame gate</li>
+<li>Fake trap</li>
+<li>Fatigue mechanic</li>
+<li>Faux symbolism</li>
+<li>Fetch quest</li>
+<li>First-person ghost</li>
+<li>Fog of war</li>
+<li>Follow the money</li>
+<li>Foreboding architecture / malevolent architecture</li>
+<li>Frictionless ice</li>
+<li>Frustration simulator</li>
+<li>Game-breaking bug</li>
+<li>Game lobby</li>
+<li>Game of chicken</li>
+<li>Game within a game</li>
+<li>Gameplay-guided amnesia</li>
+<li>Gameplay automation</li>
+<li>Gameplay protagonist, story protagonist</li>
+<li>Glitch / glitch entity</li>
+<li>Good-all-along character</li>
+<li>Gravity barrier</li>
+<li>Grimy water</li>
+<li>Grinding / stat grinding / level grinding</li>
+<li>Groundhog day loop</li>
+<li>Healing boss</li>
+<li>Hide-and-seek horror</li>
+<li>Hide your children / no children anywhere</li>
+<li>Highly visible landmark</li>
+<li>Historical revisionism</li>
+<li>Hit flash</li>
+<li>Hit points</li>
+<li>Hit spark</li>
+<li>Hitbox dissonance</li>
+<li>Hold the line</li>
+<li>Holiday mode</li>
+<li>Home field advantage</li>
+<li>How we got here</li>
+<li>Hyperactive metabolism</li>
+<li>Hyperactive sprite</li>
+<li>I can't reach it</li>
+<li>I fought the law and the law won</li>
+<li>Ignorance is the only option</li>
+<li>Impassable desert</li>
+<li>In-game banking services</li>
+<li>In-game novel</li>
+<li>In-game tv</li>
+<li>In-universe game clock</li>
+<li>Inconveniently-placed conveyor belt</li>
+<li>Inescapable ambush</li>
+<li>Infallible character</li>
+<li>Infodump / lore dump</li>
+<li>Informing the fourth wall</li>
+<li>Instant death</li>
+<li>Insurmountable fence</li>
+<li>Intercom villainy</li>
+<li>Interior designer is you</li>
+<li>Intoxication mechanic</li>
+<li>Involuntary group split</li>
+<li>Kill screen</li>
+<li>Kingmaker scenario</li>
+<li>Last lousy point</li>
+<li>Late character syndrome</li>
+<li>Late to the tragedy</li>
+<li>Level editor</li>
+<li>Level gate</li>
+<li>Level scaling</li>
+<li>Light and mirrors puzzle</li>
+<li>Limited-use magical device</li>
+<li>Live-action cutscene</li>
+<li>Living statue</li>
+<li>Loading screen message gag</li>
+<li>Lock and key puzzle</li>
+<li>Locked door</li>
+<li>Loot boxes</li>
+<li>Luck stat</li>
+<li>MacGuffin</li>
+<li>Magical mystery doors</li>
+<li>Magnet hands</li>
+<li>Mirror match</li>
+<li>Misaimed realism</li>
+<li>Misère game</li>
+<li>Monsters everywhere</li>
+<li>Morale mechanic</li>
+<li>Morality pet / morality chain</li>
+<li>Multiple game openings</li>
+<li>Multiple persuasion modes</li>
+<li>Musical gameplay</li>
+<li>Musical spoiler</li>
+<li>New weapon target range</li>
+<li>New world tease</li>
+<li>Nice day, deadly night</li>
+<li>No campaign for the wicked</li>
+<li>No canon for the wicked</li>
+<li>No exploration / no sidepaths</li>
+<li>No plot? no problem!</li>
+<li>No such thing as dehydration / hunger</li>
+<li>No such thing as drowning</li>
+<li>Notice this / made of shiny</li>
+<li>NPC scheduling</li>
+<li>Old area, new enemies</li>
+<li>One game, one boss</li>
+<li>Only one save file</li>
+<li>Only smart people may pass</li>
+<li>Optional party member</li>
+<li>Optional sexual encounter</li>
+<li>Overheating</li>
+<li>Overly generous time limit</li>
+<li>Painting the medium</li>
+<li>Pass through the rings</li>
+<li>Password save</li>
+<li>Path of most resistance</li>
+<li>Pawn debut cutscene</li>
+<li>Pawn maker</li>
+<li>Pawns but no bosses</li>
+<li>Pawns go first</li>
+<li>Personality mechanic</li>
+<li>Philosophical choice ending</li>
+<li>Pixel hunt</li>
+<li>Play the game, skip the story</li>
+<li>Player and protagonist integration</li>
+<li>Player death is dramatic</li>
+<li>Plot lock</li>
+<li>Point of no return</li>
+<li>Poison mushroom</li>
+<li>Pop quiz</li>
+<li>Power-up motif</li>
+<li>Power equals rarity</li>
+<li>Press X not to die</li>
+<li>Pressure plate</li>
+<li>Prince or princess in disguise</li>
+<li>Protagonist without a past</li>
+<li>Purely aesthetic gender</li>
+<li>Puzzle pan</li>
+<li>Quest giver is you</li>
+<li>Racing ghost</li>
+<li>Raid</li>
+<li>Railroading</li>
+<li>Random drop</li>
+<li>Random event</li>
+<li>Ratchet scrolling</li>
+<li>Real-place background</li>
+<li>Real-time with pause</li>
+<li>Recollection sidequest</li>
+<li>Regenerating health</li>
+<li>Regenerating mana</li>
+<li>Renovating the player headquarters</li>
+<li>Repeatable quest</li>
+<li>Replay value</li>
+<li>Respawn point</li>
+<li>Respawning enemies</li>
+<li>Rock, paper, scissors</li>
+<li>Romance option</li>
+<li>Romance sidequest</li>
+<li>Rubber-band AI</li>
+<li>Running-out-of-time warning</li>
+<li>Safe space / bonfire</li>
+<li>Saw blades of death</li>
+<li>Scavenger hunt</li>
+<li>Scenery as you go</li>
+<li>Score chasing</li>
+<li>Screen shake</li>
+<li>Secret AI moves</li>
+<li>Secret character</li>
+<li>Secret expanded epilogue</li>
+<li>Secret final campaign</li>
+<li>Secret police</li>
+<li>Shall I repeat that?</li>
+<li>Shoplift and die</li>
+<li>Simon says</li>
+<li>Simple rescue mechanic</li>
+<li>Smashing survival / struggle sim</li>
+<li>Some dexterity required</li>
+<li>Songs in the key of panic</li>
+<li>Sound-coded for your convenience</li>
+<li>Sound of no damage</li>
+<li>Space marine is you</li>
+<li>Speaking simlish / speaking a conlang</li>
+<li>Spikes of doom</li>
+<li>Spiteful AI</li>
+<li>Springs, springs everywhere!</li>
+<li>Static role, exchangeable character</li>
+<li>Steam vent obstacle</li>
+<li>Step one: escape</li>
+<li>Stock puzzle</li>
+<li>Story-driven invulnerability</li>
+<li>Story branch favoritism</li>
+<li>Suddenly-harmful harmless object</li>
+<li>Suspiciously cracked wall</li>
+<li>Tactical door use</li>
+<li>Tank controls</li>
+<li>Taste of power</li>
+<li>Taunt button</li>
+<li>Temporary platform</li>
+<li>Ten-second flashlight</li>
+<li>That one achievement</li>
+<li>That one boss</li>
+<li>That one level</li>
+<li>That one puzzle</li>
+<li>That one sidequest</li>
+<li>There are no tents, only inns</li>
+<li>This is the final battle</li>
+<li>Three-approach system</li>
+<li>Three trials / three goals</li>
+<li>Threshold guardian</li>
+<li>Tiebreak round</li>
+<li>Time trial</li>
+<li>Timed mission</li>
+<li>Title theme drop</li>
+<li>Training dummy</li>
+<li>Training stage</li>
+<li>Treacherous checkpoint</li>
+<li>Trick shot</li>
+<li>Tutorial failure</li>
+<li>Unbroken first-person perspective</li>
+<li>Unexpected shmup level</li>
+<li>Unexpectedly realistic gameplay</li>
+<li>Unending end card </li>
+<li>Unlosable</li>
+<li>Unpopular mechanic / scrappy mechanic</li>
+<li>Unreliable narrator</li>
+<li>Unwinnable by design</li>
+<li>Useless item / joke item</li>
+<li>Variable player goals</li>
+<li>Victory pose / victory quote</li>
+<li>Video game cruelty punishment</li>
+<li>Video game geography</li>
+<li>Video game physics</li>
+<li>Video game vista</li>
+<li>Villain shoes</li>
+<li>Violation of common sense</li>
+<li>Visible silence</li>
+<li>Voice grunting</li>
+<li>Wait around for a while</li>
+<li>Wandering you</li>
+<li>War sequence</li>
+<li>Warp zone</li>
+<li>We cannot go on without you</li>
+<li>Weather effects / weather gameplay mechanic</li>
+<li>Whack-a-monster</li>
+<li>What the hell, player?</li>
+<li>When all else fails, go right</li>
+<li>Who forgot the lights?</li>
+<li>Winner is you</li>
+<li>Wrap around</li>
+<li>You will not evade me</li>
+<li>Zip mode</li>
 </ul>
 </details>
 
