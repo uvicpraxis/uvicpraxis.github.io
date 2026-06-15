@@ -45,7 +45,7 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
 * --- (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
 * --- (2026). Item (game terminology). [https://en.wikipedia.org/wiki/Item_(game_terminology)](https://en.wikipedia.org/wiki/Item_(game_terminology))
-* * --- (2026). List of Art Movements. [https://en.wikipedia.org/wiki/List_of_art_movements](https://en.wikipedia.org/wiki/List_of_art_movements)
+* --- (2026). List of Art Movements. [https://en.wikipedia.org/wiki/List_of_art_movements](https://en.wikipedia.org/wiki/List_of_art_movements)
 * --- (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 * --- (2026). List of Genres. [https://en.wikipedia.org/wiki/List_of_genres](https://en.wikipedia.org/wiki/List_of_genres)
   
@@ -2917,7 +2917,7 @@ This element will typically be repeated. Select only significant themes in cases
 
 ### 6T. Trope [R][+]
 
-Definition: "A generally recognizable narrative device or [gameplay] convention [appearing in the footage]. Tropes rely on culturally mediated expectations to expedite the development of [gameplay], events, characterization, or narrative. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities [see 6U. Stereotypes]" (Lee et al., "VGMS 4.2," 2024)
+Definition: "A generally recognizable narrative device or [gameplay] convention [appearing in the footage]. Tropes rely on culturally mediated expectations to expedite the development of [gameplay], events, characterization, or narrative. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities [see 6U. Stereotype]" (Lee et al., "VGMS 4.2," 2024)
 
 This element will typically be repeated. Select only significant tropes in cases where five or more options in the controlled vocabulary apply. 
 
