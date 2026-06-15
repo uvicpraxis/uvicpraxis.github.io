@@ -2354,6 +2354,7 @@ Feature request (4 June 2026): select "implicit" when characters are implicitly 
 </ul>
 </details>
 
+
 ### 6O. Non-Player Character [R][+]
 
 Definition: A character in the gameplay footage whose actions are not controlled by the player 
