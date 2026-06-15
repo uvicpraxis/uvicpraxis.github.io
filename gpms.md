@@ -2350,10 +2350,7 @@ Feature request (4 June 2026): select "implicit" when characters are implicitly 
 <li>Trans PC</li>
 <li>Two-spirit PC</li>
 <li>Visually-impaired PC</li>
-<li>White PC</li>
-</ul>
-</details>
-
+<li>White PC</li></ul></details>
 
 ### 6O. Non-Player Character [R][+]
 
