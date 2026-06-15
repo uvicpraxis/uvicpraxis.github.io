@@ -2332,7 +2332,8 @@ Feature request (4 June 2026): select "implicit" when characters are implicitly 
 <li>PC is an adult</li>
 <li>PC is an elder</li>
 <li>PC is an immigrant</li>
-<li>PC is an outlaw<li>
+<li>PC is an outlaw</li>
+<li>PC is an overlord</li>
 <li>PC is funny</li>
 <li>PC is non-corporeal</li>
 <li>PC is poor</li>
