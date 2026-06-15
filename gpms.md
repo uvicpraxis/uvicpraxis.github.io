@@ -3401,6 +3401,7 @@ Definition: "The predominant and recognizable [artistic tendencies] and appearan
 <li>Miniature art</li>
 <li>Minimalism</li>
 <li>Monochromatic</li>
+<li>Naturalism</li>
 <li>Outsider art / art brut</li>
 <li>Photorealism</li>
 <li>Pixel art</li>
