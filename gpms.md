@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 14 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 15 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -1300,7 +1300,7 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Theme](#6s-theme-r) [R][+] (controlled vocabulary)
 * [Trope](#6t-trope-r) [R][+] (controlled vocabulary)
 * [Stereotype](#6u-stereotype-r) [R][+] (controlled vocabulary)
-* [Art](#6v-art-r) [R][+] (controlled vocabulary)
+* [Assets](#6v-assets-r) [R][+] (controlled vocabulary)
 * [Style](#6w-style-r) [R][+] (controlled vocabulary)
 * [Interface](#6x-interface-r) [R][+] (controlled vocabulary)
 * [Experience](#6y-experience-r) [R][+] (controlled vocabulary)
@@ -1373,7 +1373,6 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Arcade</li>
 <li>Arena shooter</li>
 <li>Artillery</li>
-<li>Augmented reality</li>
 <li>Australian football</li>
 <li>Auto battler / auto chess</li>
 <li>Auto runner</li>
@@ -1523,7 +1522,6 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Vehicle sim</li>
 <li>Virtual life</li>
 <li>Virtual pet</li>
-<li>Virtual reality</li>
 <li>Visual novel</li>
 <li>Volleyball</li>
 <li>Walking sim</li>
@@ -1655,20 +1653,24 @@ This element will typically be repeated: for example, 3D, 1st-person, and perspe
 <li>2nd-person / second-person</li>
 <li>3rd-person / third-person</li>
 <li>Audio game</li>
+<li>Augmented reality</li>
 <li>Behind view / over the shoulder</li>
 <li>Breaks the fourth wall</li>
+<li>Camera zoom / scaling</li>
 <li>Cinematic camera</li>
 <li>Curvilinear projection</li>
 <li>Diagonal-down view / isometric / 3/4 projection</li>
 <li>Fixed screen / flip-screen scrolling</li>
 <li>Free camera</li>
 <li>HD-2D</li>
+<li>Oblique project / cabinet</li>
 <li>Perspective projection</li>
 <li>Side-scrolling / tracking camera</li>
 <li>Side view / multiview projection</li>
 <li>Stereoscopic 3D</li>
 <li>Text-based / spreadsheet</li>
 <li>Top-down view / multiview projection</li>
+<li>Virtual reality</li>
 </ul>
 </details>
 
@@ -3290,15 +3292,100 @@ Definition:
 
 controlled vocabulary
 
-### 6V. Art [R][+]
+### 6V. Assets [R][+]
 
-controlled vocabulary 
+Definition: audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footage
+
+This element will typically be repeated. Select only significant assets in cases where five or more options in the controlled vocabulary apply. 
+
+<details>
+<summary><i>controlled vocabulary</i> (informed by game assets available at itch.io)</summary>
+<ul>
+<li>3D models</li>
+<li>Action animation</li>
+<li>Adaptive lighting</li>
+<li>Adaptive music</li>
+<li>Ambient sound / soundscape</li>
+<li>Articulated animation</li>
+<li>Character art</li>
+<li>Destructible objects</li>
+<li>Environment art / scenery</li>
+<li>Exteriors</li>
+<li>Flavour text</li>
+<li>Fluid dynamics</li>
+<li>Foley sound</li>
+<li>Foliage / terrain</li>
+<li>Fonts / typography</li>
+<li>Free-form animation</li>
+<li>Gauges</li>
+<li>Haptics</li>
+<li>Icons / buttons</li>
+<li>Idle animation</li>
+<li>Interiors</li>
+<li>Items / clothes / equipment</li>
+<li>Level art</li>
+<li>Licensed music</li>
+<li>Locomotion animation</li>
+<li>Motion capture / mocap</li>
+<li>No audio</li>
+<li>No visuals</li>
+<li>Original soundtrack</li>
+<li>Parallax scrolling </li>
+<li>Particle effects</li>
+<li>Photographs</li>
+<li>Pre-recorded audio</li>
+<li>Pre-recorded video</li>
+<li>Previews</li>
+<li>Props</li>
+<li>Ragdoll physics</li>
+<li>Ray tracing</li>
+<li>Rigid animation</li>
+<li>Rigid body dynamics</li>
+<li>Shaders</li>
+<li>Skyboxes</li>
+<li>Soft body dynamics</li>
+<li>Sound effects / SFX</li>
+<li>Sprites</li>
+<li>Text boxes</li>
+<li>Textures</li>
+<li>Tilesets</li>
+<li>Vector graphics</li>
+<li>Visual art / drawings</li>
+<li>Visual effects / VFX</li>
+<li>Voice acting / barks</li>
+<li>Voice-over / VO </li>
+</ul>
+</details>
 
 ### 6W. Style [R][+]
 
 controlled vocabulary 
 
-photorealism; social realism; surrealism; magical realism; epic; experimental; adaptation / homage; mashup; cel shading
+photorealism; social realism; surrealism; magical realism; epic; experimental; adaptation / homage; mashup; cel shading; 
+Abstract art
+Anime
+Cartoon
+Cel-shaded 3D
+Flat
+Stylized 3D
+Surrealism
+Saturated colours
+Realistic 3D
+High fidelity
+Hand-drawn / hand-painted
+Low fidelity
+Low-poly 3D
+Manga
+Maximalism
+Minimalism
+Monochrome
+Motion graphics
+Pixel art (8-bit / 16-bit) 
+Voxel art
+Cutout
+ASCII art
+Chiptune / 8-bit music
+Stop motion
 
 ### 6X. Interface [R][+]
 
