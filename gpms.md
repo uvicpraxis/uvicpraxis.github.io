@@ -3448,11 +3448,15 @@ soft reset, not the intended use, house rules, cheat code, sequence breaking, sc
 
 ### 6BB. Content Warning [R]
 
-text input field 
+Definition: A written statement that lists aspects of the footage that may be upsetting, offensive, challenging, or graphic; it should also note when the footage contains flashes, if applicable
+
+*text input field* 
 
 ### 6CC. Gameplay Footage Note
 
-text input field 
+Definition: "Any other notable characteristics of the" gameplay footage that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
+
+*text input field*
 
 ## 7. Gameplay Instruction Entity 
 
@@ -3460,8 +3464,10 @@ text input field
 
 controlled vocabulary 
 
-liminal spaces, ludonarrative dissonance / resonance, player-centric, player-agnostic, player-antagonistic
+ludonarrative dissonance / resonance, player-centric, player-agnostic, player-antagonistic
 
 ### 7B. Gameplay Instruction Note 
 
-text input field
+Definition: "Any other notable characteristics of" gameplay instruction that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
+
+*text input field*
