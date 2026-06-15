@@ -2178,61 +2178,6 @@ Select "No items" if the footage contains no items.
 </ul>
 </details>
 
-### 6M. Atmosphere [R][+]
-
-Definition: "The pervading [mood] or tone of the" world appearing in the gameplay footage; it "evokes or recalls a certain emotion or state of mind" (Lee et al., "VGMS 4.2," 2024) 
-
-The controlled vocabulary for this element avoids duplicating terms used in vocabularies for other elements, such as "Narrative Genre," "Narrative Subgenre," and "Type of Play." 
-
-<details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Mood," 2024)</summary>
-<ul>
-<li>Accessible</li>
-<li>Beautiful</li>
-<li>Believable</li>
-<li>Bleak</li>
-<li>Bold</li>
-<li>Bright</li>
-<li>Brittle</li>
-<li>Captivating</li>
-<li>Cozy</li>
-<li>Creative</li>
-<li>Dangerous</li>
-<li>Disturbing</li>
-<li>Eerie</li>
-<li>Energizing</li>
-<li>Erotic</li>
-<li>Gloomy</li>
-<li>Haunting</li>
-<li>Hopeful</li>
-<li>Hostile</li>
-<li>Intellectual</li>
-<li>Intense</li>
-<li>Intimate</li>
-<li>Lonely</li>
-<li>Mischievous</li>
-<li>Mournful</li>
-<li>Ominous</li>
-<li>Opaque</li>
-<li>Peaceful</li>
-<li>Pensive</li>
-<li>Punishing</li>
-<li>Quotidian</li>
-<li>Rigid</li>
-<li>Sentimental</li>
-<li>Serene</li>
-<li>Snarky</li>
-<li>Suspicious</li>
-<li>Theatrical</li>
-<li>Threatening</li>
-<li>Toxic</li>
-<li>Unpredictable</li>
-<li>Violent</li>
-<li>Welcoming</li>
-<li>Whimsical</li>
-</ul>
-</details>
-
 ### 6N. Player Character [R][+]
 
 <details>
