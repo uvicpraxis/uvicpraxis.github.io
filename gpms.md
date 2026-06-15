@@ -28,6 +28,7 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
 * J. Paul Getty Trust (2004). Art & Architecture Thesaurus Online: Full Record Display, "Theme." [https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523](https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523)
 * Jan, M. (2017). Game Developer’s Guide to Graphical Projections. [https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d](https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d)
+* Lee, J. H., Perti, A., Cho, H., et al. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Visual Style. Version 1.6. [https://github.com/uwgamergroup/vocabulary-visual-style](https://github.com/uwgamergroup/vocabulary-visual-style)
 * Lee, J. H., Perti, A., Thirumalai, V., Welch, H., Zachary, A., & Nguyen, T. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Theme. Version 1.2. [https://github.com/uwgamergroup/vocabulary-theme](https://github.com/uwgamergroup/vocabulary-theme)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L.D. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Genre. Version 1.3. [https://github.com/uwgamergroup/vocabulary-gameplay-genre/](https://github.com/uwgamergroup/vocabulary-gameplay-genre/)
@@ -44,9 +45,10 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * Wikipedia (2026). Game Controller. [https://en.wikipedia.org/wiki/Game_controller](https://en.wikipedia.org/wiki/Game_controller)
 * --- (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
 * --- (2026). Item (game terminology). [https://en.wikipedia.org/wiki/Item_(game_terminology)](https://en.wikipedia.org/wiki/Item_(game_terminology))
+* * --- (2026). List of Art Movements. [https://en.wikipedia.org/wiki/List_of_art_movements](https://en.wikipedia.org/wiki/List_of_art_movements)
 * --- (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 * --- (2026). List of Genres. [https://en.wikipedia.org/wiki/List_of_genres](https://en.wikipedia.org/wiki/List_of_genres)
-
+  
 See citations below for specific instances of adaptation. 
 
 ## 2. Abbreviation and Acronym Key
@@ -3342,6 +3344,7 @@ This element will typically be repeated. Select only significant assets in cases
 <li>Rigid animation</li>
 <li>Rigid body dynamics</li>
 <li>Shaders</li>
+<li>Skeuomorph</li>
 <li>Skyboxes</li>
 <li>Soft body dynamics</li>
 <li>Sound effects / SFX</li>
@@ -3359,33 +3362,64 @@ This element will typically be repeated. Select only significant assets in cases
 
 ### 6W. Style [R][+]
 
-controlled vocabulary 
+Definition: "The predominant and recognizable [artistic tendencies] and appearance of" the platform edition as represented by the gameplay footage (Lee et al., "VGMS 4.2," 2024)
 
-photorealism; social realism; surrealism; magical realism; epic; experimental; adaptation / homage; mashup; cel shading; 
-Abstract art
-Anime
-Cartoon
-Cel-shaded 3D
-Flat
-Stylized 3D
-Surrealism
-Saturated colours
-Realistic 3D
-High fidelity
-Hand-drawn / hand-painted
-Low fidelity
-Low-poly 3D
-Manga
-Maximalism
-Minimalism
-Monochrome
-Motion graphics
-Pixel art (8-bit / 16-bit) 
-Voxel art
-Cutout
-ASCII art
-Chiptune / 8-bit music
-Stop motion
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Wikipedia, "List of Art Movements," 2026 and Lee et al.,"Controlled Vocabulary for Visual Style," 2024)</summary>
+<ul>
+<li>Abstract</li>
+<li>Achromatic</li>
+<li>Adaptation / homage</li>
+<li>Art Nouveau</li>
+<li>ASCII art</li>
+<li>Avant-garde</li>
+<li>Baroque</li>
+<li>Bauhaus</li>
+<li>Bricolage / mixed media</li>
+<li>Cartoon / anime</li>
+<li>Cel shaded / toon shaded</li>
+<li>Chiptune</li>
+<li>Comics / manga</li>
+<li>Cubism / assemblage</li>
+<li>Cutout / papercutting</li>
+<li>Epic</li>
+<li>Expressionism</li>
+<li>Flat / superflat</li>
+<li>Futurism / retrofuturism</li>
+<li>Glitch art</li>
+<li>Gothic</li>
+<li>Hand-drawn / hand-painted</li>
+<li>High fidelity / hi-fi</li>
+<li>Impressionism</li>
+<li>Lego</li>
+<li>Low-poly 3D</li>
+<li>Low fidelity / lo-fi</li>
+<li>Lowbrow / populist</li>
+<li>Magical realism / fantasy realism</li>
+<li>Maximalism</li>
+<li>Medieval art</li>
+<li>Miniature art</li>
+<li>Minimalism</li>
+<li>Monochromatic</li>
+<li>Outsider art / art brut</li>
+<li>Photorealism</li>
+<li>Pixel art</li>
+<li>Pointillism</li>
+<li>Pop art</li>
+<li>Punk</li>
+<li>Psychedelic</li>
+<li>Renaissance art</li>
+<li>Romanticism</li>
+<li>Semi-realistic 3D</li>
+<li>Social realism</li>
+<li>Surrealism</li>
+<li>Stop motion</li>
+<li>Stylized 3D</li>
+<li>Surrealism</li>
+<li>Vector art</li>
+<li>Voxel art</li>
+</ul>
+</details>
 
 ### 6X. Interface [R][+]
 
