@@ -2235,16 +2235,6 @@ The controlled vocabulary for this element avoids duplicating terms used in voca
 
 ### 6N. Player Character [R][+]
 
-Definition: A character in the gameplay footage whose actions are controlled by the player 
-
-This element will typically be repeated. 
-
-Select "No player character" if no player character appears in the footage. 
-
-Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the player character. 
-
-Feature request (4 June 2026): select "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid). We will update the GPMS and GPFC as both projects unfold, and we will correct our mistakes and learn from them as they occur. Many aspects of this element are thus subject to change. 
-
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist" and "Controlled Vocabulary for Tropes," 2024)</summary>
 <ul>
