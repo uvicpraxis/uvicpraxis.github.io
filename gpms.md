@@ -24,9 +24,9 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * Brazie, A. (2024). Game Progression and Progression Systems. [https://gamedesignskills.com/game-design/game-progression/](https://gamedesignskills.com/game-design/game-progression/)
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
+* Getty Trust (2004). Art & Architecture Thesaurus Online: Full Record Display, "Theme." [https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523](https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
-* J. Paul Getty Trust (2004). Art & Architecture Thesaurus Online: Full Record Display, "Theme." [https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523](https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523)
 * Jan, M. (2017). Game Developer’s Guide to Graphical Projections. [https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d](https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d)
 * Lee, J. H., Perti, A., Cho, H., et al. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Visual Style. Version 1.6. [https://github.com/uwgamergroup/vocabulary-visual-style](https://github.com/uwgamergroup/vocabulary-visual-style)
 * Lee, J. H., Perti, A., Thirumalai, V., Welch, H., Zachary, A., & Nguyen, T. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Theme. Version 1.2. [https://github.com/uwgamergroup/vocabulary-theme](https://github.com/uwgamergroup/vocabulary-theme)
@@ -2188,7 +2188,7 @@ Select "No items" if the footage contains no items.
 
 Definition: "The pervading [mood] or tone of the" world appearing in the gameplay footage; it "evokes or recalls a certain emotion or state of mind" (Lee et al., "VGMS 4.2," 2024) 
 
-The controlled vocabulary for this element avoids duplicating terms used in vocabularies for other elements, such as "Narrative Genre," "Narrative Subgenre," and "Type of Play." 
+The controlled vocabulary for this element avoids duplicating terms used in vocabularies for other elements, such as "Narrative Genre," "Narrative Subgenre," "Type of Play," and "Experience." 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Mood," 2024)</summary>
@@ -2204,7 +2204,6 @@ The controlled vocabulary for this element avoids duplicating terms used in voca
 <li>Cozy</li>
 <li>Creative</li>
 <li>Dangerous</li>
-<li>Disturbing</li>
 <li>Eerie</li>
 <li>Energizing</li>
 <li>Erotic</li>
@@ -2214,7 +2213,6 @@ The controlled vocabulary for this element avoids duplicating terms used in voca
 <li>Hostile</li>
 <li>Intellectual</li>
 <li>Intense</li>
-<li>Intimate</li>
 <li>Lonely</li>
 <li>Mischievous</li>
 <li>Mournful</li>
@@ -2225,6 +2223,7 @@ The controlled vocabulary for this element avoids duplicating terms used in voca
 <li>Punishing</li>
 <li>Quotidian</li>
 <li>Rigid</li>
+<li>Scary</li>
 <li>Sentimental</li>
 <li>Serene</li>
 <li>Snarky</li>
@@ -2507,6 +2506,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Avoiding</li>
 <li>Balancing</li>
 <li>Barricading</li>
+<li>Battling</li>
 <li>Bidding</li>
 <li>Blocking</li>
 <li>Bluffing</li>
@@ -2514,7 +2514,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Building</li>
 <li>Buying</li>
 <li>Capturing</li>
-<li>Caring</li>
+<li>Caretaking</li>
 <li>Carrying</li>
 <li>Chaining</li>
 <li>Choosing</li>
@@ -2532,12 +2532,14 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Dealing</li>
 <li>Deckbuilding</li>
 <li>Decoding</li>
+<li>Decorating</li>
 <li>Defenestrating</li>
 <li>Delivering</li>
 <li>Destroying</li>
 <li>Digging</li>
 <li>Disk-flicking</li>
 <li>Dodging</li>
+<li>Doing acrobatics</li>
 <li>Drawing</li>
 <li>Drinking</li>
 <li>Driving</li>
@@ -2546,6 +2548,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Emoting</li>
 <li>Equipping</li>
 <li>Exercising</li>
+<li>Exploding</li>
 <li>Exploring</li>
 <li>Falling</li>
 <li>Farming</li>
@@ -2554,14 +2557,18 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Fishing</li>
 <li>Flying</li>
 <li>Foraging / gathering</li>
+<li>Gardening</li>
 <li>Grabbing</li>
 <li>Hacking</li>
 <li>Healing</li>
 <li>Hiding</li>
 <li>Hitting</li>
+<li>Hunting</li>
 <li>Inputting text</li>
-<li>Jumping / leaping</li>
+<li>Investigating</li>
+<li>Jumping</li>
 <li>Locking</li>
+<li>Looting</li>
 <li>Managing</li>
 <li>Matching</li>
 <li>Mining</li>
@@ -2581,6 +2588,7 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Programming</li>
 <li>Pulling</li>
 <li>Pushing</li>
+<li>Racing</li>
 <li>Raising creatures</li>
 <li>Releasing</li>
 <li>Researching</li>
@@ -2602,6 +2610,8 @@ This element will typically be repeated. Select only significant mechanics in ca
 <li>Skating</li>
 <li>Skiing</li>
 <li>Sneaking</li>
+<li>Sniping</li>
+<li>Solving puzzles</li>
 <li>Spellcasting</li>
 <li>Spinning</li>
 <li>Stealing</li>
@@ -2681,6 +2691,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Horizontal movement</li>
 <li>Hub / home base</li>
 <li>In-game reward</li>
+<li>Jumpscare / jump scare</li>
 <li>Level complete</li>
 <li>Levelling up</li>
 <li>Loading screen</li>
@@ -3167,6 +3178,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Pop quiz</li>
 <li>Power-up motif</li>
 <li>Power equals rarity</li>
+<li>Power fantasy</li>
 <li>Press X not to die</li>
 <li>Pressure plate</li>
 <li>Prince or princess in disguise</li>
@@ -3207,6 +3219,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Secret final campaign</li>
 <li>Secret police</li>
 <li>Shall I repeat that?</li>
+<li>Shared fantasy</li>
 <li>Shoplift and die</li>
 <li>Simon says</li>
 <li>Simple rescue mechanic</li>
@@ -3444,6 +3457,7 @@ Common interfaces include menus, maps, popups, graphic overlays, and heads-up di
 <li>Codex / journal</li>
 <li>Collectables / collections menu</li>
 <li>Content discovery menu </li>
+<li>Content or health warning screen</li>
 <li>Crafting menu / screen</li>
 <li>Credits sequence / screen</li>
 <li>Decals and liveries menu</li>
@@ -3508,9 +3522,81 @@ Common interfaces include menus, maps, popups, graphic overlays, and heads-up di
 
 ### 6Y. Experience [R][+]
 
-controlled vocabulary
+Definition: An emotion, feeling, or range of emotions and feelings experienced by the player when the gameplay footage was recorded
 
-monsters everywhere, Better as a Let's Play
+The person responsible for the gameplay (see "Gameplay Attribution") should complete this element. 
+
+The controlled vocabulary for this element avoids duplicating terms used in the vocabulary for "Atmosphere." 
+
+<details>
+<summary><i>controlled vocabulary</i></summary>
+<ul>
+<li>Admiration</li>
+<li>Affection</li>
+<li>Alienation</li>
+<li>Amusement</li>
+<li>Anger / rage</li>
+<li>Anticipation</li>
+<li>Apathy</li>
+<li>Avoidance</li>
+<li>Awe / wonder</li>
+<li>Belonging</li>
+<li>Betrayal</li>
+<li>Bittersweetness</li>
+<li>Boredom</li>
+<li>Camaraderie</li>
+<li>Catharsis</li>
+<li>Compassion</li>
+<li>Complicity</li>
+<li>Confusion</li>
+<li>Contempt</li>
+<li>Contentment</li>
+<li>Curiosity</li>
+<li>Dehumanization</li>
+<li>Disappointment</li>
+<li>Discouragement</li>
+<li>Disgust</li>
+<li>Dread</li>
+<li>Embarrassment</li>
+<li>Empathy</li>
+<li>Excitement</li>
+<li>Fascination</li>
+<li>Fatigue</li>
+<li>Fear</li>
+<li>Flow</li>
+<li>Freudenfreude</li>
+<li>Frustration</li>
+<li>Gratification</li>
+<li>Grief</li>
+<li>Guilt</li>
+<li>Happiness</li>
+<li>Humility</li>
+<li>Intimacy</li>
+<li>Jealousy</li>
+<li>Joy</li>
+<li>Love</li>
+<li>Overwhelm</li>
+<li>Perfectionism</li>
+<li>Pity</li>
+<li>Pride / mastery</li>
+<li>Regret</li>
+<li>Relief</li>
+<li>Resignation</li>
+<li>Sadness</li>
+<li>Schadenfreude </li>
+<li>Shame</li>
+<li>Stress</li>
+<li>Surprise</li>
+<li>Sympathy</li>
+<li>Terror</li>
+<li>Tilt</li>
+<li>Tranquility</li>
+<li>Triumph</li>
+<li>Trust</li>
+<li>Vulnerability </li>
+<li>Worry</li>
+</ul>
+</details>
 
 ### 6Z. Transaction [R][+]
 
