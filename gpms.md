@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 15 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 26 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
 
@@ -1241,7 +1241,7 @@ Definition: A configuration or appearance of the platform edition's accessibilit
 <li>Progress summary</li>
 <li>Realtime speech-to-text</li>
 <li>Realtime text-to-speech</li>
-<li>Remapped controls</li>
+<li>Remapped controls and buttons</li>
 <li>Screenreader</li>
 <li>Sign language</li>
 <li>Skip boss or enemy</li>
@@ -1920,6 +1920,8 @@ Definition: The general time period in which the gameplay footage is set
 Select "Fictional" if the time period is imaginary (that is, it originated in the video game or its franchise). 
 
 Select "Unspecified" when the time period is vague or cannot be determined.
+
+Note that the "Future" option is diegetic. Select it even if that future is now the past or present: for instance, a game published in 1984 that's set in 2025 but played in 2026 can be assigned the "Future" time period. 
 
 Use the "Gameplay Footage Note" to include a specific date, year, period, moment, or event represented by the gameplay footage. 
 
@@ -2964,7 +2966,6 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Catastrophic countdown</li>
 <li>Character-specific dialogue</li>
 <li>Character class system / job system</li>
-<li>Character customization</li>
 <li>Character portrait</li>
 <li>Checkpoint starvation</li>
 <li>Chess motif</li>
@@ -3296,7 +3297,7 @@ controlled vocabulary
 
 ### 6V. Assets [R][+]
 
-Definition: audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footage
+Definition: Audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footage
 
 This element will typically be repeated. Select only significant assets in cases where five or more options in the controlled vocabulary apply. 
 
@@ -3362,7 +3363,7 @@ This element will typically be repeated. Select only significant assets in cases
 
 ### 6W. Style [R][+]
 
-Definition: "The predominant and recognizable [artistic tendencies] and appearance of" the platform edition as represented by the gameplay footage (Lee et al., "VGMS 4.2," 2024)
+Definition: "The predominant and recognizable [artistic tendencies] and appearance of" the platform edition as demonstrated by the gameplay footage (Lee et al., "VGMS 4.2," 2024)
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Wikipedia, "List of Art Movements," 2026 and Lee et al.,"Controlled Vocabulary for Visual Style," 2024)</summary>
@@ -3424,9 +3425,86 @@ Definition: "The predominant and recognizable [artistic tendencies] and appearan
 
 ### 6X. Interface [R][+]
 
-controlled vocabulary 
+Definition: The means by which players interact or communicate with the game and each other in the gameplay footage; also, how the game prompts and transforms input into output in the gameplay footage
 
-playable menu, game over
+Common interfaces include menus, maps, popups, graphic overlays, and heads-up displays. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes, from Coates 2025)</summary>
+<ul>
+<li>Ability list screen or overlay</li>
+<li>Button layouts screen</li>
+<li>Button prompt (contextual)</li>
+<li>Buying and trading screen</li>
+<li>Character customization screen</li>
+<li>Character intro screen</li>
+<li>Character select screen</li>
+<li>Class / party select screen</li>
+<li>Clock / timer</li>
+<li>Codex / journal</li>
+<li>Collectables / collections menu</li>
+<li>Content discovery menu </li>
+<li>Crafting menu / screen</li>
+<li>Credits sequence / screen</li>
+<li>Decals and liveries menu</li>
+<li>Dialogue menu / speech screen</li>
+<li>Difficulty select screen</li>
+<li>Equipping / loadout menu</li>
+<li>Gallery / gallery menu</li>
+<li>Game over / failure screen</li>
+<li>Hacking or lockpicking controls</li>
+<li>Heads-up display / HUD</li>
+<li>Hub menu</li>
+<li>Inventory menu</li>
+<li>Items and unlocks menu</li>
+<li>Leaderboard / ranking screen</li>
+<li>Level complete screen</li>
+<li>Level editor</li>
+<li>Load / save screen</li>
+<li>Loading screen</li>
+<li>Log / history screen</li>
+<li>Maintenance or management screen</li>
+<li>Map / area map / world map</li>
+<li>Matchmaking lobby</li>
+<li>Minimap / compass</li>
+<li>Mission intro screen</li>
+<li>Mission accept / quest select screen</li>
+<li>Modals and popups</li>
+<li>Mode select screen</li>
+<li>Music player</li>
+<li>NPC information screen</li>
+<li>Object information screen</li>
+<li>Objectives or goals menu</li>
+<li>Overlay menu</li>
+<li>Pause screen</li>
+<li>Photo / camera mode</li>
+<li>Pickup prompt (contextual)</li>
+<li>Playable menu</li>
+<li>Player chat / communication overlay</li>
+<li>Player profile / customization screen</li>
+<li>Player select screen</li>
+<li>Post-game menu</li>
+<li>Progress notification / feature unlocked</li>
+<li>Quick time event</li>
+<li>Results screen</li>
+<li>Reticle</li>
+<li>Reward or achievement notification</li>
+<li>Settings menu / options menu</li>
+<li>Skins or accessories menu</li>
+<li>Stage intro screen</li>
+<li>Stage / level select</li>
+<li>Stats / overview screen</li>
+<li>Store / purchase menu</li>
+<li>Team summary screen</li>
+<li>Title screen</li>
+<li>Tutorial overlay / guided tutorial</li>
+<li>Update popup / news screen</li>
+<li>Upgrading / ranking up screen</li>
+<li>Video player</li>
+<li>Waypoints and markers</li>
+<li>World customization screen</li>
+</ul>
+</details>
 
 ### 6Y. Experience [R][+]
 
@@ -3438,7 +3516,7 @@ monsters everywhere, Better as a Let's Play
 
 controlled vocabulary 
 
-ad reward, 30-day free trial, microtransactions 
+ad reward, 30-day free trial, microtransactions, Gachas, crates, and boosters
 
 ### 6AA. Metagaming [R][+]
 
