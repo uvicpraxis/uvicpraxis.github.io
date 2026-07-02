@@ -1,10 +1,20 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 2 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 2 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (DRAFT)
 
-Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27.
+Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for internal release in 2026-27.
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Roadmap (as of 2 July 2026): 
+* Copy-edit the GPMS. 
+* Submit the GPMS for HCMC review. 
+* Test the GPMS on 75-100 gameplay files in the GPFC.
+* Update the controlled vocabularies after / during testing. 
+* Release Version 1.0 of the GPMS for non-commercial use and adaptation. 
+* Release the GPFC to UVic Media Studies for teaching and research purposes. 
+* Test and further apply the GPMS on 150-300 more gampeplay files in the GPFC. 
+* Determine whether to publicly release the GPFC or restrict its use to UVic. 
 
 ## Table of Contents
 
@@ -2311,7 +2321,14 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related 
 <li>PC cannot die</li>
 <li>PC cannot be customized</li>
 <li>PC has amnesia</li>
-<li>PC has great hair</li>
+<li>PC has black or brown hair</li> 
+<li>PC has blond hair</li> 
+<li>PC has blue hair</li> 
+<li>PC has green hair</li> 
+<li>PC has pink hair</li> 
+<li>PC has purple hair</li> 
+<li>PC has red or auburn hair</li> 
+<li>PC has white or gray hair</li> 
 <li>PC is a brawler</li>
 <li>PC is a builder</li>
 <li>PC is a child</li>
@@ -2422,7 +2439,14 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related 
 <li>NPC can die</li>
 <li>NPC cannot die</li>
 <li>NPC has amnesia</li>
-<li>NPC has great hair</li>
+<li>NPC has black or brown hair</li> 
+<li>NPC has blond hair</li> 
+<li>NPC has blue hair</li> 
+<li>NPC has green hair</li> 
+<li>NPC has pink hair</li> 
+<li>NPC has purple hair</li> 
+<li>NPC has red or auburn hair</li> 
+<li>NPC has white or gray hair</li> 
 <li>NPC is a brawler</li>
 <li>NPC is a builder</li>
 <li>NPC is a child</li>
@@ -3600,7 +3624,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Tranquility</li>
 <li>Triumph</li>
 <li>Trust</li>
-<li>Vulnerability </li>
+<li>Vulnerability</li>
 <li>Worry</li>
 </ul>
 </details>
@@ -3608,6 +3632,8 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 ### 6Z. Transaction [R][+]
 
 Definition: Purchases and forms of monetization that appear in, or are indexed by, the gameplay footage
+
+Select "No transaction" if the footage contains no observable purchase or form of monetization. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adpated, with minor changes and additions, from Wikipedia, "Video Game Monetization," 2026)</summary>
@@ -3621,6 +3647,7 @@ Definition: Purchases and forms of monetization that appear in, or are indexed b
 <li>Freeware</li>
 <li>In-game currency / premium currency</li>
 <li>Loot boxes / Gacha</li>
+<li>No transaction</li>
 <li>Play-to-earn / pay-to-earn</li>
 <li>Player trading</li>
 <li>Premium content</li>
