@@ -10,10 +10,10 @@ Roadmap (as of 2 July 2026):
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review. 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
-* Update the controlled vocabularies after / during testing. 
+* Update the controlled vocabularies after/during testing. 
 * Release Version 1.0 of the GPMS for non-commercial use and adaptation. 
 * Release the GPFC to UVic Media Studies for teaching and research purposes. 
-* Test and further apply the GPMS on 150-300 more gampeplay files in the GPFC. 
+* Test and further apply the GPMS on 150-300 more gameplay files in the GPFC. 
 * Determine whether to publicly release the GPFC or restrict its use to UVic. 
 
 ## Table of Contents
