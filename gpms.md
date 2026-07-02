@@ -1,6 +1,6 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 26 June 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is an incomplete draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 2 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
-# Gameplay Metadata Schema (GPMS) (INCOMPLETE DRAFT)
+# Gameplay Metadata Schema (GPMS) (DRAFT)
 
 Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for release in 2026-27.
 
@@ -20,13 +20,17 @@ License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 The GPMS adapts the following projects for many of its entities, elements, and controlled vocabularies: 
 
+* Anable, A. (2018). Playing with Feelings: Video Games and Affect. University of Minnesota Press. 
 * BoardGameGeek (n.d.). Board Game Mechanics. [https://boardgamegeek.com/browse/boardgamemechanic](https://boardgamegeek.com/browse/boardgamemechanic)
+* Boluk, S. & LeMieux, P. (2017). Metagaming: Playing, Competing, Spectating, Cheating, Trading, Making, and Breaking Videogames. University of Minnesota Press. 
 * Brazie, A. (2024). Game Progression and Progression Systems. [https://gamedesignskills.com/game-design/game-progression/](https://gamedesignskills.com/game-design/game-progression/)
+* Carter, M., Gibbs, M., & Harrop, M. (2012). Metagames, Paragames and Orthogames: A New Vocabulary. Foundations of Digital Games '12. 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
 * Ellis, B. et al. (n.d.). Game Accessibility Guidelines. [https://gameaccessibilityguidelines.com/](https://gameaccessibilityguidelines.com/)
 * Getty Trust (2004). Art & Architecture Thesaurus Online: Full Record Display, "Theme." [https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523](https://www.getty.edu/vow/AATFullDisplay?find=theme&logic=AND&note=&english=N&prev_page=1&subjectid=300195523)
 * International Council of Museums (ICOM)'s International Committee for Documentation (CIDOC) (2011). Conceptual Reference Model (CRM). [https://cidoc-crm.org/](https://cidoc-crm.org/)
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
+* Isbister, K. (2016). How Games Move Us: Emotion by Design. The MIT Press. 
 * Jan, M. (2017). Game Developer’s Guide to Graphical Projections. [https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d](https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d)
 * Lee, J. H., Perti, A., Cho, H., et al. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Visual Style. Version 1.6. [https://github.com/uwgamergroup/vocabulary-visual-style](https://github.com/uwgamergroup/vocabulary-visual-style)
 * Lee, J. H., Perti, A., Thirumalai, V., Welch, H., Zachary, A., & Nguyen, T. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Theme. Version 1.2. [https://github.com/uwgamergroup/vocabulary-theme](https://github.com/uwgamergroup/vocabulary-theme)
@@ -46,8 +50,9 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * --- (2026). Glossary of Video Game Terms. [https://en.wikipedia.org/wiki/Glossary_of_video_game_terms](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
 * --- (2026). Item (game terminology). [https://en.wikipedia.org/wiki/Item_(game_terminology)](https://en.wikipedia.org/wiki/Item_(game_terminology))
 * --- (2026). List of Art Movements. [https://en.wikipedia.org/wiki/List_of_art_movements](https://en.wikipedia.org/wiki/List_of_art_movements)
-* --- (2025). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
+* --- (2026). List of Game Engines. [https://en.wikipedia.org/wiki/List_of_game_engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 * --- (2026). List of Genres. [https://en.wikipedia.org/wiki/List_of_genres](https://en.wikipedia.org/wiki/List_of_genres)
+* --- (2026). Video game monetization. [https://en.wikipedia.org/wiki/Video_game_monetization](https://en.wikipedia.org/wiki/Video_game_monetization)
   
 See citations below for specific instances of adaptation. 
 
@@ -489,7 +494,7 @@ Definition: The software framework and/or development environment used to design
 Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website, title screen, and/or credits sequence to confirm the engine.
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Wikipedia, "List of Game Engines," 2025)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with minor changes, from Wikipedia, "List of Game Engines," 2026)</summary>
 <ul>
 <li>4A Engine</li>
 <li>A-FRAME (VR)</li>
@@ -1475,6 +1480,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Party / parlour</li>
 <li>Physics sim / physics puzzle</li>
 <li>Photography sim</li>
+<li>Picross / nonogram</li>
 <li>Pinball</li>
 <li>Pipe puzzle</li>
 <li>Platform / platformer</li>
@@ -1530,7 +1536,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Wargame / grand strategy</li>
 <li>Water sports</li>
 <li>Winter sports</li>
-<li>Word construction / word puzzle / crossword</li>
+<li>Word puzzle / crossword</li>
 </ul>
 </details>
 
@@ -2246,9 +2252,9 @@ This element will typically be repeated.
 
 Select "No player character" if no player character appears in the footage. 
 
-Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the player character. 
+When pertinent, select "implicit" for the option when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid), and thus we will update this controlled vocabulary as the GPFC unfolds. 
 
-Feature request (4 June 2026): select "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid). We will update the GPMS and GPFC as both projects unfold, and we will correct our mistakes and learn from them as they occur. Many aspects of this element are thus subject to change. 
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the player character. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist" and "Controlled Vocabulary for Tropes," 2024)</summary>
@@ -2368,9 +2374,9 @@ This element will typically be repeated.
 
 Select "No non-player character" if a non-player character does not appear in the footage. 
 
-Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the non-player character. 
+When pertinent, select "implicit" for the option when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid), and thus we will update this controlled vocabulary as the GPFC unfolds. 
 
-Feature request (4 June 2026): select "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid). We will update the GPMS and GPFC as both projects unfold, and we will correct our mistakes and learn from them as they occur. Many aspects of this element are thus subject to change. 
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the non-player character. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist" and "Controlled Vocabulary for Tropes," 2024)</summary>
@@ -2673,7 +2679,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Cognitive development</li>
 <li>Collectible</li>
 <li>Core loop</li>
-<li>Cutscene</li>
+<li>Cutscene / cut scene</li>
 <li>Death</li>
 <li>Dialogue tree</li>
 <li>Elimination / team wipe</li>
@@ -2719,6 +2725,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Save point</li>
 <li>Scripted event</li>
 <li>Skill tree / tech tree</li>
+<li>Time loop</li>
 <li>Upgrade</li>
 <li>Vertical movement</li>
 </ul>
@@ -3529,7 +3536,7 @@ The person responsible for the gameplay (see "Gameplay Attribution") should comp
 The controlled vocabulary for this element avoids duplicating terms used in the vocabulary for "Atmosphere." 
 
 <details>
-<summary><i>controlled vocabulary</i></summary>
+<summary><i>controlled vocabulary</i> (informed by Isbister 2016 and Anable 2018)</summary>
 <ul>
 <li>Admiration</li>
 <li>Affection</li>
@@ -3600,15 +3607,86 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 
 ### 6Z. Transaction [R][+]
 
-controlled vocabulary 
+Definition: Purchases and forms of monetization that appear in, or are indexed by, the gameplay footage
 
-ad reward, 30-day free trial, microtransactions, Gachas, crates, and boosters
+<details>
+<summary><i>controlled vocabulary</i> (adpated, with minor changes and additions, from Wikipedia, "Video Game Monetization," 2026)</summary>
+<ul>
+<li>Advertising</li>
+<li>Battle pass</li>
+<li>Cosmetics</li>
+<li>Downloadable content / expansion pack</li>
+<li>Free-to-play</li>
+<li>Freemium</li>
+<li>Freeware</li>
+<li>In-game currency / premium currency</li>
+<li>Loot boxes / Gacha</li>
+<li>Play-to-earn / pay-to-earn</li>
+<li>Player trading</li>
+<li>Premium content</li>
+<li>Progression skip</li>
+<li>Season pass / buy-to-play</li>
+<li>Shareware</li>
+<li>Subscription / pay-to-play</li>
+</ul>
+</details>
 
 ### 6AA. Metagaming [R][+]
 
-controlled vocabulary
+Definition: Acts of play appearing in the gamemplay footage that "involve or consider resources that are 'beyond' the scope or control of what players . . . collectively consider to be the 'right and correct game'" (Carter et al. 2012)
 
-soft reset, not the intended use, house rules, cheat code, sequence breaking, script breaking, cheese strategy, save scumming, self-imposed challenge
+Select "Orthogame (no observable meta)" if the footage contains no observable or deliberate metagaming. 
+
+The "Current meta" option applies to the meta as of the date of play and recording . 
+
+<details>
+<summary><i>controlled vocabulary</i> (informed by Carter et al. 2012 and Boluk & LeMieux 2017; adpated, with changes and additions, from TV Tropes 2026)</summary>
+<ul>
+<li>Advanced movement technique
+<li>AI breaking</li>
+<li>Anti-meta</li>
+<li>Cheat code</li>
+<li>Cheesing / cheese strategy</li>
+<li>Complacent gaming</li>
+<li>Current meta</li>
+<li>Derailing / derailment</li>
+<li>Dev console</li>
+<li>Disc-one nuke</li>
+<li>Duping</li>
+<li>Easy level trick</li>
+<li>Emulation</li>
+<li>Exploit</li>
+<li>Game-breaker</li>
+<li>God mode</li>
+<li>Good bad bug</li>
+<li>Griefing</li>
+<li>House rules</li>
+<li>Min-maxing</li>
+<li>Mod / modding</li>
+<li>Movement glitch</li>
+<li>Munchkinning / munchkin</li>
+<li>Not the intended use</li>
+<li>Optional stealth</li>
+<li>Orthogame (no observable meta)</li>
+<li>Outside-the-box tactic</li>
+<li>Pause scumming</li>
+<li>Rock-paper-scissors</li>
+<li>Safe zone</li>
+<li>Save scumming</li>
+<li>Score milking</li>
+<li>Script breaking</li>
+<li>Self-imposed challenge / challenge run</li>
+<li>Sequence breaking</li>
+<li>Smurfing</li>
+<li>Soft reset</li>
+<li>Solo-character run</li>
+<li>Spawncamping</li>
+<li>Speedrun</li>
+<li>Testing the narrative</li>
+<li>Testing the system</li>
+<li>Theorycrafting</li>
+</ul>
+</details>
 
 ### 6BB. Content Warning [R]
 
