@@ -7,7 +7,7 @@ Jentery Sayers and the Praxis Studio developed this metadata schema to describe 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Roadmap (as of 3 July 2026): 
-* Complete the GPMS. Remaining elements: Tropes (x4) and Game Studies Topic.  
+* Complete the GPMS. Remaining elements: Tropes (x4), Game Studies Topic, and Media Studies Topic.   
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review. 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
