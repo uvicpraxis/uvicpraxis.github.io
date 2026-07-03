@@ -7,6 +7,7 @@ Jentery Sayers and the Praxis Studio developed this metadata schema to describe 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Roadmap (as of 2 July 2026): 
+* Complete the GPMS. 
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review. 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
@@ -1315,16 +1316,19 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Timekeeping](#6q-timekeeping-r) [R][+] (controlled vocabulary) 
 * [Progression](#6r-progression-r) [R][+] (controlled vocabulary) 
 * [Theme](#6s-theme-r) [R][+] (controlled vocabulary)
-* [Trope](#6t-trope-r) [R][+] (controlled vocabulary)
-* [Stereotype](#6u-stereotype-r) [R][+] (controlled vocabulary)
-* [Assets](#6v-assets-r) [R][+] (controlled vocabulary)
-* [Style](#6w-style-r) [R][+] (controlled vocabulary)
-* [Interface](#6x-interface-r) [R][+] (controlled vocabulary)
-* [Experience](#6y-experience-r) [R][+] (controlled vocabulary)
-* [Transaction](#6z-transaction-r) [R][+] (controlled vocabulary) 
-* [Metagaming](#6aa-metagaming-r) [R][+] (controlled vocabulary)
-* [Content Warning](#6bb-content-warning-r) [R] (text input field)
-* [Gameplay Footage Note](#6cc-gameplay-footage-note) (text input field)
+* [Gameplay Trope]() [R][+] (controlled vocabulary)
+* [Environment Trope]() [R][+] (controlled vocabulary)
+* [Progression Trope]() [R][+] (controlled vocabulary)
+* [Narrative Trope]() [R][+] (controlled vocabulary)
+* [Character Trope]() [R][+] (controlled vocabulary)
+* [Assets]() [R][+] (controlled vocabulary)
+* [Style]() [R][+] (controlled vocabulary)
+* [Interface]() [R][+] (controlled vocabulary)
+* [Experience]() [R][+] (controlled vocabulary)
+* [Transaction]() [R][+] (controlled vocabulary) 
+* [Metagaming]() [R][+] (controlled vocabulary)
+* [Content Warning]() [R] (text input field)
+* [Gameplay Footage Note]() (text input field)
 
 ### 6A. Type of Play [R][+]
 
@@ -2262,124 +2266,129 @@ This element will typically be repeated.
 
 Select "No player character" if no player character appears in the footage. 
 
-When pertinent, select "implicit" for the option when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid), and thus we will update this controlled vocabulary as the GPFC unfolds. 
+When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will update this controlled vocabulary as the GPFC unfolds. 
 
 Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the player character. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist" and "Controlled Vocabulary for Tropes," 2024)</summary>
 <ul>
-<li>African PC</li>
-<li>Agender PC</li>
-<li>Aromantic PC</li>
-<li>Asexual PC</li>
-<li>Asian PC</li>
-<li>Australian PC / from Oceania</li>
-<li>Autistic PC</li>
+<li>Adult</li>
+<li>African</li>
+<li>Agender</li>
+<li>Amnesiac</li>
+<li>Aromantic</li>
+<li>Asexual</li>
+<li>Asian</li>
+<li>Assimilator</li>
+<li>Australian / from Oceania</li>
+<li>Autistic</li>
 <li>Avatar</li>
-<li>Bisexual PC</li>
-<li>Black PC</li>
+<li>Bisexual</li>
+<li>Black</li>
 <li>Blank slate / cipher</li>
-<li>Blind PC</li>
-<li>Canadian PC</li>
+<li>Blind</li>
+<li>Brawler</li>
+<li>Builder</li>
+<li>Canadian</li>
+<li>Child</li>
+<li>Collector</li>
+<li>Colonizer / settler</li>
 <li>Customizable age</li>
 <li>Customizable character model</li>
 <li>Customizable complexion</li>
 <li>Customizable gender</li>
 <li>Customizable hair</li>
-<li>Customizable PC</li>
 <li>Customizable race/ethnicity</li>
 <li>Customizable relationships</li>
 <li>Customizable species</li>
-<li>Deaf PC</li>
-<li>Demisexual PC</li>
-<li>Disabled PC</li>
-<li>Entitled PC</li>
-<li>European PC</li>
-<li>Female PC</li>
+<li>Deaf</li>
+<li>Demisexual</li>
+<li>Disabled</li>
+<li>Elder</li>
+<li>Entitled</li>
+<li>European</li>
+<li>Female</li>
 <li>Fictional species</li>
-<li>Gay PC</li>
-<li>Gender non-conforming PC</li>
-<li>Genderfluid PC</li>
-<li>Genderqueer PC</li>
-<li>Hearing-impaired PC</li>
-<li>Heterosexual PC / straight PC</li>
-<li>Indigenous PC</li>
-<li>Intersex PC</li>
-<li>Lesbian PC</li>
-<li>Male PC</li>
-<li>Neurodivergent PC</li>
+<li>Fundamentalist</li>
+<li>Gay</li>
+<li>Gender non-conforming</li>
+<li>Genderfluid</li>
+<li>Genderqueer</li>
+<li>Hearing-impaired</li>
+<li>Heretic</li>
+<li>Hero</li>
+<li>Heterosexual / straight</li>
+<li>Hivemind</li>
+<li>Hostage</li>
+<li>Hunter</li>
+<li>Immigrant</li>
+<li>Indigenous</li>
+<li>Intersex</li>
+<li>Isolationist</li>
+<li>Lesbian</li>
+<li>Librarian / archivist</li>
+<li>Magic user</li>
+<li>Male</li>
+<li>Matriarch</li>
+<li>Migrant</li>
+<li>Monster</li>
+<li>Neurodivergent</li>
 <li>No player character</li>
-<li>Non-binary PC</li>
-<li>Nonhuman PC</li>
-<li>North American PC</li>
+<li>Non-binary</li>
+<li>Non-corporeal</li>
+<li>Nonhuman</li>
+<li>North American</li>
 <li>Original character</li>
-<li>Overpowered PC</li>
-<li>Pansexual PC</li>
+<li>Outlaw</li>
+<li>Overlord / conqueror</li>
+<li>Overpowered</li>
+<li>Pansexual</li>
+<li>Parent / guardian</li>
 <li>Party member</li>
+<li>Patriarch</li>
 <li>PC can die</li>
 <li>PC cannot die</li>
 <li>PC cannot be customized</li>
-<li>PC has amnesia</li>
 <li>PC has black or brown hair</li> 
 <li>PC has blond hair</li> 
 <li>PC has blue hair</li> 
 <li>PC has green hair</li> 
+<li>PC has no hair</li>
 <li>PC has pink hair</li> 
 <li>PC has purple hair</li> 
 <li>PC has red or auburn hair</li> 
 <li>PC has white or gray hair</li> 
-<li>PC is a brawler</li>
-<li>PC is a builder</li>
-<li>PC is a child</li>
-<li>PC is a collector</li>
-<li>PC is a colonizer / settler</li>
-<li>PC is a fundamentalist</li>
-<li>PC is a heretic</li>
-<li>PC is a hero</li>
-<li>PC is a hostage</li>
-<li>PC is a hunter</li>
-<li>PC is a hivemind</li>
-<li>PC is a magic user</li>
-<li>PC is a migrant</li>
-<li>PC is a parent / guardian</li>
-<li>PC is a pirate</li>
-<li>PC is a ranger</li>
-<li>PC is a revolutionary</li>
-<li>PC is a rogue</li>
-<li>PC is a shapeshifter</li>
-<li>PC is a spy</li>
-<li>PC is a stereotype</li>
-<li>PC is a stranger / visitor</li>
-<li>PC is a student</li>
-<li>PC is a tank</li>
-<li>PC is a teenager</li>
-<li>PC is a twin</li>
-<li>PC is a villain</li>
-<li>PC is a war veteran</li>
-<li>PC is an adult</li>
-<li>PC is an elder</li>
-<li>PC is an immigrant</li>
-<li>PC is an outlaw</li>
-<li>PC is an overlord</li>
-<li>PC is funny</li>
-<li>PC is non-corporeal</li>
-<li>PC is poor</li>
-<li>PC is pregnant</li>
-<li>PC is strong</li>
-<li>PC is undead</li>
-<li>PC is weak</li>
-<li>PC is wealthy</li>
-<li>Queer PC</li>
-<li>Racialized PC</li>
-<li>Religious PC</li>
-<li>Roleplay</li>
-<li>Silent protagonist</li>
-<li>South American PC</li>
-<li>Trans PC</li>
-<li>Two-spirit PC</li>
-<li>Visually-impaired PC</li>
-<li>White PC</li>
+<li>Pirate</li>
+<li>Poor</li>
+<li>Pregnant</li>
+<li>Queer</li>
+<li>Racialized</li>
+<li>Ranger</li>
+<li>Religious</li>
+<li>Revolutionary</li>
+<li>Robot / android / automaton</li>
+<li>Rogue / assassin</li>
+<li>Shapeshifter</li>
+<li>Shopkeeper</li>
+<li>South American</li>
+<li>Spy / spymaster</li>
+<li>Stranger / visitor</li>
+<li>Strong</li>
+<li>Student</li>
+<li>Tank</li>
+<li>Teenager</li>
+<li>Trans</li>
+<li>Twin</li>
+<li>Two-spirit</li>
+<li>Undead</li>
+<li>Villager</li>
+<li>Villain</li>
+<li>Visually-impaired</li>
+<li>War veteran / commander</li>
+<li>Weak</li>
+<li>Wealthy</li>
+<li>White</li>
 </ul>
 </details>
 
@@ -2391,128 +2400,134 @@ This element will typically be repeated.
 
 Select "No non-player character" if a non-player character does not appear in the footage. 
 
-When pertinent, select "implicit" for the option when characters are implicitly coded and "explicit" when they are explicitly coded (Shaw et al. 2025). As Adrienne Shaw et al. note, these selections are a fraught process (ibid), and thus we will update this controlled vocabulary as the GPFC unfolds. 
+When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will update this controlled vocabulary as the GPFC unfolds. 
 
 Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the non-player character. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist" and "Controlled Vocabulary for Tropes," 2024)</summary>
 <ul>
-<li>African NPC</li>
-<li>Agender NPC</li>
-<li>Aromantic NPC</li>
-<li>Asexual NPC</li>
-<li>Asian NPC</li>
-<li>Australian NPC / from Oceania</li>
-<li>Autistic NPC</li>
-<li>Bisexual NPC</li>
-<li>Black NPC</li>
-<li>Blind NPC</li>
+<li>Adult</li>
+<li>African</li>
+<li>Agender</li>
+<li>Amnesiac</li>
+<li>Aromantic</li>
+<li>Asexual</li>
+<li>Asian</li>
+<li>Assimilator</li>
+<li>Australian / from Oceania</li>
+<li>Autistic</li>
+<li>Bisexual</li>
+<li>Black</li>
+<li>Blind</li>
 <li>Boss</li>
-<li>Canadian NPC</li>
+<li>Brawler</li>
+<li>Builder</li>
+<li>Canadian</li>
 <li>Companion / buddy</li>
-<li>Customizable NPC</li>
-<li>Deaf NPC</li>
-<li>Demisexual NPC</li>
-<li>Disabled NPC</li>
-<li>Entitled NPC</li>
-<li>European NPC</li>
+<li>Child</li>
+<li>Collector</li>
+<li>Colonizer / settler</li>
+<li>Customizable</li>
+<li>Deaf</li>
+<li>Demisexual</li>
+<li>Disabled</li>
+<li>Elder</li>
+<li>Enemy / hostile</li>
+<li>Entitled</li>
+<li>European</li>
 <li>Familiar</li>
-<li>Female NPC</li>
+<li>Female</li>
 <li>Fictional species</li>
-<li>Gay NPC</li>
-<li>Gender non-conforming NPC</li>
-<li>Genderfluid NPC</li>
-<li>Genderqueer NPC</li>
-<li>Hearing-impaired NPC</li>
-<li>Heterosexual NPC / straight NPC</li>
-<li>Imaginary NPC</li>
-<li>Indigenous NPC</li>
-<li>Intersex NPC</li>
-<li>Lesbian NPC</li>
-<li>Male NPC</li>
-<li>Neurodivergent NPC</li>
+<li>Friendly / not hostile</li>
+<li>Fundamentalist</li>
+<li>Gay</li>
+<li>Gender non-conforming</li>
+<li>Genderfluid</li>
+<li>Genderqueer</li>
+<li>Guide</li>
+<li>Hearing-impaired</li>
+<li>Heretic</li>
+<li>Hero</li>
+<li>Heterosexual / straight</li>
+<li>Hivemind</li>
+<li>Hostage</li>
+<li>Hunter</li>
+<li>Imaginary</li>
+<li>Immigrant</li>
+<li>Indigenous</li>
+<li>Intersex</li>
+<li>Isolationist</li>
+<li>Lesbian</li>
+<li>Librarian / archivist</li>
+<li>Magic user</li>
+<li>Male</li>
+<li>Matriarch</li>
+<li>Migrant</li>
+<li>Monster</li>
+<li>Neurodivergent</li>
 <li>No non-player character</li>
-<li>Non-binary NPC</li>
-<li>Nonhuman NPC</li>
-<li>North American NPC</li>
+<li>Non-binary PC</li>
+<li>Non-corporeal</li>
+<li>Nonhuman PC</li>
+<li>North American PC</li>
 <li>NPC can die</li>
 <li>NPC cannot die</li>
-<li>NPC has amnesia</li>
 <li>NPC has black or brown hair</li> 
 <li>NPC has blond hair</li> 
 <li>NPC has blue hair</li> 
 <li>NPC has green hair</li> 
+<li>NPC has no hair</li>
 <li>NPC has pink hair</li> 
 <li>NPC has purple hair</li> 
 <li>NPC has red or auburn hair</li> 
 <li>NPC has white or gray hair</li> 
-<li>NPC is a brawler</li>
-<li>NPC is a builder</li>
-<li>NPC is a child</li>
-<li>NPC is a collector</li>
-<li>NPC is a colonizer / settler</li>
-<li>NPC is a fetch quest</li>
-<li>NPC is a fundamentalist</li>
-<li>NPC is a guide</li>
-<li>NPC is a helper</li>
-<li>NPC is a heretic</li>
-<li>NPC is a hero</li>
-<li>NPC is a hivemind</li>
-<li>NPC is a hostage</li>
-<li>NPC is a hunter</li>
-<li>NPC is a magic user</li>
-<li>NPC is a migrant</li>
-<li>NPC is a parent / guardian</li>
-<li>NPC is a pirate</li>
-<li>NPC is a protagonist</li>
-<li>NPC is a ranger</li>
-<li>NPC is a revolutionary</li>
-<li>NPC is a rival</li>
-<li>NPC is a rogue</li>
-<li>NPC is a shapeshifter</li>
-<li>NPC is a spy</li>
-<li>NPC is a stereotype</li>
-<li>NPC is a student</li>
-<li>NPC is a tank</li>
-<li>NPC is a teenager</li>
-<li>NPC is a twin</li>
-<li>NPC is a villain</li>
-<li>NPC is a war veteran</li>
-<li>NPC is an adult</li>
-<li>NPC is an elder</li>
-<li>NPC is an enemy / monster</li>
-<li>NPC is an immigrant</li>
-<li>NPC is an outlaw</li>
-<li>NPC is an overlord</li>
-<li>NPC is hostile </li>
-<li>NPC is funny</li>
-<li>NPC is non-corporeal</li>
-<li>NPC is PC's grandparent</li>
-<li>NPC is PC's mentor / adviser</li>
-<li>NPC is PC's roommate</li>
-<li>NPC is PC's parent / guardian</li>
-<li>NPC is PC's partner </li>
-<li>NPC is PC's sibling</li>
-<li>NPC is PC's teacher</li>
-<li>NPC is poor</li>
-<li>NPC is pregnant</li>
-<li>NPC is undead</li>
-<li>NPC is wealthy</li>
-<li>Overpowered NPC</li>
-<li>Pansexual NPC</li>
+<li>Outlaw</li>
+<li>Overlord / conqueror</li>
+<li>Overpowered</li>
+<li>Pansexual</li>
+<li>Parent / guardian</li>
 <li>Party member</li>
+<li>Patriarch</li>
+<li>PC's grandparent</li>
+<li>PC's mentor / adviser</li>
+<li>PC's parent / guardian</li>
+<li>PC's partner</li>
+<li>PC's rival</li>
+<li>PC's roommate</li>
+<li>PC's sibling</li>
+<li>PC's teacher / tutor</li>
 <li>Pet</li>
-<li>Queer NPC</li>
-<li>Racialized NPC</li>
-<li>Religious NPC</li>
+<li>Pirate</li>
+<li>Poor</li>
+<li>Pregnant</li>
+<li>Protagonist</li>
+<li>Queer</li>
+<li>Racialized</li>
+<li>Ranger</li>
+<li>Religious</li>
+<li>Revolutionary</li>
+<li>Robot / android / automaton</li>
+<li>Rogue / assassin</li>
+<li>Shapeshifter</li>
 <li>Shopkeeper</li>
-<li>South American NPC</li>
-<li>Trans NPC</li>
-<li>Tutorial NPC</li>
-<li>Two-spirit NPC</li>
-<li>Visually-impaired NPC</li>
-<li>White NPC</li>
+<li>South American</li>
+<li>Spy / spymaster</li>
+<li>Stranger / visitor</li>
+<li>Strong</li>
+<li>Student</li>
+<li>Tank</li>
+<li>Teenager</li>
+<li>Trans</li>
+<li>Twin</li>
+<li>Two-spirit</li>
+<li>Undead</li>
+<li>Villain</li>
+<li>Visually-impaired</li>
+<li>War veteran / commander</li>
+<li>Weak</li>
+<li>Wealthy</li>
+<li>White</li>
 </ul>
 </details>
 
@@ -2761,6 +2776,8 @@ Definition: "A common thread, motif, subject, or idea that recurs in" the gamepl
 
 This element will typically be repeated. Select only significant themes in cases where five or more options in the controlled vocabulary apply. 
 
+The controlled vocabulary for this element avoids duplicating terms used in the vocabularies for "Atmosphere" and "Experience." 
+
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with additions, from Lee et al., "Controlled Vocabulary for Theme," 2024)</summary>
 <ul>
@@ -2777,6 +2794,7 @@ This element will typically be repeated. Select only significant themes in cases
 <li>Anti-war</li>
 <li>Apocalypse / post-apocalypse</li>
 <li>Arrogance / hubris</li>
+<li>Assimilation</li>
 <li>Athletics</li>
 <li>Beauty / attraction</li>
 <li>Belonging / inclusion</li>
@@ -2931,7 +2949,6 @@ This element will typically be repeated. Select only significant themes in cases
 <li>Social norms / conformity</li>
 <li>Socialism</li>
 <li>Spirituality</li>
-<li>Stranger</li>
 <li>Sublime</li>
 <li>Succession</li>
 <li>Technological determinism</li>
@@ -2959,387 +2976,37 @@ This element will typically be repeated. Select only significant themes in cases
 </ul>
 </details>
 
-### 6T. Trope [R][+]
+### 6T. Gameplay Trope [R][+]
 
-Definition: "A generally recognizable narrative device or [gameplay] convention [appearing in the footage]. Tropes rely on culturally mediated expectations to expedite the development of [gameplay], events, characterization, or narrative. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities [see 6U. Stereotype]" (Lee et al., "VGMS 4.2," 2024)
-
-This element will typically be repeated. Select only significant tropes in cases where five or more options in the controlled vocabulary apply. 
-
-See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of most elements in this controlled vocabulary. 
-
-<details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
-<ul>
-<li>Ability required to proceed</li>
-<li>Acceptable break from reality</li>
-<li>Action-based mission</li>
-<li>Action commands</li>
-<li>Addressing the player</li>
-<li>Adventure-friendly world</li>
-<li>Alchemic elementals</li>
-<li>Animal sidekick</li>
-<li>Announcer chatter</li>
-<li>Another side, another story</li>
-<li>Antepiece for the setpiece</li>
-<li>Arbitrary mission restriction</li>
-<li>Area of effect</li>
-<li>Art shift</li>
-<li>Attack its weak point</li>
-<li>Back from the brink</li>
-<li>Backtracking</li>
-<li>Bats won't leave you alone</li>
-<li>Battle intro</li>
-<li>Battle theme music</li>
-<li>Big bad</li>
-<li>Big first choice</li>
-<li>Blacksmith upgrade service</li>
-<li>Blamed for being railroaded</li>
-<li>Boss battle</li>
-<li>Boss runback</li>
-<li>Bottle episode</li>
-<li>Bottomless fuel tanks</li>
-<li>Breather level</li>
-<li>Bright and colourful war</li>
-<li>Broken bridge</li>
-<li>Brutal bonus level</li>
-<li>But thou must! / it's up to you</li>
-<li>Calling your shots</li>
-<li>Calvinball</li>
-<li>Catastrophic countdown</li>
-<li>Character-specific dialogue</li>
-<li>Character class system / job system</li>
-<li>Character portrait</li>
-<li>Checkpoint starvation</li>
-<li>Chess motif</li>
-<li>Choices don't matter</li>
-<li>Choices matter</li>
-<li>Clairvoyant security force</li>
-<li>Collision damage</li>
-<li>Colour-coded armies or groups</li>
-<li>Colour-coded multiplayer</li>
-<li>Com mon / common monster</li>
-<li>Combat resuscitation</li>
-<li>Comeback mechanic</li>
-<li>Commander is you</li>
-<li>Completion mockery</li>
-<li>Computer is lying to me</li>
-<li>Computer shall taunt you</li>
-<li>Concealed customization</li>
-<li>Context-sensitive button</li>
-<li>Control room puzzle</li>
-<li>Controllable helplessnes</li>
-<li>Cooldown</li>
-<li>Cooperation versus competition</li>
-<li>Corridor cubbyhole run</li>
-<li>Coup de grâce cutscene</li>
-<li>Cranium ride</li>
-<li>Crate expectations / crates everywhere</li>
-<li>Critical hit</li>
-<li>Critical status buff</li>
-<li>Cruelty is the only option</li>
-<li>Damage is fire</li>
-<li>Dangerous relative / family member</li>
-<li>Deadly game of chance</li>
-<li>Defeat means playable</li>
-<li>Defeating the cheating opponent</li>
-<li>Deliberate game crash</li>
-<li>Delivery quest</li>
-<li>Demonic spiders</li>
-<li>Designated victim</li>
-<li>Destruction-proof fire exit</li>
-<li>Dev is smarter than me</li>
-<li>Developer's desired date</li>
-<li>Dialogue during gameplay</li>
-<li>Diegetic character creation</li>
-<li>Diegetic simulation</li>
-<li>Difficulty spike</li>
-<li>Disembodied dialogue / voice</li>
-<li>Drop-in-drop-out multiplayer</li>
-<li>Dueling player characters</li>
-<li>Dynamic loading</li>
-<li>Early game hell</li>
-<li>Earn your bad ending</li>
-<li>Earn your fun</li>
-<li>Earn your happy ending</li>
-<li>Easy EXP</li>
-<li>Elaborate equals effective</li>
-<li>Emergent gameplay</li>
-<li>Empty room psych</li>
-<li>Empty room until the trap</li>
-<li>Enemy-detecting radar</li>
-<li>Enemy chatter / enemy barks</li>
-<li>Enemy overconfidence</li>
-<li>Enjoy the story, skip the game</li>
-<li>Enter the solution here</li>
-<li>Entrepreneur is you</li>
-<li>Escort mission</li>
-<li>Essence drop</li>
-<li>Event flag</li>
-<li>Everything breaks</li>
-<li>Everything is smashable</li>
-<li>Everything is trying to kill you</li>
-<li>Excuse plot</li>
-<li>Expository gameplay limitation</li>
-<li>Expressive health bar</li>
-<li>Extra turn</li>
-<li>Fame gate</li>
-<li>Fake trap</li>
-<li>Fatigue mechanic</li>
-<li>Faux symbolism</li>
-<li>Fetch quest</li>
-<li>First-person ghost</li>
-<li>Fog of war</li>
-<li>Follow the money</li>
-<li>Foreboding architecture / malevolent architecture</li>
-<li>Frictionless ice</li>
-<li>Frustration simulator</li>
-<li>Game-breaking bug</li>
-<li>Game lobby</li>
-<li>Game of chicken</li>
-<li>Game within a game</li>
-<li>Gameplay-guided amnesia</li>
-<li>Gameplay automation</li>
-<li>Gameplay protagonist, story protagonist</li>
-<li>Glitch / glitch entity</li>
-<li>Good-all-along character</li>
-<li>Gravity barrier</li>
-<li>Grimy water</li>
-<li>Grinding / stat grinding / level grinding</li>
-<li>Groundhog day loop</li>
-<li>Healing boss</li>
-<li>Hide-and-seek horror</li>
-<li>Hide your children / no children anywhere</li>
-<li>Highly visible landmark</li>
-<li>Historical revisionism</li>
-<li>Hit flash</li>
-<li>Hit points</li>
-<li>Hit spark</li>
-<li>Hitbox dissonance</li>
-<li>Hold the line</li>
-<li>Holiday mode</li>
-<li>Home field advantage</li>
-<li>How we got here</li>
-<li>Hyperactive metabolism</li>
-<li>Hyperactive sprite</li>
-<li>I can't reach it</li>
-<li>I fought the law and the law won</li>
-<li>Ignorance is the only option</li>
-<li>Impassable desert</li>
-<li>In-game banking services</li>
-<li>In-game novel</li>
-<li>In-game tv</li>
-<li>In-universe game clock</li>
-<li>Inconveniently-placed conveyor belt</li>
-<li>Inescapable ambush</li>
-<li>Infallible character</li>
-<li>Infodump / lore dump</li>
-<li>Informing the fourth wall</li>
-<li>Instant death</li>
-<li>Insurmountable fence</li>
-<li>Intercom villainy</li>
-<li>Interior designer is you</li>
-<li>Intoxication mechanic</li>
-<li>Involuntary group split</li>
-<li>Kill screen</li>
-<li>Kingmaker scenario</li>
-<li>Last lousy point</li>
-<li>Late character syndrome</li>
-<li>Late to the tragedy</li>
-<li>Level editor</li>
-<li>Level gate</li>
-<li>Level scaling</li>
-<li>Light and mirrors puzzle</li>
-<li>Limited-use magical device</li>
-<li>Live-action cutscene</li>
-<li>Living statue</li>
-<li>Loading screen message gag</li>
-<li>Lock and key puzzle</li>
-<li>Locked door</li>
-<li>Loot boxes</li>
-<li>Luck stat</li>
-<li>MacGuffin</li>
-<li>Magical mystery doors</li>
-<li>Magnet hands</li>
-<li>Mirror match</li>
-<li>Misaimed realism</li>
-<li>Misère game</li>
-<li>Monsters everywhere</li>
-<li>Morale mechanic</li>
-<li>Morality pet / morality chain</li>
-<li>Multiple game openings</li>
-<li>Multiple persuasion modes</li>
-<li>Musical gameplay</li>
-<li>Musical spoiler</li>
-<li>New weapon target range</li>
-<li>New world tease</li>
-<li>Nice day, deadly night</li>
-<li>No campaign for the wicked</li>
-<li>No canon for the wicked</li>
-<li>No exploration / no sidepaths</li>
-<li>No plot? no problem!</li>
-<li>No such thing as dehydration / hunger</li>
-<li>No such thing as drowning</li>
-<li>Notice this / made of shiny</li>
-<li>NPC scheduling</li>
-<li>Old area, new enemies</li>
-<li>One game, one boss</li>
-<li>Only one save file</li>
-<li>Only smart people may pass</li>
-<li>Optional party member</li>
-<li>Optional sexual encounter</li>
-<li>Overheating</li>
-<li>Overly generous time limit</li>
-<li>Painting the medium</li>
-<li>Pass through the rings</li>
-<li>Password save</li>
-<li>Path of most resistance</li>
-<li>Pawn debut cutscene</li>
-<li>Pawn maker</li>
-<li>Pawns but no bosses</li>
-<li>Pawns go first</li>
-<li>Personality mechanic</li>
-<li>Philosophical choice ending</li>
-<li>Pixel hunt</li>
-<li>Play the game, skip the story</li>
-<li>Player and protagonist integration</li>
-<li>Player death is dramatic</li>
-<li>Plot lock</li>
-<li>Point of no return</li>
-<li>Poison mushroom</li>
-<li>Pop quiz</li>
-<li>Power-up motif</li>
-<li>Power equals rarity</li>
-<li>Power fantasy</li>
-<li>Press X not to die</li>
-<li>Pressure plate</li>
-<li>Prince or princess in disguise</li>
-<li>Protagonist without a past</li>
-<li>Purely aesthetic gender</li>
-<li>Puzzle pan</li>
-<li>Quest giver is you</li>
-<li>Racing ghost</li>
-<li>Raid</li>
-<li>Railroading</li>
-<li>Random drop</li>
-<li>Random event</li>
-<li>Ratchet scrolling</li>
-<li>Real-place background</li>
-<li>Real-time with pause</li>
-<li>Recollection sidequest</li>
-<li>Regenerating health</li>
-<li>Regenerating mana</li>
-<li>Renovating the player headquarters</li>
-<li>Repeatable quest</li>
-<li>Replay value</li>
-<li>Respawn point</li>
-<li>Respawning enemies</li>
-<li>Rock, paper, scissors</li>
-<li>Romance option</li>
-<li>Romance sidequest</li>
-<li>Rubber-band AI</li>
-<li>Running-out-of-time warning</li>
-<li>Safe space / bonfire</li>
-<li>Saw blades of death</li>
-<li>Scavenger hunt</li>
-<li>Scenery as you go</li>
-<li>Score chasing</li>
-<li>Screen shake</li>
-<li>Secret AI moves</li>
-<li>Secret character</li>
-<li>Secret expanded epilogue</li>
-<li>Secret final campaign</li>
-<li>Secret police</li>
-<li>Shall I repeat that?</li>
-<li>Shared fantasy</li>
-<li>Shoplift and die</li>
-<li>Simon says</li>
-<li>Simple rescue mechanic</li>
-<li>Smashing survival / struggle sim</li>
-<li>Some dexterity required</li>
-<li>Songs in the key of panic</li>
-<li>Sound-coded for your convenience</li>
-<li>Sound of no damage</li>
-<li>Space marine is you</li>
-<li>Speaking simlish / speaking a conlang</li>
-<li>Spikes of doom</li>
-<li>Spiteful AI</li>
-<li>Springs, springs everywhere!</li>
-<li>Static role, exchangeable character</li>
-<li>Steam vent obstacle</li>
-<li>Step one: escape</li>
-<li>Stock puzzle</li>
-<li>Story-driven invulnerability</li>
-<li>Story branch favoritism</li>
-<li>Suddenly-harmful harmless object</li>
-<li>Suspiciously cracked wall</li>
-<li>Tactical door use</li>
-<li>Tank controls</li>
-<li>Taste of power</li>
-<li>Taunt button</li>
-<li>Temporary platform</li>
-<li>Ten-second flashlight</li>
-<li>That one achievement</li>
-<li>That one boss</li>
-<li>That one level</li>
-<li>That one puzzle</li>
-<li>That one sidequest</li>
-<li>There are no tents, only inns</li>
-<li>This is the final battle</li>
-<li>Three-approach system</li>
-<li>Three trials / three goals</li>
-<li>Threshold guardian</li>
-<li>Tiebreak round</li>
-<li>Time trial</li>
-<li>Timed mission</li>
-<li>Title theme drop</li>
-<li>Training dummy</li>
-<li>Training stage</li>
-<li>Treacherous checkpoint</li>
-<li>Trick shot</li>
-<li>Tutorial failure</li>
-<li>Unbroken first-person perspective</li>
-<li>Unexpected shmup level</li>
-<li>Unexpectedly realistic gameplay</li>
-<li>Unending end card </li>
-<li>Unlosable</li>
-<li>Unpopular mechanic / scrappy mechanic</li>
-<li>Unreliable narrator</li>
-<li>Unwinnable by design</li>
-<li>Useless item / joke item</li>
-<li>Variable player goals</li>
-<li>Victory pose / victory quote</li>
-<li>Video game cruelty punishment</li>
-<li>Video game geography</li>
-<li>Video game physics</li>
-<li>Video game vista</li>
-<li>Villain shoes</li>
-<li>Violation of common sense</li>
-<li>Visible silence</li>
-<li>Voice grunting</li>
-<li>Wait around for a while</li>
-<li>Wandering you</li>
-<li>War sequence</li>
-<li>Warp zone</li>
-<li>We cannot go on without you</li>
-<li>Weather effects / weather gameplay mechanic</li>
-<li>Whack-a-monster</li>
-<li>What the hell, player?</li>
-<li>When all else fails, go right</li>
-<li>Who forgot the lights?</li>
-<li>Winner is you</li>
-<li>Wrap around</li>
-<li>You will not evade me</li>
-<li>Zip mode</li>
-</ul>
-</details>
-
-### 6U. Stereotype [R][+]
-
-Definition: 
+Definition forthcoming 
 
 controlled vocabulary
 
-### 6V. Assets [R][+]
+### 6U. Environment Trope [R][+]
+
+Definition forthcoming 
+
+controlled vocabulary
+
+### 6V. Progression Trope [R][+]
+
+Definition forthcoming 
+
+controlled vocabulary
+
+### 6W. Narrative Trope [R][+]
+
+Definition forthcoming 
+
+controlled vocabulary
+
+### 6X. Character Trope [R][+]
+
+Definition forthcoming 
+
+controlled vocabulary
+
+### 6Y. Assets [R][+]
 
 Definition: Audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footage
 
@@ -3405,7 +3072,7 @@ This element will typically be repeated. Select only significant assets in cases
 </ul>
 </details>
 
-### 6W. Style [R][+]
+### 6Z. Style [R][+]
 
 Definition: "The predominant and recognizable [artistic tendencies] and appearance of" the platform edition as demonstrated by the gameplay footage (Lee et al., "VGMS 4.2," 2024)
 
@@ -3467,7 +3134,7 @@ Definition: "The predominant and recognizable [artistic tendencies] and appearan
 </ul>
 </details>
 
-### 6X. Interface [R][+]
+### 6AA. Interface [R][+]
 
 Definition: The means by which players interact or communicate with the game and each other in the gameplay footage; also, how the game prompts and transforms input into output in the gameplay footage
 
@@ -3551,13 +3218,13 @@ Common interfaces include menus, maps, popups, graphic overlays, and heads-up di
 </ul>
 </details>
 
-### 6Y. Experience [R][+]
+### 6BB. Experience [R][+]
 
 Definition: An emotion, feeling, or range of emotions and feelings experienced by the player when the gameplay footage was recorded
 
 The person responsible for the gameplay (see "Gameplay Attribution") should complete this element. 
 
-The controlled vocabulary for this element avoids duplicating terms used in the vocabulary for "Atmosphere." 
+The controlled vocabulary for this element avoids duplicating terms used in the vocabularies for "Atmosphere" and "Theme."  
 
 <details>
 <summary><i>controlled vocabulary</i> (informed by Isbister 2016 and Anable 2018)</summary>
@@ -3624,12 +3291,12 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Tranquility</li>
 <li>Triumph</li>
 <li>Trust</li>
-<li>Vulnerability</li>
+<li>Vulnerability </li>
 <li>Worry</li>
 </ul>
 </details>
 
-### 6Z. Transaction [R][+]
+### 6CC. Transaction [R][+]
 
 Definition: Purchases and forms of monetization that appear in, or are indexed by, the gameplay footage
 
@@ -3640,7 +3307,7 @@ Select "No transaction" if the footage contains no observable purchase or form o
 <ul>
 <li>Advertising</li>
 <li>Battle pass</li>
-<li>Cosmetics</li>
+<li>Cosmetics / skins</li>
 <li>Downloadable content / expansion pack</li>
 <li>Free-to-play</li>
 <li>Freemium</li>
@@ -3658,7 +3325,7 @@ Select "No transaction" if the footage contains no observable purchase or form o
 </ul>
 </details>
 
-### 6AA. Metagaming [R][+]
+### 6DD. Metagaming [R][+]
 
 Definition: Acts of play appearing in the gamemplay footage that "involve or consider resources that are 'beyond' the scope or control of what players . . . collectively consider to be the 'right and correct game'" (Carter et al. 2012)
 
@@ -3669,7 +3336,7 @@ The "Current meta" option applies to the meta as of the date of play and recordi
 <details>
 <summary><i>controlled vocabulary</i> (informed by Carter et al. 2012 and Boluk & LeMieux 2017; adpated, with changes and additions, from TV Tropes 2026)</summary>
 <ul>
-<li>Advanced movement technique
+<li>Advanced movement technique</li>
 <li>AI breaking</li>
 <li>Anti-meta</li>
 <li>Cheat code</li>
@@ -3697,7 +3364,6 @@ The "Current meta" option applies to the meta as of the date of play and recordi
 <li>Orthogame (no observable meta)</li>
 <li>Outside-the-box tactic</li>
 <li>Pause scumming</li>
-<li>Rock-paper-scissors</li>
 <li>Safe zone</li>
 <li>Save scumming</li>
 <li>Score milking</li>
@@ -3715,13 +3381,13 @@ The "Current meta" option applies to the meta as of the date of play and recordi
 </ul>
 </details>
 
-### 6BB. Content Warning [R]
+### 6EE. Content Warning [R]
 
 Definition: A written statement that lists aspects of the footage that may be upsetting, offensive, challenging, or graphic; it should also note when the footage contains flashes, if applicable
 
 *text input field* 
 
-### 6CC. Gameplay Footage Note
+### 6FF. Gameplay Footage Note
 
 Definition: "Any other notable characteristics of the" gameplay footage that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
@@ -3730,6 +3396,8 @@ Definition: "Any other notable characteristics of the" gameplay footage that are
 ## 7. Gameplay Instruction Entity 
 
 ### 7A. Game Studies Topic [R][+]
+
+Definition forthcoming
 
 controlled vocabulary 
 
