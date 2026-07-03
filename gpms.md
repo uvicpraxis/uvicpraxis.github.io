@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 2 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 3 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (DRAFT)
 
@@ -6,8 +6,8 @@ Jentery Sayers and the Praxis Studio developed this metadata schema to describe 
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 2 July 2026): 
-* Complete the GPMS. 
+Roadmap (as of 3 July 2026): 
+* Complete the GPMS. Remaining elements: Tropes (x4) and Game Studies Topic.  
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review. 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
@@ -936,9 +936,10 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 
 Definition: The size, profile, and/or budget of the publisher and, in some cases, the developer, too
 
+This element rarely needs to be repeated. Exceptions include cases where the platform edition is both "indie" and "self-published." 
+
 Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class. 
 
-This element rarely needs to be repeated. Exceptions include cases where the platform edition is both "indie" and "self-published." 
 <details>
 <summary><i>controlled vocabulary</i></summary>
 <ul>
@@ -1283,6 +1284,8 @@ Definition: A configuration or appearance of the platform edition's accessibilit
 
 Definition: A configuration or appearance of a player or fan-authored alteration of the platform edition in the gameplay footage
 
+Provide the complete title of the mod if it has one. Avoid using an alternative, abbreviated, or colloquial title. 
+
 *text input field* 
 
 ### 5H. Gameplay Settings Note
@@ -1337,6 +1340,7 @@ Definition: How players relate socially to each other and the game in the gamepl
 <details>
 <summary><i>controlled vocabulary</i></summary>
 <ul>
+<li>Asymmetrical multiplayer</li>
 <li>Asynchronous multiplayer</li>
 <li>Collaborative</li>
 <li>Competitive</li>
@@ -1655,6 +1659,8 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 
 Definition: "The intended perception of the depth of the represented entities in" the gameplay footage and "[t]he [graphical projection, camera, and/or point of view] from which the player experiences the gameplay" (Lee et al., "VGMS 4.2," 2024)  
 
+This element will typically be repeated: for example, 3D, 1st-person, and perspective camera. 
+
 Two options for this element (free camera and cinematic camera) are defined here to avoid confusion. 
 
 Select "free camera" if "the camera is not attached to a specific avatar and does not follow a specific target" (Poff and Atari 2025). Such cameras are common in strategy and sandbox games, where the "player is able to freely slide/scroll/rotate through the environment" (ibid). 
@@ -1663,7 +1669,6 @@ Select "cinematic camera" if "different, fixed camera positions are set during t
 
 Don't select "free camera" or "cinematic camera" if they do not apply to the gameplay footage. 
 
-This element will typically be repeated: for example, 3D, 1st-person, and perspective camera. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with minor changes, from Poff and Atari 2025, Jan 2017, and Lee et al., "VGMS 4.2," 2024)</summary>
@@ -2266,9 +2271,9 @@ This element will typically be repeated.
 
 Select "No player character" if no player character appears in the footage. 
 
-When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will update this controlled vocabulary as the GPFC unfolds. 
+When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will corect and update this controlled vocabulary as the GPFC unfolds. 
 
-Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the player character. 
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to substantiate metadata about player characters.
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist" and "Controlled Vocabulary for Tropes," 2024)</summary>
@@ -2354,11 +2359,11 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related 
 <li>PC has blond hair</li> 
 <li>PC has blue hair</li> 
 <li>PC has green hair</li> 
-<li>PC has no hair</li>
 <li>PC has pink hair</li> 
 <li>PC has purple hair</li> 
 <li>PC has red or auburn hair</li> 
 <li>PC has white or gray hair</li> 
+<li>PC is bald / has no hair</li>
 <li>Pirate</li>
 <li>Poor</li>
 <li>Pregnant</li>
@@ -2400,9 +2405,9 @@ This element will typically be repeated.
 
 Select "No non-player character" if a non-player character does not appear in the footage. 
 
-When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will update this controlled vocabulary as the GPFC unfolds. 
+When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will correct and update this controlled vocabulary as the GPFC unfolds. 
 
-Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related sources to substantiate metadata about the non-player character. 
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to substantiate metadata about non-player characters.
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., "Controlled Vocabulary for Protagonist" and "Controlled Vocabulary for Tropes," 2024)</summary>
@@ -2477,11 +2482,11 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related 
 <li>NPC has blond hair</li> 
 <li>NPC has blue hair</li> 
 <li>NPC has green hair</li> 
-<li>NPC has no hair</li>
 <li>NPC has pink hair</li> 
 <li>NPC has purple hair</li> 
 <li>NPC has red or auburn hair</li> 
 <li>NPC has white or gray hair</li> 
+<li>NPC is bald / has no hair</li>
 <li>Outlaw</li>
 <li>Overlord / conqueror</li>
 <li>Overpowered</li>
@@ -2535,9 +2540,11 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, and/or related 
 
 Definition: A method or "verb" players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al., "VGMS 4.2," 2024)
 
+This element will typically be repeated.
+
 Select "No mechanic" if a mechanic is not used in the gameplay footage. 
 
-This element will typically be repeated. Select only significant mechanics in cases where five or more options in the controlled vocabulary apply. 
+Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to substantiate metadata about the mechanics. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from BoardGameGeek n.d. and Lee et al., "Controlled Vocabulary for Mechanics," 2024)</summary>
@@ -2703,6 +2710,8 @@ Don't select "meditative / zen" or "persistent" if they do not apply to the game
 
 Description: How, as demonstrated by the footage, the platform edition allows players to advance, acknowledges their attempts to advance, or affords them with a sense of progress, achievement, or productivity (Lee et al., "VGMS 4.2," 2024)
 
+This element will typically be repeated. 
+
 Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution), and gamification (achievements or trophies) (Brazie 2024). 
 
 <details>
@@ -2774,7 +2783,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 
 Definition: "A common thread, motif, subject, or idea that recurs in" the gameplay footage (Getty 2004; Lee et al., "VGMS 4.2," 2024)
 
-This element will typically be repeated. Select only significant themes in cases where five or more options in the controlled vocabulary apply. 
+This element will typically be repeated. 
 
 The controlled vocabulary for this element avoids duplicating terms used in the vocabularies for "Atmosphere" and "Experience." 
 
@@ -2978,39 +2987,84 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 
 ### 6T. Gameplay Trope [R][+]
 
-Definition forthcoming 
+Definition: "A generally recognizable [gameplay] device or convention [appearing in the footage]. [Gameplay] tropes rely on culturally mediated expectations to expedite the development of [mechanics, action, agency, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
 
-controlled vocabulary
+This element will typically be repeated. 
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
+<ul>
+<li>coming soon</li>
+</ul>
+</details>
 
 ### 6U. Environment Trope [R][+]
 
-Definition forthcoming 
+Definition: "A generally recognizable [worldbuilding] device or [environment design] convention [appearing in the footage]. [Environment] tropes rely on culturally mediated expectations to expedite the development of [atmospheres and experiences as well as the traversal of biomes, built environments, and locations]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
 
-controlled vocabulary
+This element will typically be repeated.  
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
 
 ### 6V. Progression Trope [R][+]
 
-Definition forthcoming 
+Definition: "A generally recognizable [progression] device or [level design] convention [appearing in the footage]. [Progression] tropes rely on culturally mediated expectations to expedite [advancement, acknowledge attempts to advance, or afford players with a sense of progress, achievement, or productivity]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
 
-controlled vocabulary
+This element will typically be repeated.
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
 
 ### 6W. Narrative Trope [R][+]
 
-Definition forthcoming 
+Definition: "A generally recognizable narrative device or [storytelling] convention [appearing in the footage]. [Narrative] tropes rely on culturally mediated expectations to expedite the development of [stories, plots, beats, arcs, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024)
 
-controlled vocabulary
+This element will typically be repeated. 
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
 
 ### 6X. Character Trope [R][+]
 
-Definition forthcoming 
+Definition: "A generally recognizable [representational] device or [storytelling] convention [appearing in the footage]. [Character] tropes rely on culturally mediated expectations to expedite the development of [story, action, agency, identification, player characters, non-player characters, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities" (Lee et al., "VGMS 4.2," 2024)
 
-controlled vocabulary
+This element will typically be repeated. 
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
 
 ### 6Y. Assets [R][+]
 
 Definition: Audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footage
 
-This element will typically be repeated. Select only significant assets in cases where five or more options in the controlled vocabulary apply. 
+This element will typically be repeated.  
 
 <details>
 <summary><i>controlled vocabulary</i> (informed by game assets available at itch.io)</summary>
@@ -3395,15 +3449,41 @@ Definition: "Any other notable characteristics of the" gameplay footage that are
 
 ## 7. Gameplay Instruction Entity 
 
+Definition: Denotes the instructional affordances and pedagogical dimensions of the gameplay footage
+
+This entity foregrounds research, teaching, and learning in Media and Game Studies since the GPFC's primary audience includes students, faculty, and staff in UVic's Media Studies program. 
+
+*The following elements of the Gameplay Instruction Entity should describe recorded gameplay of the platform edition intended for the GPFC.*
+
+* [Game Studies Topic](#7a-game-studies-topic-r) [R][+] (controlled vocabulary) 
+* [Media Studies Topic](#7b-media-studies-topic-r) [R][+] (controlled vocabulary) 
+* [Gameplay Instruction Note](#7c-gameplay-instruction-note) (text input field) 
+
 ### 7A. Game Studies Topic [R][+]
 
-Definition forthcoming
-
-controlled vocabulary 
+Definition: Area of Game Studies research, analysis, and discussion prompted by the gameplay footage
 
 ludonarrative dissonance / resonance, player-centric, player-agnostic, player-antagonistic
 
-### 7B. Gameplay Instruction Note 
+<details>
+<summary><i>controlled vocabulary</i></summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
+
+### 7B. Media Studies Topic [R][+]
+
+Definition: Area of Media Studies research, analysis, and discussion prompted by the gameplay footage
+
+<details>
+<summary><i>controlled vocabulary</i></summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
+
+### 7C. Gameplay Instruction Note 
 
 Definition: "Any other notable characteristics of" gameplay instruction that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
