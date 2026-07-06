@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 3 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 6 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (DRAFT)
 
@@ -2345,6 +2345,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Nonhuman</li>
 <li>North American</li>
 <li>Original character</li>
+<li>Orphan</li>
 <li>Outlaw</li>
 <li>Overlord / conqueror</li>
 <li>Overpowered</li>
@@ -2424,6 +2425,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Autistic</li>
 <li>Bisexual</li>
 <li>Black</li>
+<li>Blacksmith</li>
 <li>Blind</li>
 <li>Boss</li>
 <li>Brawler</li>
@@ -2487,6 +2489,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>NPC has red or auburn hair</li> 
 <li>NPC has white or gray hair</li> 
 <li>NPC is bald / has no hair</li>
+<li>Orphan</li>
 <li>Outlaw</li>
 <li>Overlord / conqueror</li>
 <li>Overpowered</li>
@@ -2805,6 +2808,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Arrogance / hubris</li>
 <li>Assimilation</li>
 <li>Athletics</li>
+<li>Authoritarianism/ totalitarianism</li>
 <li>Beauty / attraction</li>
 <li>Belonging / inclusion</li>
 <li>Betrayal / heartbreak</li>
@@ -2963,7 +2967,6 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Technological determinism</li>
 <li>Temptation</li>
 <li>Tokenism</li>
-<li>Totalitarianism</li>
 <li>Tradition</li>
 <li>Transitioning</li>
 <li>Transphobia / Transmisogyny</li>
@@ -3076,6 +3079,8 @@ This element will typically be repeated.
 <li>Ambient sound / soundscape</li>
 <li>Articulated animation</li>
 <li>Character art</li>
+<li>Character dialogue / speech</li>
+<li>Character portrait</li>
 <li>Destructible objects</li>
 <li>Environment art / scenery</li>
 <li>Exteriors</li>
