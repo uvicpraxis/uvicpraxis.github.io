@@ -973,9 +973,10 @@ For the fair-dealing purposes of the GPFC, the video file will typically be a "c
 * [Chat](#4e-chat-r) [R][+] (controlled vocabulary)
 * [Gameplay Attribution](#4f-gameplay-attribution-r) [R][+] (text input field)
 * [Metadata Attribution](#4g-metadata-attribution-r) [R][+] (text input field) 
-* [ID](#4h-id-r) [R] (text input field) 
-* [Filename](#4i-filename-r) [R] (text input field) 
-* [Gameplay File Note](#4j-gameplay-file-note) (text input field)
+* [Metadata Record Status](#4h-metadata-record-status-r) [R] (controlled vocabulary) 
+* [ID](#4i-id-r) [R] (text input field) 
+* [Filename](#4j-filename-r) [R] (text input field) 
+* [Gameplay File Note](#4k-gameplay-file-note) (text input field)
 
 ### 4A. Clip Title [R]
 
@@ -1054,7 +1055,21 @@ Multiple names may be included. Full names are optional.
 
 *text input field*
 
-### 4H. ID [R]
+### 4H. Metadata Record Status [R]
+
+Definition: Communicates whether the metadata record for the gampeplay file is complete 
+
+A gameplay file may appear in the GPFC even if its metadata record is incomplete. 
+
+<details>
+<summary><i>controlled vocabulary</i></summary>
+<ul>
+<li>Complete</li>
+<li>Incomplete</li>
+</ul>
+</details>
+
+### 4I. ID [R]
 
 Definition: The internal reference number for the gameplay file and its metadata 
 
@@ -1062,7 +1077,7 @@ This number is used by the Press Record team to identify files and metadata in t
 
 *text input field; format: #####*
 
-### 4I. Filename [R]
+### 4J. Filename [R]
 
 Definition: The filename of the video file containing gameplay footage of the platform edition
 
@@ -1070,7 +1085,7 @@ Use camelCasing to include the following information in the following order: gam
 
 *text input field; format: gameTitlePlatformEditionReleaseYearClipTitleID.extension* 
 
-### 4J. Gameplay File Note
+### 4K. Gameplay File Note
 
 Definition: "Any other notable characteristics of the" gameplay file that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
@@ -2808,7 +2823,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Arrogance / hubris</li>
 <li>Assimilation</li>
 <li>Athletics</li>
-<li>Authoritarianism/ totalitarianism</li>
+<li>Authoritarianism / totalitarianism</li>
 <li>Beauty / attraction</li>
 <li>Belonging / inclusion</li>
 <li>Betrayal / heartbreak</li>
