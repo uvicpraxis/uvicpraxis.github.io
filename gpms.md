@@ -158,6 +158,12 @@ Definition: The operating system, device, computer, console, and/or service on w
 <li>Amiga CD32</li>
 <li>Amstrad CPC</li>
 <li>Amstrad PCW</li>
+<li>Analogue 3D</li>
+<li>Analogue Duo</li>
+<li>Analogue Mega SG</li>
+<li>Analogue Nt Mini</li>
+<li>Analogue Pocket</li>
+<li>Analogue Super Nt</li>
 <li>Android</li>
 <li>Anstream</li>
 <li>APF MP1000 / Imagination Machine</li>
@@ -1199,6 +1205,7 @@ Definition: A distinct configuration of the platform edition's mechanics and gam
 <li>Endless</li>
 <li>God / invincible / infinite health</li>
 <li>Hard / expert</li>
+<li>Holiday</li>
 <li>King of the hill</li>
 <li>New game plus</li>
 <li>Noclip</li>
@@ -1702,16 +1709,16 @@ Don't select "free camera" or "cinematic camera" if they do not apply to the gam
 <li>Cinematic camera</li>
 <li>Curvilinear projection</li>
 <li>Diagonal-down view / isometric / 3/4 projection</li>
-<li>Fixed screen / flip-screen scrolling</li>
+<li>Fixed screen</li>
 <li>Free camera</li>
 <li>HD-2D</li>
-<li>Oblique project / cabinet</li>
+<li>Oblique projection / cabinet</li>
 <li>Perspective projection</li>
-<li>Side-scrolling / tracking camera</li>
 <li>Side view / multiview projection</li>
 <li>Stereoscopic 3D</li>
 <li>Text-based / spreadsheet</li>
 <li>Top-down view / multiview projection</li>
+<li>Tracking camera</li>
 <li>Virtual reality</li>
 </ul>
 </details>
@@ -2028,7 +2035,7 @@ Definition: An artificial physical feature or edifice appearing in the gameplay 
 <li>Alley</li>
 <li>Amusement park / circus / carnival</li>
 <li>Aquarium</li>
-<li>Arcade</li>
+<li>Arcade / diegetic video game</li>
 <li>Arena / coliseum / stadium</li>
 <li>Bank</li>
 <li>Basement</li>
@@ -2738,6 +2745,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Achievement / trophy / badge</li>
 <li>Aha moment</li>
 <li>Act structure</li>
+<li>Auto-scrolling</li>
 <li>Branching narrative</li>
 <li>Checkpoint</li>
 <li>Choice-and-consequence system</li>
@@ -2745,21 +2753,27 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Cognitive development</li>
 <li>Collectible</li>
 <li>Core loop</li>
-<li>Cutscene / cut scene</li>
+<li>Cutscene / live-action cutscene</li></li>
 <li>Death</li>
 <li>Dialogue tree</li>
+<li>Dynamic loading</li>
 <li>Elimination / team wipe</li>
 <li>Embedded story</li>
+<li>Emergent gameplay</li>
+<li>Emergent storytelling or narrative</li>
 <li>Enacted story</li>
 <li>Endless game</li>
 <li>Environmental storytelling / story breadcrumbs</li>
 <li>Evoked story</li>
+<li>Experience points</li>
 <li>Exposition</li>
 <li>Falling action</li>
 <li>Flashback / analepsis</li>
 <li>Flashforward / prolepsis</li>
+<li>Flip-screen scrolling</li>
 <li>Gating</li>
 <li>Highlight reel / replay reel</li>
+<li>Hit points</li>
 <li>Horizontal movement</li>
 <li>Hub / home base</li>
 <li>In-game reward</li>
@@ -2767,11 +2781,12 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Level complete</li>
 <li>Levelling up</li>
 <li>Loading screen</li>
+<li>Lore dump / info dump</li>
 <li>Mini-game</li>
 <li>Mission complete / quest complete</li>
 <li>Motor development</li>
 <li>New ability / skill</li>
-<li>New character</li>
+<li>New character / secret character</li>
 <li>New cosmetic / skin</li>
 <li>New game plus</li>
 <li>New item</li>
@@ -2779,10 +2794,13 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>New location</li>
 <li>New mission / quest</li>
 <li>New round</li>
+<li>Parallax scrolling</li>
 <li>Platinum / 100% achievements</li>
 <li>Procedural generation / randomization</li>
 <li>Progression map / player path</li>
 <li>Quick time event</li>
+<li>Random event</li>
+<li>Ratchet scrolling</li>
 <li>Resolution / ending</li>
 <li>Respawning</li>
 <li>Rising action</li>
@@ -2790,6 +2808,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Round complete</li>
 <li>Save point</li>
 <li>Scripted event</li>
+<li>Side-scrolling</li>
 <li>Skill tree / tech tree</li>
 <li>Time loop</li>
 <li>Upgrade</li>
@@ -2869,7 +2888,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Evolution</li>
 <li>Failure</li>
 <li>Faith / doubt</li>
-<li>Family</li>
+<li>Family / found family</li>
 <li>Fascism</li>
 <li>Fate / free will</li>
 <li>Fatphobia</li>
@@ -3118,7 +3137,6 @@ This element will typically be repeated.
 <li>No audio</li>
 <li>No visuals</li>
 <li>Original soundtrack</li>
-<li>Parallax scrolling </li>
 <li>Particle effects</li>
 <li>Photographs</li>
 <li>Pre-recorded audio</li>
@@ -3247,7 +3265,6 @@ Common interfaces include menus, maps, popups, graphic overlays, and heads-up di
 <li>Level complete screen</li>
 <li>Level editor</li>
 <li>Load / save screen</li>
-<li>Loading screen</li>
 <li>Log / history screen</li>
 <li>Maintenance or management screen</li>
 <li>Map / area map / world map</li>
@@ -3275,6 +3292,7 @@ Common interfaces include menus, maps, popups, graphic overlays, and heads-up di
 <li>Results screen</li>
 <li>Reticle</li>
 <li>Reward or achievement notification</li>
+<li>Screen shake</li>
 <li>Settings menu / options menu</li>
 <li>Skins or accessories menu</li>
 <li>Stage intro screen</li>
@@ -3350,6 +3368,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Overwhelm</li>
 <li>Perfectionism</li>
 <li>Pity</li>
+<li>Power fantasy / escapism</li>
 <li>Pride / mastery</li>
 <li>Regret</li>
 <li>Relief</li>
@@ -3428,6 +3447,7 @@ The "Current meta" option applies to the meta as of the date of play and recordi
 <li>God mode</li>
 <li>Good bad bug</li>
 <li>Griefing</li>
+<li>High score chasing</li>
 <li>House rules</li>
 <li>Min-maxing</li>
 <li>Mod / modding</li>
