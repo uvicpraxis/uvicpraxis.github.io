@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 6 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 8 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (DRAFT)
 
@@ -7,7 +7,7 @@ Jentery Sayers and the Praxis Studio developed this metadata schema to describe 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Roadmap (as of 3 July 2026): 
-* Complete the GPMS. Remaining elements: Tropes (x4), Game Studies Topic, and Media Studies Topic.   
+* Complete the GPMS. Remaining elements: Tropes, Game Studies Topic, and Media Studies Topic.   
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review. 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
@@ -1289,6 +1289,7 @@ Definition: A configuration or appearance of the platform edition's accessibilit
 <li>Subtitles / captions</li>
 <li>Surround sound</li>
 <li>Symbol-based chat</li>
+<li>Tank controls</li>
 <li>Text chat</li>
 <li>Text highlighing</li>
 <li>Thalassophobia mode</li>
@@ -1341,16 +1342,16 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Timekeeping](#6q-timekeeping-r) [R][+] (controlled vocabulary) 
 * [Progression](#6r-progression-r) [R][+] (controlled vocabulary) 
 * [Theme](#6s-theme-r) [R][+] (controlled vocabulary)
-* [Gameplay Trope](#6t-gameplay-trope-r) [R][+] (controlled vocabulary)
-* [Environment Trope](#6u-environment-trope-r) [R][+] (controlled vocabulary)
-* [Progression Trope](#6v-progression-trope-r) [R][+] (controlled vocabulary)
-* [Narrative Trope](#6w-narrative-trope-r) [R][+] (controlled vocabulary)
-* [Character Trope](#6x-character-trope-r) [R][+] (controlled vocabulary)
-* [Assets](#6y-assets-r) [R][+] (controlled vocabulary)
-* [Style](#6z-style-r) [R][+] (controlled vocabulary)
-* [Interface](#6aa-interface-r) [R][+] (controlled vocabulary)
-* [Experience](#6bb-experience-r) [R][+] (controlled vocabulary)
-* [Transaction](#6cc-transaction-r) [R][+] (controlled vocabulary) 
+* [Assets](#6t-assets-r) [R][+] (controlled vocabulary)
+* [Style](#6u-style-r) [R][+] (controlled vocabulary)
+* [Interface](#6v-interface-r) [R][+] (controlled vocabulary)
+* [Experience](#6w-experience-r) [R][+] (controlled vocabulary)
+* [Transaction](#6x-transaction-r) [R][+] (controlled vocabulary) 
+* [Gameplay Trope](#6y-gameplay-trope-) [R][+] (controlled vocabulary)
+* [Environment Trope](#6z-environment-trope-) [R][+] (controlled vocabulary)
+* [Progression Trope](#6aa-progression-trope-) [R][+] (controlled vocabulary)
+* [Narrative Trope](#6bb-narrative-trope-) [R][+] (controlled vocabulary)
+* [Character Trope](#6cc-character-trope-) [R][+] (controlled vocabulary)
 * [Metagaming](#6dd-metagaming-r) [R][+] (controlled vocabulary)
 * [Content Warning](#6ee-content-warning-r) [R] (text input field)
 * [Gameplay Footage Note](#6ff-gameplay-footage-note) (text input field)
@@ -1523,7 +1524,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Picross / nonogram</li>
 <li>Pinball</li>
 <li>Pipe puzzle</li>
-<li>Platform / platformer</li>
+<li>Platformer / precision platformer</li>
 <li>Platform fighter</li>
 <li>Point and click</li>
 <li>Programming / hacking sim</li>
@@ -1720,6 +1721,7 @@ Don't select "free camera" or "cinematic camera" if they do not apply to the gam
 <li>Top-down view / multiview projection</li>
 <li>Tracking camera</li>
 <li>Virtual reality</li>
+<li>Wraparound</li>
 </ul>
 </details>
 
@@ -2140,6 +2142,7 @@ Select "No mode of transport" if the footage contains no means of conveyance or 
 <li>Mecha / giant robot</li>
 <li>Minecart</li>
 <li>Motorcycle</li>
+<li>Pipe / warp pipe</li>
 <li>Portal / fast travel / teleportation</li>
 <li>Running</li>
 <li>Skateboard</li>
@@ -2519,6 +2522,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Parent / guardian</li>
 <li>Party member</li>
 <li>Patriarch</li>
+<li>PC's child</li>
 <li>PC's grandparent</li>
 <li>PC's mentor / adviser</li>
 <li>PC's parent / guardian</li>
@@ -2811,6 +2815,8 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Side-scrolling</li>
 <li>Skill tree / tech tree</li>
 <li>Time loop</li>
+<li>Unlosable</li>
+<li>Unwinnable</li>
 <li>Upgrade</li>
 <li>Vertical movement</li>
 </ul>
@@ -3022,82 +3028,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 </ul>
 </details>
 
-### 6T. Gameplay Trope [R][+]
-
-Definition: "A generally recognizable [gameplay] device or convention [appearing in the footage]. [Gameplay] tropes rely on culturally mediated expectations to expedite the development of [mechanics, action, agency, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
-
-This element will typically be repeated. 
-
-See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
-
-<details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
-<ul>
-<li>coming soon</li>
-</ul>
-</details>
-
-### 6U. Environment Trope [R][+]
-
-Definition: "A generally recognizable [worldbuilding] device or [environment design] convention [appearing in the footage]. [Environment] tropes rely on culturally mediated expectations to expedite the development of [atmospheres and experiences as well as the traversal of biomes, built environments, and locations]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
-
-This element will typically be repeated.  
-
-See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
-
-<details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
-<ul> 
-<li>coming soon</li>
-</ul>
-</details>
-
-### 6V. Progression Trope [R][+]
-
-Definition: "A generally recognizable [progression] device or [level design] convention [appearing in the footage]. [Progression] tropes rely on culturally mediated expectations to expedite [advancement, acknowledge attempts to advance, or afford players with a sense of progress, achievement, or productivity]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
-
-This element will typically be repeated.
-
-See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
-
-<details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
-<ul> 
-<li>coming soon</li>
-</ul>
-</details>
-
-### 6W. Narrative Trope [R][+]
-
-Definition: "A generally recognizable narrative device or [storytelling] convention [appearing in the footage]. [Narrative] tropes rely on culturally mediated expectations to expedite the development of [stories, plots, beats, arcs, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024)
-
-This element will typically be repeated. 
-
-See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
-
-<details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
-<ul> 
-<li>coming soon</li>
-</ul>
-</details>
-
-### 6X. Character Trope [R][+]
-
-Definition: "A generally recognizable [representational] device or [storytelling] convention [appearing in the footage]. [Character] tropes rely on culturally mediated expectations to expedite the development of [story, action, agency, identification, player characters, non-player characters, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities" (Lee et al., "VGMS 4.2," 2024)
-
-This element will typically be repeated. 
-
-See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
-
-<details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
-<ul> 
-<li>coming soon</li>
-</ul>
-</details>
-
-### 6Y. Assets [R][+]
+### 6T. Assets [R][+]
 
 Definition: Audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footage
 
@@ -3164,7 +3095,7 @@ This element will typically be repeated.
 </ul>
 </details>
 
-### 6Z. Style [R][+]
+### 6U. Style [R][+]
 
 Definition: "The predominant and recognizable [artistic tendencies] and appearance of" the platform edition as demonstrated by the gameplay footage (Lee et al., "VGMS 4.2," 2024)
 
@@ -3226,7 +3157,7 @@ Definition: "The predominant and recognizable [artistic tendencies] and appearan
 </ul>
 </details>
 
-### 6AA. Interface [R][+]
+### 6V. Interface [R][+]
 
 Definition: The means by which players interact or communicate with the game and each other in the gameplay footage; also, how the game prompts and transforms input into output in the gameplay footage
 
@@ -3310,7 +3241,7 @@ Common interfaces include menus, maps, popups, graphic overlays, and heads-up di
 </ul>
 </details>
 
-### 6BB. Experience [R][+]
+### 6W. Experience [R][+]
 
 Definition: An emotion, feeling, or range of emotions and feelings experienced by the player when the gameplay footage was recorded
 
@@ -3331,6 +3262,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Avoidance</li>
 <li>Awe / wonder</li>
 <li>Belonging</li>
+<li>Better as a Let's Play</li>
 <li>Betrayal</li>
 <li>Bittersweetness</li>
 <li>Boredom</li>
@@ -3389,7 +3321,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 </ul>
 </details>
 
-### 6CC. Transaction [R][+]
+### 6X. Transaction [R][+]
 
 Definition: Purchases and forms of monetization that appear in, or are indexed by, the gameplay footage
 
@@ -3415,6 +3347,168 @@ Select "No transaction" if the footage contains no observable purchase or form o
 <li>Season pass / buy-to-play</li>
 <li>Shareware</li>
 <li>Subscription / pay-to-play</li>
+</ul>
+</details>
+
+### 6Y. Gameplay Trope [+]
+
+Definition: "A generally recognizable [gameplay] device or convention [appearing in the footage]. [Gameplay] tropes rely on culturally mediated expectations to expedite the development of [mechanics, action, agency, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
+
+This element will typically be repeated. 
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of most tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
+<ul>
+<li>Action-based mission</li>
+<li>Adventurer is you</li>
+<li>Anti-hoarding</li>
+<li>Area of effect attack</li>
+<li>Attack its weak point or injury</li>
+<li>Aura vision / detect evil</li>
+<li>Bottomless fuel tank</li>
+<li>Calvinball / we don't know the rules</li>
+<li>Collision damage</li>
+<li>Combat resuscitation</li>
+<li>Comeback mechanic</li>
+<li>Commander is you</li>
+<li>Context-sensitive button</li>
+<li>Controllable helplessness</li>
+<li>Cooldown</li>
+<li>Corridor cubbyhole run</li>
+<li>Coup de grâce / thwarted coup de grâce</li>
+<li>Cranium ride</li>
+<li>Critical hit</li>
+<li>Dialogue during gameplay</li>
+<li>Elaborate equals effective / evolving weapon</li>
+<li>Entrepreneur is you</li>
+<li>Essence drop</li>
+<li>Extra turn</li>
+<li>Fake difficulty</li>
+<li>Fatigue mechanic</li>
+<li>Frustration simulator</li>
+<li>Game-favoured abilities</li>
+<li>Game-favoured gender</li>
+<li>Game-favoured race</li>
+<li>Game-favoured sexuality</li>
+<li>Gameplay automation / game plays itself</li>
+<li>Gendered fighting style</li>
+<li>Healing boss</li>
+<li>Hide-and-seek horror</li>
+<li>Hit flash / hit spark</li>
+<li>Hitbox dissonance</li>
+<li>Home field advantage</li>
+<li>Instant death radius</li>
+<li>Interior designer is you</li>
+<li>Intoxication mechanic</li>
+<li>Limited-use magical device</li>
+<li>Luck stat</li>
+<li>Magical weapon</li>
+<li>Magnet hands / never lose grip</li>
+<li>Mirror match / fearful symmetry</li>
+<li>Misaimed realism / breakable weapons</li>
+<li>Morale mechanic / team spirit</li>
+<li>Musical gameplay / Mickey Mousing</li>
+<li>No such thing as dehydration or hunger</li>
+<li>No such thing as drowning</li>
+<li>Optional party member</li>
+<li>Overheating</li>
+<li>Personality mechanic</li>
+<li>Power-up motif</li>
+<li>Power equals rarity / hard-to-acquire item</li>
+<li>Purely aesthetic customization</li>
+<li>Purely aesthetic gender</li>
+<li>Quest giver is you</li>
+<li>Racialized fighting style</li>
+<li>Racing ghost</li>
+<li>Random drop</li>
+<li>Regenerating health</li>
+<li>Regenerating mana</li>
+<li>Rubber-band AI</li>
+<li>Shows damage / damage is fire</li>
+<li>Simon says minigame</li>
+<li>Simple rescue mechanic</li>
+<li>Some dexterity required</li>
+<li>Spiteful AI</li>
+<li>Status effect / ailment / buff</li>
+<li>Status line / expressive health bar</li>
+<li>Stealth-based mission</li>
+<li>Tactical door use</li>
+<li>Taunt button</li>
+<li>Three-approach system</li>
+<li>Unbroken first-person perspective</li>
+<li>Unexpected gameplay change</li>
+<li>Unexpected shmup level</li>
+<li>Unexpectedly realistic gameplay</li>
+<li>Unpopular mechanic / scrappy mechanic</li>
+<li>Useless item / joke item</li>
+<li>Victory pose / victory quote</li>
+<li>Wandering you / random encounters</li>
+<li>Whack-a-monster</li>
+<li>You are you</li>
+<li>You will not evade me / grabbing and pulling</li>
+<li>Zip mode</li>
+</ul>
+</details>
+
+### 6Z. Environment Trope [+]
+
+Definition: "A generally recognizable [worldbuilding] device or [environment design] convention [appearing in the footage]. [Environment] tropes rely on culturally mediated expectations to expedite the development of [atmospheres and experiences as well as the traversal of biomes, built environments, and locations]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
+
+This element will typically be repeated.  
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
+
+### 6AA. Progression Trope [+]
+
+Definition: "A generally recognizable [progression] device or [level design] convention [appearing in the footage]. [Progression] tropes rely on culturally mediated expectations to expedite [advancement, acknowledge attempts to advance, or afford players with a sense of progress, achievement, or productivity]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
+
+This element will typically be repeated.
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
+
+### 6BB. Narrative Trope [+]
+
+Definition: "A generally recognizable narrative device or [storytelling] convention [appearing in the footage]. [Narrative] tropes rely on culturally mediated expectations to expedite the development of [stories, plots, beats, arcs, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024)
+
+This element will typically be repeated. 
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
+<ul> 
+<li>coming soon</li>
+</ul>
+</details>
+
+### 6CC. Character Trope [+]
+
+Definition: "A generally recognizable [representational] device or [storytelling] convention [appearing in the footage]. [Character] tropes rely on culturally mediated expectations to expedite the development of [story, action, agency, identification, player characters, non-player characters, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities" (Lee et al., "VGMS 4.2," 2024)
+
+This element will typically be repeated. 
+
+See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
+
+<details>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
+<ul> 
+<li>coming soon</li>
 </ul>
 </details>
 
