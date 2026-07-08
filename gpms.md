@@ -3610,9 +3610,135 @@ This element will typically be repeated.
 See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
 
 <details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
+<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)
+)</summary>
 <ul> 
-<li>coming soon</li>
+<li>Ability required to proceed</li>
+<li>Action commands / press X not to die</li>
+<li>All or nothing / zero-sum game</li>
+<li>Already done for you</li>
+<li>Anti-idling</li>
+<li>Arbitrary mission restriction</li>
+<li>Arduous descent to terra firma</li>
+<li>Backtracking</li>
+<li>Big first choice</li>
+<li>Boss battle</li>
+<li>Breather level / easy level</li>
+<li>Catastrophic countdown</li>
+<li>Character-specific dialogue</li>
+<li>Character class system / job system</li>
+<li>Character level or strength gate</li>
+<li>Character level scaling</li>
+<li>Checkpoint starvation</li>
+<li>Choices don't matter</li>
+<li>Choices matter</li>
+<li>Com mon / common monster</li>
+<li>Completion or achievement mockery</li>
+<li>Computer is lying to me / is cheating</li>
+<li>Computer shall taunt you</li>
+<li>Cooperation versus competition</li>
+<li>Cruelty is the only option</li>
+<li>Deadly game of chance</li>
+<li>Defeat means friendship</li>
+<li>Defeat means playable</li>
+<li>Dev is smarter than me</li>
+<li>Difficulty spike</li>
+<li>Door roulette / magical mystery doors</li>
+<li>Early game hell</li>
+<li>Earn your bad ending</li>
+<li>Earn your fun</li>
+<li>Earn your happy ending</li>
+<li>Easy EXP / experience farming</li>
+<li>Enjoy the story, skip the game</li>
+<li>Enter the solution here</li>
+<li>Escape the labyrinth</li>
+<li>Escort mission</li>
+<li>Event flag</li>
+<li>Expanded ending / secret expanded epilogue</li>
+<li>Failure is the only option / misère game</li>
+<li>Fame gate / must be famous to progress</li>
+<li>Fetch quest</li>
+<li>Follow the money / pass through the rings</li>
+<li>Foolishness is the only option</li>
+<li>Game of chicken</li>
+<li>Grinding / stat grinding / level grinding</li>
+<li>Groundhog day loop</li>
+<li>Hold the line</li>
+<li>I fought the law, and the law won</li>
+<li>Inescapable ambush</li>
+<li>Informing the fourth wall / PC's intrapersonal communication</li>
+<li>Instant death</li>
+<li>Involuntary group split</li>
+<li>Journey to the sky</li>
+<li>Kill screen</li>
+<li>Kingmaker scenario</li>
+<li>Last lousy point</li>
+<li>Light-and-mirrors puzzle</li>
+<li>Loading screen message gag</li>
+<li>Lock-and-key puzzle</li>
+<li>Locked door</li>
+<li>Multiple game openings</li>
+<li>Multiple persuasion modes</li>
+<li>New world tease</li>
+<li>No-gear level</li>
+<li>No-harm requirement / bring them back alive</li>
+<li>No campaign or canon for the wicked</li>
+<li>No exploration / no sidepaths</li>
+<li>Non-standard game over / deliberate game crash</li>
+<li>NPC scheduling</li>
+<li>NPC volunteers to repeat information</li>
+<li>One game, one boss</li>
+<li>Only one save file</li>
+<li>Only smart people may pass</li>
+<li>Optional boss</li>
+<li>Optional encounter</li>
+<li>Optional party member</li>
+<li>Overly generous time limit</li>
+<li>Password save</li>
+<li>Path of most resistance / harder route, better rewards</li>
+<li>Pawns but no bosses</li>
+<li>Pawns go first</li>
+<li>Perpetually saving the same NPC</li>
+<li>Philosophical choice ending</li>
+<li>Placate the NPC or monster</li>
+<li>Play the game, skip the story</li>
+<li>Plot lock</li>
+<li>Point of no return</li>
+<li>Pop quiz</li>
+<li>Railroading / blamed for being railroaded</li>
+<li>Real-time with pause</li>
+<li>Recollection sidequest</li>
+<li>Repeatable quest</li>
+<li>Respawn point</li>
+<li>Rock, paper, scissors</li>
+<li>Romance option</li>
+<li>Romance sidequest</li>
+<li>Runback / boss runback</li>
+<li>Running-out-of-time warning</li>
+<li>Safe space / bonfire</li>
+<li>Save the princess</li>
+<li>Secret final campaign</li>
+<li>Secret level</li>
+<li>Slay the dragon</li>
+<li>Step one: escape</li>
+<li>Story branch favouritism</li>
+<li>That one achievement</li>
+<li>That one boss</li>
+<li>That one level</li>
+<li>That one puzzle</li>
+<li>That one sidequest</li>
+<li>Tiebreaker round</li>
+<li>Time trial / timed mission</li>
+<li>Training stage</li>
+<li>Trap is the only option</li>
+<li>Treacherous checkpoint</li>
+<li>Tutorial failure</li>
+<li>Variable player goals</li>
+<li>Violation of common sense</li>
+<li>Violence is the only option</li>
+<li>We cannot go on without you</li>
+<li>When all else fails, go right</li>
+<li>Winner is you</li>
 </ul>
 </details>
 
