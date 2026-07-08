@@ -3520,7 +3520,84 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
 <ul> 
-<li>coming soon</li>
+<li>Adventure-friendly world</li>
+<li>Announcer or commentator chatter</li>
+<li>Annoying enemy won't leave you alone</li>
+<li>Antepiece for the setpiece</li>
+<li>Battle or combat theme music</li>
+<li>Bottle episode</li>
+<li>Bright and colourful war</li>
+<li>Broken bridge</li>
+<li>Colour-coded for your convenience</li>
+<li>Control room</li>
+<li>Conveniently available escape route</li>
+<li>Conveniently timed guard / clairvoyant security force</li>
+<li>Crate expectations / crates everywhere</li>
+<li>Cut and paste environments</li>
+<li>Death from above</li>
+<li>Easter egg hunt</li>
+<li>Empty room psychology</li>
+<li>Empty room until the trap</li>
+<li>Enemy chatter / enemy barks</li>
+<li>Enemy overconfidence</li>
+<li>Everything breaks</li>
+<li>Everything is smashable</li>
+<li>Everything is trying to kill you</li>
+<li>Fake trap</li>
+<li>Faux symbolism</li>
+<li>Fog of war</li>
+<li>Foreboding architecture / malevolent architecture</li>
+<li>Frictionless ice</li>
+<li>Gravity barrier</li>
+<li>Grimy water</li>
+<li>Healing spring</li>
+<li>Hide your children / no children anywhere</li>
+<li>High culture, low tech</li>
+<li>Highly visible landmark</li>
+<li>Historical revisionism</li>
+<li>I can't reach it / PC cannot perform this action</li>
+<li>Impassable desert</li>
+<li>In-universe game clock</li>
+<li>Inconveniently-placed conveyor belt</li>
+<li>Insurmountable fence</li>
+<li>Intercom villainy / acousmatic villain</li>
+<li>Invisible wall</li>
+<li>Low culture, high tech</li>
+<li>Monsters everywhere / swarms / hordes</li>
+<li>Narrow colour palette means realistic</li>
+<li>New weapon target range</li>
+<li>Nice day, deadly night</li>
+<li>Notice this / shiny thing</li>
+<li>NPCs are irrelevant / are decor</li>
+<li>Old area, new enemies</li>
+<li>Pawn maker</li>
+<li>Pixel hunt</li>
+<li>Poisonous mushrooms or gas</li>
+<li>Pressure plate</li>
+<li>Real-place background</li>
+<li>Renovating the headquarters</li>
+<li>Respawning enemies</li>
+<li>Saw blades of death</li>
+<li>Scenery manifests as you go</li>
+<li>Songs in the key of panic</li>
+<li>Sound-coded for your convenience</li>
+<li>Spikes of doom</li>
+<li>Springs, springs everywhere!</li>
+<li>Steam vent obstacle</li>
+<li>Stock puzzle</li>
+<li>Suddenly-harmful harmless object</li>
+<li>Suspiciously cracked wall</li>
+<li>Temporary platform</li>
+<li>There are no tents, only inns</li>
+<li>Title theme drop</li>
+<li>Video game cruelty punishment</li>
+<li>Video game geography</li>
+<li>Video game physics</li>
+<li>Video game vista</li>
+<li>Weather demands the right gear</li>
+<li>Weather effects / weather gameplay mechanic</li>
+<li>What the hell, player?</li>
+<li>Who forgot the lights?</li>
 </ul>
 </details>
 
