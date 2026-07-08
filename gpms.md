@@ -7,7 +7,7 @@ Jentery Sayers and the Praxis Studio developed this metadata schema to describe 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Roadmap (as of 3 July 2026): 
-* Complete the GPMS. Remaining elements: Tropes, Game Studies Topic, and Media Studies Topic.   
+* Complete the GPMS. Remaining elements: Tropes (x4), Game Studies Topic, and Media Studies Topic.   
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review. 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
@@ -1347,12 +1347,12 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Interface](#6v-interface-r) [R][+] (controlled vocabulary)
 * [Experience](#6w-experience-r) [R][+] (controlled vocabulary)
 * [Transaction](#6x-transaction-r) [R][+] (controlled vocabulary) 
-* [Gameplay Trope](#6y-gameplay-trope-) [R][+] (controlled vocabulary)
-* [Environment Trope](#6z-environment-trope-) [R][+] (controlled vocabulary)
-* [Progression Trope](#6aa-progression-trope-) [R][+] (controlled vocabulary)
-* [Narrative Trope](#6bb-narrative-trope-) [R][+] (controlled vocabulary)
-* [Character Trope](#6cc-character-trope-) [R][+] (controlled vocabulary)
-* [Metagaming](#6dd-metagaming-r) [R][+] (controlled vocabulary)
+* [Metagaming](#6y-metagaming-r) [R][+] (controlled vocabulary)
+* [Gameplay Trope](#6z-gameplay-trope-) [R][+] (controlled vocabulary)
+* [Environment Trope](#6aa-environment-trope-) [R][+] (controlled vocabulary)
+* [Progression Trope](#6bb-progression-trope-) [R][+] (controlled vocabulary)
+* [Narrative Trope](#6cc-narrative-trope-) [R][+] (controlled vocabulary)
+* [Character Trope](#6dd-character-trope-) [R][+] (controlled vocabulary)
 * [Content Warning](#6ee-content-warning-r) [R] (text input field)
 * [Gameplay Footage Note](#6ff-gameplay-footage-note) (text input field)
 
@@ -3350,7 +3350,64 @@ Select "No transaction" if the footage contains no observable purchase or form o
 </ul>
 </details>
 
-### 6Y. Gameplay Trope [+]
+### 6Y. Metagaming [R][+]
+
+Definition: Acts of play appearing in the gamemplay footage that "involve or consider resources that are 'beyond' the scope or control of what players . . . collectively consider to be the 'right and correct game'" (Carter et al. 2012)
+
+Select "Orthogame (no observable meta)" if the footage contains no observable or deliberate metagaming. 
+
+The "Current meta" option applies to the meta as of the date of play and recording . 
+
+<details>
+<summary><i>controlled vocabulary</i> (informed by Carter et al. 2012 and Boluk & LeMieux 2017; adpated, with changes and additions, from TV Tropes 2026)</summary>
+<ul>
+<li>Advanced movement technique</li>
+<li>AI breaking</li>
+<li>Anti-meta</li>
+<li>Cheat code</li>
+<li>Cheesing / cheese strategy</li>
+<li>Complacent gaming</li>
+<li>Current meta</li>
+<li>Derailing / derailment</li>
+<li>Dev console</li>
+<li>Disc-one nuke</li>
+<li>Duping</li>
+<li>Easy level trick</li>
+<li>Emulation</li>
+<li>Exploit</li>
+<li>Game-breaker</li>
+<li>God mode</li>
+<li>Good bad bug</li>
+<li>Griefing</li>
+<li>High score chasing</li>
+<li>House rules</li>
+<li>Min-maxing</li>
+<li>Mod / modding</li>
+<li>Movement glitch</li>
+<li>Munchkinning / munchkin</li>
+<li>Not the intended use</li>
+<li>Optional stealth</li>
+<li>Orthogame (no observable meta)</li>
+<li>Outside-the-box tactic</li>
+<li>Pause scumming</li>
+<li>Safe zone</li>
+<li>Save scumming</li>
+<li>Score milking</li>
+<li>Script breaking</li>
+<li>Self-imposed challenge / challenge run</li>
+<li>Sequence breaking</li>
+<li>Smurfing</li>
+<li>Soft reset</li>
+<li>Solo-character run</li>
+<li>Spawncamping</li>
+<li>Speedrun</li>
+<li>Testing the narrative</li>
+<li>Testing the system</li>
+<li>Theorycrafting</li>
+</ul>
+</details>
+
+### 6Z. Gameplay Trope [+]
 
 Definition: "A generally recognizable [gameplay] device or convention [appearing in the footage]. [Gameplay] tropes rely on culturally mediated expectations to expedite the development of [mechanics, action, agency, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
 
@@ -3452,7 +3509,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 </ul>
 </details>
 
-### 6Z. Environment Trope [+]
+### 6AA. Environment Trope [+]
 
 Definition: "A generally recognizable [worldbuilding] device or [environment design] convention [appearing in the footage]. [Environment] tropes rely on culturally mediated expectations to expedite the development of [atmospheres and experiences as well as the traversal of biomes, built environments, and locations]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
 
@@ -3467,7 +3524,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 </ul>
 </details>
 
-### 6AA. Progression Trope [+]
+### 6BB. Progression Trope [+]
 
 Definition: "A generally recognizable [progression] device or [level design] convention [appearing in the footage]. [Progression] tropes rely on culturally mediated expectations to expedite [advancement, acknowledge attempts to advance, or afford players with a sense of progress, achievement, or productivity]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
 
@@ -3482,7 +3539,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 </ul>
 </details>
 
-### 6BB. Narrative Trope [+]
+### 6CC. Narrative Trope [+]
 
 Definition: "A generally recognizable narrative device or [storytelling] convention [appearing in the footage]. [Narrative] tropes rely on culturally mediated expectations to expedite the development of [stories, plots, beats, arcs, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024)
 
@@ -3497,7 +3554,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 </ul>
 </details>
 
-### 6CC. Character Trope [+]
+### 6DD. Character Trope [+]
 
 Definition: "A generally recognizable [representational] device or [storytelling] convention [appearing in the footage]. [Character] tropes rely on culturally mediated expectations to expedite the development of [story, action, agency, identification, player characters, non-player characters, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities" (Lee et al., "VGMS 4.2," 2024)
 
@@ -3512,62 +3569,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 </ul>
 </details>
 
-### 6DD. Metagaming [R][+]
 
-Definition: Acts of play appearing in the gamemplay footage that "involve or consider resources that are 'beyond' the scope or control of what players . . . collectively consider to be the 'right and correct game'" (Carter et al. 2012)
-
-Select "Orthogame (no observable meta)" if the footage contains no observable or deliberate metagaming. 
-
-The "Current meta" option applies to the meta as of the date of play and recording . 
-
-<details>
-<summary><i>controlled vocabulary</i> (informed by Carter et al. 2012 and Boluk & LeMieux 2017; adpated, with changes and additions, from TV Tropes 2026)</summary>
-<ul>
-<li>Advanced movement technique</li>
-<li>AI breaking</li>
-<li>Anti-meta</li>
-<li>Cheat code</li>
-<li>Cheesing / cheese strategy</li>
-<li>Complacent gaming</li>
-<li>Current meta</li>
-<li>Derailing / derailment</li>
-<li>Dev console</li>
-<li>Disc-one nuke</li>
-<li>Duping</li>
-<li>Easy level trick</li>
-<li>Emulation</li>
-<li>Exploit</li>
-<li>Game-breaker</li>
-<li>God mode</li>
-<li>Good bad bug</li>
-<li>Griefing</li>
-<li>High score chasing</li>
-<li>House rules</li>
-<li>Min-maxing</li>
-<li>Mod / modding</li>
-<li>Movement glitch</li>
-<li>Munchkinning / munchkin</li>
-<li>Not the intended use</li>
-<li>Optional stealth</li>
-<li>Orthogame (no observable meta)</li>
-<li>Outside-the-box tactic</li>
-<li>Pause scumming</li>
-<li>Safe zone</li>
-<li>Save scumming</li>
-<li>Score milking</li>
-<li>Script breaking</li>
-<li>Self-imposed challenge / challenge run</li>
-<li>Sequence breaking</li>
-<li>Smurfing</li>
-<li>Soft reset</li>
-<li>Solo-character run</li>
-<li>Spawncamping</li>
-<li>Speedrun</li>
-<li>Testing the narrative</li>
-<li>Testing the system</li>
-<li>Theorycrafting</li>
-</ul>
-</details>
 
 ### 6EE. Content Warning [R]
 
