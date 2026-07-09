@@ -1,13 +1,15 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 8 July 2026 with feedback from the [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and the [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC) at the University of Victoria (UVic). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 8 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (DRAFT)
 
 Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for internal release in 2026-27.
 
+This schema is an evergreen document. Its elements, definitions, and controlled vocabularies are not intended to be exhaustive. 
+
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 3 July 2026): 
-* Complete the GPMS. Remaining elements: Tropes (x4), Game Studies Topic, and Media Studies Topic.   
+Roadmap (as of 8 July 2026): 
+* Complete the GPMS. Remaining elements: Character Trope, Game Studies Topic, and Media Studies Topic.   
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review. 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
@@ -43,6 +45,8 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * International Federation of Library Associations and Institutions (IFLA) (2009). Functional Requirements for Bibliographic Records (FRBR). [https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr.pdf)
 * Isbister, K. (2016). How Games Move Us: Emotion by Design. The MIT Press. 
 * Jan, M. (2017). Game Developer’s Guide to Graphical Projections. [https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d](https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d)
+* Jenkins, H. (2002). Game Design As Narrative Architecture. [https://web.mit.edu/~21fms/People/henry3/games&narrative.html](https://web.mit.edu/~21fms/People/henry3/games&narrative.html)
+* Laws, R. (2010). Hamlet's Hit Points. Pelgrane Press. 
 * Lee, J. H., Perti, A., Cho, H., et al. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Visual Style. Version 1.6. [https://github.com/uwgamergroup/vocabulary-visual-style](https://github.com/uwgamergroup/vocabulary-visual-style)
 * Lee, J. H., Perti, A., Thirumalai, V., Welch, H., Zachary, A., & Nguyen, T. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Theme. Version 1.2. [https://github.com/uwgamergroup/vocabulary-theme](https://github.com/uwgamergroup/vocabulary-theme)
 * Lee, J. H., Schmalz, M., Newman, M., & Koughan, L.D. (2024). UW/SIMM Video Game Metadata Schema. Version 4.2. [https://github.com/uwgamergroup/video-game-metadata-schema](https://github.com/uwgamergroup/video-game-metadata-schema)
@@ -2100,11 +2104,11 @@ Definition: An artificial physical feature or edifice appearing in the gameplay 
 </ul>
 </details>
 
-### 6K. Mode of Transport [R][+]
+### 6K. Means of Transport [R][+]
 
 Definition: A means of conveyance or travel from one place to another appearing in the gameplay footage 
 
-Select "No mode of transport" if the footage contains no means of conveyance or travel.
+Select "No means of transport" if the footage contains no means of conveyance or travel.
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
@@ -2142,6 +2146,7 @@ Select "No mode of transport" if the footage contains no means of conveyance or 
 <li>Mecha / giant robot</li>
 <li>Minecart</li>
 <li>Motorcycle</li>
+<li>No means of transport</li>
 <li>Pipe / warp pipe</li>
 <li>Portal / fast travel / teleportation</li>
 <li>Running</li>
@@ -2741,25 +2746,29 @@ Description: How, as demonstrated by the footage, the platform edition allows pl
 
 This element will typically be repeated. 
 
-Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution), and gamification (achievements or trophies) (Brazie 2024). 
+Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution, including pacing), and gamification (achievements or trophies) (Brazie 2024). 
 
 <details>
-<summary><i>controlled vocabulary</i></summary>
+<summary><i>controlled vocabulary</i> (with nine beats adapted from Laws 2010 and environmental storytelling from Jenkins 2002)</summary>
 <ul>
 <li>Achievement / trophy / badge</li>
-<li>Aha moment</li>
 <li>Act structure</li>
+<li>Aha moment</li>
+<li>Anticipation beat</li>
 <li>Auto-scrolling</li>
 <li>Branching narrative</li>
+<li>Bringdown beat</li>
 <li>Checkpoint</li>
 <li>Choice-and-consequence system</li>
 <li>Climax</li>
 <li>Cognitive development</li>
 <li>Collectible</li>
+<li>Commentary beat</li>
 <li>Core loop</li>
 <li>Cutscene / live-action cutscene</li></li>
 <li>Death</li>
 <li>Dialogue tree</li>
+<li>Dramatic beat</li>
 <li>Dynamic loading</li>
 <li>Elimination / team wipe</li>
 <li>Embedded story</li>
@@ -2776,11 +2785,13 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Flashforward / prolepsis</li>
 <li>Flip-screen scrolling</li>
 <li>Gating</li>
+<li>Gratification beat</li>
 <li>Highlight reel / replay reel</li>
 <li>Hit points</li>
 <li>Horizontal movement</li>
 <li>Hub / home base</li>
 <li>In-game reward</li>
+<li>In medias res</li>
 <li>Jumpscare / jump scare</li>
 <li>Level complete</li>
 <li>Levelling up</li>
@@ -2799,14 +2810,18 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>New mission / quest</li>
 <li>New round</li>
 <li>Parallax scrolling</li>
+<li>Pipe beat</li>
 <li>Platinum / 100% achievements</li>
+<li>Procedural beat</li>
 <li>Procedural generation / randomization</li>
 <li>Progression map / player path</li>
+<li>Question beat</li>
 <li>Quick time event</li>
 <li>Random event</li>
 <li>Ratchet scrolling</li>
 <li>Resolution / ending</li>
 <li>Respawning</li>
+<li>Reveal beat</li>
 <li>Rising action</li>
 <li>Rolling credits</li>
 <li>Round complete</li>
@@ -3520,26 +3535,34 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from TV Tropes 2026)</summary>
 <ul> 
+<li>Abandoned ship / abandoned means of transport</li>
 <li>Adventure-friendly world</li>
+<li>Air-vent passageway</li>
 <li>Announcer or commentator chatter</li>
 <li>Annoying enemy won't leave you alone</li>
 <li>Antepiece for the setpiece</li>
+<li>Apathetic citizens or villagers</li>
 <li>Battle or combat theme music</li>
 <li>Bottle episode</li>
 <li>Bright and colourful war</li>
 <li>Broken bridge</li>
+<li>Cardboard prison</li>
 <li>Colour-coded for your convenience</li>
-<li>Control room</li>
+<li>Control room / surveillance station</li>
 <li>Conveniently available escape route</li>
 <li>Conveniently timed guard / clairvoyant security force</li>
 <li>Crate expectations / crates everywhere</li>
 <li>Cut and paste environments</li>
 <li>Death from above</li>
+<li>Deserted island</li>
+<li>Destroy the security camera</li>
+<li>Don't go in the woods</li>
 <li>Easter egg hunt</li>
 <li>Empty room psychology</li>
 <li>Empty room until the trap</li>
 <li>Enemy chatter / enemy barks</li>
 <li>Enemy overconfidence</li>
+<li>Everyone is dead or gone</li>
 <li>Everything breaks</li>
 <li>Everything is smashable</li>
 <li>Everything is trying to kill you</li>
@@ -3558,10 +3581,16 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>I can't reach it / PC cannot perform this action</li>
 <li>Impassable desert</li>
 <li>In-universe game clock</li>
+<li>Incompetent guard / guard animal</li>
 <li>Inconveniently-placed conveyor belt</li>
+<li>Inside a computer system</li>
 <li>Insurmountable fence</li>
 <li>Intercom villainy / acousmatic villain</li>
 <li>Invisible wall</li>
+<li>Laser hallway</li>
+<li>Level ate / world made of food</li>
+<li>Level in the clouds / world in the sky</li>
+<li>Locomotive level / on a train</li>
 <li>Low culture, high tech</li>
 <li>Monsters everywhere / swarms / hordes</li>
 <li>Narrow colour palette means realistic</li>
@@ -3569,7 +3598,10 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Nice day, deadly night</li>
 <li>Notice this / shiny thing</li>
 <li>NPCs are irrelevant / are decor</li>
+<li>NPCs repeating dialogue</li>
 <li>Old area, new enemies</li>
+<li>Only shop in town</li>
+<li>Override command</li>
 <li>Pawn maker</li>
 <li>Pixel hunt</li>
 <li>Poisonous mushrooms or gas</li>
@@ -3579,6 +3611,8 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Respawning enemies</li>
 <li>Saw blades of death</li>
 <li>Scenery manifests as you go</li>
+<li>Security blindspot</li>
+<li>Slow doors</li>
 <li>Songs in the key of panic</li>
 <li>Sound-coded for your convenience</li>
 <li>Spikes of doom</li>
@@ -3590,6 +3624,9 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Temporary platform</li>
 <li>There are no tents, only inns</li>
 <li>Title theme drop</li>
+<li>Thriving ghost town / low population</li>
+<li>Unguided lab tour</li>
+<li>Vice city</li>
 <li>Video game cruelty punishment</li>
 <li>Video game geography</li>
 <li>Video game physics</li>
@@ -3598,6 +3635,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Weather effects / weather gameplay mechanic</li>
 <li>What the hell, player?</li>
 <li>Who forgot the lights?</li>
+<li>Your door was open</li>
 </ul>
 </details>
 
@@ -3644,6 +3682,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Dev is smarter than me</li>
 <li>Difficulty spike</li>
 <li>Door roulette / magical mystery doors</li>
+<li>Driving test</li>
 <li>Early game hell</li>
 <li>Earn your bad ending</li>
 <li>Earn your fun</li>
@@ -3658,6 +3697,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Failure is the only option / misère game</li>
 <li>Fame gate / must be famous to progress</li>
 <li>Fetch quest</li>
+<li>Find the cure</li>
 <li>Follow the money / pass through the rings</li>
 <li>Foolishness is the only option</li>
 <li>Game of chicken</li>
@@ -3687,6 +3727,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Non-standard game over / deliberate game crash</li>
 <li>NPC scheduling</li>
 <li>NPC volunteers to repeat information</li>
+<li>Offer you can't refuse</li>
 <li>One game, one boss</li>
 <li>Only one save file</li>
 <li>Only smart people may pass</li>
@@ -3753,7 +3794,117 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
 <ul> 
-<li>coming soon</li>
+<li>Abandoned hospital awakening</li>
+<li>Acceptable break from reality</li>
+<li>Achieve three goals to advance the plot</li>
+<li>Addressing or mentioning the player</li>
+<li>Apocalyptic log / audio log</li>
+<li>Art shift / change in artstyle</li>
+<li>Artistic license / putting the story first</li>
+<li>Back from the brink of destruction</li>
+<li>Battle intro</li>
+<li>Before the dark times speech</li>
+<li>Bring help back / bring news back</li>
+<li>Broken masquerade</li>
+<li>Body snatcher / body and host</li>
+<li>Character arrives late to the tragedy</li>
+<li>Chase / chase scene</li>
+<li>Chekov's gun</li>
+<li>Chess motif</li>
+<li>Clear my name / clear their name</li>
+<li>Colonizing or settling the frontier</li>
+<li>Coming-out story</li>
+<li>Coup de grâce cutscene</li>
+<li>Crashing the coronation</li>
+<li>Cutscene incompetence</li>
+<li>Darkest before the dawn</li>
+<li>Deal with the devil</li>
+<li>Declaration of personal independence</li>
+<li>Decolonizing lands, waters, or space</li>
+<li>Defeating the cheating opponent</li>
+<li>Destiny reveal</li>
+<li>Don't celebrate just yet</li>
+<li>End of an age / end of an era</li>
+<li>End justifies the means</li>
+<li>Enemy mine / common enemy, common goal</li>
+<li>Epic race</li>
+<li>Excuse plot / no plot, no problem</li>
+<li>Expository gameplay limitation</li>
+<li>Face-heel turn</li>
+<li>Failed audition plot / talent contest</li>
+<li>False utopia</li>
+<li>Five-second foreshadowing</li>
+<li>Former friends, now foes</li>
+<li>Friend in need / chronic hero syndrome</li>
+<li>Gameplay-guided amnesia for tutorials</li>
+<li>Grass is greener</li>
+<li>Hail mary</li>
+<li>Heel-face turn</li>
+<li>Heroic sacrifice / occupational hazard</li>
+<li>How we got here / whole episode flashback</li>
+<li>I choose to stay / PC remains in new environment</li>
+<li>It's personal</li>
+<li>Jade-coloured glasses / newcomer becomes cynic</li>
+<li>Journey of reclamation</li>
+<li>Lampshading / characters call attention to the illogical</li>
+<li>Last moment together / but now I must go</li>
+<li>Led by the outsider</li>
+<li>Lecture as exposition</li>
+<li>Life-affirming event / carpe diem speech</li>
+<li>Living a double life</li>
+<li>Love triangle</li>
+<li>MacGuffin</li>
+<li>Makeover scene or plot</li>
+<li>Musical spoiler / what's that sound?</li>
+<li>Nature is not nice / is not a toy</li>
+<li>Lost at sea</li>
+<li>No main villain / no Big Bad</li>
+<li>Odd couple</li>
+<li>Outside context problem / alien invasion</li>
+<li>Painting the medium / design conveys story</li>
+<li>Paranormal scene or episode</li>
+<li>Passing the torch</li>
+<li>Patience plot / we wait</li>
+<li>Pawn debut cutscene</li>
+<li>Player and protagonist integration</li>
+<li>PC death is dramatic</li>
+<li>PC death is not dramatic</li>
+<li>Plot armour / story-driven invulnerability</li>
+<li>Plot coupon</li>
+<li>Plot twist</li>
+<li>Prevent the war, crime, or tragedy</li>
+<li>Prized possession giveaway / this is a gift</li>
+<li>Prodigal protagonist / prodigal family</li>
+<li>Protagonist stumbled into the plot</li>
+<li>Protagonist without a past</li>
+<li>Pygmalion plot</li>
+<li>Quest for identity</li>
+<li>Quest for the rest / others like you</li>
+<li>Religion is magic</li>
+<li>Removing the rival</li>
+<li>Rescue arc</li>
+<li>Resistance is futile speech or scene</li>
+<li>Revenge plot / pointless revenge</li>
+<li>Rip Van Winkle / slept through the apocalypse</li> 
+<li>Road trip plot</li>
+<li>Sanity slippage / driven to madness or misanthropy</li>
+<li>Seal the breach</li>
+<li>Sell what you love / I ran out of cash</li>
+<li>Significant wardrobe change</li>
+<li>Static role, exchangeable character</li>
+<li>Superpowers for a day</li>
+<li>This is the final battle speech</li>
+<li>Time-compression montage</li>
+<li>Time travel / wayback trip</li>
+<li>To hell and back</li>
+<li>Unreliable narrator</li>
+<li>Upsetting the balance</li>
+<li>Virtual training simulation / diegetic simulation</li>
+<li>War sequence / a thousand against one</li>
+<li>We need to get proof</li>
+<li>What could possibly go wrong? scene or speech</li>
+<li>You can't fight fate / but thou must!</li>
+<li>You wake up in a room / on a beach</li>
 </ul>
 </details>
 
