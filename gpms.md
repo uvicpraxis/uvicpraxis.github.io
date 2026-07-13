@@ -958,6 +958,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confir
 <li>B</li>
 <li>III</li>
 <li>Indie</li>
+<li>Licensed game</li>
 <li>Self-published</li>
 </ul>
 </details>
@@ -3448,6 +3449,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Cooldown</li>
 <li>Corridor cubbyhole run</li>
 <li>Coup de grâce / thwarted coup de grâce</li>
+<li>Coyote time</li>
 <li>Cranium ride</li>
 <li>Critical hit</li>
 <li>Dialogue during gameplay</li>
