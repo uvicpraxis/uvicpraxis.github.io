@@ -1,15 +1,15 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 8 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 13 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (DRAFT)
 
 Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for internal release in 2026-27.
 
-This schema is an evergreen document. Its elements, definitions, and controlled vocabularies are not intended to be exhaustive. 
+This schema is an evergreen document. Its elements, definitions, and controlled vocabularies are not intended to be exhaustive, and we will update and correct them as we learn from the collection and description process. 
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 8 July 2026): 
-* Complete the GPMS. Remaining elements: Character Trope, Game Studies Topic, and Media Studies Topic.   
+Roadmap (as of 13 July 2026): 
+* Complete the GPMS. Remaining elements: Character Trope  
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review. 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
@@ -1659,7 +1659,6 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 <li>Parody / spoof</li>
 <li>Period piece</li>
 <li>Physical comedy</li>
-<li>Procedural generation / randomized</li>
 <li>Psychological</li>
 <li>Religious</li>
 <li>Retropunk / steampunk / dieselpunk</li>
@@ -1688,7 +1687,7 @@ Definition: "The intended perception of the depth of the represented entities in
 
 This element will typically be repeated: for example, 3D, 1st-person, and perspective camera. 
 
-Two options for this element (free camera and cinematic camera) are defined here to avoid confusion. 
+Two terms in this element (free camera and cinematic camera) are defined here to avoid confusion. 
 
 Select "free camera" if "the camera is not attached to a specific avatar and does not follow a specific target" (Poff and Atari 2025). Such cameras are common in strategy and sandbox games, where the "player is able to freely slide/scroll/rotate through the environment" (ibid). 
 
@@ -2722,7 +2721,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 
 Definition: How the platform edition handles the passage of time in the gameplay footage; approaches to timekeeping inevitably influence narrative pacing as well as the timing and rhythm of both players and games 
 
-Two options for this element ("meditative / zen" and "persistent") are defined here to avoid confusion. 
+Two terms for this element ("meditative / zen" and "persistent") are defined here to avoid confusion. 
 
 Select "meditative / zen" if the game "tr[ies] to calm or relax players. These types of games often have no goals and players can't do anything wrong inside the game" (Poff and Atari 2025). 
 
@@ -2773,10 +2772,9 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Elimination / team wipe</li>
 <li>Embedded story</li>
 <li>Emergent gameplay</li>
-<li>Emergent storytelling or narrative</li>
+<li>Emergent narrative</li>
 <li>Enacted story</li>
 <li>Endless game</li>
-<li>Environmental storytelling / story breadcrumbs</li>
 <li>Evoked story</li>
 <li>Experience points</li>
 <li>Exposition</li>
@@ -2813,7 +2811,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Pipe beat</li>
 <li>Platinum / 100% achievements</li>
 <li>Procedural beat</li>
-<li>Procedural generation / randomization</li>
+<li>Procedural generation</li>
 <li>Progression map / player path</li>
 <li>Question beat</li>
 <li>Quick time event</li>
@@ -3024,7 +3022,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Tokenism</li>
 <li>Tradition</li>
 <li>Transitioning</li>
-<li>Transphobia / Transmisogyny</li>
+<li>Transphobia / transmisogyny</li>
 <li>Trauma</li>
 <li>Treachery / deception</li>
 <li>Truth</li>
@@ -3296,6 +3294,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Dread</li>
 <li>Embarrassment</li>
 <li>Empathy</li>
+<li>Escapism / power fantasy</li>
 <li>Excitement</li>
 <li>Fascination</li>
 <li>Fatigue</li>
@@ -3315,7 +3314,6 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Overwhelm</li>
 <li>Perfectionism</li>
 <li>Pity</li>
-<li>Power fantasy / escapism</li>
 <li>Pride / mastery</li>
 <li>Regret</li>
 <li>Relief</li>
@@ -3380,6 +3378,7 @@ The "Current meta" option applies to the meta as of the date of play and recordi
 <li>AI breaking</li>
 <li>Anti-meta</li>
 <li>Cheat code</li>
+<li>Challenge run</li>
 <li>Cheesing / cheese strategy</li>
 <li>Complacent gaming</li>
 <li>Current meta</li>
@@ -3409,7 +3408,6 @@ The "Current meta" option applies to the meta as of the date of play and recordi
 <li>Save scumming</li>
 <li>Score milking</li>
 <li>Script breaking</li>
-<li>Self-imposed challenge / challenge run</li>
 <li>Sequence breaking</li>
 <li>Smurfing</li>
 <li>Soft reset</li>
@@ -3453,6 +3451,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Cranium ride</li>
 <li>Critical hit</li>
 <li>Dialogue during gameplay</li>
+<li>Easy to learn, hard to master</li>
 <li>Elaborate equals effective / evolving weapon</li>
 <li>Entrepreneur is you</li>
 <li>Essence drop</li>
@@ -3923,8 +3922,6 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 </ul>
 </details>
 
-
-
 ### 6EE. Content Warning [R]
 
 Definition: A written statement that lists aspects of the footage that may be upsetting, offensive, challenging, or graphic; it should also note when the footage contains flashes, if applicable
@@ -3953,12 +3950,162 @@ This entity foregrounds research, teaching, and learning in Media and Game Studi
 
 Definition: Area of Game Studies research, analysis, and discussion prompted by the gameplay footage
 
-ludonarrative dissonance / resonance, player-centric, player-agnostic, player-antagonistic
+Definitions and sources for terms in this controlled vocabulary are provided in UVic's Media Studies courses, including "Game Studies" (MDIA360). 
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
 <ul> 
-<li>coming soon</li>
+<li>Action as a medium / operator and machine acts</li>
+<li>African game studies</li>
+<li>Agôn / competition</li>
+<li>Alea / chance / fortune</li>
+<li>American game studies</li>
+<li>Analog play / analog game studies</li>
+<li>Animals and nonhumans in games / posthumanism</li>
+<li>Animation and animation techniques</li>
+<li>Anonymity, aliases, and privacy</li>
+<li>Appropriation / cultural appropriation </li>
+<li>Art games / games as art </li>
+<li>Artificial intelligence / AI programming</li>
+<li>Asian game studies</li>
+<li>Automated play and progress / idle gaming</li>
+<li>Autotelic play / autotelic activity</li>
+<li>Balance, design patterns, and anti-patterns</li>
+<li>Black game studies</li>
+<li>Canadian game studies</li>
+<li>Capitalism and capitalist logic in games</li>
+<li>Cards and card design</li>
+<li>Character agency / NPC agency</li>
+<li>Character art and design / character models and physics</li>
+<li>Cinematography, cinematics, and cameras</li>
+<li>Cisheteropatriarchy in games</li>
+<li>Code of conduct / community guidelines / safeguarding</li>
+<li>Colonization and settler colonialism in games</li>
+<li>Comics, graphic novels, and games </li>
+<li>Completionism / 100-percenting games</li>
+<li>Content creation / gaming content</li>
+<li>Cooperative and interdependent play</li>
+<li>Critical play</li>
+<li>Cursed problems in games</li>
+<li>Customization / appearance customization</li>
+<li>Death, dying, and necropolitics in games</li>
+<li>Decolonizing play</li>
+<li>Deckbuilding and resource competition</li>
+<li>Difficulty, failure, and frustration in games</li>
+<li>Disability game studies </li>
+<li>Dopamine games / compulsion loops</li>
+<li>Ecology and nature in games / playing nature </li>
+<li>Empire and manifest destiny in games</li>
+<li>Environment design / interactive environments</li>
+<li>Environmental storytelling</li>
+<li>European game studies</li>
+<li>Experience design / UX design</li>
+<li>Fair play / moral evaluation of play</li>
+<li>Fan games / fangames / mods and hacks</li>
+<li>Film and games / television and games</li>
+<li>Flow theory / flow experiences </li>
+<li>Games by 2SLGBTQI+ developers</li>
+<li>Games by Black developers</li>
+<li>Games by disabled developers</li>
+<li>Games by female developers </li>
+<li>Games by Indigenous developers</li>
+<li>Games by oppressed or marginalized groups</li>
+<li>Games by racialized groups or people of colour</li>
+<li>Gamification / gamblification / monetization / exploitationware</li>
+<li>Gender and sexuality studies of games </li>
+<li>Genre uptake / genre knowledge / genre anarchy</li>
+<li>Geography of video games and virtual spaces</li>
+<li>Glitch art / glitches / exploits</li>
+<li>History in games / historical representations</li>
+<li>Homophobia in games </li>
+<li>Ilinx / vertigo</li>
+<li>Implicit and explicit tutorialization</li>
+<li>Inclusive design / access needs</li>
+<li>Indie games / independent and self-published games</li>
+<li>Indigenous game studies / sovereign games </li>
+<li>Interaction design / computers as theatre</li>
+<li>Interface design / UI design</li>
+<li>Intersectional feminism / intersectionality in games</li>
+<li>Joy / politics of joy </li>
+<li>Labour studies of play / playbour / games and work</li>
+<li>Leisure studies of games and play / games and hobbies</li>
+<li>Level design / possibility space</li>
+<li>Library of agency / agency as art</li>
+<li>Literary games / electronic literature</li>
+<li>Live play / live performance / livestreaming</li>
+<li>Localization / culturalization / translation </li>
+<li>Ludomusicology / music and original soundtracks</li>
+<li>Ludonarrative dissonance</li>
+<li>Ludonarrative resonance</li>
+<li>Metagames and cheating / playing it right, playing it wrong</li>
+<li>Metalepsis and diegetic boundaries in games </li>
+<li>Mimetic communication in games</li>
+<li>Mobile gaming / handheld gaming </li>
+<li>Moral panic / third-person effects of games</li>
+<li>Motion capture / kinesthetics in games</li>
+<li>Motivation / clear and attainable outcomes</li>
+<li>Mundanity and the everyday in games</li>
+<li>Narrative design / writing, pacing, and dialogue</li>
+<li>Neoliberalism in games / management games</li>
+<li>Non-English games / not originally written in English</li>
+<li>Nonverbal communication in games</li>
+<li>Oceanic game studies / Australian game studies</li>
+<li>Optimization / theorcrafting / statistical thinking</li>
+<li>Paidia / playfulness</li>
+<li>Paragames / self-imposed challenges / making your own fun</li>
+<li>Pedagogy / games as teachers / learning from games</li>
+<li>Performance, dance, rhythm, and motion controls</li>
+<li>Platform studies / game engines </li>
+<li>Play spaces / horizons of intent and action</li>
+<li>Player-agnostic design</li>
+<li>Player-antagonistic design</li>
+<li>Player-centric design</li>
+<li>Player agency / player as author / emergent gameplay</li>
+<li>Player two / designed identity</li>
+<li>Playframes / affordances, conventions, customs, and parameters</li>
+<li>Playstyles / expressive mechanics / player personality</li>
+<li>Playing with feelings / rehearsing feelings</li>
+<li>Poetics / poetic play / poetic games</li>
+<li>Power fantasies / escapism in games</li>
+<li>Preservation / collections and emulations</li>
+<li>Primary mechanics / consistent verbs</li>
+<li>Privilege of play / toxic geek masculinity</li>
+<li>Procedural rhetoric / procedural literacy</li>
+<li>Puzzle design / secrets and hidden information / decoding games </li>
+<li>Queer game studies / queergaming</li>
+<li>Racism in games</li>
+<li>Randomization / random number generators</li>
+<li>Reading games / visual novels </li>
+<li>Realism in games / photorealism / mixed realism</li>
+<li>Religion in games / playing with religion</li>
+<li>Remaking and remastering games</li>
+<li>Remediation, adaptation, and homage in games</li>
+<li>Replayability / replay value / quality of life improvements</li>
+<li>Resources and resource extraction in games</li>
+<li>Roleplay / mimicry / theatre of the mind / shared fantasies</li>
+<li>Secondary mechanics / occasional verbs</li>
+<li>Self-determination theory in games</li>
+<li>Sexism and misogyny in games</li>
+<li>Sexuality, romance, love, affection, and erotics in games</li>
+<li>Shared pulse or shared affect in gaming</li>
+<li>Simulation / fidelity of connection in games</li>
+<li>Situational game design / immediate and anticipatory play</li>
+<li>Social comfort / social gaming</li>
+<li>Social learning theory in games </li>
+<li>Sound design / sound art / soundscapes / Foley</li>
+<li>Sports, esports, and sports video games </li>
+<li>Stereotypes and tokenism in games</li>
+<li>System agency / framework agency</li>
+<li>Task communication and productivity in games</li>
+<li>Toxicity, hate, and harassment in games</li>
+<li>Training or disciplining players</li>
+<li>Transphobia and transmisogyny in games</li>
+<li>White supremacy in games</li>
+<li>Whiteness in games</li>
+<li>Worldbuilding and worldviews </li>
+<li>Visual design / visual art / graphic design</li>
+<li>Voice acting / voice performance / voice-over </li>
+<li>Xenophobia in games</li>
 </ul>
 </details>
 
@@ -3966,10 +4113,31 @@ ludonarrative dissonance / resonance, player-centric, player-agnostic, player-an
 
 Definition: Area of Media Studies research, analysis, and discussion prompted by the gameplay footage
 
+This controlled vocabulary corresponds with primary topics taught in MDIA200, "Media in the 21st Century," at UVic. 
+
 <details>
 <summary><i>controlled vocabulary</i></summary>
 <ul> 
-<li>coming soon</li>
+<li>Acts and senses of communication</li>
+<li>Audio</li>
+<li>Communities and cultures</li>
+<li>Fandoms</li>
+<li>Forms and models of communication</li>
+<li>Images</li>
+<li>Interfaces</li>
+<li>Meaning and semiotics</li>
+<li>Means and levels of communication</li>
+<li>Media aesthetics</li>
+<li>Media effects</li>
+<li>Narrative and genre</li>
+<li>Noise and miscommunication</li>
+<li>Ownership effects and regulation</li>
+<li>Preservation</li>
+<li>Representation and intersectionality</li>
+<li>Rhetoric and persuasion</li>
+<li>Text</li>
+<li>Understanding media</li>
+<li>Video</li>
 </ul>
 </details>
 
