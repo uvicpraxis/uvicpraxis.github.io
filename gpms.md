@@ -3910,7 +3910,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Lost at sea</li>
 <li>No main villain / no Big Bad</li>
 <li>Now it's personal</li>
-<li>NPC has their own adventure or story<li>
+<li>NPC has their own adventure or story</li>
 <li>Odd couple / two completely different characters</li>
 <li>Offer you can't refuse</li>
 <li>Outside context problem / alien invasion</li>
