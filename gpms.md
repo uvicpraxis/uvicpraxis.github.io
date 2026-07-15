@@ -2783,7 +2783,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Collectible</li>
 <li>Commentary beat</li>
 <li>Core loop</li>
-<li>Cutscene / live-action cutscene</li></li>
+<li>Cutscene / live-action cutscene</li>
 <li>Death</li>
 <li>Dialogue tree</li>
 <li>Dramatic beat</li>
