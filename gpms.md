@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 13 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 14 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (DRAFT)
 
@@ -6,18 +6,22 @@ Jentery Sayers and the Praxis Studio developed this metadata schema to describe 
 
 This schema is an evergreen document. Its elements, definitions, and controlled vocabularies are not intended to be exhaustive, and we will update and correct them as we learn from the collection and description process. 
 
+No generative artificial intelligence tools were used to create or populate this schema. 
+
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 13 July 2026): 
-* Complete the GPMS. Remaining elements: Character Trope  
+Roadmap (as of 14 July 2026): 
 * Copy-edit the GPMS. 
-* Submit the GPMS for HCMC review. 
+* Submit the GPMS for HCMC review and integrate HCMC feedback. 
+* Consult with researchers involved in projects resembling the GPMS and GPFC (see "Sources" below). 
 * Test the GPMS on 75-100 gameplay files in the GPFC.
 * Update the controlled vocabularies after/during testing. 
-* Release Version 1.0 of the GPMS for non-commercial use and adaptation. 
+* Release Version 1.0 of the GPMS in HTML and PDF for non-commercial use and adaptation. 
 * Release the GPFC to UVic Media Studies for teaching and research purposes. 
+* Conduct research to inform the "Character Trope" element (part of the "Gameplay Footage" entity) and integrate it with the GPMS. 
 * Test and further apply the GPMS on 150-300 more gameplay files in the GPFC. 
-* Determine whether to publicly release the GPFC or restrict its use to UVic. 
+* Release Version 2.0 of the GPMS in HTML and PDF for non-commercial use and adaptation.  
+* Determine whether to publicly release the GPFC or restrict its use to UVic.
 
 ## Table of Contents
 
@@ -58,6 +62,7 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Setting. Version 2.3. [https://github.com/uwgamergroup/vocabulary-setting](https://github.com/uwgamergroup/vocabulary-setting)
 * --- (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Tropes. Version 1.1. [https://github.com/uwgamergroup/vocabulary-tropes](https://github.com/uwgamergroup/vocabulary-tropes)
 * Poff, T. & Atari (2025). MobyGames Genres and Other Classifications. [https://www.mobygames.com/genre/](https://www.mobygames.com/genre/)
+* Sarkeesian, A. et al. (2024). Feminist Frequency. [https://feministfrequency.com/](https://feministfrequency.com/)
 * Shaw, A. et al. (2025). LGBTQ+ Game Archive: Types of Content. [https://lgbtqgamearchive.com/types-of-content/](https://lgbtqgamearchive.com/types-of-content/)
 * Sicart, M. (2015). Defining Game Mechanics. *Game Studies* 15.2. [https://gamestudies.org/1502/articles/sicart](https://gamestudies.org/1502/articles/sicart)
 * TV Tropes (2026). Video Game Tropes [https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes)
@@ -75,7 +80,7 @@ See citations below for specific instances of adaptation.
 
 * Elements marked with [R] are required.
 * Elements marked with [+] are repeatable.
-* GPMS refers to the Gameplay Metadata Schema. 
+* GPMS refers to the Press Record Gameplay Metadata Schema. 
 * GPFC refers to the Press Record Gameplay Footage Collection. 
 * NPC refers to a non-player character. 
 * PC refers to a player character. 
@@ -1353,11 +1358,11 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Experience](#6w-experience-r) [R][+] (controlled vocabulary)
 * [Transaction](#6x-transaction-r) [R][+] (controlled vocabulary) 
 * [Metagaming](#6y-metagaming-r) [R][+] (controlled vocabulary)
-* [Gameplay Trope](#6z-gameplay-trope-) [R][+] (controlled vocabulary)
-* [Environment Trope](#6aa-environment-trope-) [R][+] (controlled vocabulary)
-* [Progression Trope](#6bb-progression-trope-) [R][+] (controlled vocabulary)
-* [Narrative Trope](#6cc-narrative-trope-) [R][+] (controlled vocabulary)
-* [Character Trope](#6dd-character-trope-) [R][+] (controlled vocabulary)
+* [Gameplay Trope](#6z-gameplay-trope-) [+] (controlled vocabulary)
+* [Environment Trope](#6aa-environment-trope-) [+] (controlled vocabulary)
+* [Progression Trope](#6bb-progression-trope-) [+] (controlled vocabulary)
+* [Narrative Trope](#6cc-narrative-trope-) [+] (controlled vocabulary)
+* [Character Trope](#6dd-character-trope-) [+] (text input field)
 * [Content Warning](#6ee-content-warning-r) [R] (text input field)
 * [Gameplay Footage Note](#6ff-gameplay-footage-note) (text input field)
 
@@ -1601,6 +1606,7 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 <li>Comedy</li>
 <li>Documentary</li>
 <li>Drama</li>
+<li>Epic</li>
 <li>Fantasy</li>
 <li>Historical</li>
 <li>Horror</li>
@@ -1639,11 +1645,13 @@ Use "abstract / no narrative" for abstract games and games without narratives or
 <li>Dark comedy</li>
 <li>Dark fantasy</li>
 <li>Fable</li>
+<li>Familial epic</li>
 <li>Folk horror</li>
 <li>Folklore / fairy tale</li>
 <li>Found footage / creepypasta</li>
 <li>Ghost story</li>
 <li>Heist</li>
+<li>Heroic epic</li>
 <li>Heroic fantasy / sword and sorcery</li>
 <li>High fantasy</li>
 <li>Instructional / pedagogical</li>
@@ -1695,7 +1703,6 @@ Select "free camera" if "the camera is not attached to a specific avatar and doe
 Select "cinematic camera" if "different, fixed camera positions are set during the game's creation for a maximum cinematic effect. These positions cannot be controlled by the player" (ibid). 
 
 Don't select "free camera" or "cinematic camera" if they do not apply to the gameplay footage. 
-
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with minor changes, from Poff and Atari 2025, Jan 2017, and Lee et al., "VGMS 4.2," 2024)</summary>
@@ -2243,7 +2250,7 @@ Select "No items" if the footage contains no items.
 
 Definition: "The pervading [mood] or tone of the" world appearing in the gameplay footage; it "evokes or recalls a certain emotion or state of mind" (Lee et al., "VGMS 4.2," 2024) 
 
-The controlled vocabulary for this element avoids duplicating terms used in vocabularies for other elements, such as "Narrative Genre," "Narrative Subgenre," "Type of Play," and "Experience." 
+The controlled vocabulary for this element avoids duplicating options included in the controlled vocabularies for the "Narrative Genre," "Narrative Subgenre," "Type of Play," and "Experience" elements. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Mood," 2024)</summary>
@@ -2303,6 +2310,8 @@ Select "No player character" if no player character appears in the footage.
 
 When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will corect and update this controlled vocabulary as the GPFC unfolds. 
 
+Use the "Gameplay Footage Note" to further describe the player character(s). 
+
 Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to substantiate metadata about player characters.
 
 <details>
@@ -2340,6 +2349,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Deaf</li>
 <li>Demisexual</li>
 <li>Disabled</li>
+<li>Dragon</li>
 <li>Elder</li>
 <li>Entitled</li>
 <li>European</li>
@@ -2361,6 +2371,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Indigenous</li>
 <li>Intersex</li>
 <li>Isolationist</li>
+<li>Knight</li>
 <li>Lesbian</li>
 <li>Librarian / archivist</li>
 <li>Magic user</li>
@@ -2405,6 +2416,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Revolutionary</li>
 <li>Robot / android / automaton</li>
 <li>Rogue / assassin</li>
+<li>Royalty</li>
 <li>Shapeshifter</li>
 <li>Shopkeeper</li>
 <li>South American</li>
@@ -2438,6 +2450,8 @@ Select "No non-player character" if a non-player character does not appear in th
 
 When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will correct and update this controlled vocabulary as the GPFC unfolds. 
 
+Use the "Gameplay Footage Note" to further describe the non-player character(s). 
+
 Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to substantiate metadata about non-player characters.
 
 <details>
@@ -2469,6 +2483,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Deaf</li>
 <li>Demisexual</li>
 <li>Disabled</li>
+<li>Dragon</li>
 <li>Elder</li>
 <li>Enemy / hostile</li>
 <li>Entitled</li>
@@ -2495,6 +2510,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Indigenous</li>
 <li>Intersex</li>
 <li>Isolationist</li>
+<li>Knight</li>
 <li>Lesbian</li>
 <li>Librarian / archivist</li>
 <li>Magic user</li>
@@ -2548,6 +2564,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Revolutionary</li>
 <li>Robot / android / automaton</li>
 <li>Rogue / assassin</li>
+<li>Royalty</li>
 <li>Shapeshifter</li>
 <li>Shopkeeper</li>
 <li>South American</li>
@@ -2567,6 +2584,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Weak</li>
 <li>Wealthy</li>
 <li>White</li>
+<li>Zombie</li>
 </ul>
 </details>
 
@@ -2842,44 +2860,57 @@ Definition: "A common thread, motif, subject, or idea that recurs in" the gamepl
 
 This element will typically be repeated. 
 
-The controlled vocabulary for this element avoids duplicating terms used in the vocabularies for "Atmosphere" and "Experience." 
+The controlled vocabulary for this element avoids duplicating options included in the controlled vocabularies for the "Atmosphere" and "Experience" elements.  
+
+Use the "Gameplay Footage Note" to further describe the theme(s). 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with additions, from Lee et al., "Controlled Vocabulary for Theme," 2024)</summary>
 <ul>
-<li>2SLGBTQIA+ / queer</li>
+<li>2SLGBTQIA+ cultures and communities</li>
 <li>Abandonment / trust</li>
-<li>Ableism</li>
+<li>Ableism (internalized, interpersonal, institutional)</li>
 <li>Alienation / isolation / solitude</li>
 <li>Abduction</li>
 <li>Addiction</li>
+<li>African cultures and communities</li>
 <li>Aging</li>
 <li>Alter-ego</li>
+<li>American cultures and communities</li>
 <li>Anti-capitalism</li>
 <li>Anti-colonial</li>
 <li>Anti-war</li>
+<li>Antisemitism (internalized, interpersonal, institutional)</li>
 <li>Apocalypse / post-apocalypse</li>
+<li>Arab cultures and communities</li>
 <li>Arrogance / hubris</li>
+<li>Art and creativity</li>
+<li>Asian cultures and communities</li>
 <li>Assimilation</li>
-<li>Athletics</li>
+<li>Athletics and sports</li>
 <li>Authoritarianism / totalitarianism</li>
 <li>Beauty / attraction</li>
 <li>Belonging / inclusion</li>
 <li>Betrayal / heartbreak</li>
 <li>Binaries</li>
-<li>Biphobia</li>
+<li>Biphobia (internalized, interpersonal, institutional)</li>
+<li>Black cultures and communities</li>
 <li>Blackness</li>
 <li>Blasphemy</li>
 <li>Bravery / courage</li>
+<li>Buddhist cultures and communities</li>
+<li>Canadian cultures and communities</li>
 <li>Capitalism</li>
 <li>Catastrophe</li>
 <li>Chance / certainty</li>
 <li>Chaos / order</li>
 <li>Childhood</li>
+<li>Christian cultures and communities</li>
 <li>Circle of life</li>
 <li>Cisnormativity</li>
 <li>Civilization</li>
 <li>Class / wealth</li>
+<li>Climate change</li>
 <li>Companionship / friendship</li>
 <li>Competition / winning / losing</li>
 <li>Connecting with nature / land / water</li>
@@ -2893,6 +2924,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Decolonization</li>
 <li>Democracy</li>
 <li>Destruction</li>
+<li>Diaspora / migration / displacement</li>
 <li>Diplomacy</li>
 <li>Disability</li>
 <li>Displacement</li>
@@ -2905,23 +2937,26 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Education / learning / pedagogy</li>
 <li>Empire</li>
 <li>Equality / equity</li>
+<li>European cultures and communities</li>
 <li>Evolution</li>
 <li>Failure</li>
 <li>Faith / doubt</li>
 <li>Family / found family</li>
 <li>Fascism</li>
 <li>Fate / free will</li>
-<li>Fatphobia</li>
+<li>Fatphobia (internalized, interpersonal, institutional)</li>
 <li>Fear</li>
 <li>Feminism</li>
 <li>Freedom</li>
+<li>Gay cultures and communities</li>
 <li>Gender / gender expression</li>
+<li>Gentrification</li>
 <li>Gods / goddesses</li>
 <li>Good versus evil </li>
 <li>Grace / humility</li>
 <li>Greed / ambition</li>
 <li>Grotesque</li>
-<li>Guilt/ conscience</li>
+<li>Guilt / conscience</li>
 <li>Happiness / joy</li>
 <li>Harassment</li>
 <li>Hate / hate crime</li>
@@ -2929,9 +2964,11 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Help from others</li>
 <li>Heroism</li>
 <li>Heteronormativity</li>
+<li>Hindu cultures and communities</li>
+<li>Hinduphobia (internalized, interpersonal, institutional)</li>
 <li>Hierarchies</li>
 <li>Holiday / vacation</li>
-<li>Homophobia</li>
+<li>Homophobia (internalized, interpersonal, institutional)</li>
 <li>Human rights / civil rights</li>
 <li>Humans versus machine</li>
 <li>Humans versus nature</li>
@@ -2939,19 +2976,25 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Identity / self-image</li>
 <li>Illuminati</li>
 <li>Illusion / disillusionment</li>
-<li>Indigeneity </li>
+<li>Indigeneity</li>
+<li>Indigenous cultures and communities</li>
 <li>Intersectionality</li>
 <li>Interspecies friendship</li>
 <li>Intrigue</li>
 <li>Invasion / alien invasion</li>
+<li>Islamaphobia (internalized, interpersonal, institutional)</li>
 <li>Jealousy</li>
+<li>Jewish cultures and communities</li>
 <li>Justice / injustice</li>
 <li>Knowledge / ignorance</li>
+<li>Language minority communities</li>
+<li>Latin American cultures and communities</li>
+<li>Lesbian cultures and communities</li>
 <li>Light and darkness</li>
 <li>Logic / common sense</li>
 <li>Loss / grief</li>
 <li>Loss of innocence</li>
-<li>Love / everlasting love / forbidden love</li>
+<li>Love / romance / everlasting love / forbidden love</li>
 <li>Loyalty</li>
 <li>Lust / desire</li>
 <li>Marginalization / discrimination</li>
@@ -2960,8 +3003,8 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Memory / amnesia</li>
 <li>Mercy / ruthlessness</li>
 <li>Miscommunication</li>
+<li>Misogynoir (internalized, interpersonal, institutional)</li>
 <li>Mistaken identity</li>
-<li>Monarchy / kings / queens</li>
 <li>Morality</li>
 <li>Mortality / immortality</li>
 <li>Murder</li>
@@ -2971,8 +3014,10 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>North / South</li>
 <li>Nostalgia</li>
 <li>Obscenity</li>
+<li>Oceanic cultures and communities</li>
 <li>Occult / witchcraft</li>
-<li>Oppression / internalized oppression</li>
+<li>Oppression (internalized, interpersonal, institutional)</li>
+<li>Orientalism (internalized, interpersonal, institutional)</li>
 <li>Othering</li>
 <li>Pandemic</li>
 <li>Paranormal</li>
@@ -2991,16 +3036,19 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Productivity</li>
 <li>Progress</li>
 <li>Prophecy</li>
-<li>Race </li>
-<li>Racism</li>
+<li>Queer cultures and communities</li>
+<li>Race / racialization</li>
+<li>Racism (internalized, interpersonal, institutional)</li>
 <li>Rebirth</li>
 <li>Redemption / forgiveness</li>
 <li>Regret</li>
-<li>Religion</li>
+<li>Religion / religious cultures and communities</li>
+<li>Religious intolerance, persecution, or segregation</li>
 <li>Resistance</li>
 <li>Reunion</li>
 <li>Revenge / honour / reputation</li>
 <li>Rivalry</li>
+<li>Royalty / monarchy</li>
 <li>Sacred / profane</li>
 <li>Sacrifice / dedication</li>
 <li>Sanity / madness</li>
@@ -3008,9 +3056,11 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Self-harm</li>
 <li>Self-reliance / will to survive</li>
 <li>Sex</li>
-<li>Sexism / misogyny </li>
+<li>Sexism / misogyny (internalized, interpersonal, institutional)</li>
 <li>Sexuality</li>
 <li>Slavery</li>
+<li>Sikh cultures and communities</li>
+<li>Sikhphobia (internalized, interpersonal, institutional)</li>
 <li>Simplicity / simple living</li>
 <li>Social mobility</li>
 <li>Social norms / conformity</li>
@@ -3022,8 +3072,10 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Temptation</li>
 <li>Tokenism</li>
 <li>Tradition</li>
+<li>Trans cultures and communities</li>
 <li>Transitioning</li>
-<li>Transphobia / transmisogyny</li>
+<li>Transmisogyny (internalized, interpersonal, institutional)</li>
+<li>Transphobia (internalized, interpersonal, institutional)</li>
 <li>Trauma</li>
 <li>Treachery / deception</li>
 <li>Truth</li>
@@ -3038,7 +3090,7 @@ The controlled vocabulary for this element avoids duplicating terms used in the 
 <li>Wisdom</li>
 <li>Wrath / anger</li>
 <li>Work / labour</li>
-<li>Xenophobia</li>
+<li>Xenophobia (internalized, interpersonal, institutional)</li>
 </ul>
 </details>
 
@@ -3113,6 +3165,8 @@ This element will typically be repeated.
 
 Definition: "The predominant and recognizable [artistic tendencies] and appearance of" the platform edition as demonstrated by the gameplay footage (Lee et al., "VGMS 4.2," 2024)
 
+Use the "Gameplay Footage Note" to further describe the style(s)(.  
+
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Wikipedia, "List of Art Movements," 2026 and Lee et al.,"Controlled Vocabulary for Visual Style," 2024)</summary>
 <ul>
@@ -3120,6 +3174,7 @@ Definition: "The predominant and recognizable [artistic tendencies] and appearan
 <li>Achromatic</li>
 <li>Adaptation / homage</li>
 <li>Art Nouveau</li>
+<li>Art shift / change in artstyle</li>
 <li>ASCII art</li>
 <li>Avant-garde</li>
 <li>Baroque</li>
@@ -3131,7 +3186,6 @@ Definition: "The predominant and recognizable [artistic tendencies] and appearan
 <li>Comics / manga</li>
 <li>Cubism / assemblage</li>
 <li>Cutout / papercutting</li>
-<li>Epic</li>
 <li>Expressionism</li>
 <li>Flat / superflat</li>
 <li>Futurism / retrofuturism</li>
@@ -3261,7 +3315,9 @@ Definition: An emotion, feeling, or range of emotions and feelings experienced b
 
 The person responsible for the gameplay (see "Gameplay Attribution") should complete this element. 
 
-The controlled vocabulary for this element avoids duplicating terms used in the vocabularies for "Atmosphere" and "Theme."  
+The controlled vocabulary for this element avoids duplicating options included in the controlled vocabularies for the "Atmosphere" and "Theme" elements. 
+
+Use the "Gameplay Footage Note" to further describe the experience(s).  
 
 <details>
 <summary><i>controlled vocabulary</i> (informed by Isbister 2016 and Anable 2018)</summary>
@@ -3433,6 +3489,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
 <ul>
 <li>Action-based mission</li>
+<li>Action commands</li>
 <li>Adventurer is you</li>
 <li>Anti-hoarding</li>
 <li>Area of effect attack</li>
@@ -3644,21 +3701,18 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 
 Definition: "A generally recognizable [progression] device or [level design] convention [appearing in the footage]. [Progression] tropes rely on culturally mediated expectations to expedite [advancement, acknowledge attempts to advance, or afford players with a sense of progress, achievement, or productivity]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
 
-This element will typically be repeated.
+This element will typically be repeated. It differs from the "Narrative Trope" element, which focuses on diegetic events and actions, by focusing on devices and conventions that influence or shape players' decision-making. These devices and conventions often prompt non-diegetic actions.
 
 See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)
-)</summary>
+</summary>
 <ul> 
 <li>Ability required to proceed</li>
-<li>Action commands / press X not to die</li>
 <li>All or nothing / zero-sum game</li>
-<li>Already done for you</li>
 <li>Anti-idling</li>
 <li>Arbitrary mission restriction</li>
-<li>Arduous descent to terra firma</li>
 <li>Backtracking</li>
 <li>Big first choice</li>
 <li>Boss battle</li>
@@ -3673,7 +3727,6 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Choices matter</li>
 <li>Com mon / common monster</li>
 <li>Completion or achievement mockery</li>
-<li>Computer is lying to me / is cheating</li>
 <li>Computer shall taunt you</li>
 <li>Cooperation versus competition</li>
 <li>Cruelty is the only option</li>
@@ -3691,26 +3744,22 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Easy EXP / experience farming</li>
 <li>Enjoy the story, skip the game</li>
 <li>Enter the solution here</li>
-<li>Escape the labyrinth</li>
 <li>Escort mission</li>
 <li>Event flag</li>
 <li>Expanded ending / secret expanded epilogue</li>
+<li>Expository gameplay limitation</li>
 <li>Failure is the only option / misère game</li>
 <li>Fame gate / must be famous to progress</li>
 <li>Fetch quest</li>
-<li>Find the cure</li>
 <li>Follow the money / pass through the rings</li>
 <li>Foolishness is the only option</li>
 <li>Game of chicken</li>
 <li>Grinding / stat grinding / level grinding</li>
 <li>Groundhog day loop</li>
-<li>Hold the line</li>
-<li>I fought the law, and the law won</li>
 <li>Inescapable ambush</li>
 <li>Informing the fourth wall / PC's intrapersonal communication</li>
 <li>Instant death</li>
 <li>Involuntary group split</li>
-<li>Journey to the sky</li>
 <li>Kill screen</li>
 <li>Kingmaker scenario</li>
 <li>Last lousy point</li>
@@ -3727,8 +3776,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>No exploration / no sidepaths</li>
 <li>Non-standard game over / deliberate game crash</li>
 <li>NPC scheduling</li>
-<li>NPC volunteers to repeat information</li>
-<li>Offer you can't refuse</li>
+<li>NPC volunteers to repeat information for you</li>
 <li>One game, one boss</li>
 <li>Only one save file</li>
 <li>Only smart people may pass</li>
@@ -3740,13 +3788,13 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Path of most resistance / harder route, better rewards</li>
 <li>Pawns but no bosses</li>
 <li>Pawns go first</li>
-<li>Perpetually saving the same NPC</li>
 <li>Philosophical choice ending</li>
 <li>Placate the NPC or monster</li>
 <li>Play the game, skip the story</li>
 <li>Plot lock</li>
 <li>Point of no return</li>
 <li>Pop quiz</li>
+<li>Press X not to die</li>
 <li>Railroading / blamed for being railroaded</li>
 <li>Real-time with pause</li>
 <li>Recollection sidequest</li>
@@ -3758,11 +3806,8 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Runback / boss runback</li>
 <li>Running-out-of-time warning</li>
 <li>Safe space / bonfire</li>
-<li>Save the princess</li>
 <li>Secret final campaign</li>
 <li>Secret level</li>
-<li>Slay the dragon</li>
-<li>Step one: escape</li>
 <li>Story branch favouritism</li>
 <li>That one achievement</li>
 <li>That one boss</li>
@@ -3778,7 +3823,6 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Variable player goals</li>
 <li>Violation of common sense</li>
 <li>Violence is the only option</li>
-<li>We cannot go on without you</li>
 <li>When all else fails, go right</li>
 <li>Winner is you</li>
 </ul>
@@ -3788,7 +3832,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 
 Definition: "A generally recognizable narrative device or [storytelling] convention [appearing in the footage]. [Narrative] tropes rely on culturally mediated expectations to expedite the development of [stories, plots, beats, arcs, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024)
 
-This element will typically be repeated. 
+This element will typically be repeated. It differs from the "Progression Trope" element, which focuses on players' decision-making, by focusing on devices and conventions that influence diegetic events and actions. 
 
 See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
 
@@ -3797,17 +3841,15 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <ul> 
 <li>Abandoned hospital awakening</li>
 <li>Acceptable break from reality</li>
-<li>Achieve three goals to advance the plot</li>
-<li>Addressing or mentioning the player</li>
+<li>Achieve three goals</li>
 <li>Apocalyptic log / audio log</li>
-<li>Art shift / change in artstyle</li>
+<li>Arduous descent to terra firma</li>
 <li>Artistic license / putting the story first</li>
 <li>Back from the brink of destruction</li>
-<li>Battle intro</li>
+<li>Battle intro scene or animation</li>
 <li>Before the dark times speech</li>
 <li>Bring help back / bring news back</li>
 <li>Broken masquerade</li>
-<li>Body snatcher / body and host</li>
 <li>Character arrives late to the tragedy</li>
 <li>Chase / chase scene</li>
 <li>Chekov's gun</li>
@@ -3815,9 +3857,11 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Clear my name / clear their name</li>
 <li>Colonizing or settling the frontier</li>
 <li>Coming-out story</li>
+<li>Computer is lying to me / is cheating</li>
 <li>Coup de grâce cutscene</li>
 <li>Crashing the coronation</li>
 <li>Cutscene incompetence</li>
+<li>Damsel in distress</li>
 <li>Darkest before the dawn</li>
 <li>Deal with the devil</li>
 <li>Declaration of personal independence</li>
@@ -3825,15 +3869,17 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Defeating the cheating opponent</li>
 <li>Destiny reveal</li>
 <li>Don't celebrate just yet</li>
+<li>Dragons versus knights</li>
 <li>End of an age / end of an era</li>
 <li>End justifies the means</li>
 <li>Enemy mine / common enemy, common goal</li>
-<li>Epic race</li>
+<li>Epic competition, battle, or journey</li>
+<li>Escape the labyrinth</li>
 <li>Excuse plot / no plot, no problem</li>
-<li>Expository gameplay limitation</li>
 <li>Face-heel turn</li>
 <li>Failed audition plot / talent contest</li>
 <li>False utopia</li>
+<li>Find the cure</li>
 <li>Five-second foreshadowing</li>
 <li>Former friends, now foes</li>
 <li>Friend in need / chronic hero syndrome</li>
@@ -3842,15 +3888,18 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Hail mary</li>
 <li>Heel-face turn</li>
 <li>Heroic sacrifice / occupational hazard</li>
+<li>Hijacked by a body snatcher, symbiote, or hacker</li>
+<li>Hold the line</li>
 <li>How we got here / whole episode flashback</li>
-<li>I choose to stay / PC remains in new environment</li>
-<li>It's personal</li>
+<li>I choose to stay / character remains in new environment</li>
+<li>I fought the law, and the law won</li>
 <li>Jade-coloured glasses / newcomer becomes cynic</li>
 <li>Journey of reclamation</li>
+<li>Journey to the sky</li>
 <li>Lampshading / characters call attention to the illogical</li>
 <li>Last moment together / but now I must go</li>
-<li>Led by the outsider</li>
 <li>Lecture as exposition</li>
+<li>Led by the outsider</li>
 <li>Life-affirming event / carpe diem speech</li>
 <li>Living a double life</li>
 <li>Love triangle</li>
@@ -3860,13 +3909,17 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Nature is not nice / is not a toy</li>
 <li>Lost at sea</li>
 <li>No main villain / no Big Bad</li>
-<li>Odd couple</li>
+<li>Now it's personal</li>
+<li>NPC has their own adventure or story<li>
+<li>Odd couple / two completely different characters</li>
+<li>Offer you can't refuse</li>
 <li>Outside context problem / alien invasion</li>
 <li>Painting the medium / design conveys story</li>
 <li>Paranormal scene or episode</li>
 <li>Passing the torch</li>
 <li>Patience plot / we wait</li>
 <li>Pawn debut cutscene</li>
+<li>Perpetually saving the same character</li>
 <li>Player and protagonist integration</li>
 <li>PC death is dramatic</li>
 <li>PC death is not dramatic</li>
@@ -3880,8 +3933,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Protagonist without a past</li>
 <li>Pygmalion plot</li>
 <li>Quest for identity</li>
-<li>Quest for the rest / others like you</li>
-<li>Religion is magic</li>
+<li>Quest for the rest or others like you</li>
 <li>Removing the rival</li>
 <li>Rescue arc</li>
 <li>Resistance is futile speech or scene</li>
@@ -3902,6 +3954,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Upsetting the balance</li>
 <li>Virtual training simulation / diegetic simulation</li>
 <li>War sequence / a thousand against one</li>
+<li>We cannot go on without you</li>
 <li>We need to get proof</li>
 <li>What could possibly go wrong? scene or speech</li>
 <li>You can't fight fate / but thou must!</li>
@@ -3913,16 +3966,9 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 
 Definition: "A generally recognizable [representational] device or [storytelling] convention [appearing in the footage]. [Character] tropes rely on culturally mediated expectations to expedite the development of [story, action, agency, identification, player characters, non-player characters, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities" (Lee et al., "VGMS 4.2," 2024)
 
-This element will typically be repeated. 
+A controlled vocabulary for this element will be available after we conduct additional research. Most tropes in such a vocabulary are stereotypes that, echoing Lee et al. (2024) and Sarkeesian et al. (2024), have harmful effects on historically and systemically marginalized and oppressed groups, and thus the development of this element is and will continue to be a fraught process (Shaw et al. 2025). Thank you for your patience. 
 
-See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies. 
-
-<details>
-<summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
-<ul> 
-<li>coming soon</li>
-</ul>
-</details>
+*text input field* 
 
 ### 6EE. Content Warning [R]
 
@@ -3988,6 +4034,7 @@ Definitions and sources for terms in this controlled vocabulary are provided in 
 <li>Content creation / gaming content</li>
 <li>Cooperative and interdependent play</li>
 <li>Critical play</li>
+<li>Critical race theories of games and play</li>
 <li>Cursed problems in games</li>
 <li>Customization / appearance customization</li>
 <li>Death, dying, and necropolitics in games</li>
@@ -4004,6 +4051,7 @@ Definitions and sources for terms in this controlled vocabulary are provided in 
 <li>Experience design / UX design</li>
 <li>Fair play / moral evaluation of play</li>
 <li>Fan games / fangames / mods and hacks</li>
+<li>Fashion, hairstyles, and accessories in games</li>
 <li>Film and games / television and games</li>
 <li>Flow theory / flow experiences </li>
 <li>Games by 2SLGBTQI+ developers</li>
@@ -4019,7 +4067,7 @@ Definitions and sources for terms in this controlled vocabulary are provided in 
 <li>Geography of video games and virtual spaces</li>
 <li>Glitch art / glitches / exploits</li>
 <li>History in games / historical representations</li>
-<li>Homophobia in games </li>
+<li>Homophobia in games</li>
 <li>Ilinx / vertigo</li>
 <li>Implicit and explicit tutorialization</li>
 <li>Inclusive design / access needs</li>
@@ -4102,8 +4150,7 @@ Definitions and sources for terms in this controlled vocabulary are provided in 
 <li>Toxicity, hate, and harassment in games</li>
 <li>Training or disciplining players</li>
 <li>Transphobia and transmisogyny in games</li>
-<li>White supremacy in games</li>
-<li>Whiteness in games</li>
+<li>Whiteness and white supremacy in games</li>
 <li>Worldbuilding and worldviews </li>
 <li>Visual design / visual art / graphic design</li>
 <li>Voice acting / voice performance / voice-over </li>
