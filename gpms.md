@@ -3223,7 +3223,7 @@ Use the "Gameplay Footage Note" to further describe the style(s)(.
 <li>Miniature art</li>
 <li>Minimalism</li>
 <li>Monochromatic</li>
-<li>Naturalism</li>
+<li>Naturalism / regionalism</li>
 <li>Outsider art / art brut</li>
 <li>Photorealism</li>
 <li>Pixel art</li>
@@ -3231,7 +3231,6 @@ Use the "Gameplay Footage Note" to further describe the style(s)(.
 <li>Pop art</li>
 <li>Punk</li>
 <li>Psychedelic</li>
-<li>Regionalism</li>
 <li>Renaissance art</li>
 <li>Romanticism</li>
 <li>Semi-realistic 3D</li>
