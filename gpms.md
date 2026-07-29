@@ -1,4 +1,4 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 14 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 29 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (GPMS) (DRAFT)
 
@@ -10,7 +10,7 @@ No generative artificial intelligence tools were used to create or populate this
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 14 July 2026): 
+Roadmap (as of 29 July 2026): 
 * Copy-edit the GPMS. 
 * Submit the GPMS for HCMC review and integrate HCMC feedback. 
 * Consult with researchers involved in projects resembling the GPMS and GPFC (see "Sources" below). 
@@ -1158,7 +1158,7 @@ Definition: The equipment used to play the platform edition while the video was 
 
 Definition: Whether and how the platform edition was online or networked while the video was recorded (Lee et al., "VGMS 4.2," 2024)
 
-Select "Offline" if were no online or networked components. 
+Select "Offline" if the gameplay involved no online or networked components. 
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
@@ -1200,6 +1200,8 @@ Definition: The number of players in the gameplay footage of the platform editio
 
 Definition: A distinct configuration of the platform edition's mechanics and gameplay in the gameplay footage
 
+Note that "Default" and "Normal / moderate" are separate options. Select "Default" if only one gameplay mode is available or the default gameplay mode does not have a unique name or identifier. Select "Normal / moderate" if that gameplay mode was selected among other options, such as "Hard / expert" and "Easy / beginner / casual." 
+
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with minor changes, from Wikipedia, "Glossary of Video Game Terms," 2026)</summary>
 <ul>
@@ -1211,6 +1213,7 @@ Definition: A distinct configuration of the platform edition's mechanics and gam
 <li>Control point</li>
 <li>Deathmatch</li>
 <li>Debug</li>
+<li>Default</li>
 <li>Easy / beginner / casual</li>
 <li>Endless</li>
 <li>God / invincible / infinite health</li>
@@ -1219,7 +1222,7 @@ Definition: A distinct configuration of the platform edition's mechanics and gam
 <li>King of the hill</li>
 <li>New game plus</li>
 <li>Noclip</li>
-<li>Normal / moderate / default</li>
+<li>Normal / moderate</li>
 <li>Permadeath</li>
 <li>Photo / photography</li>
 <li>Score attack</li>
