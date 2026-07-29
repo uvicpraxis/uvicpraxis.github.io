@@ -44,6 +44,7 @@ The GPMS adapts the following projects for many of its entities, elements, and c
 * Anable, A. (2018). Playing with Feelings: Video Games and Affect. University of Minnesota Press. 
 * BoardGameGeek (n.d.). Board Game Mechanics. [https://boardgamegeek.com/browse/boardgamemechanic](https://boardgamegeek.com/browse/boardgamemechanic)
 * Boluk, S. & LeMieux, P. (2017). Metagaming: Playing, Competing, Spectating, Cheating, Trading, Making, and Breaking Videogames. University of Minnesota Press. 
+* Bowker, G. & Star, S.L. (1999). Sorting Things Out: Classification and Its Consequences. The MIT Press. 
 * Brazie, A. (2024). Game Progression and Progression Systems. [https://gamedesignskills.com/game-design/game-progression/](https://gamedesignskills.com/game-design/game-progression/)
 * Carter, M., Gibbs, M., & Harrop, M. (2012). Metagames, Paragames and Orthogames: A New Vocabulary. Foundations of Digital Games '12. 
 * Coates, E. (2025). GameUI Database. [https://www.gameuidatabase.com/about.php](https://www.gameuidatabase.com/about.php)
@@ -1361,7 +1362,7 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Time Period](#6h-time-period-r) [R][+] (controlled vocabulary) 
 * [Biome](#6i-biome-r) [R][+] (controlled vocabulary) 
 * [Built Environment](#6j-built-environment-r) [R][+] (controlled vocabulary) 
-* [Mode of Transport](#6k-mode-of-transport-r) [R][+] (controlled vocabulary) 
+* [Means of Transport](#6k-means-of-transport-r) [R][+] (controlled vocabulary) 
 * [Items](#6l-items-r) [R+][+] (controlled vocabulary)
 * [Atmosphere](#6m-atmosphere-r) [R][+] (controlled vocabulary) 
 * [Player Character](#6n-player-character-r) [R][+] (controlled vocabulary) 
@@ -2888,11 +2889,11 @@ Use the "Gameplay Footage Note" to further describe the theme(s).
 <li>2SLGBTQIA+ cultures and communities</li>
 <li>Abandonment / trust</li>
 <li>Ableism (internalized, interpersonal, institutional)</li>
-<li>Alienation / isolation / solitude</li>
 <li>Abduction</li>
 <li>Addiction</li>
 <li>African cultures and communities</li>
 <li>Aging</li>
+<li>Alienation / isolation / solitude</li>
 <li>Alter-ego</li>
 <li>American cultures and communities</li>
 <li>Anti-capitalism</li>
@@ -3230,6 +3231,7 @@ Use the "Gameplay Footage Note" to further describe the style(s)(.
 <li>Pop art</li>
 <li>Punk</li>
 <li>Psychedelic</li>
+<li>Regionalism</li>
 <li>Renaissance art</li>
 <li>Romanticism</li>
 <li>Semi-realistic 3D</li>
