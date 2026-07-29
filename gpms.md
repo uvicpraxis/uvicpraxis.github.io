@@ -23,6 +23,10 @@ Roadmap (as of 29 July 2026):
 * Release Version 2.0 of the GPMS in HTML and PDF for non-commercial use and adaptation.  
 * Determine whether to publicly release the GPFC or restrict its use to UVic.
 
+## Download this Metadata Schema 
+
+Download the Gameplay Metadata Schema in PDF (~pages). *This feature will be available with Version 1.0 of the document.* 
+
 ## Table of Contents
 
 1. [Sources](#1-sources)
@@ -1123,7 +1127,7 @@ Definition: Denotes the settings of a particular instantiation (a ["platform edi
 * [Gameplay Mode](#5d-gameplay-mode-r) [R][+] (controlled vocabulary) 
 * [Language](#5e-language-r) [R] (text input field) 
 * [Accessibility](#5f-accessibility-r) [R][+] (controlled vocabulary) 
-* [Mods](#5g-mods-) (text input field) 
+* [Mods](#5g-mods) (text input field) 
 * [Gameplay Settings Note](#5h-gameplay-settings-note) (text input field)
 
 ### 5A. Input Device [R][+]
@@ -3987,6 +3991,8 @@ A controlled vocabulary for this element will be available after we conduct addi
 ### 6EE. Content Warning [R]
 
 Definition: A written statement that lists aspects of the footage that may be upsetting, offensive, challenging, or graphic; it should also note when the footage contains flashes, if applicable
+
+Write "No content warning" if the footage does not contain flashes or material that may be upsetting, offensive, challenging, or graphic.
 
 *text input field* 
 
