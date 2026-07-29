@@ -334,6 +334,7 @@ Definition: The operating system, device, computer, console, and/or service on w
 <li>Microbee</li>
 <li>Microtan 65</li>
 <li>Microvision</li>
+<li>MiSTer FPGA</li>
 <li>Mitsubishi Multi-8</li>
 <li>Modular Game System</li>
 <li>Mophun</li>
@@ -1470,6 +1471,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Chess</li>
 <li>City building / construction sim</li>
 <li>Claw machine</li>
+<li>Clicker</li>
 <li>Collect-a-thon</li>
 <li>Combat sports / wrestling</li>
 <li>Cooking sim</li>
@@ -1596,6 +1598,7 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Turn-based strategy</li>
 <li>Twin-stick shooter</li>
 <li>Twitch skill</li>
+<li>Typing</li>
 <li>Vehicle combat / car combat</li>
 <li>Vehicle sim</li>
 <li>Virtual life</li>
@@ -2642,6 +2645,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Chaining</li>
 <li>Choosing</li>
 <li>Cleaning / washing</li>
+<li>Clicking</li>
 <li>Climbing</li>
 <li>Closing</li>
 <li>Collecting</li>
@@ -2747,6 +2751,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Timing</li>
 <li>Trading</li>
 <li>Travelling</li>
+<li>Typing</li>
 <li>Unlocking</li>
 <li>Voting</li>
 <li>Walking</li>
@@ -2832,6 +2837,7 @@ Forms or systems include horizontal progression (unlocking options), vertical pr
 <li>Level complete</li>
 <li>Levelling up</li>
 <li>Loading screen</li>
+<li>Lore drop</li>
 <li>Lore dump / info dump</li>
 <li>Mini-game</li>
 <li>Mission complete / quest complete</li>
@@ -3453,8 +3459,8 @@ The "Current meta" option applies to the meta as of the date of play and recordi
 <li>Advanced movement technique</li>
 <li>AI breaking</li>
 <li>Anti-meta</li>
-<li>Cheat code</li>
 <li>Challenge run</li>
+<li>Cheat code</li>
 <li>Cheesing / cheese strategy</li>
 <li>Complacent gaming</li>
 <li>Current meta</li>
@@ -4080,13 +4086,15 @@ Definitions and sources for terms in this controlled vocabulary are provided in 
 <li>Games by 2SLGBTQI+ developers</li>
 <li>Games by Black developers</li>
 <li>Games by disabled developers</li>
-<li>Games by female developers </li>
 <li>Games by Indigenous developers</li>
 <li>Games by oppressed or marginalized groups</li>
-<li>Games by racialized groups or people of colour</li>
+<li>Games by racialized groups and people of colour</li>
+<li>Games by women and gender-diverse developers</li>
+<li>Games from the Global South</li>
 <li>Gamification / gamblification / monetization / exploitationware</li>
 <li>Gender and sexuality studies of games </li>
 <li>Genre uptake / genre knowledge / genre anarchy</li>
+<li>Gentrification of video games</li>
 <li>Geography of video games and virtual spaces</li>
 <li>Glitch art / glitches / exploits</li>
 <li>History in games / historical representations</li>
