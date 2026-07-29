@@ -98,9 +98,9 @@ The platform edition played and recorded for the GPFC may or may not correspond 
 * [Release Type](#3c-release-type-r) [R][+] (controlled vocabulary)
 * [Platform](#3d-platform-r) [R][+] (controlled vocabulary)
 * [Engine](#3e-engine-) [+] (controlled vocabulary)
-* [Developer](#3f-developer-r) [R][+] (text input field)
+* [Developer](#3f-developer-r) [R] (text input field)
 * [Developer's Location](#3g-developers-location-r) [R][+] (controlled vocabulary)
-* [Publisher](#3h-publisher-r) [R][+] (text input field)
+* [Publisher](#3h-publisher-r) [R] (text input field)
 * [Publisher Class](#3i-publisher-class-r) [R][+] (controlled vocabulary)
 * [Platform Edition Note](#3j-platform-edition-note) (text input field)
 
@@ -700,7 +700,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 </ul>
 </details>
 
-### 3F. Developer [R][+]
+### 3F. Developer [R]
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for [the] creation, realization, [and/or] manufacture" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
@@ -937,7 +937,7 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 </ul>
 </details>
 
-### 3H. Publisher [R][+]
+### 3H. Publisher [R]
 
 Definition: "An individual, organization, or group of individuals or organizations responsible for . . . [the] manufacture, marketing, and/or distribution" of the platform edition (Lee et al., "VGMS 4.2," 2024; IFLA 2009)
 
@@ -972,6 +972,8 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confir
 
 Definition: "Any other notable characteristics of the platform edition" that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
+This field may be left empty. 
+
 *text input field*
 
 ## 4. Gameplay File Entity 
@@ -982,13 +984,13 @@ For the fair-dealing purposes of the GPFC, the video file will typically be a "c
 
 *The following elements of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
 
-* [Clip Title](#4a-clip-title-r) [R] (text input field; )
+* [Clip Title](#4a-clip-title-r) [R] (text input field)
 * [Clip Length](#4b-clip-length-r) [R] (text input field) 
 * [Date Recorded](#4c-date-recorded-r) [R] (text input field) 
 * [Commentary](#4d-commentary-r) [R][+] (controlled vocabulary)
 * [Chat](#4e-chat-r) [R][+] (controlled vocabulary)
-* [Gameplay Attribution](#4f-gameplay-attribution-r) [R][+] (text input field)
-* [Metadata Attribution](#4g-metadata-attribution-r) [R][+] (text input field) 
+* [Gameplay Attribution](#4f-gameplay-attribution-r) [R] (text input field)
+* [Metadata Attribution](#4g-metadata-attribution-r) [R] (text input field) 
 * [Metadata Record Status](#4h-metadata-record-status-r) [R] (controlled vocabulary) 
 * [ID](#4i-id-r) [R] (text input field) 
 * [Filename](#4j-filename-r) [R] (text input field) 
@@ -1055,7 +1057,7 @@ Select "No chat" if the footage contains no chat.
 </ul>
 </details>
 
-### 4F. Gameplay Attribution [R][+]
+### 4F. Gameplay Attribution [R]
 
 Definition: The chosen or preferred name of the person who played the platform edition while the video was recorded
 
@@ -1063,7 +1065,7 @@ Multiple names may be included. Full names are optional.
 
 *text input field*
 
-### 4G. Metadata Attribution [R][+]
+### 4G. Metadata Attribution [R]
 
 Definition: The chosen or preferred name of the person who described the platform edition, the gameplay file, the gameplay settings, the gameplay footage, and/or the gameplay instruction and/or entered the metadata
 
@@ -1105,6 +1107,8 @@ Use camelCasing to include the following information in the following order: gam
 
 Definition: "Any other notable characteristics of the" gameplay file that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
 
+This field may be left empty. 
+
 *text input field*
 
 ## 5. Gameplay Settings Entity 
@@ -1117,9 +1121,9 @@ Definition: Denotes the settings of a particular instantiation (a ["platform edi
 * [Connectivity](#5b-connectivity-r) [R][+] (controlled vocabulary) 
 * [Number of Players](#5c-number-of-players-r) [R] (controlled vocabulary) 
 * [Gameplay Mode](#5d-gameplay-mode-r) [R][+] (controlled vocabulary) 
-* [Language](#5e-language-r) [R][+] (text input field) 
-* [Accessibility](#5f-accessibility-) [+] (controlled vocabulary) 
-* [Mods](#5g-mods-r) [R][+] (text input field) 
+* [Language](#5e-language-r) [R] (text input field) 
+* [Accessibility](#5f-accessibility-r) [R][+] (controlled vocabulary) 
+* [Mods](#5g-mods-) (text input field) 
 * [Gameplay Settings Note](#5h-gameplay-settings-note) (text input field)
 
 ### 5A. Input Device [R][+]
@@ -1234,7 +1238,7 @@ Note that "Default" and "Normal / moderate" are separate options. Select "Defaul
 </ul>
 </details>
 
-### 5E. Language [R][+]
+### 5E. Language [R]
 
 Definition: The language appearing in the gameplay footage of the platform edition
 
@@ -1244,9 +1248,11 @@ Include languages that are read as well as heard, be they diegetic (read or hear
 
 *text input field*
 
-### 5F. Accessibility [+]
+### 5F. Accessibility [R][+]
 
 Definition: A configuration or appearance of the platform edition's accessibility features in the gameplay footage
+
+Select "No accessibility features" if none appears in the gameplay footage. 
 
 <details>
 <summary><i>controlled vocabulary</i> (based on guidelines from Ellis et al. n.d.)</summary>
@@ -1278,6 +1284,7 @@ Definition: A configuration or appearance of the platform edition's accessibilit
 <li>Infinite items</li>
 <li>Interactive tutorial</li>
 <li>Manual save</li>
+<li>No accessibility features</li>
 <li>No blood or gore</li>
 <li>No button mashing</li>
 <li>No camera movement</li>
@@ -1316,17 +1323,21 @@ Definition: A configuration or appearance of the platform edition's accessibilit
 </ul>
 </details>
 
-### 5G. Mods [R][+]
+### 5G. Mods
 
 Definition: A configuration or appearance of a player or fan-authored alteration of the platform edition in the gameplay footage
 
 Provide the complete title of the mod if it has one. Avoid using an alternative, abbreviated, or colloquial title. 
+
+Leave this field empty if no mods were used or appear in the gameplay footage. 
 
 *text input field* 
 
 ### 5H. Gameplay Settings Note
 
 Definition: "Any other notable characteristics of the" gameplay settings that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
+
+This field may be left empty. 
 
 *text input field*
 
@@ -1365,7 +1376,7 @@ Definition: Denotes the recorded video material of a particular instantiation (a
 * [Environment Trope](#6aa-environment-trope-) [+] (controlled vocabulary)
 * [Progression Trope](#6bb-progression-trope-) [+] (controlled vocabulary)
 * [Narrative Trope](#6cc-narrative-trope-) [+] (controlled vocabulary)
-* [Character Trope](#6dd-character-trope-) [+] (text input field)
+* [Character Trope](#6dd-character-trope) (text input field)
 * [Content Warning](#6ee-content-warning-r) [R] (text input field)
 * [Gameplay Footage Note](#6ff-gameplay-footage-note) (text input field)
 
@@ -3965,7 +3976,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 </ul>
 </details>
 
-### 6DD. Character Trope [+]
+### 6DD. Character Trope
 
 Definition: "A generally recognizable [representational] device or [storytelling] convention [appearing in the footage]. [Character] tropes rely on culturally mediated expectations to expedite the development of [story, action, agency, identification, player characters, non-player characters, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities" (Lee et al., "VGMS 4.2," 2024)
 
@@ -3982,6 +3993,8 @@ Definition: A written statement that lists aspects of the footage that may be up
 ### 6FF. Gameplay Footage Note
 
 Definition: "Any other notable characteristics of the" gameplay footage that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
+
+This field may be left empty. 
 
 *text input field*
 
@@ -4196,5 +4209,7 @@ This controlled vocabulary corresponds with primary topics taught in MDIA200, "M
 ### 7C. Gameplay Instruction Note 
 
 Definition: "Any other notable characteristics of" gameplay instruction that are "not captured in other fields" of this metadata schema (Lee et al., "VGMS 4.2," 2024)
+
+This field may be left empty. 
 
 *text input field*
