@@ -10,7 +10,7 @@ No generative artificial intelligence tools were used to create or populate this
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 30 July 2026): 
+**Roadmap** (as of 30 July 2026): 
 * Copy-edit the Gameplay Schema. 
 * Submit it for HCMC review and integrate HCMC feedback. 
 * Consult with researchers involved in projects resembling the Gameplay Schema and Footage Collection (see "Sources" below). 
