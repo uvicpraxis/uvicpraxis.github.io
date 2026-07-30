@@ -1,8 +1,8 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 29 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 30 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
-# Gameplay Metadata Schema (GPMS) (DRAFT)
+# Gameplay Metadata Schema (DRAFT)
 
-Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection (GPFC), which is scheduled for internal release in 2026-27.
+Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection, which is scheduled for internal release in 2026-27.
 
 This schema is an evergreen document. Its elements, definitions, and controlled vocabularies are not intended to be exhaustive, and we will update and correct them as we learn from the collection and description process. 
 
@@ -10,18 +10,18 @@ No generative artificial intelligence tools were used to create or populate this
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 29 July 2026): 
-* Copy-edit the GPMS. 
-* Submit the GPMS for HCMC review and integrate HCMC feedback. 
-* Consult with researchers involved in projects resembling the GPMS and GPFC (see "Sources" below). 
-* Test the GPMS on 75-100 gameplay files in the GPFC.
+Roadmap (as of 30 July 2026): 
+* Copy-edit the Gameplay Schema. 
+* Submit it for HCMC review and integrate HCMC feedback. 
+* Consult with researchers involved in projects resembling the Gameplay Schema and Footage Collection (see "Sources" below). 
+* Test the Gameplay Schema on 75-100 gameplay files in the Gameplay Footage Collection.
 * Update the controlled vocabularies after/during testing. 
-* Release Version 1.0 of the GPMS in HTML and PDF for non-commercial use and adaptation. 
-* Release the GPFC to UVic Media Studies for teaching and research purposes. 
-* Conduct research to inform the "Character Trope" element (part of the "Gameplay Footage" entity) and integrate it with the GPMS. 
-* Test and further apply the GPMS on 150-300 more gameplay files in the GPFC. 
-* Release Version 2.0 of the GPMS in HTML and PDF for non-commercial use and adaptation.  
-* Determine whether to publicly release the GPFC or restrict its use to UVic.
+* Release Version 1.0 of the Gameplay Schema in HTML and PDF for non-commercial use and adaptation. 
+* Release the Gameplay Footage Collection to UVic Media Studies for teaching and research purposes. 
+* Conduct research to inform the "Character Trope" element (part of the "Gameplay Footage" entity) and integrate it with the Gameplay Schema. Revise other elements, such as "Player Character" and "Non-Player Character," where necessary. 
+* Test and further apply the Gameplay Schema on 150-300 more files in the Gameplay Footage Collection. 
+* Release Version 2.0 of the Gameplay Schema in HTML and PDF for non-commercial use and adaptation.  
+* Determine whether to publicly release the Gameplay Footage Collection or restrict its use to UVic.
 
 ## Download this Metadata Schema 
 
@@ -39,7 +39,7 @@ Download the Gameplay Metadata Schema in PDF (~pages). *This feature will be ava
 
 ## 1. Sources
 
-The GPMS adapts the following projects for many of its entities, elements, and controlled vocabularies: 
+This metadata schema adapts the following projects for many of its entities, elements, and controlled vocabularies: 
 
 * Anable, A. (2018). Playing with Feelings: Video Games and Affect. University of Minnesota Press. 
 * BoardGameGeek (n.d.). Board Game Mechanics. [https://boardgamegeek.com/browse/boardgamemechanic](https://boardgamegeek.com/browse/boardgamemechanic)
@@ -85,8 +85,8 @@ See citations below for specific instances of adaptation.
 
 * Elements marked with [R] are required.
 * Elements marked with [+] are repeatable.
-* GPMS refers to the Press Record Gameplay Metadata Schema. 
-* GPFC refers to the Press Record Gameplay Footage Collection. 
+* Gameplay Schema refers to the Press Record Gameplay Metadata Schema. 
+* Gameplay Footage Collection refers to the Press Record Gameplay Footage Collection. 
 * NPC refers to a non-player character. 
 * PC refers to a player character. 
 
@@ -94,9 +94,9 @@ See citations below for specific instances of adaptation.
 
 Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al., "VGMS 4.2," 2024).
 
-The platform edition played and recorded for the GPFC may or may not correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release). 
+The platform edition played and recorded for the Gameplay Footage Collection may or may not correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release). 
 
-*The following elements of the Platform Edition Entity should describe the platform edition of the game played and recorded for the GPFC.*
+*The following elements of the Platform Edition Entity should describe the platform edition of the game played and recorded for the Gameplay Footage Collection.*
 
 * [Game Title](#3a-game-title-r) [R] (text input field)
 * [Release Year](#3b-release-year-r) [R] (text input field)
@@ -986,9 +986,9 @@ This field may be left empty.
 
 Definition: Denotes a video file containing gameplay footage of a particular instantiation (a ["platform edition"](#3-platform-edition-entity)) of a video game; also called "game capture" and "game recording"
 
-For the fair-dealing purposes of the GPFC, the video file will typically be a "clip" that is 30 seconds to five minutes long.
+For the fair-dealing purposes of the Gameplay Footage Collection, the video file will typically be a "clip" that is 30 seconds to five minutes long.
 
-*The following elements of the Gameplay File Entity should describe the gameplay video file intended for the GPFC.*
+*The following elements of the Gameplay File Entity should describe the gameplay video file intended for the Gameplay Footage Collection.*
 
 * [Clip Title](#4a-clip-title-r) [R] (text input field)
 * [Clip Length](#4b-clip-length-r) [R] (text input field) 
@@ -1083,7 +1083,7 @@ Multiple names may be included. Full names are optional.
 
 Definition: Communicates whether the metadata record for the gampeplay file is complete 
 
-A gameplay file may appear in the GPFC even if its metadata record is incomplete. 
+A gameplay file may appear in the Gameplay Footage Collection even if its metadata record is incomplete. 
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
@@ -1097,7 +1097,7 @@ A gameplay file may appear in the GPFC even if its metadata record is incomplete
 
 Definition: The internal reference number for the gameplay file and its metadata 
 
-This number is used by the Press Record team to identify files and metadata in the GPFC. It is a five-character numeric string. 
+This number is used by the Press Record team to identify files and metadata in the Gameplay Footage Collection. It is a five-character numeric string. 
 
 *text input field; format: #####*
 
@@ -1121,7 +1121,7 @@ This field may be left empty.
 
 Definition: Denotes the settings of a particular instantiation (a ["platform edition"](#3-platform-edition-entity)) of a video game
 
-*The following elements of the Gameplay Settings Entity should describe the platform edition's settings while it was played and recorded for the GPFC.*
+*The following elements of the Gameplay Settings Entity should describe the platform edition's settings while it was played and recorded for the Gameplay Footage Collection.*
 
 * [Input Device](#5a-input-device-r) [R][+] (controlled vocabulary)
 * [Connectivity](#5b-connectivity-r) [R][+] (controlled vocabulary) 
@@ -1351,7 +1351,7 @@ This field may be left empty.
 
 Definition: Denotes the recorded video material of a particular instantiation (a [“platform edition”](#3-platform-edition-entity)) of a video game
 
-*The following elements of the Gameplay Footage Entity should describe recorded gameplay of the platform edition intended for the GPFC.*
+*The following elements of the Gameplay Footage Entity should describe recorded gameplay of the platform edition intended for the Gameplay Footage Collection.*
 
 * [Type of Play](#6a-type-of-play-r) [R][+] (controlled vocabulary) 
 * [Gameplay Genre](#6b-gameplay-genre-r) [R][+] (controlled vocabulary) 
@@ -2330,7 +2330,7 @@ This element will typically be repeated.
 
 Select "No player character" if no player character appears in the footage. 
 
-When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will corect and update this controlled vocabulary as the GPFC unfolds. 
+When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will corect and update this controlled vocabulary as the Gameplay Footage Collection unfolds. 
 
 Use the "Gameplay Footage Note" to further describe the player character(s). 
 
@@ -2470,7 +2470,7 @@ This element will typically be repeated.
 
 Select "No non-player character" if a non-player character does not appear in the footage. 
 
-When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will correct and update this controlled vocabulary as the GPFC unfolds. 
+When pertinent, tag the option with "implicit" when characters are implicitly coded and "explicit" when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will correct and update this controlled vocabulary as the Gameplay Footage Collection unfolds. 
 
 Use the "Gameplay Footage Note" to further describe the non-player character(s). 
 
@@ -4015,9 +4015,9 @@ This field may be left empty.
 
 Definition: Denotes the instructional affordances and pedagogical dimensions of the gameplay footage
 
-This entity foregrounds research, teaching, and learning in Media and Game Studies since the GPFC's primary audience includes students, faculty, and staff in UVic's Media Studies program. 
+This entity foregrounds research, teaching, and learning in Media and Game Studies since the Gameplay Footage Collection's primary audience includes students, faculty, and staff in UVic's Media Studies program. 
 
-*The following elements of the Gameplay Instruction Entity should describe recorded gameplay of the platform edition intended for the GPFC.*
+*The following elements of the Gameplay Instruction Entity should describe recorded gameplay of the platform edition intended for the Gameplay Footage Collection.*
 
 * [Game Studies Topic](#7a-game-studies-topic-r) [R][+] (controlled vocabulary) 
 * [Media Studies Topic](#7b-media-studies-topic-r) [R][+] (controlled vocabulary) 
