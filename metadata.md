@@ -1,4 +1,6 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 30 July 2026 with feedback from Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). It is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 11 September 2026 with feedback from Amy Anderson, Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newtown, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). Amy Anderson copy-edited it. 
+
+This document is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
 
 # Gameplay Metadata Schema (DRAFT)
 
@@ -10,8 +12,7 @@ No generative artificial intelligence tools were used to create or populate this
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 30 July 2026): 
-* Copy-edit the Gameplay Schema. 
+Roadmap (as of 11 September 2026): 
 * Submit it for HCMC review and integrate HCMC feedback. 
 * Update the controlled vocabularies for elements 6N ("Player Character") and 6O ("Non-Player Character") with implicit and explicit tags. 
 * Consult with researchers involved in projects resembling the Gameplay Schema and Footage Collection (see "Sources" below). 
@@ -93,7 +94,7 @@ See citations below for specific instances of adaptation.
 
 ## 3. Platform Edition Entity
 
-Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al., "VGMS 4.2," 2024).
+Definition: "Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game" (Lee et al., "VGMS 4.2," 2024)
 
 The platform edition played and recorded for the Gameplay Footage Collection may or may not correspond with the game's initial release. For instance, *Journey* was initially released on PlayStation 3 in 2012. That release was the game's first platform edition. Other platform editions of *Journey* include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release). 
 
@@ -256,8 +257,8 @@ Definition: The operating system, device, computer, console, and/or service on w
 <li>Exidy Sorcerer</li>
 <li>Feature phone</li>
 <li>Fire OS</li>
-<li>FM Towns</li>
 <li>FM-7</li>
+<li>FM Towns</li>
 <li>Freebox</li>
 <li>FreeBSD</li>
 <li>G-cluster</li>
@@ -401,8 +402,8 @@ Definition: The operating system, device, computer, console, and/or service on w
 <li>PlayStation 5</li>
 <li>PlayStation Now</li>
 <li>Plex Arcade</li>
-<li>Pokitto</li>
 <li>Pokémon Mini</li>
+<li>Pokitto</li>
 <li>Poly-88</li>
 <li>PS Vita</li>
 <li>PSP</li>
@@ -473,8 +474,8 @@ Definition: The operating system, device, computer, console, and/or service on w
 <li>TRS-80 CoCo</li>
 <li>TRS-80 MC-10</li>
 <li>TRS-80 Model 100</li>
-<li>TurboGrafx CD</li>
 <li>TurboGrafx-16</li>
+<li>TurboGrafx CD</li>
 <li>tvOS</li>
 <li>V.Flash</li>
 <li>V.Smile</li>
@@ -1169,7 +1170,7 @@ Definition: The equipment used to play the platform edition while the video was 
 
 Definition: Whether and how the platform edition was online or networked while the video was recorded (Lee et al., "VGMS 4.2," 2024)
 
-Select "Offline" if the gameplay involved no online or networked components. 
+Select "Offline" if there were no online or networked components. 
 
 <details>
 <summary><i>controlled vocabulary</i></summary>
@@ -1272,9 +1273,9 @@ Select "No accessibility features" if none appears in the gameplay footage.
 <li>Autosave</li>
 <li>Customized audio</li>
 <li>Customized background movement</li>
+<li>Customized colours</li>
 <li>Customized communications or chat</li>
 <li>Customized control sensitivity</li>
-<li>Customized colours</li>
 <li>Customized cool-down period</li>
 <li>Customized cursor or crosshair design</li>
 <li>Customized font size</li>
@@ -1470,13 +1471,13 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Casino / roulette</li>
 <li>Castle defence / castle attack</li>
 <li>Chess</li>
+<li>Choose your own adventure</li>
 <li>City building / construction sim</li>
 <li>Claw machine</li>
 <li>Clicker</li>
 <li>Collect-a-thon</li>
 <li>Combat sports / wrestling</li>
 <li>Cooking sim</li>
-<li>Choose your own adventure</li>
 <li>Creature breeding / genetics</li>
 <li>Cricket</li>
 <li>Cryptic puzzle</li>
@@ -1527,8 +1528,8 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Karaoke / singing</li>
 <li>Kart racing</li>
 <li>Life sim / social sim</li>
-<li>Looter shooter</li>
 <li>Logic puzzle</li>
+<li>Looter shooter</li>
 <li>Martial arts</li>
 <li>Mascot</li>
 <li>Massively multiplayer online RPG (MMPORG)</li>
@@ -1551,8 +1552,8 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Parkour</li>
 <li>Parser adventure</li>
 <li>Party / parlour</li>
-<li>Physics sim / physics puzzle</li>
 <li>Photography sim</li>
+<li>Physics sim / physics puzzle</li>
 <li>Picross / nonogram</li>
 <li>Pinball</li>
 <li>Pipe puzzle</li>
@@ -1564,9 +1565,9 @@ Definition: Patterns of interactivity appearing in the gameplay footage "based o
 <li>Racket sports</li>
 <li>Rail shooter</li>
 <li>Real-time strategy</li>
+<li>Rhythm / music / dancing</li>
 <li>Rocks and diamonds</li>
 <li>Roguelike / roguelite</li>
-<li>Rhythm / music / dancing</li>
 <li>Rugby</li>
 <li>Run and gun</li>
 <li>Sandbox / open world / falling sand</li>
@@ -1730,8 +1731,8 @@ Don't select "free camera" or "cinematic camera" if they do not apply to the gam
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with minor changes, from Poff and Atari 2025, Jan 2017, and Lee et al., "VGMS 4.2," 2024)</summary>
 <ul>
-<li>2.5D</li>
 <li>2D</li>
+<li>2.5D</li>
 <li>3D</li>
 <li>1st-person / first-person</li>
 <li>2nd-person / second-person</li>
@@ -2004,7 +2005,7 @@ Select "Fictional" if the time period is imaginary (that is, it originated in th
 
 Select "Unspecified" when the time period is vague or cannot be determined.
 
-Note that the "Future" option is diegetic. Select it even if that future is now the past or present: for instance, a game published in 1984 that's set in 2025 but played in 2026 can be assigned the "Future" time period. 
+Note that the "Future" option is diegetic. Select it even if that future is now the past or present. For instance, a game published in 1984 that's set in 2025 but played in 2026 can be assigned the "Future" time period. 
 
 Use the "Gameplay Footage Note" to include a specific date, year, period, moment, or event represented by the gameplay footage. 
 
@@ -2015,9 +2016,9 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <ul>
 <li>Axial Age</li>
 <li>Bronze Age</li>
+<li>Classical antiquity</li>
 <li>Contemporary</li>
 <li>Copper Age / Chalcolithic</li>
-<li>Classical antiquity</li>
 <li>Early modern</li>
 <li>Fictional</li>
 <li>Future</li>
@@ -2091,9 +2092,9 @@ Definition: An artificial physical feature or edifice appearing in the gameplay 
 <li>Garage</li>
 <li>Graveyard</li>
 <li>Gym / gymnasium</li>
-<li>House / apartment / townhouse</li>
 <li>Hospital / asylum</li>
 <li>Hotel / inn</li>
+<li>House / apartment / townhouse</li>
 <li>Invisible wall</li>
 <li>Jail / prison</li>
 <li>Kitchen</li>
@@ -2110,7 +2111,7 @@ Definition: An artificial physical feature or edifice appearing in the gameplay 
 <li>Office / office building</li>
 <li>Park / nature reserve</li>
 <li>Playground</li>
-<li>Race track</li>
+<li>Racetrack</li>
 <li>Restaurant / cafe</li>
 <li>Rooftop</li>
 <li>School / classroom</li>
@@ -2122,7 +2123,7 @@ Definition: An artificial physical feature or edifice appearing in the gameplay 
 <li>Space station</li>
 <li>Stairs / ladder</li>
 <li>Store</li>
-<li>Street light / street lamp</li>
+<li>Streetlight / streetlamp</li>
 <li>Tower</li>
 <li>Town</li>
 <li>Training ground</li>
@@ -2207,7 +2208,7 @@ Select "No means of transport" if the footage contains no means of conveyance or
 
 ### 6L. Items [R][+]
 
-Definition: Types of consumables, equipment, progression items, crafting materials, currencies, and valuables appearing in the gameplay footage (Wikipedia, "Item (game terminology)," 2026). 
+Definition: Types of consumables, equipment, progression items, crafting materials, currencies, and valuables appearing in the gameplay footage (Wikipedia, "Item (game terminology)," 2026)
 
 Select "No items" if the footage contains no items.
 
@@ -2264,8 +2265,8 @@ Select "No items" if the footage contains no items.
 <li>Underwear</li>
 <li>Vegetable / herb / plant / plant product</li>
 <li>Water</li>
-<li>Wood</li>
 <li>Weapon</li>
+<li>Wood</li>
 </ul>
 </details>
 
@@ -2418,8 +2419,8 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Party member</li>
 <li>Patriarch</li>
 <li>PC can die</li>
-<li>PC cannot die</li>
 <li>PC cannot be customized</li>
+<li>PC cannot die</li>
 <li>PC has black or brown hair</li> 
 <li>PC has blond hair</li> 
 <li>PC has blue hair</li> 
@@ -2498,10 +2499,10 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 <li>Brawler</li>
 <li>Builder</li>
 <li>Canadian</li>
-<li>Companion / buddy</li>
 <li>Child</li>
 <li>Collector</li>
 <li>Colonizer / settler</li>
+<li>Companion / buddy</li>
 <li>Customizable</li>
 <li>Deaf</li>
 <li>Demisexual</li>
@@ -2990,9 +2991,9 @@ Use the "Gameplay Footage Note" to further describe the theme(s).
 <li>Help from others</li>
 <li>Heroism</li>
 <li>Heteronormativity</li>
+<li>Hierarchies</li>
 <li>Hindu cultures and communities</li>
 <li>Hinduphobia (internalized, interpersonal, institutional)</li>
-<li>Hierarchies</li>
 <li>Holiday / vacation</li>
 <li>Homophobia (internalized, interpersonal, institutional)</li>
 <li>Human rights / civil rights</li>
@@ -3040,8 +3041,8 @@ Use the "Gameplay Footage Note" to further describe the theme(s).
 <li>North / South</li>
 <li>Nostalgia</li>
 <li>Obscenity</li>
-<li>Oceanic cultures and communities</li>
 <li>Occult / witchcraft</li>
+<li>Oceanic cultures and communities</li>
 <li>Oppression (internalized, interpersonal, institutional)</li>
 <li>Orientalism (internalized, interpersonal, institutional)</li>
 <li>Othering</li>
@@ -3084,10 +3085,10 @@ Use the "Gameplay Footage Note" to further describe the theme(s).
 <li>Sex</li>
 <li>Sexism / misogyny (internalized, interpersonal, institutional)</li>
 <li>Sexuality</li>
-<li>Slavery</li>
 <li>Sikh cultures and communities</li>
 <li>Sikhphobia (internalized, interpersonal, institutional)</li>
 <li>Simplicity / simple living</li>
+<li>Slavery</li>
 <li>Social mobility</li>
 <li>Social norms / conformity</li>
 <li>Socialism</li>
@@ -3114,8 +3115,8 @@ Use the "Gameplay Footage Note" to further describe the theme(s).
 <li>White supremacy</li>
 <li>Whiteness</li>
 <li>Wisdom</li>
-<li>Wrath / anger</li>
 <li>Work / labour</li>
+<li>Wrath / anger</li>
 <li>Xenophobia (internalized, interpersonal, institutional)</li>
 </ul>
 </details>
@@ -3191,7 +3192,7 @@ This element will typically be repeated.
 
 Definition: "The predominant and recognizable [artistic tendencies] and appearance of" the platform edition as demonstrated by the gameplay footage (Lee et al., "VGMS 4.2," 2024)
 
-Use the "Gameplay Footage Note" to further describe the style(s)(.  
+Use the "Gameplay Footage Note" to further describe the style(s). 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Wikipedia, "List of Art Movements," 2026 and Lee et al.,"Controlled Vocabulary for Visual Style," 2024)</summary>
@@ -3236,13 +3237,12 @@ Use the "Gameplay Footage Note" to further describe the style(s)(.
 <li>Pixel art</li>
 <li>Pointillism</li>
 <li>Pop art</li>
-<li>Punk</li>
 <li>Psychedelic</li>
+<li>Punk</li>
 <li>Renaissance art</li>
 <li>Romanticism</li>
 <li>Semi-realistic 3D</li>
 <li>Social realism</li>
-<li>Surrealism</li>
 <li>Stop motion</li>
 <li>Stylized 3D</li>
 <li>Surrealism</li>
@@ -3295,8 +3295,8 @@ Common interfaces include menus, maps, popups, graphic overlays, and heads-up di
 <li>Map / area map / world map</li>
 <li>Matchmaking lobby</li>
 <li>Minimap / compass</li>
-<li>Mission intro screen</li>
 <li>Mission accept / quest select screen</li>
+<li>Mission intro screen</li>
 <li>Modals and popups</li>
 <li>Mode select screen</li>
 <li>Music player</li>
@@ -3358,8 +3358,8 @@ Use the "Gameplay Footage Note" to further describe the experience(s).
 <li>Avoidance</li>
 <li>Awe / wonder</li>
 <li>Belonging</li>
-<li>Better as a Let's Play</li>
 <li>Betrayal</li>
+<li>Better as a Let's Play</li>
 <li>Bittersweetness</li>
 <li>Boredom</li>
 <li>Camaraderie</li>
@@ -3452,7 +3452,7 @@ Definition: Acts of play appearing in the gamemplay footage that "involve or con
 
 Select "Orthogame (no observable meta)" if the footage contains no observable or deliberate metagaming. 
 
-The "Current meta" option applies to the meta as of the date of play and recording . 
+The "Current meta" option applies to the meta as of the date of play and recording. 
 
 <details>
 <summary><i>controlled vocabulary</i> (informed by Carter et al. 2012 and Boluk & LeMieux 2017; adpated, with changes and additions, from TV Tropes 2026)</summary>
@@ -3505,7 +3505,7 @@ The "Current meta" option applies to the meta as of the date of play and recordi
 
 ### 6Z. Gameplay Trope [+]
 
-Definition: "A generally recognizable [gameplay] device or convention [appearing in the footage]. [Gameplay] tropes rely on culturally mediated expectations to expedite the development of [mechanics, action, agency, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
+Definition: "A generally recognizable [gameplay] device or convention [appearing in the footage]. [Gameplay] tropes rely on culturally mediated expectations to expedite the development of [mechanics, action, agency, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024)
 
 This element will typically be repeated. 
 
@@ -3610,7 +3610,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 
 ### 6AA. Environment Trope [+]
 
-Definition: "A generally recognizable [worldbuilding] device or [environment design] convention [appearing in the footage]. [Environment] tropes rely on culturally mediated expectations to expedite the development of [atmospheres and experiences as well as the traversal of biomes, built environments, and locations]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024).
+Definition: "A generally recognizable [worldbuilding] device or [environment design] convention [appearing in the footage]. [Environment] tropes rely on culturally mediated expectations to expedite the development of [atmospheres and experiences as well as the traversal of biomes, built environments, and locations]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations" (Lee et al., "VGMS 4.2," 2024)
 
 This element will typically be repeated.  
 
@@ -3707,8 +3707,8 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Suspiciously cracked wall</li>
 <li>Temporary platform</li>
 <li>There are no tents, only inns</li>
-<li>Title theme drop</li>
 <li>Thriving ghost town / low population</li>
+<li>Title theme drop</li>
 <li>Unguided lab tour</li>
 <li>Vice city</li>
 <li>Video game cruelty punishment</li>
@@ -3928,12 +3928,12 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 <li>Led by the outsider</li>
 <li>Life-affirming event / carpe diem speech</li>
 <li>Living a double life</li>
+<li>Lost at sea</li>
 <li>Love triangle</li>
 <li>MacGuffin</li>
 <li>Makeover scene or plot</li>
 <li>Musical spoiler / what's that sound?</li>
 <li>Nature is not nice / is not a toy</li>
-<li>Lost at sea</li>
 <li>No main villain / no Big Bad</li>
 <li>Now it's personal</li>
 <li>NPC has their own adventure or story</li>
@@ -3992,7 +3992,7 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 
 Definition: "A generally recognizable [representational] device or [storytelling] convention [appearing in the footage]. [Character] tropes rely on culturally mediated expectations to expedite the development of [story, action, agency, identification, player characters, non-player characters, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations of vulnerable identities" (Lee et al., "VGMS 4.2," 2024)
 
-A controlled vocabulary for this element will be available after we conduct additional research. Most tropes in such a vocabulary are stereotypes that, echoing Lee et al. (2024) and Sarkeesian et al. (2024), have harmful effects on historically and systemically marginalized and oppressed groups, and thus the development of this element is and will continue to be a fraught process (Shaw et al. 2025). Thank you for your patience. 
+A controlled vocabulary for this element will be available after we conduct additional research. Most tropes in such a vocabulary are stereotypes that, echoing Lee et al. (2024) and Sarkeesian et al. (2024), have harmful effects on historically and systemically marginalized and oppressed groups. Thus, the development of this element is and will continue to be a fraught process (Shaw et al. 2025). Thank you for your patience. 
 
 *text input field* 
 
@@ -4068,8 +4068,8 @@ Definitions and sources for terms in this controlled vocabulary are provided in 
 <li>Cursed problems in games</li>
 <li>Customization / appearance customization</li>
 <li>Death, dying, and necropolitics in games</li>
-<li>Decolonizing play</li>
 <li>Deckbuilding and resource competition</li>
+<li>Decolonizing play</li>
 <li>Difficulty, failure, and frustration in games</li>
 <li>Disability game studies </li>
 <li>Dopamine games / compulsion loops</li>
@@ -4087,10 +4087,11 @@ Definitions and sources for terms in this controlled vocabulary are provided in 
 <li>Games by 2SLGBTQI+ developers</li>
 <li>Games by Black developers</li>
 <li>Games by disabled developers</li>
+<li>Games by gender-diverse developers</li>
 <li>Games by Indigenous developers</li>
 <li>Games by oppressed or marginalized groups</li>
 <li>Games by racialized groups and people of colour</li>
-<li>Games by women and gender-diverse developers</li>
+<li>Games by women and femme developers</li>
 <li>Games from the Global South</li>
 <li>Gamification / gamblification / monetization / exploitationware</li>
 <li>Gender and sexuality studies of games </li>
