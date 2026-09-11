@@ -10,10 +10,9 @@ No generative artificial intelligence tools were used to create or populate this
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**Roadmap** (as of 30 July 2026): 
+Roadmap (as of 30 July 2026): 
 * Copy-edit the Gameplay Schema. 
-* Submit it for HCMC review and integrate HCMC feedback.
-* Update the controlled vocabularies for elements 6N ("Player Character") and 6O ("Non-Player Character") with implicit and explicit tags. 
+* Submit it for HCMC review and integrate HCMC feedback. 
 * Consult with researchers involved in projects resembling the Gameplay Schema and Footage Collection (see "Sources" below). 
 * Test the Gameplay Schema on 75-100 gameplay files in the Gameplay Footage Collection.
 * Update the controlled vocabularies after/during testing. 
