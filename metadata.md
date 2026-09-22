@@ -24,7 +24,7 @@ Roadmap (as of 22 September 2026):
 
 ## Download this Metadata Schema 
 
-Download the Gameplay Metadata Schema in PDF (98 pages). 
+Download the [Gameplay Metadata Schema in PDF](gameplayMetadataSchema22Sept26V1.pdf) (98 pages). 
 
 ## Table of Contents
 
