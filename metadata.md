@@ -1,24 +1,21 @@
-This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 11 September 2026 with feedback from Amy Anderson, Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newton, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods at the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). Amy Anderson copy-edited it. 
+This is a [Press Record](https://uvicpraxis.github.io/pressrecord.html) project file. Jentery Sayers created it on 19 May 2026 and last updated it on 22 September 2026.
 
-This document is a draft and thus subject to change. We will version it 1.0 once it is ready for circulation. *Please do not cite this document* in the meantime.  
+# Gameplay Metadata Schema (Version 1.0)
 
-# Gameplay Metadata Schema (DRAFT)
+Jentery Sayers developed this metadata schema with copy-editing by Amy Anderson and feedback from Amy Anderson, Callum Carroll-Ireton, Abigail Fry, Martin Holmes, Reg Kachanoski, Maya Wei Yan Linsley, Emma Newton, Greg Newton, Illya Nokhrin, April Rogers, Héctor López Segarra, Marie Silhova, Charlie Susheski, and Christina Woods at the University of Victoria's [Praxis Studio for Comparative Media Studies](https://uvicpraxis.github.io/) and [Humanities Computing and Media Centre](https://www.uvic.ca/humanities/hcmc/index.php) (HCMC). 
 
-Jentery Sayers and the Praxis Studio developed this metadata schema to describe video files in the [Press Record](https://uvicpraxis.github.io/pressrecord.html) Gameplay Footage Collection, which is scheduled for internal release in 2026-27.
+The schema describes video files in the [Press Record Gameplay Footage Collection](https://uvicpraxis.github.io/pressrecord.html) (GPFC). It is an evergreen document. Its elements, definitions, and controlled vocabularies are not intended to be exhaustive, and we will update and correct them as we learn from the collection and description process. 
 
-This schema is an evergreen document. Its elements, definitions, and controlled vocabularies are not intended to be exhaustive, and we will update and correct them as we learn from the collection and description process. 
-
-No generative artificial intelligence tools were used to create or populate this schema. 
+*No generative artificial intelligence tools were used to create or populate this schema.* 
 
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Roadmap (as of 11 September 2026): 
-* Submit it for HCMC review and integrate HCMC feedback. 
+Roadmap (as of 22 September 2026): 
+* Integrate HCMC feedback. 
 * Update the controlled vocabularies for elements 6N ("Player Character") and 6O ("Non-Player Character") with implicit and explicit tags. 
 * Consult with researchers involved in projects resembling the Gameplay Schema and Footage Collection (see "Sources" below). 
 * Test the Gameplay Schema on 75-100 gameplay files in the Gameplay Footage Collection.
 * Update the controlled vocabularies after/during testing. 
-* Release Version 1.0 of the Gameplay Schema in HTML and PDF for non-commercial use and adaptation. 
 * Release the Gameplay Footage Collection to UVic Media Studies for teaching and research purposes. 
 * Conduct research to inform the "Character Trope" element (part of the "Gameplay Footage" entity) and integrate it with the Gameplay Schema. Revise other elements, such as "Player Character" and "Non-Player Character," where necessary. 
 * Test and further apply the Gameplay Schema on 150-300 more files in the Gameplay Footage Collection. 
@@ -27,7 +24,7 @@ Roadmap (as of 11 September 2026):
 
 ## Download this Metadata Schema 
 
-Download the Gameplay Metadata Schema in PDF (~pages). *This feature will be available with Version 1.0 of the document.* 
+Download the Gameplay Metadata Schema in PDF (97 pages). 
 
 ## Table of Contents
 
